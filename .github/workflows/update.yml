@@ -1,37 +1,30 @@
-name: Update IPTV Playlist
+name: Auto Update IPTV List
 
 on:
-  workflow_dispatch:
-
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *' # প্রতি ৬ ঘণ্টা পর পর নিজে নিজে আপডেট হবে
+  workflow_dispatch:      # ম্যানুয়ালি রান করার জন্য
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout Code
+      uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: Install Requests
-        run: pip install requests
+    - name: Run Script
+      run: python main.py
 
-      - name: Run Script
-        run: python update.py
-
-      - name: Commit Changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git add .
-
-          git diff --cached --quiet || git commit -m "Auto Update IPTV Playlist"
-
-          git push
+    - name: Commit and Push
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add playlist.m3u
+        git commit -m "Auto updated m3u playlist" || exit 0
+        git push
