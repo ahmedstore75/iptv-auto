@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://ssl.bd.com/sites/default/files/btv.png" group-title="BANGLA",BTV World
+https://example.com/live/btv/index.m3u8
+#EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/channel24.png" group-title="BANGLA",Channel 24
+https://example.com/live/channel24/index.m3u8
