@@ -7,8 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 # =========================================================================
 MY_CUSTOM_SOURCES = [
     # ১. বাংলাদেশ ও ইন্ডিয়ান বাংলা
+    {"category": "Bangla", "url": "https://raw.githubusercontent.com/ahmedstore75/Iptvbdlive/refs/heads/main/mixiptvchannel.m3u"},
     {"category": "Bangla", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u"},
-    {"category": "Bangla", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/IPTV_BDIX.m3u"},
     
     # ২. স্পোর্টস চ্যানেল
     {"category": "Sports", "url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/all-sports.m3u"},
