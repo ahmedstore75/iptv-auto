@@ -2,8 +2,11 @@ name: Auto Update IPTV List
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # প্রতি ৬ ঘণ্টা পর পর নিজে নিজে আপডেট হবে
-  workflow_dispatch:      # ম্যানুয়ালি রান করার জন্য
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # GitHub Action-কে পুশ করার পারমিশন দেয়
 
 jobs:
   build:
@@ -11,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
@@ -23,8 +26,7 @@ jobs:
 
     - name: Commit and Push
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action Bot"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add playlist.m3u
-        git commit -m "Auto updated m3u playlist" || exit 0
-        git push
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto updated m3u playlist" && git push)
