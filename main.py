@@ -2,7 +2,7 @@ import urllib.request
 import re
 
 # =========================================================================
-# ১. আপনার কাস্টম সোর্স লিস্ট
+# ১. কাস্টম সোর্স লিস্ট
 # =========================================================================
 MY_CUSTOM_SOURCES = [
     # ১. বাংলাদেশ ও ইন্ডিয়ান বাংলা
@@ -23,12 +23,10 @@ MY_CUSTOM_SOURCES = [
     {"category": "India", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/SM%20All%20TV.m3u"},
 ]
 
-# ক্যাটাগরি সাজানোর অগ্রাধিকার
 CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
 
 def get_clean_name(channel_name):
-    """চ্যানেলের নাম নরম্যালাইজ করা যেন ডুপ্লিকেট ধরা পড়ে"""
     name = channel_name.lower()
     name = re.sub(r'\[.*?\]|\(.*?\)', '', name)
     name = re.sub(r'\b(hd|sd|fhd|4k|720p|1080p|stream|live)\b', '', name)
@@ -36,21 +34,22 @@ def get_clean_name(channel_name):
     return name
 
 def get_clean_url(url):
-    """ইউআরএল ট্রিম করা"""
     return url.split('?')[0].rstrip('/').lower()
 
 all_channels = []
 seen_names = set()
 seen_urls = set()
 
-print("Parsing custom sources and removing duplicates...")
+print("Parsing custom sources...")
+
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
 for source in MY_CUSTOM_SOURCES:
     category_name = source["category"]
     src_url = source["url"]
     try:
-        req = urllib.request.Request(src_url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as response:
+        req = urllib.request.Request(src_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
             content = response.read().decode('utf-8', errors='ignore')
             
             lines = content.splitlines()
@@ -67,7 +66,7 @@ for source in MY_CUSTOM_SOURCES:
                         clean_url = get_clean_url(stream_url)
                         
                         if stream_url.startswith("http") and clean_name:
-                            # ডুপ্লিকেট চেক: ১ নাম বা ১ লিংক ২ বার আসবে না
+                            # ডুপ্লিকেট ফিল্টারিং (১ নাম/লিংক ১ বার)
                             if clean_name not in seen_names and clean_url not in seen_urls:
                                 seen_names.add(clean_name)
                                 seen_urls.add(clean_url)
@@ -88,14 +87,12 @@ for source in MY_CUSTOM_SOURCES:
     except Exception as e:
         print(f"Error loading source ({src_url}): {e}")
 
-# ক্যাটাগরি অনুযায়ী সাজানো (Bangla -> Sports -> Hindi -> English)
 def sort_key(item):
     category = item[0]
     return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
 all_channels.sort(key=sort_key)
 
-# M3U আউটপুট তৈরি
 m3u_output = "#EXTM3U\n"
 for category, metadata, stream_url in all_channels:
     m3u_output += f"{metadata}\n{stream_url}\n"
@@ -103,4 +100,4 @@ for category, metadata, stream_url in all_channels:
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
 
-print(f"Successfully created playlist.m3u with {len(all_channels)} unique channels!")
+print(f"Total unique channels saved: {len(all_channels)}")
