@@ -2779,14 +2779,14 @@ https://dwby15d04agvq.cloudfront.net/index_1.m3u8
 https://stream.spicefmbd.com/stream.m3u8
 #EXTINF:-1 tvg-name="Jaffna Kings Vs Kandy Royals [LIVE]" tvg-logo="https://images.fancode.com/aig/match/v1784105762383/4246728_CASACARDS_SPORTY_APP.png" group-title="Fancode",Jaffna Kings Vs Kandy Royals [LIVE]
 https://bd-mc-pdlive.fancode.com/mumbai/4246728_english_hls_b1babec60422402_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="West Indies Vs Pakistan [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-West-Indies-2026-old1.png" group-title="Fancode",West Indies Vs Pakistan [LIVE]
+https://bd-mc-pdlive.fancode.com/mumbai/143633_english_hls_37959550fb90160_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-name="Day 4   World Feed [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ISPS-Handa-Womens-Scottish-Open-2026-old-match-card.jpg" group-title="Fancode",Day 4   World Feed [LIVE]
 https://bd-mc-pdlive.fancode.com/mumbai/4247420_english_hls_e4f538fa6759596_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-name="Race 2 [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard_1784602530930.png" group-title="Fancode",Race 2 [LIVE]
 https://bd-mc-pdlive.fancode.com/mumbai/143801_english_hls_0f8f9524c923636_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="West Indies Vs Pakistan [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-West-Indies-2026-old1.png" group-title="Fancode",West Indies Vs Pakistan [LIVE]
-https://bd-mc-pdlive.fancode.com/mumbai/143633_english_hls_37959550fb90160_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="tapmad-15356" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17848952541020x576.jpg" group-title="Tapmad", Men's Semi Final A Session - World Championships Kaunas, Lithuania Live | UIPM 2026
-https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
+#EXTINF:-1 tvg-name="Day 4   Main Feed [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/3M-Open-2026-old.png" group-title="Fancode",Day 4   Main Feed [LIVE]
+https://bd-mc-pdlive.fancode.com/mumbai/4246805_english_hls_302416363781824_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="tapmad-15417" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17849001381020x576.jpg" group-title="Tapmad", Pakistan vs Uzbekistan | CAVA Men's Volleyball Championship 2026
 https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8
 #EXTINF:-1 tvg-id="tapmad-15385" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17848938841020x576.jpg" group-title="Tapmad", EA Sports FC 26 - Day 5 | Esports World Cup 2026 (EWC)
