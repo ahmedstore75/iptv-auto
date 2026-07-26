@@ -1,5 +1,4 @@
 import urllib.request
-import re
 
 # =========================================================================
 # ১. কাস্টম সোর্স লিস্ট
@@ -26,21 +25,14 @@ MY_CUSTOM_SOURCES = [
 CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
 
-def get_clean_name(channel_name):
-    name = channel_name.lower()
-    name = re.sub(r'\[.*?\]|\(.*?\)', '', name)
-    name = re.sub(r'\b(hd|sd|fhd|4k|720p|1080p|stream|live)\b', '', name)
-    name = re.sub(r'[^a-z0-9]', '', name)
-    return name
-
 def get_clean_url(url):
-    return url.split('?')[0].rstrip('/').lower()
+    """ইউআরএল নরম্যালাইজ করা যাতে একই লিংক ডুপ্লিকেট না হয়"""
+    return url.strip().split('?')[0].rstrip('/').lower()
 
 all_channels = []
-seen_names = set()
 seen_urls = set()
 
-print("Parsing custom sources...")
+print("Parsing custom sources and filtering duplicate links only...")
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
@@ -60,22 +52,18 @@ for source in MY_CUSTOM_SOURCES:
                     metadata = line
                     if i + 1 < len(lines):
                         stream_url = lines[i + 1].strip()
-                        
-                        raw_name = metadata.split(',')[-1].strip() if ',' in metadata else ""
-                        clean_name = get_clean_name(raw_name)
                         clean_url = get_clean_url(stream_url)
                         
-                        if stream_url.startswith("http") and clean_name:
-                            # ডুপ্লিকেট ফিল্টারিং (১ নাম/লিংক ১ বার)
-                            if clean_name not in seen_names and clean_url not in seen_urls:
-                                seen_names.add(clean_name)
+                        if stream_url.startswith("http"):
+                            # শর্ত: একই লিংক দ্বিতীয়বার আসবে না, কিন্তু ভিন্ন লিংক হলে চ্যানেল নাম একই হলেও আসবে
+                            if clean_url not in seen_urls:
                                 seen_urls.add(clean_url)
                                 
-                                # গ্রুপ টাইটেল সেট
+                                # ক্যাটাগরি সেট করা
                                 if 'group-title="' not in metadata or 'group-title=""' in metadata:
                                     metadata = metadata.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{category_name}"')
                                 
-                                # লোগো সেট
+                                # লোগো সেট করা
                                 if 'tvg-logo=""' in metadata:
                                     metadata = metadata.replace('tvg-logo=""', f'tvg-logo="{DEFAULT_LOGO}"')
                                 elif 'tvg-logo="' not in metadata:
@@ -87,12 +75,14 @@ for source in MY_CUSTOM_SOURCES:
     except Exception as e:
         print(f"Error loading source ({src_url}): {e}")
 
+# নির্ধারিত ক্যাটাগরি অনুযায়ী সাজানো
 def sort_key(item):
     category = item[0]
     return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
 all_channels.sort(key=sort_key)
 
+# ফাইল তৈরি
 m3u_output = "#EXTM3U\n"
 for category, metadata, stream_url in all_channels:
     m3u_output += f"{metadata}\n{stream_url}\n"
@@ -100,4 +90,4 @@ for category, metadata, stream_url in all_channels:
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
 
-print(f"Total unique channels saved: {len(all_channels)}")
+print(f"Done! Saved {len(all_channels)} channels with unique URLs.")
