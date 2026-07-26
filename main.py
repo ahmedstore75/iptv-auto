@@ -1,7 +1,9 @@
 import urllib.request
 import re
-from concurrent.futures import ThreadPoolExecutor
 
+# =========================================================================
+# ১. আপনার কাস্টম সোর্স লিস্ট
+# =========================================================================
 MY_CUSTOM_SOURCES = [
     # ১. বাংলাদেশ ও ইন্ডিয়ান বাংলা
     {"category": "Bangla", "url": "https://raw.githubusercontent.com/ahmedstore75/Iptvbdlive/refs/heads/main/mixiptvchannel.m3u"},
@@ -21,32 +23,12 @@ MY_CUSTOM_SOURCES = [
     {"category": "India", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/SM%20All%20TV.m3u"},
 ]
 
+# ক্যাটাগরি সাজানোর অগ্রাধিকার
 CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
 
-def is_stream_working(item):
-    """লিংক ভ্যালিডেশন চেক (প্রয়োজনীয় ফাস্ট চেকিং)"""
-    category, clean_name, metadata, stream_url, raw_name = item
-    
-    # স্থানীয় আইএসপি / BDIX বা টোকেন বেসড স্ট্রিম সরাসরি এলাউ করা হচ্ছে
-    if any(bdix_keyword in stream_url for bdix_keyword in ['10.', '172.', '192.168.', 'bdix', 'token', 'mrgify', 'bps']):
-        print(f"[DIRECT ADD - BDIX/LOCAL] ({category}) -> {raw_name}")
-        return item
-
-    try:
-        req = urllib.request.Request(
-            stream_url, 
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'}
-        )
-        with urllib.request.urlopen(req, timeout=2.0) as response:
-            if response.status in [200, 206, 301, 302]:
-                print(f"[WORKING] ({category}) -> {raw_name}")
-                return item
-    except Exception:
-        pass
-    return None
-
 def get_clean_name(channel_name):
+    """চ্যানেলের নাম নরম্যালাইজ করা যেন ডুপ্লিকেট ধরা পড়ে"""
     name = channel_name.lower()
     name = re.sub(r'\[.*?\]|\(.*?\)', '', name)
     name = re.sub(r'\b(hd|sd|fhd|4k|720p|1080p|stream|live)\b', '', name)
@@ -54,13 +36,14 @@ def get_clean_name(channel_name):
     return name
 
 def get_clean_url(url):
+    """ইউআরএল ট্রিম করা"""
     return url.split('?')[0].rstrip('/').lower()
 
-raw_candidates = []
+all_channels = []
 seen_names = set()
 seen_urls = set()
 
-print("Parsing custom sources...")
+print("Parsing custom sources and removing duplicates...")
 
 for source in MY_CUSTOM_SOURCES:
     category_name = source["category"]
@@ -84,48 +67,40 @@ for source in MY_CUSTOM_SOURCES:
                         clean_url = get_clean_url(stream_url)
                         
                         if stream_url.startswith("http") and clean_name:
-                            # ডুপ্লিকেট ফিল্টারিং (১টি চ্যানেল = ১টি ইউনিক লিংক)
+                            # ডুপ্লিকেট চেক: ১ নাম বা ১ লিংক ২ বার আসবে না
                             if clean_name not in seen_names and clean_url not in seen_urls:
                                 seen_names.add(clean_name)
                                 seen_urls.add(clean_url)
                                 
-                                # গ্রুপ টাইটেল যোগ
+                                # গ্রুপ টাইটেল সেট
                                 if 'group-title="' not in metadata or 'group-title=""' in metadata:
                                     metadata = metadata.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{category_name}"')
                                 
-                                # লোগো ফিল্টারিং
+                                # লোগো সেট
                                 if 'tvg-logo=""' in metadata:
                                     metadata = metadata.replace('tvg-logo=""', f'tvg-logo="{DEFAULT_LOGO}"')
                                 elif 'tvg-logo="' not in metadata:
                                     metadata = metadata.replace('#EXTINF:-1', f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}"')
                                 
-                                raw_candidates.append((category_name, clean_name, metadata, stream_url, raw_name))
+                                all_channels.append((category_name, metadata, stream_url))
                         i += 1
                 i += 1
     except Exception as e:
-        print(f"Error reading source ({src_url}): {e}")
+        print(f"Error loading source ({src_url}): {e}")
 
-print(f"\nProcessing {len(raw_candidates)} channels...")
-
-working_channels = []
-
-with ThreadPoolExecutor(max_workers=15) as executor:
-    results = executor.map(is_stream_working, raw_candidates)
-    for res in results:
-        if res:
-            working_channels.append(res)
-
+# ক্যাটাগরি অনুযায়ী সাজানো (Bangla -> Sports -> Hindi -> English)
 def sort_key(item):
     category = item[0]
     return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
-working_channels.sort(key=sort_key)
+all_channels.sort(key=sort_key)
 
+# M3U আউটপুট তৈরি
 m3u_output = "#EXTM3U\n"
-for category, clean_name, metadata, stream_url, raw_name in working_channels:
+for category, metadata, stream_url in all_channels:
     m3u_output += f"{metadata}\n{stream_url}\n"
 
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
 
-print(f"\nSaved {len(working_channels)} channels successfully!")
+print(f"Successfully created playlist.m3u with {len(all_channels)} unique channels!")
