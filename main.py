@@ -1,7 +1,8 @@
 import urllib.request
+import datetime
 
 # =========================================================================
-# ১. আপনার কাস্টম সোর্স লিস্ট
+# ১. কাস্টম সোর্স লিস্ট
 # =========================================================================
 MY_CUSTOM_SOURCES = [
     # ১. বাংলাদেশ ও ইন্ডিয়ান বাংলা
@@ -26,11 +27,11 @@ CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
 
 def get_clean_url(url):
-    """শুধুমাত্র স্ট্রিম URL ট্রিম করা"""
+    """ইউআরএল ট্রিম করে পিওর স্ট্রিম লিঙ্ক বের করা"""
     return url.strip().split('?')[0].rstrip('/').lower()
 
 all_channels = []
-seen_m3u8_urls = set()  # শুধুমাত্র .m3u8 স্ট্রিম লিংক মেমোরিতে ট্র্যাক রাখার জন্য
+seen_m3u8_urls = set()  # শুধুমাত্র ইউনিক .m3u8 লিঙ্ক ট্র্যাক রাখার জন্য
 
 print("Processing sources... Ensuring 1 unique .m3u8 link max 1 time.")
 
@@ -57,15 +58,15 @@ for source in MY_CUSTOM_SOURCES:
                         # ১. লিঙ্কটি অবশ্যই http/https হতে হবে এবং .m3u8 থাকতে হবে
                         if stream_url.startswith("http") and ".m3u8" in clean_url:
                             
-                            # ২. .m3u8 স্ট্রিম লিঙ্কটি আগে এসেছে কি না তা ফিল্টার করা
+                            # ২. .m3u8 লিঙ্ক ১ বারের বেশি ২ বার আসবে না
                             if clean_url not in seen_m3u8_urls:
-                                seen_m3u8_urls.add(clean_url)  # ইউনিক .m3u8 সেভ করে রাখা হলো
+                                seen_m3u8_urls.add(clean_url)
                                 
-                                # ক্যাটাগরি ফিক্স
+                                # ক্যাটাগরি সেট
                                 if 'group-title="' not in metadata or 'group-title=""' in metadata:
                                     metadata = metadata.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{category_name}"')
                                 
-                                # লোগো সংক্রান্ত কাজ (অরিজিনাল লোগো লিঙ্ক যেমন ছিল তেমনি থাকবে)
+                                # লোগো সেট
                                 if 'tvg-logo=""' in metadata:
                                     metadata = metadata.replace('tvg-logo=""', f'tvg-logo="{DEFAULT_LOGO}"')
                                 elif 'tvg-logo="' not in metadata:
@@ -84,12 +85,33 @@ def sort_key(item):
 
 all_channels.sort(key=sort_key)
 
-# M3U ফাইলে সেভ করা
-m3u_output = "#EXTM3U\n"
+# =========================================================================
+# ২. অটো টাইমস্ট্যাম্প এবং চ্যানেল কাউন্ট সহ হেডার জেনারেট করা
+# =========================================================================
+
+# বাংলাদেশ সময় বের করা (UTC +6)
+bd_time = datetime.datetime.utcnow() + datetime.timedelta(hours=6)
+formatted_time = bd_time.strftime("%Y-%m-%d %H:%M:%S")
+total_channels = len(all_channels)  # অটো চ্যানেল কাউন্ট
+
+# কাস্টম হেডার ফরম্যাট
+m3u_output = f"""#EXTM3U
+#=================================
+# 🖥️ Developed by: Ahammad Ali
+# 🔗 Telegram: https://t.me/banglatvlivefree
+# 🕒 Last Updated: {formatted_time} (BD Time)
+# 📺 Channels Count: {total_channels}
+# 🔒 Usage: Personal / Educational
+#=================================
+
+"""
+
+# প্লেলিস্টে চ্যানেল স্ট্রিমগুলো যোগ করা
 for category, metadata, stream_url in all_channels:
     m3u_output += f"{metadata}\n{stream_url}\n"
 
+# ফাইল রাইট করা
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
 
-print(f"Done! Created playlist.m3u with {len(all_channels)} unique .m3u8 streams.")
+print(f"Done! Playlist saved with header and {total_channels} unique channels.")
