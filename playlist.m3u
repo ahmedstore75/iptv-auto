@@ -2377,10 +2377,10 @@ http://monirul.bro.bd/sm/stream.php?id=asiah_tv&e=.m3u8
 https://bd-mc-pdlive.fancode.com/mumbai/4247437_english_hls_7d1a57b8d583030_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-name="West Indies Vs Pakistan [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-West-Indies-2026-old1.png" group-title="Fancode",West Indies Vs Pakistan [LIVE]
 https://bd-mc-pdlive.fancode.com/mumbai/143633_english_hls_37959550fb58134_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="tapmad-15544" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17849888241020x576.jpg" group-title="Tapmad", Territory Tourers Race 2 Live | GT World Challenge EU & Asia 2026
-https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8
 #EXTINF:-1 tvg-id="tapmad-15464" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17848793661020x576.jpg" group-title="Tapmad", Jean vs Musaev | PFL 2026
 https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BK-TesT/master.m3u8
+#EXTINF:-1 tvg-id="tapmad-15554" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17849899501020x576.jpg" group-title="Tapmad", Monochrome GT4 Australia Series Race 2 Live | GT World Challenge EU & Asia 2026
+https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/WbKqj0w3/1000086946.jpg" group-title="Cartoon", Moto Patlu
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="TomandJerry2" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Cartoon",0. Tom and Jerry 2
