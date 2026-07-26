@@ -1,7 +1,7 @@
 import urllib.request
 
 # =========================================================================
-# ১. কাস্টম সোর্স লিস্ট
+# ১. আপনার কাস্টম সোর্স লিস্ট
 # =========================================================================
 MY_CUSTOM_SOURCES = [
     # ১. বাংলাদেশ ও ইন্ডিয়ান বাংলা
@@ -26,13 +26,13 @@ CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
 
 def get_clean_url(url):
-    """ইউআরএল নরম্যালাইজ করা যাতে একই লিংক ডুপ্লিকেট না হয়"""
+    """শুধুমাত্র স্ট্রিম URL ট্রিম করা"""
     return url.strip().split('?')[0].rstrip('/').lower()
 
 all_channels = []
-seen_urls = set()
+seen_m3u8_urls = set()  # শুধুমাত্র .m3u8 স্ট্রিম লিংক মেমোরিতে ট্র্যাক রাখার জন্য
 
-print("Parsing custom sources and filtering duplicate links only...")
+print("Processing sources... Ensuring 1 unique .m3u8 link max 1 time.")
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
@@ -54,16 +54,18 @@ for source in MY_CUSTOM_SOURCES:
                         stream_url = lines[i + 1].strip()
                         clean_url = get_clean_url(stream_url)
                         
-                        if stream_url.startswith("http"):
-                            # শর্ত: একই লিংক দ্বিতীয়বার আসবে না, কিন্তু ভিন্ন লিংক হলে চ্যানেল নাম একই হলেও আসবে
-                            if clean_url not in seen_urls:
-                                seen_urls.add(clean_url)
+                        # ১. লিঙ্কটি অবশ্যই http/https হতে হবে এবং .m3u8 থাকতে হবে
+                        if stream_url.startswith("http") and ".m3u8" in clean_url:
+                            
+                            # ২. .m3u8 স্ট্রিম লিঙ্কটি আগে এসেছে কি না তা ফিল্টার করা
+                            if clean_url not in seen_m3u8_urls:
+                                seen_m3u8_urls.add(clean_url)  # ইউনিক .m3u8 সেভ করে রাখা হলো
                                 
-                                # ক্যাটাগরি সেট করা
+                                # ক্যাটাগরি ফিক্স
                                 if 'group-title="' not in metadata or 'group-title=""' in metadata:
                                     metadata = metadata.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{category_name}"')
                                 
-                                # লোগো সেট করা
+                                # লোগো সংক্রান্ত কাজ (অরিজিনাল লোগো লিঙ্ক যেমন ছিল তেমনি থাকবে)
                                 if 'tvg-logo=""' in metadata:
                                     metadata = metadata.replace('tvg-logo=""', f'tvg-logo="{DEFAULT_LOGO}"')
                                 elif 'tvg-logo="' not in metadata:
@@ -73,16 +75,16 @@ for source in MY_CUSTOM_SOURCES:
                         i += 1
                 i += 1
     except Exception as e:
-        print(f"Error loading source ({src_url}): {e}")
+        print(f"Error reading source ({src_url}): {e}")
 
-# নির্ধারিত ক্যাটাগরি অনুযায়ী সাজানো
+# নির্ধারিত ক্যাটাগরি অর্ডারে সাজানো
 def sort_key(item):
     category = item[0]
     return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
 all_channels.sort(key=sort_key)
 
-# ফাইল তৈরি
+# M3U ফাইলে সেভ করা
 m3u_output = "#EXTM3U\n"
 for category, metadata, stream_url in all_channels:
     m3u_output += f"{metadata}\n{stream_url}\n"
@@ -90,4 +92,4 @@ for category, metadata, stream_url in all_channels:
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
 
-print(f"Done! Saved {len(all_channels)} channels with unique URLs.")
+print(f"Done! Created playlist.m3u with {len(all_channels)} unique .m3u8 streams.")
