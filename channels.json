@@ -8322,12 +8322,6 @@
         "url": "https://bd-mc-pdlive.fancode.com/mumbai/143633_english_hls_37959550fb21080_1ta-di_h264/index.m3u8"
     },
     {
-        "name": "Namibia Vs Nepal [LIVE]",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4246707_52990_NAM_NEP_fc-App.png",
-        "group": "Fancode",
-        "url": "https://bd-mc-pdlive.fancode.com/mumbai/4246707_english_hls_fefe03448672489_1ta-di_h264/index.m3u8"
-    },
-    {
         "name": "World Feed   Day 1 [LIVE]",
         "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mubadala_Web-match-card.png",
         "group": "Fancode",
@@ -8338,12 +8332,6 @@
         "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17845507451020x576.jpg",
         "group": "Tapmad",
         "url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8"
-    },
-    {
-        "name": "Southern Brave vs MI London | The Hundred Men's Competition 2026",
-        "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17851368251020x576men.jpg",
-        "group": "Tapmad",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
     },
     {
         "name": "Moto Patlu",
@@ -8400,10 +8388,10 @@
         "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8"
     },
     {
-        "name": "West Indies vs Pakistan (Pakistan tour of West Indies- 2026)",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-West-Indies-2026-old1.png",
+        "name": "San Francisco Unicorns vs Desert Vipers (Global Super League- 2026)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4247440_53000_SFU_DV_fc-web.jpg",
         "group": "Live Event",
-        "url": "https://livecf.fancode.com/143633_english_hls_37959550fb21080_1ta-di_h264/index.m3u8"
+        "url": "https://livecf.fancode.com/4247440_english_hls_4a73bf788950453_1ta-di_h264/index.m3u8"
     },
     {
         "name": "World Feed - Day 1 vs Washington- United States (ATP 500 - Mubadala DC Open 2026)",
@@ -8817,235 +8805,235 @@
         "name": "Star Sports 1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/star1in.m3u8?md5=Y77DCSQKBx48ProZ3mdQww&expires=1785192622"
+        "url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=nbiT2m_98WxvOTK2PeweaA&expires=1785196216"
     },
     {
         "name": "Star Sports 1 Hindi",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/starhindi.m3u8?md5=mgEBb8kr8N3J893bXHGCfA&expires=1785192622"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/starhindi.m3u8?md5=f4bmb1EwKkWbiinZoJa-nw&expires=1785196216"
     },
     {
         "name": "PTV Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=H7QBd_msEMnh5QoM9LlkdA&expires=1785192622"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=UUe2rsKJlbwLMWUpw2jQRA&expires=1785196217"
     },
     {
         "name": "Willow HD",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=oKNr6ouEbTAsKwDbibp_3Q&expires=1785192622"
+        "url": "https://cdn3.zohanayaan.com:1686/hls/willowusa.m3u8?md5=eSMx9fRehE2bcBs2aGG0TA&expires=1785196217"
     },
     {
         "name": "Willow HD 2",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/willowextra.m3u8?md5=tr1ABrPwB7eybRj11vTM8g&expires=1785192624"
+        "url": "https://cdn1.zohanayaan.com:1686/hls/willowextra.m3u8?md5=Tz8twSkZA9fa-_0inf18rw&expires=1785196217"
     },
     {
         "name": "Ten Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/tenspk.m3u8?md5=7V6aDGY688o1Xmew7kIPew&expires=1785192624"
+        "url": "https://cdn9.zohanayaan.com:1686/hls/tenspk.m3u8?md5=DowE9VBH9fQZTWV45O7OkA&expires=1785196217"
     },
     {
         "name": "A Sports HD",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/asportshd.m3u8?md5=7uljrdFK8czcky01c1MeYg&expires=1785192624"
+        "url": "https://cdn1.zohanayaan.com:1686/hls/asportshd.m3u8?md5=efvhbfAg1FcNVU7Yua9R-w&expires=1785196217"
     },
     {
         "name": "Sky Sports Cricket",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/skyscric.m3u8?md5=n9F39gVloMgR4vNRwN11Aw&expires=1785192624"
+        "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=8QpzV9-X5g9bvi-VKLfqww&expires=1785196218"
     },
     {
         "name": "Sky Sports Main Event",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/18-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=P5JBsAEvdDrvXOCGd5bTDw&expires=1785192624"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=jVxlzrFeEMBOUXlJCKvSJQ&expires=1785196218"
     },
     {
         "name": "TNT 1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=mRyFEP0TB1qaRouAeGh0EQ&expires=1785192624"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=JknBCjoA77y4eqewrxUpjA&expires=1785196218"
     },
     {
         "name": "TNT 2",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "group": "Sports",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=34JPgPw6Tgv98Ftps_oFZw&expires=1785192624"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=0Ua7BBgFJnbQDw87vXUO5w&expires=1785196218"
     },
     {
         "name": "TNT 3",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "group": "Sports",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=HWuNz-SAAU4FcNUZ_VsrgA&expires=1785192625"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=eeoifY42FTDVYGbDs9q5pw&expires=1785196218"
     },
     {
         "name": "TNT 4",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "group": "Sports",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=ltGdFkrkGDE0vuOzmx4rHg&expires=1785192625"
+        "url": "https://cdn3.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=sb0RpjZthPu5_iGcQfE_vQ&expires=1785196219"
     },
     {
         "name": "Sky Sport Nz 1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=-DxsnyUiuHeL7XP6PfkFTA&expires=1785192625"
+        "url": "https://cdn4.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=9_6aZIW4wS7sXN2l3Ck77g&expires=1785196219"
     },
     {
         "name": "Sky Sport Nz 2",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn1.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=jpv-DztXJRGlKYOPvvE0UQ&expires=1785192625"
+        "url": "https://cdn6.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=WshOFzZFCyIR47-ssSYyIQ&expires=1785196219"
     },
     {
         "name": "Sky Sport Nz 3",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=pKvvPj58JP2aVldJRX1m0Q&expires=1785192625"
+        "url": "https://cdn3.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=NcpLfktDQsCRrieMvHqIdA&expires=1785196219"
     },
     {
         "name": "Sky Sport Nz 4",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=7NLwc0jWGKma2LwhniRRsA&expires=1785192625"
+        "url": "https://cdn5.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=H85rsMqXzQhyFwk7aTHxkA&expires=1785196219"
     },
     {
         "name": "Sky Sport Nz 5",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=WBuFyFfu_p3veDMQ3xoESQ&expires=1785192625"
+        "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=JIGMN01lJDGPKSmxX5BEow&expires=1785196219"
     },
     {
         "name": "Sky Sport 6 Nz",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=l8oZry1qUYhHKkjC4eufTg&expires=1785192625"
+        "url": "https://cdn9.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=NLhITXZ0jvC6gcmQ-qPHeQ&expires=1785196220"
     },
     {
         "name": "Sky Sport Nz 7",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=1L08Z5xi4mH-Eq2Fh4paRg&expires=1785192625"
+        "url": "https://cdn5.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=6Jx_pYK6LJTshx3GncQQAA&expires=1785196220"
     },
     {
         "name": "Sky Sport Nz 8",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=ZVys3-zncKnMwiRO4L0VJw&expires=1785192626"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=eIkrOZrLbzasUHMDOQR3AQ&expires=1785196220"
     },
     {
         "name": "Sky Sport Nz 9",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=nahpeVUC3Ver3cAlxLk0NQ&expires=1785192626"
+        "url": "https://cdn1.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=Qf_S8AvVFgFpXYCoX9P7BA&expires=1785196220"
     },
     {
         "name": "Sky Sports Action",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829332.png",
         "group": "Sports",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/skysact.m3u8?md5=Tfu1HAM09AJr_NrBPG9ggQ&expires=1785192626"
+        "url": "https://cdn6.zohanayaan.com:1686/hls/skysact.m3u8?md5=m_3sbtfYug-vhZ9o4V9Uzg&expires=1785196220"
     },
     {
         "name": "Sky Sports Golf",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008055327.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/skysgol.m3u8?md5=5mqkAp4bK6-T7kOX3tBfbA&expires=1785192626"
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skysgol.m3u8?md5=RL4vrjzGzkH6OtHGMh1Zgw&expires=1785196221"
     },
     {
         "name": "Sky Sports Premier League",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/43-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/skysprem.m3u8?md5=0JM22uT4XOuBFDKhKNv5Dw&expires=1785192626"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysprem.m3u8?md5=0pt8W1QOekCqfAYx3Cq7eQ&expires=1785196221"
     },
     {
         "name": "Sky Sports Football",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/44-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/skysfott.m3u8?md5=YNhQIsefa_nq0E1X7PaBEQ&expires=1785192626"
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skysfott.m3u8?md5=k7qCDe5BJ9BzHpxFPfgP7w&expires=1785196221"
     },
     {
         "name": "Sky Sports Plus",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008347584.png",
         "group": "Sports",
-        "url": "https://cdn1.zohanayaan.com:1686/hls/skysare.m3u8?md5=n6wBTQcLkSlDwrAxjmemAA&expires=1785192626"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=FTnxSEYul3OwuDD1cb6xNg&expires=1785196221"
     },
     {
         "name": "Sky Sports F1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008468637.png",
         "group": "Sports",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=-lu3TcIYNix25HbG-Et6xg&expires=1785192626"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=TSdsOXWXFJKl3TFlmP0ffg&expires=1785196221"
     },
     {
         "name": "LaLiGA",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/laligauk.m3u8?md5=YoDjTRXejBp99jodA8BJzA&expires=1785192626"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/laligauk.m3u8?md5=Nc_wZzdZKpMPML5dX9du8Q&expires=1785196221"
     },
     {
         "name": "Premier Sports 1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/premieruk.m3u8?md5=M3jLtdNSZxEKAtncPb46yg&expires=1785192626"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/premieruk.m3u8?md5=Xnbfq8WurQswum_cEiGBRA&expires=1785196221"
     },
     {
         "name": "Premier Sports 2",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=xNHzjdfJ3ZqcuqLpipSFIA&expires=1785192626"
+        "url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=zTXmRLrbQJSaXtAnk1b4MA&expires=1785196221"
     },
     {
         "name": "Super Football",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/34-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=UptSaNXpdMUQ6Hg4MbiMFg&expires=1785192627"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/superfotball.m3u8?md5=NEM8LhUTob34a-1ix4sXNA&expires=1785196222"
     },
     {
         "name": "Super Premier League",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008781606.png",
         "group": "Sports",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/superpremier.m3u8?md5=FXfSg0p_mcgehFaMQhQ3Bw&expires=1785192627"
+        "url": "https://cdn6.zohanayaan.com:1686/hls/superpremier.m3u8?md5=lH7RkgBx-tHDcdJFMoAZLw&expires=1785196222"
     },
     {
         "name": "Astro Cricket",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png",
         "group": "Sports",
-        "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=zdL0FQ_gQRHdxiFk05YZ2Q&expires=1785192627"
+        "url": "https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=OcM67Uv-OlwHpV-BlbPTBw&expires=1785196222"
     },
     {
         "name": "ESPN 1",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/espnusa.m3u8?md5=oZNP4pf8HFGZJqeuIs-OBA&expires=1785192627"
+        "url": "https://cdn3.zohanayaan.com:1686/hls/espnusa.m3u8?md5=aMrCaxob5e6dtDVt8M9dPQ&expires=1785196222"
     },
     {
         "name": "ESPN 2",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/espn2.m3u8?md5=1I5Yu7ItUnDCwfFKukZQMQ&expires=1785192627"
+        "url": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=4EOzxC_6hsVXzW1hd_CVnA&expires=1785196222"
     },
     {
         "name": "Sky Sports Mix",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/13-by-xfireflix.png",
         "group": "Sports",
-        "url": "https://cdn1.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=3GHRWlxJN6Ny4zDa661MhQ&expires=1785192627"
+        "url": "https://cdn10.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=vxEacLPxxd7xP7C_DW_KqQ&expires=1785196223"
     },
     {
         "name": "Sky Sports Tennis",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745009085794.png",
         "group": "Sports",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/skystennis.m3u8?md5=KFT07nTLfrQQ1GN5-rbN9w&expires=1785192627"
+        "url": "https://cdn9.zohanayaan.com:1686/hls/skystennis.m3u8?md5=FK-ruKQJe_MY5UedpvfxIw&expires=1785196223"
     },
     {
         "name": "Sony Sports3",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png",
         "group": "Sports",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=BxXBJKCLAMq-dwoSuFxotg&expires=1785192627"
+        "url": "https://cdn2.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=XuXSXS18ivnDdF7T0lPILQ&expires=1785196223"
     },
     {
         "name": "Ananda TV",
@@ -9054,28 +9042,22 @@
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8"
     },
     {
-        "name": "Channel S",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Unknown",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
-    },
-    {
         "name": "Desh TV (1080p)",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Unknown",
         "url": "https://bozztv.com/rongo/rongo-DeshTV/index.m3u8"
     },
     {
+        "name": "Channel S",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Unknown",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
+    },
+    {
         "name": "Gazi TV",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Unknown",
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8"
-    },
-    {
-        "name": "My TV",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Unknown",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8"
     },
     {
         "name": "Green TV (1080p)",
@@ -9090,6 +9072,12 @@
         "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8"
     },
     {
+        "name": "Maasranga TV (720p)",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Unknown",
+        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8"
+    },
+    {
         "name": "RTV (720p)",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Unknown",
@@ -9099,19 +9087,7 @@
         "name": "Maasranga TV (720p)",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Unknown",
-        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8"
-    },
-    {
-        "name": "Maasranga TV (720p)",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Unknown",
         "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8"
-    },
-    {
-        "name": "RTV (720p)",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Unknown",
-        "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8"
     },
     {
         "name": "NTV (720p)",
@@ -9120,10 +9096,10 @@
         "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8"
     },
     {
-        "name": "Ekushey TV (480p)",
+        "name": "RTV (720p)",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Unknown",
-        "url": "https://ekusheyserver.com/etvlivesn.m3u8"
+        "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8"
     },
     {
         "name": "Iran News",
@@ -9144,22 +9120,10 @@
         "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8"
     },
     {
-        "name": "Bein Sports 1",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Football",
-        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8"
-    },
-    {
         "name": "Bein Sports Direct HD",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Football",
         "url": "http://145.239.5.177/557a/index.m3u8"
-    },
-    {
-        "name": "Cartoon Network",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Kids",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
     },
     {
         "name": "QAZ Sports HD",
@@ -9168,16 +9132,22 @@
         "url": "http://stream.mcquack.net/72/index.m3u8"
     },
     {
-        "name": "PBS Kids",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Kids",
-        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
-    },
-    {
         "name": "Live Quran TV",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Cricket ",
         "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8"
+    },
+    {
+        "name": "Channel 1 News HD",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Cricket ",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8"
+    },
+    {
+        "name": "Bein Sports 1",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Football",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8"
     },
     {
         "name": "QURAN",
@@ -9192,16 +9162,16 @@
         "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8"
     },
     {
-        "name": "Madani Tv",
+        "name": "PBS Kids",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "ISLAMIC CHANNELS",
-        "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
+        "group": "Kids",
+        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
     },
     {
-        "name": "QURAN RADIOTV SMC",
+        "name": "Somoy TV",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "ISLAMIC CHANNELS",
-        "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8"
+        "group": "Bangladesh*",
+        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "",
@@ -9210,16 +9180,10 @@
         "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8"
     },
     {
-        "name": "AL EKHBARIA",
+        "name": "Madani Tv",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "ISLAMIC CHANNELS",
-        "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8"
-    },
-    {
-        "name": "Travel XP English NZ",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Infotainment Channels",
-        "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8"
+        "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
     },
     {
         "name": "ALMASIRA MUBASHER",
@@ -9228,16 +9192,22 @@
         "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8"
     },
     {
-        "name": "REAL WILD",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Documentary",
-        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8"
-    },
-    {
-        "name": "Peace Tv English",
+        "name": "AL EKHBARIA",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "ISLAMIC CHANNELS",
-        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
+        "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8"
+    },
+    {
+        "name": "QURAN RADIOTV SMC",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "ISLAMIC CHANNELS",
+        "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8"
+    },
+    {
+        "name": "Travel XP English NZ",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Infotainment Channels",
+        "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8"
     },
     {
         "name": "Watch FIFA IN FULL HD",
@@ -9252,28 +9222,10 @@
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8"
     },
     {
-        "name": "France 24 English (720p)",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "NEWS INTERNASIONAL",
-        "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8"
-    },
-    {
-        "name": "AL QAMAR",
+        "name": "Peace Tv English",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "ISLAMIC CHANNELS",
-        "url": "https://streamer3.premio.link/alqamar/playlist.m3u8"
-    },
-    {
-        "name": "Insight",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Documentary",
-        "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8"
-    },
-    {
-        "name": "BAHRAIN QURAN",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "ISLAMIC CHANNELS",
-        "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8"
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
     },
     {
         "name": "T Global News (Canada)",
@@ -9288,6 +9240,36 @@
         "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8"
     },
     {
+        "name": "AL QAMAR",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "ISLAMIC CHANNELS",
+        "url": "https://streamer3.premio.link/alqamar/playlist.m3u8"
+    },
+    {
+        "name": "France News 24",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "NEWS INTERNASIONAL TV",
+        "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+    },
+    {
+        "name": "Colors Infinity SD",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Entertainment",
+        "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8"
+    },
+    {
+        "name": "France 24 English (720p)",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "NEWS INTERNASIONAL",
+        "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8"
+    },
+    {
+        "name": "Insight",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Documentary",
+        "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8"
+    },
+    {
         "name": "AL ISTIQAMA",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "ISLAMIC CHANNELS",
@@ -9300,10 +9282,16 @@
         "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8"
     },
     {
-        "name": "France News 24",
+        "name": "REAL WILD",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "NEWS INTERNASIONAL TV",
-        "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+        "group": "Documentary",
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8"
+    },
+    {
+        "name": "BAHRAIN QURAN",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "ISLAMIC CHANNELS",
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8"
     },
     {
         "name": "Amazon SAT",
@@ -9312,28 +9300,10 @@
         "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8"
     },
     {
-        "name": "Colors Infinity SD",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Entertainment",
-        "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8"
-    },
-    {
-        "name": "Digital Fashion",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Entertainment",
-        "url": "http://115.187.41.216:8080/hls/digitalfashion/index.m3u8"
-    },
-    {
         "name": "News Max 2",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "NEWS INTERNASIONAL",
         "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8"
-    },
-    {
-        "name": "NDTV English",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "NEWS INTERNASIONAL",
-        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"
     },
     {
         "name": "FASHION ONE",
@@ -9348,10 +9318,22 @@
         "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 7",
+        "name": "pcv",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Utrun Broadband",
-        "url": "http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33"
+        "group": "Bangladeshi ",
+        "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8"
+    },
+    {
+        "name": "Digital Fashion",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Entertainment",
+        "url": "http://115.187.41.216:8080/hls/digitalfashion/index.m3u8"
+    },
+    {
+        "name": "NDTV English",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "NEWS INTERNASIONAL",
+        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"
     },
     {
         "name": "EWTN TV",
@@ -9372,28 +9354,16 @@
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
     },
     {
-        "name": "Times Of India",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "NEWS INTERNASIONAL TV",
-        "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8"
-    },
-    {
-        "name": "Tom & Jerry TV",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "CARTOON Drama",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8"
-    },
-    {
-        "name": "pcv",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Bangladeshi ",
-        "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8"
-    },
-    {
         "name": "Live Sports",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Live Sports",
-        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
+        "url": "http://103.165.93.31:8095/tsports/video.m3u8"
+    },
+    {
+        "name": "Channel 7",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Utrun Broadband",
+        "url": "http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33"
     },
     {
         "name": "Peace TV Urdu",
@@ -9402,16 +9372,34 @@
         "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8"
     },
     {
+        "name": "Tom & Jerry TV",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "CARTOON Drama",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8"
+    },
+    {
+        "name": "Times Of India",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "NEWS INTERNASIONAL TV",
+        "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8"
+    },
+    {
+        "name": "Mr Bean Animated",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "CARTOON Drama",
+        "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
+    },
+    {
         "name": "NK",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Indian Bangla News",
         "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8"
     },
     {
-        "name": "R Plus Gold",
+        "name": "Kolkata TV",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Kolkata Bangla",
-        "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8"
+        "group": "Indian Bangla News",
+        "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8"
     },
     {
         "name": "AAKASH AATH",
@@ -9420,16 +9408,16 @@
         "url": "https://cdn-4.pishow.tv/live/969/master.m3u8"
     },
     {
+        "name": "R Plus Gold",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Kolkata Bangla",
+        "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8"
+    },
+    {
         "name": "Sheemaroo Bollywood",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi Movies",
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8"
-    },
-    {
-        "name": "Mr Bean Animated",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "CARTOON Drama",
-        "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
     },
     {
         "name": "Zee Anmol TV",
@@ -9444,6 +9432,12 @@
         "url": "http://103.175.73.12:8080/live/13/13_0.m3u8"
     },
     {
+        "name": "Live Sports",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Live Sports",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
+    },
+    {
         "name": "Zee Action",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi Movies",
@@ -9454,18 +9448,6 @@
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi Movies",
         "url": "http://103.175.73.12:8080/live/52/52_0.m3u8"
-    },
-    {
-        "name": "Kolkata TV",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Indian Bangla News",
-        "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8"
-    },
-    {
-        "name": "Action Hollywood Movies",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "English Movies",
-        "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8"
     },
     {
         "name": "Star Sports 1 HD",
@@ -9480,34 +9462,16 @@
         "url": "http://103.175.73.12:8080/live/143/143_0.m3u8"
     },
     {
-        "name": "B4U Kadak",
+        "name": "Action Hollywood Movies",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Hindi Movies",
-        "url": "https://cdn-2.pishow.tv/live/227/master.m3u8"
+        "group": "English Movies",
+        "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8"
     },
     {
         "name": "Goldmines Movies",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi Movies",
         "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8"
-    },
-    {
-        "name": "Goldmines",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Hindi Movies",
-        "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8"
-    },
-    {
-        "name": "Goldmines Movies 2",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Hindi Movies",
-        "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
-    },
-    {
-        "name": "Animal Planet HD",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Information",
-        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8"
     },
     {
         "name": "9XM",
@@ -9522,10 +9486,28 @@
         "url": "http://103.175.73.12:8080/live/159/159_0.m3u8"
     },
     {
+        "name": "Animal Planet HD",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Information",
+        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8"
+    },
+    {
+        "name": "Goldmines",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Hindi Movies",
+        "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8"
+    },
+    {
         "name": "Music India",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi Music",
         "url": "http://103.175.73.12:8080/live/158/158_0.m3u8"
+    },
+    {
+        "name": "B4U Kadak",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Hindi Movies",
+        "url": "https://cdn-2.pishow.tv/live/227/master.m3u8"
     },
     {
         "name": "YRF Music HD",
@@ -9534,10 +9516,28 @@
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8"
     },
     {
+        "name": "NHK World",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "English News",
+        "url": "http://103.175.73.12:8080/live/417/417_0.m3u8"
+    },
+    {
         "name": "Nursary Rhymes",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Kids",
         "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8"
+    },
+    {
+        "name": "Baallee",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "MUSIC",
+        "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8"
+    },
+    {
+        "name": "Goldmines Movies 2",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Hindi Movies",
+        "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
     },
     {
         "name": "Star Sports-1 Hindi",
@@ -9546,16 +9546,16 @@
         "url": "https://starsportshindiii.pages.dev/index.m3u8"
     },
     {
-        "name": "NHK World",
+        "name": "Channel S",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "English News",
-        "url": "http://103.175.73.12:8080/live/417/417_0.m3u8"
+        "group": "BANGLA",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8"
     },
     {
-        "name": "Cowboy tv",
+        "name": "RTV",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "SPORTS",
-        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8"
+        "group": "BANGLA",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "B4U Movies",
@@ -9564,10 +9564,10 @@
         "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "Baallee",
+        "name": "Cowboy tv",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "MUSIC",
-        "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8"
+        "group": "SPORTS",
+        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8"
     },
     {
         "name": "R Plus Gould",
@@ -9588,6 +9588,12 @@
         "url": "https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8"
     },
     {
+        "name": "South Movies",
+        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
+        "group": "Hindi | 24/7",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8"
+    },
+    {
         "name": "Gopal Bhar",
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Cartoons | 24/7",
@@ -9598,12 +9604,6 @@
         "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
         "group": "Hindi | 24/7",
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8"
-    },
-    {
-        "name": "South Movies",
-        "logo": "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png",
-        "group": "Hindi | 24/7",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8"
     },
     {
         "name": "LiveNOW from FOX",
@@ -10884,12 +10884,6 @@
         "url": "http://180.94.28.28:8097//CHANNEL-i/index.fmp4.m3u8?token=edd3c5a4856fce1c8debb946340b0c1b7136c671-53d53c09b3f212c40bad1c86d5e2f087-1776169971-1776166371"
     },
     {
-        "name": "Channel 1 TV",
-        "logo": "https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png",
-        "group": "Bangladesh",
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8"
-    },
-    {
         "name": "Channel 24",
         "logo": "https://i.ibb.co.com/v65cfQ96/Channel-24.png",
         "group": "Bangladesh",
@@ -10960,12 +10954,6 @@
         "logo": "https://imglink.cc/cdn/JZnibxXLfK.png",
         "group": "Bangladesh",
         "url": "https://tvsen6.aynaott.com/rtv/tracks-v1a1/mono.ts.m3u8"
-    },
-    {
-        "name": "RTV Live B",
-        "logo": "https://imglink.cc/cdn/JZnibxXLfK.png",
-        "group": "Bangladesh",
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Star News",
