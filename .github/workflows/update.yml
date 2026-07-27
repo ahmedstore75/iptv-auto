@@ -1,9 +1,9 @@
-Name: Auto Update IPTV List
+name: Auto Update IPTV List
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # প্রতি ৩০ মিনিট পর পর অটোমেটিক রান হবে
-  workflow_dispatch:        # ম্যানুয়ালি রান করার বাটন চালু থাকবে
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
     - name: Run script
       run: python main.py
 
-    - name: Commit and push updated playlist & json
+    - name: Commit and push updated playlist and json
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
