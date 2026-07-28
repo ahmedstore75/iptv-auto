@@ -8334,6 +8334,12 @@
         "url": "https://bd-mc-pdlive.fancode.com/mumbai/143641_english_hls_172b098b4923302_1ta-di_h264/index.m3u8"
     },
     {
+        "name": "World Feed 2 [LIVE]",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mubadala_Web-match-card.png",
+        "group": "Fancode",
+        "url": "https://bd-mc-pdlive.fancode.com/mumbai/143643_english_hls_adfe3dbeb394633_1ta-di_h264/index.m3u8"
+    },
+    {
         "name": "Moto Patlu",
         "logo": "https://i.postimg.cc/WbKqj0w3/1000086946.jpg",
         "group": "Cartoon",
