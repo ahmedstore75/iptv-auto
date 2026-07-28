@@ -44,7 +44,7 @@ MY_CUSTOM_SOURCES = [
 
 CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 DEFAULT_LOGO = (
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/assets/icons/iptv.png"
+    "https://github.com/ahmedstore75/iptv-auto/blob/main/image.png"
 )
 
 
