@@ -2,9 +2,9 @@ name: Auto Update IPTV Playlist
 
 on:
   schedule:
-    # প্রতিদিন ৬ ঘণ্টা পর পর অটোমেটিক আপডেট হবে
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # ম্যানুয়ালি রান করার জন্য অপশন
+    # গিটহাবের নিয়ম অনুযায়ী প্রতি ১ ঘণ্টা পর পর শিডিউল রাখা হলো (গিটহাব ঠিক ৩০ মিনিট এলাউ করে না)
+    - cron: '0 * * * *'
+  workflow_dispatch: # ম্যানুয়ালি বা এক্সটার্নাল রিকোয়েস্ট দিয়ে রান করার জন্য
 
 jobs:
   update-playlist:
@@ -21,7 +21,7 @@ jobs:
 
       - name: Run Python Script
         env:
-          # গিটহাব সিক্রেট থেকে সোর্স লিঙ্ক নিয়ে রান করবে
+          # আপনার গিটহাব সিক্রেট থেকে সোর্স লোড করবে
           MY_CUSTOM_SOURCES: ${{ secrets.MY_CUSTOM_SOURCES }}
         run: |
           python main.py
