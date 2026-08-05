@@ -2,8 +2,8 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-08-05 10:55:53 (BD Time)
-# 📺 Channels Count: 1889
+# 🕒 Last Updated: 2026-08-05 11:31:48 (BD Time)
+# 📺 Channels Count: 1891
 # 🔒 Usage: Personal / Educational
 #=================================
 
@@ -26,7 +26,7 @@ https://mtv.sunplex.live/MAASRANGA/index.m3u8
 #EXTINF:-1 tvg-id="102" tvg-name="Ekattor HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png" group-title="News",Ekattor HD
 https://iptv-proxy.ahmed-bd-org.workers.dev/ekattor-tv/index.m3u8
 #EXTINF:-1 tvg-id="94" tvg-name="Channel 24 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" group-title="News",Channel 24 HD
-https://iptv-proxy.ahmed-bd-org.workers.dev/channel-24/index.m3u8
+https://stream.ottplus.live/live/channel_24_abr/index.m3u8
 #EXTINF:-1 tvg-id="93" tvg-name="ATN News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" group-title="News",ATN News
 https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
 #EXTINF:-1 tvg-id="186" tvg-name="News 24 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png" group-title="News",News 24 HD
@@ -3785,3 +3785,7 @@ http://10.114.130.254:3255/SonyAath/tracks-v1a1/mono.m3u8
 http://10.114.130.254:3255/JALSHA-MOVIES-HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Wifi Cloud Server" tvg-logo="https://imglink.cc/cdn/cW8wIk4N4w.jpg",Discovery WiFi
 http://10.114.130.254:3255/Discovery/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com//Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="Bangla",Somoy TV
+https://sm-monirul.top/@monirul_Islam_SM/play/somoy_tv.m3u8
+#EXTINF:-1 tvg-id="102000" tvg-name="Ekattor HD" tvg-logo="https://cdn.ekattorbd.com/contents/cache/images/1200x630x1/uploads/media/2023/08/13/default-f5a63c8327b98eafee564f28c3a9ebdb.png" group-title="Bangla",Ekattor HD
+https://sm-monirul.top/@monirul_Islam_SM/play/ekattor_tv.m3u8

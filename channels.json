@@ -57,7 +57,7 @@
         "name": "Channel 24 HD",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
         "group": "News",
-        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/channel-24/index.m3u8"
+        "url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8"
     },
     {
         "name": "ATN News",
@@ -11332,5 +11332,17 @@
         "logo": "https://imglink.cc/cdn/cW8wIk4N4w.jpg",
         "group": "Wifi Cloud Server",
         "url": "http://10.114.130.254:3255/Discovery/tracks-v1a1/mono.m3u8"
+    },
+    {
+        "name": "Somoy TV",
+        "logo": "https://assets-prod.services.toffeelive.com//Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
+        "group": "Bangla",
+        "url": "https://sm-monirul.top/@monirul_Islam_SM/play/somoy_tv.m3u8"
+    },
+    {
+        "name": "Ekattor HD",
+        "logo": "https://cdn.ekattorbd.com/contents/cache/images/1200x630x1/uploads/media/2023/08/13/default-f5a63c8327b98eafee564f28c3a9ebdb.png",
+        "group": "Bangla",
+        "url": "https://sm-monirul.top/@monirul_Islam_SM/play/ekattor_tv.m3u8"
     }
 ]
