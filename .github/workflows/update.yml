@@ -2,11 +2,10 @@ name: Auto Update IPTV List
 
 on:
   schedule:
-    # গিটহাবের ভিড় এড়াতে প্রতি ঘণ্টার ১৭ এবং ৪৭ নম্বর মিনিটে রান হবে (৩০ মিনিট ব্যবধান)
+    
     - cron: '17,47 * * * *'
-  workflow_dispatch:        # গিটহাব থেকে ম্যানুয়ালি রান করার জন্য
+  workflow_dispatch:        
 
-# গিটহাবে চেঞ্জ পুশ করার রাইট পারমিশন
 permissions:
   contents: write
 
@@ -16,16 +15,15 @@ jobs:
 
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4   
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5  
       with:
         python-version: '3.x'
 
     - name: Run script
       env:
-        # গিটহাব সিক্রেট থেকে কাস্টম সোর্স ডাটা পাইথন কোডে পাঠানো হচ্ছে
         MY_CUSTOM_SOURCES: ${{ secrets.MY_CUSTOM_SOURCES }}
       run: python main.py
 
