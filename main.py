@@ -7,12 +7,9 @@ import urllib.request
 # =========================================================================
 # ১. গিটহাব সিক্রেট (GitHub Secret) থেকে কাস্টম সোর্স লোড করা
 # =========================================================================
-DEFAULT_LOGO = (
-    "https://github.com/ahmedstore75/iptv-auto/blob/main/image.png"
-)
+DEFAULT_LOGO = "https://github.com/ahmedstore75/iptv-auto/blob/main/image.png"
 CATEGORY_ORDER = ["Bangla", "Sports", "Hindi", "English", "Movies", "India"]
 
-# গিটহাব অ্যাকশন থেকে MY_CUSTOM_SOURCES সিক্রেট রিড করবে
 sources_json = os.environ.get("MY_CUSTOM_SOURCES")
 
 if not sources_json:
@@ -25,17 +22,14 @@ except Exception as e:
     print(f"Error parsing JSON from secret: {e}")
     exit(1)
 
-
 def get_clean_url(url):
     """ইউআরএল ট্রিম করে পিওর স্ট্রিম লিঙ্ক বের করা"""
     return url.strip().split("?")[0].rstrip("/").lower()
-
 
 all_channels = []
 seen_m3u8_urls = set()  # ইউনিক .m3u8 লিঙ্ক ট্র্যাক রাখার জন্য
 
 print("Processing sources... Ensuring unique links.")
-
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 for source in MY_CUSTOM_SOURCES:
@@ -47,64 +41,69 @@ for source in MY_CUSTOM_SOURCES:
 
     try:
         req = urllib.request.Request(src_url, headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as response:
-            content = response.read().decode("utf-8", errors="ignore")
+        with urllib.request.urlopen(req, timeout=15) as response:
+            content_bytes = response.read()
+            content = content_bytes.decode("utf-8", errors="ignore")
 
-            lines = content.splitlines()
-            i = 0
-            while i < len(lines):
-                line = lines[i].strip()
-                if line.startswith("#EXTINF"):
-                    metadata = line
-                    if i + 1 < len(lines):
-                        stream_url = lines[i + 1].strip()
+            # চেক করা ডাটাটি JSON নাকি M3U
+            is_json = False
+            try:
+                json_data = json.loads(content)
+                is_json = True
+            except Exception:
+                is_json = False
+
+            if is_json:
+                # --- JSON API পার্সিং লজিক ---
+                categories = json_data.get("categories", [])
+                for cat in categories:
+                    cat_title = cat.get("name", category_name)
+                    channels = cat.get("channels", [])
+                    for ch in channels:
+                        ch_name = ch.get("name", "Unknown")
+                        ch_logo = ch.get("logo", DEFAULT_LOGO)
+                        stream_url = ch.get("stream_url", "").strip()
                         clean_url = get_clean_url(stream_url)
 
-                        # লিঙ্ক চেক এবং ডুপ্লিকেট ফিল্টারিং
                         if stream_url.startswith("http") and ".m3u8" in clean_url:
                             if clean_url not in seen_m3u8_urls:
                                 seen_m3u8_urls.add(clean_url)
+                                metadata = f'#EXTINF:-1 tvg-logo="{ch_logo}" group-title="{cat_title}",{ch_name}'
+                                all_channels.append((cat_title, metadata, stream_url))
+            else:
+                # --- M3U / Text পার্সিং লজিক ---
+                lines = content.splitlines()
+                i = 0
+                while i < len(lines):
+                    line = lines[i].strip()
+                    if line.startswith("#EXTINF"):
+                        metadata = line
+                        if i + 1 < len(lines):
+                            stream_url = lines[i + 1].strip()
+                            clean_url = get_clean_url(stream_url)
 
-                                # ক্যাটাগরি সেট
-                                if (
-                                    'group-title="' not in metadata
-                                    or 'group-title=""' in metadata
-                                ):
-                                    metadata = metadata.replace(
-                                        "#EXTINF:-1",
-                                        f'#EXTINF:-1 group-title="{category_name}"',
-                                    )
+                            if stream_url.startswith("http") and ".m3u8" in clean_url:
+                                if clean_url not in seen_m3u8_urls:
+                                    seen_m3u8_urls.add(clean_url)
 
-                                # লোগো সেট
-                                if 'tvg-logo=""' in metadata:
-                                    metadata = metadata.replace(
-                                        'tvg-logo=""',
-                                        f'tvg-logo="{DEFAULT_LOGO}"',
-                                    )
-                                elif 'tvg-logo="' not in metadata:
-                                    metadata = metadata.replace(
-                                        "#EXTINF:-1",
-                                        f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}"',
-                                    )
+                                    if 'group-title="' not in metadata or 'group-title=""' in metadata:
+                                        metadata = metadata.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{category_name}"')
 
-                                all_channels.append(
-                                    (category_name, metadata, stream_url)
-                                )
-                        i += 1
-                i += 1
+                                    if 'tvg-logo=""' in metadata:
+                                        metadata = metadata.replace('tvg-logo=""', f'tvg-logo="{DEFAULT_LOGO}"')
+                                    elif 'tvg-logo="' not in metadata:
+                                        metadata = metadata.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}"')
+
+                                    all_channels.append((category_name, metadata, stream_url))
+                            i += 1
+                    i += 1
     except Exception as e:
-        print(f"Error reading source: {e}")
-
+        print(f"Error reading source ({src_url}): {e}")
 
 # ক্যাটাগরি অর্ডারে সাজানো
 def sort_key(item):
     category = item[0]
-    return (
-        CATEGORY_ORDER.index(category)
-        if category in CATEGORY_ORDER
-        else len(CATEGORY_ORDER)
-    )
-
+    return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
 all_channels.sort(key=sort_key)
 
@@ -140,9 +139,12 @@ for category, metadata, stream_url in all_channels:
     name_split = metadata.split(",")
     name = name_split[-1].strip() if len(name_split) > 1 else "Unknown"
 
-    json_playlist.append(
-        {"name": name, "logo": logo, "group": group, "url": stream_url}
-    )
+    json_playlist.append({
+        "name": name,
+        "logo": logo,
+        "group": group,
+        "url": stream_url
+    })
 
 with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_output)
