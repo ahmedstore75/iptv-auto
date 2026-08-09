@@ -23,11 +23,11 @@ except Exception as e:
     exit(1)
 
 def get_clean_url(url):
-    """ইউআরএল ট্রিম করে পিওর স্ট্রিম লিঙ্ক বের করা"""
+    """ইউআরএল ট্রিম করা"""
     return url.strip().split("?")[0].rstrip("/").lower()
 
 all_channels = []
-seen_m3u8_urls = set()  # ইউনিক .m3u8 লিঙ্ক ট্র্যাক রাখার জন্য
+seen_urls = set()  # ইউনিক লিঙ্ক ট্র্যাক রাখার জন্য
 
 print("Processing sources... Ensuring unique links.")
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -65,9 +65,10 @@ for source in MY_CUSTOM_SOURCES:
                         stream_url = ch.get("stream_url", "").strip()
                         clean_url = get_clean_url(stream_url)
 
-                        if stream_url.startswith("http") and ".m3u8" in clean_url:
-                            if clean_url not in seen_m3u8_urls:
-                                seen_m3u8_urls.add(clean_url)
+                        # শুধু http/https দিয়ে শুরু হলেই অ্যালাউ করবে (m3u8 বাধ্যতামূলক নয়)
+                        if stream_url.startswith("http"):
+                            if clean_url not in seen_urls:
+                                seen_urls.add(clean_url)
                                 metadata = f'#EXTINF:-1 tvg-logo="{ch_logo}" group-title="{cat_title}",{ch_name}'
                                 all_channels.append((cat_title, metadata, stream_url))
             else:
@@ -82,9 +83,10 @@ for source in MY_CUSTOM_SOURCES:
                             stream_url = lines[i + 1].strip()
                             clean_url = get_clean_url(stream_url)
 
-                            if stream_url.startswith("http") and ".m3u8" in clean_url:
-                                if clean_url not in seen_m3u8_urls:
-                                    seen_m3u8_urls.add(clean_url)
+                            # শুধু http/https দিয়ে শুরু হলেই অ্যালাউ করবে (m3u8 বাধ্যতামূলক নয়)
+                            if stream_url.startswith("http"):
+                                if clean_url not in seen_urls:
+                                    seen_urls.add(clean_url)
 
                                     if 'group-title="' not in metadata or 'group-title=""' in metadata:
                                         metadata = metadata.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{category_name}"')
