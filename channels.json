@@ -84,6 +84,12 @@
         "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8"
     },
     {
+        "name": "Channel 9 HD",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
+        "group": "Entertainment",
+        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=channel_9&format=.m3u8"
+    },
+    {
         "name": "Channel I HD",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
         "group": "Entertainment",
@@ -612,6 +618,12 @@
         "url": "https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8"
     },
     {
+        "name": "Sports 18",
+        "logo": "https://cloudtv.akamaized.net/anyott/images/CMS_BD/22a8244f-9923-497a-a626-768cdd2d4d3c_180x180_sports-18.jpg",
+        "group": "Bangla",
+        "url": "http://atg100.xyz/live/UL33K17/SYC4T9D/1090644.ts"
+    },
+    {
         "name": "Al Jazeera News",
         "logo": "https://i.ibb.co.com/WKfBNBp/images-1.png",
         "group": "Bangla",
@@ -646,6 +658,12 @@
         "logo": "https://i.ibb.co.com/PCq6jWp/Enterr10-Bangla.jpg",
         "group": "Bangla",
         "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8"
+    },
+    {
+        "name": "JALSHA MOVIES HD",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
+        "group": "Bangla",
+        "url": "http://monirul.bro.bd/sm/stream.php?id=jalsha_movies_hd&e=.m3u8"
     },
     {
         "name": "Cartoon Network",
@@ -2238,6 +2256,12 @@
         "url": "https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8"
     },
     {
+        "name": "NH Nieuws",
+        "logo": "https://i.imgur.com/SQPVOwn.png",
+        "group": "Netherlands",
+        "url": "https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8"
+    },
+    {
         "name": "RTV Rijnmond",
         "logo": "https://i.imgur.com/TNhUVEm.png",
         "group": "Netherlands",
@@ -2374,6 +2398,30 @@
         "logo": "https://i.imgur.com/aKAfKtW.png",
         "group": "Romania",
         "url": "https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0"
+    },
+    {
+        "name": "Первый канал",
+        "logo": "https://i.imgur.com/1IqCGe9.png",
+        "group": "Russia",
+        "url": "https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd"
+    },
+    {
+        "name": "Россия 1",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png",
+        "group": "Russia",
+        "url": "https://player.smotrim.ru/iframe/stream/live_id/2961"
+    },
+    {
+        "name": "Россия-Культура Ⓢ",
+        "logo": "https://i.imgur.com/S12gaLc.png",
+        "group": "Russia",
+        "url": "https://player.smotrim.ru/iframe/stream/live_id/19201"
+    },
+    {
+        "name": "Россия-24 Ⓢ",
+        "logo": "https://i.imgur.com/tpqsFzm.png",
+        "group": "Russia",
+        "url": "https://player.smotrim.ru/iframe/stream/live_id/21"
     },
     {
         "name": "Мир",
@@ -2962,6 +3010,12 @@
         "logo": "https://i.imgur.com/GvqbLZB.png",
         "group": "Business",
         "url": "https://amogonetworx-moconomy-2-us.tcl.wurl.tv/playlist.m3u8"
+    },
+    {
+        "name": "France 24 Español Ⓨ",
+        "logo": "https://i.imgur.com/61MSiq9.png",
+        "group": "News (ES)",
+        "url": "https://www.youtube.com/c/FRANCE24Espanol/live"
     },
     {
         "name": "DW Español Ⓢ",
@@ -7830,6 +7884,12 @@
         "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8"
     },
     {
+        "name": "Channel 1",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
+        "group": "Bangla",
+        "url": "https://sm-monirul.top/@monirul_Islam_SM/akash/stream.php?id=channel_1&formet=.m3u8"
+    },
+    {
         "name": "Somoy TV",
         "logo": "https://assets-prod.services.toffeelive.com//Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
         "group": "Bangla",
@@ -8056,6 +8116,12 @@
         "logo": "https://assets-prod.services.toffeelive.com/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
         "group": "Sports",
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8"
+    },
+    {
+        "name": "Star Sports Select 1 HD",
+        "logo": "https://i.postimg.cc/NMYdkKxf/1000114839.png",
+        "group": "Sports",
+        "url": "http://mag.gofast-tv.me:80/play/live.php?mac=00:1A:79:84:75:57&stream=282677&extension=m3u8"
     },
     {
         "name": "Star Sports Select 2 HD",
@@ -8454,6 +8520,12 @@
         "url": "http://103.151.60.162:2122/play/a01n/index.m3u8"
     },
     {
+        "name": "Star Jalsha HD",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png",
+        "group": "Indian Bangla",
+        "url": "http://sm-monirul.top/@monirul_Islam_SM/stream.php?id=star_jalsha&formet=.m3u8"
+    },
+    {
         "name": "Sony Aath",
         "logo": "https://assets-prod.services.toffeelive.com/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png",
         "group": "Indian Bangla",
@@ -8634,6 +8706,12 @@
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8"
     },
     {
+        "name": "Hungama",
+        "logo": "https://i.postimg.cc/7P7cYjV4/1000114968.png",
+        "group": "Kids",
+        "url": "http://line.umetop.pro:80/play/live.php?mac=00:1A:79:8F:BA:8A&stream=1097664&extension=m3u8"
+    },
+    {
         "name": "Disney",
         "logo": "https://i.postimg.cc/KzkJZV7Z/Hridoy-TV-new-channel-(16).webp",
         "group": "Kids",
@@ -8688,9 +8766,27 @@
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8"
     },
     {
+        "name": "Radio Bangla Net",
+        "logo": "https://cdn.instant.audio/images/logos/radio-bd-com/bangla-net.png",
+        "group": "FM Radio",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3563475_SC"
+    },
+    {
+        "name": "BBC Bangla",
+        "logo": "https://cdn.instant.audio/images/logos/radio-bd-com/bbc-bangla.png",
+        "group": "FM Radio",
+        "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/cellular_main_sd_abr_v2/cfs/bbc_world_service.mpd"
+    },
+    {
         "name": "Spice FM",
         "logo": "https://spicefmbd.com/logospice.png",
         "group": "FM Radio",
         "url": "https://stream.spicefmbd.com/stream.m3u8"
+    },
+    {
+        "name": "Radio Mirchi",
+        "logo": "https://m.economictimes.com/thumb/msid-71679942,width-1200,height-900,resizemode-4,imgsize-42753/radio-mirchi-agencies.jpg",
+        "group": "FM Radio",
+        "url": "https://eu8.fastcast4u.com/proxy/clyedupq?mp=%2F1?aw_0_req_lsid=2c0fae177108c9a42a7cf24878625444"
     }
 ]
