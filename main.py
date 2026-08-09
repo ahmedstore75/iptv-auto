@@ -24,7 +24,7 @@ except Exception as e:
 
 def get_clean_url(url):
     """ইউআরএল ট্রিম করা"""
-    return url.strip().split("?")[0].rstrip("/").lower()
+    return url.strip().lower()
 
 all_channels = []
 seen_urls = set()  # ইউনিক লিঙ্ক ট্র্যাক রাখার জন্য
@@ -65,7 +65,6 @@ for source in MY_CUSTOM_SOURCES:
                         stream_url = ch.get("stream_url", "").strip()
                         clean_url = get_clean_url(stream_url)
 
-                        # শুধু http/https দিয়ে শুরু হলেই অ্যালাউ করবে (m3u8 বাধ্যতামূলক নয়)
                         if stream_url.startswith("http"):
                             if clean_url not in seen_urls:
                                 seen_urls.add(clean_url)
@@ -79,12 +78,19 @@ for source in MY_CUSTOM_SOURCES:
                     line = lines[i].strip()
                     if line.startswith("#EXTINF"):
                         metadata = line
-                        if i + 1 < len(lines):
-                            stream_url = lines[i + 1].strip()
-                            clean_url = get_clean_url(stream_url)
+                        
+                        # #EXTINF এর পর পরবর্তী মূল http/https লিঙ্ক খুঁজে বের করার লজিক
+                        j = i + 1
+                        while j < len(lines):
+                            next_line = lines[j].strip()
+                            # যদি মাঝখানে অন্য কোনো #EXTINF চলে আসে, তবে লুপ থামবে
+                            if next_line.startswith("#EXTINF"):
+                                break
+                            # আসল লিঙ্ক খুঁজে পেলে প্রসেস করবে
+                            if next_line.startswith("http://") or next_line.startswith("https://"):
+                                stream_url = next_line
+                                clean_url = get_clean_url(stream_url)
 
-                            # শুধু http/https দিয়ে শুরু হলেই অ্যালাউ করবে (m3u8 বাধ্যতামূলক নয়)
-                            if stream_url.startswith("http"):
                                 if clean_url not in seen_urls:
                                     seen_urls.add(clean_url)
 
@@ -97,7 +103,9 @@ for source in MY_CUSTOM_SOURCES:
                                         metadata = metadata.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}"')
 
                                     all_channels.append((category_name, metadata, stream_url))
-                            i += 1
+                                i = j  # পয়েন্টার লিঙ্কের লাইনে নিয়ে যাওয়া হলো
+                                break
+                            j += 1
                     i += 1
     except Exception as e:
         print(f"Error reading source ({src_url}): {e}")
