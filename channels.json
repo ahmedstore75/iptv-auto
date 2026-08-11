@@ -15,7 +15,7 @@
         "name": "Jamuna TV",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
         "group": "News",
-        "url": "https://iptvlive-beta.vercel.app/jamuna-tv/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8"
     },
     {
         "name": "DBC News HD",
@@ -33,7 +33,7 @@
         "name": "NTV",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
         "group": "Entertainment",
-        "url": "https://iptvlive-beta.vercel.app/ntv/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8"
     },
     {
         "name": "Channel 1",
@@ -105,7 +105,7 @@
         "name": "BTV Shangshad",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png",
         "group": "News",
-        "url": "https://iptvlive-beta.vercel.app/btv/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8"
     },
     {
         "name": "SOMOY TV",
@@ -117,25 +117,25 @@
         "name": "DURONTO TV",
         "logo": "https://s3.aynaott.com/storage/1d3d06e02fc9ba45a990b65aebd04ebc",
         "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=duronto_tv&format=.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8"
     },
     {
         "name": "BIJOY TV",
         "logo": "https://s3.aynaott.com/storage/589934eb6a1c264a0ee6bf6d82fad81c",
         "group": "Bangla",
-        "url": "https://iptvlive-beta.vercel.app/bijoy-tv/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/bijoy-tv/index.m3u8"
     },
     {
         "name": "BOISHAKHI TV",
         "logo": "https://s3.aynaott.com/storage/ec66cdf9538da75b08112f9ae2f151bc",
         "group": "Bangla",
-        "url": "https://iptvlive-beta.vercel.app/boishakhi-tv/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/boishakhi-tv/index.m3u8"
     },
     {
         "name": "ATN BANGLA",
         "logo": "https://s3.aynaott.com/storage/a4d2bbdb65b4abc239eaddedda1e5d22",
         "group": "Bangla",
-        "url": "https://iptvlive-beta.vercel.app/atn-bangla/index.m3u8"
+        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8"
     },
     {
         "name": "RTV",
