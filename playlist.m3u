@@ -2,8 +2,8 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-08-11 19:46:12 (BD Time)
-# 📺 Channels Count: 2506
+# 🕒 Last Updated: 2026-08-11 20:47:01 (BD Time)
+# 📺 Channels Count: 2507
 # 🔒 Usage: Personal / Educational
 #=================================
 
@@ -26,7 +26,7 @@ https://mtv.sunplex.live/MAASRANGA/index.m3u8
 #EXTINF:-1 tvg-id="102" tvg-name="Ekattor HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png" group-title="News",Ekattor HD
 https://iptv-proxy.ahmed-bd-org.workers.dev/ekattor-tv/index.m3u8
 #EXTINF:-1 tvg-id="94" tvg-name="Channel 24 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" group-title="News",Channel 24 HD
-https://stream.ottplus.live/live/channel_24_abr/index.m3u8
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-24/index.m3u8
 #EXTINF:-1 tvg-id="93" tvg-name="ATN News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" group-title="News",ATN News
 https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
 #EXTINF:-1 tvg-id="186" tvg-name="News 24 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png" group-title="News",News 24 HD
@@ -36,7 +36,7 @@ https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
 #EXTINF:-1 tvg-id="134" tvg-name="Deepto TV HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png" group-title="Entertainment",Deepto TV HD
 https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 #EXTINF:-1 tvg-id="188" tvg-name="Channel 9 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="Entertainment",Channel 9 HD
-http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=channel_9&format=.m3u8
+https://iptv-proxy.ahmed-bd-org.workers.dev/channel-9/index.m3u8
 #EXTINF:-1 tvg-id="132" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Entertainment",Channel I HD
 https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
@@ -4765,6 +4765,8 @@ https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
 http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="Bangla",Channel 1
 https://sm-monirul.top/@monirul_Islam_SM/akash/stream.php?id=channel_1&formet=.m3u8
+#EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" group-title="Bangla",Channel 24 HD
+https://stream.ottplus.live/live/channel_24_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="Bangla",Star News
 https://sm-monirul.top/@monirul_Islam_SM/akash/stream.php?id=star_news&formet=.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png" group-title="Bangla",Deepto TV HD
