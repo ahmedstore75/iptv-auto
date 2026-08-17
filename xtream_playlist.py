@@ -1,7 +1,6 @@
 import re
 import urllib.request
 import time
-import gzip
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
@@ -34,10 +33,36 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
             else:
                 raise e
 
+def filter_live_channels(content):
+    """কেবলমাত্র লাইভ চ্যানেল ফিল্টার করে ফাইল সাইজ ১০০ MB এর নিচে রাখার জন্য"""
+    lines = content.splitlines()
+    filtered_lines = ["#EXTM3U"]
+    
+    current_extinf = ""
+    for line in lines:
+        line_str = line.strip()
+        if not line_str or line_str.startswith("#EXTM3U"):
+            continue
+            
+        if line_str.startswith("#EXTINF:"):
+            current_extinf = line_str
+        elif not line_str.startswith("#") and current_extinf:
+            # VOD/Movie/Series বাদ দিয়ে কেবল Live লিঙ্ক যুক্ত করা
+            if "/movie/" not in line_str and "/series/" not in line_str:
+                filtered_lines.append(current_extinf)
+                filtered_lines.append(line_str)
+            current_extinf = ""
+            
+    return "\n".join(filtered_lines)
+
 def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
 
+        # ১. লাইভ টিভি চ্যানেল ফিল্টার
+        live_content = filter_live_channels(content)
+
+        # ২. ক্লাউডফ্লেয়ার ওয়ার্কার লিঙ্ক দিয়ে রিপ্লেস করা
         pattern = re.compile(
             rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9]+)(\.m3u8|\.ts)?"
         )
@@ -47,20 +72,19 @@ def fetch_and_generate():
             ext = match.group(2) if match.group(2) else ".m3u8"
             return f"{WORKER_DOMAIN}/{stream_id}{ext}"
 
-        updated_m3u = pattern.sub(replace_url, content)
+        updated_m3u = pattern.sub(replace_url, live_content)
 
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Playlist X\n# ⏰ BD Updated time: {bd_time}\n"
-        if updated_m3u.startswith("#EXTM3U"):
-            updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
+        header_comment = f"# 📦 Playlist X (Live TV)\n# ⏰ BD Updated time: {bd_time}\n"
+        updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
-        # ১. কমপ্রেসড .gz ফাইল সেভ করা (কম সাইজের জন্য)
-        with gzip.open("playlist_x.m3u.gz", "wt", encoding="utf-8") as f:
+        # সরাসরি playlist_x.m3u ফাইলে সেভ করা
+        with open("playlist_x.m3u", "w", encoding="utf-8") as f:
             f.write(updated_m3u)
 
-        print(f"✅ Playlist X (.m3u.gz) generated successfully at {bd_time}")
+        print(f"✅ playlist_x.m3u generated successfully at {bd_time}")
 
     except Exception as e:
         print(f"❌ Error fetching playlist: {e}")
