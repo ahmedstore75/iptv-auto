@@ -18,10 +18,11 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# নির্দিষ্ট দেশগুলোর কি-ওয়ার্ড রেজিস্ট্রি
-COUNTRY_PATTERN = re.compile(
-    r'(?i)\b(BD|BANGLADESH|BANGLA|IN|INDIA|INDIAN|PK|PAKISTAN|PAK|US|USA|UNITED\s*STATES|ZA|SOUTH\s*AFRICA|AU|AUSTRALIA)\b'
-)
+# Regex ফিল্টারিং প্যাটার্ন
+BD_PATTERN = re.compile(r'(?i)\b(BD|BANGLADESH|BANGLA)\b')
+IN_PATTERN = re.compile(r'(?i)\b(IN|INDIA|INDIAN)\b')
+IN_GENRE_PATTERN = re.compile(r'(?i)(MOVIE|MOVIES|CINEMA|FILM|MUSIC|GANA|SONG|SPORT|SPORTS|CRICKET|FOOTBALL)')
+SPORTS_PATTERN = re.compile(r'(?i)(SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|RACING|GOLF|TENNIS)')
 
 def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
     for attempt in range(1, retries + 1):
@@ -38,8 +39,12 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
             else:
                 raise e
 
-def filter_selected_countries(content):
-    """কেবলমাত্র নির্বাচিত ৬টি দেশের লাইভ চ্যানেল ফিল্টার করার ফাংশন"""
+def filter_requested_channels(content):
+    """
+    ১. বাংলাদেশের সকল চ্যানেল
+    ২. ইন্ডিয়ার মুভি, মিউজিক ও স্পোর্টস চ্যানেল
+    ৩. সকল দেশের স্পোর্টস চ্যানেল (PK, USA, NZ, AU, World Sports)
+    """
     lines = content.splitlines()
     filtered_lines = ["#EXTM3U"]
     
@@ -54,52 +59,54 @@ def filter_selected_countries(content):
         if line_str.startswith("#EXTINF:"):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
-            # ১. মুভি এবং সিরিজ পুরোপুরি ফিল্টার আউট
+            # VOD/Movie/Series ডিরেক্ট বাদ
             is_vod = "/movie/" in line_str or "/series/" in line_str
             
-            # ২. শুধুমাত্র নির্বাচিত দেশের মেটাডেটা ম্যাচ করা
-            is_country_match = bool(COUNTRY_PATTERN.search(current_extinf))
-            
-            if not is_vod and is_country_match:
-                filtered_lines.append(current_extinf)
-                filtered_lines.append(line_str)
-                added_count += 1
+            if not is_vod:
+                is_bd = bool(BD_PATTERN.search(current_extinf))
+                is_india_targeted = bool(IN_PATTERN.search(current_extinf)) and bool(IN_GENRE_PATTERN.search(current_extinf))
+                is_sports = bool(SPORTS_PATTERN.search(current_extinf))
+                
+                # নির্বাচিত ক্যাটাগরি ম্যাচ করলে যুক্ত হবে
+                if is_bd or is_india_targeted or is_sports:
+                    filtered_lines.append(current_extinf)
+                    filtered_lines.append(line_str)
+                    added_count += 1
                 
             current_extinf = ""
             
-    print(f"📊 Filtered {added_count} live channels for BD, IN, PK, US, ZA & AU.")
+    print(f"📊 Total {added_count} custom channels filtered.")
     return "\n".join(filtered_lines)
 
 def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
 
-        # নির্বাচিত দেশের লাইভ টিভি চ্যানেল ফিল্টার
-        filtered_content = filter_selected_countries(content)
+        # ১. ফিল্টারিং প্রয়োগ
+        filtered_content = filter_requested_channels(content)
 
-        # ক্লাউডফ্লেয়ার ওয়ার্কার লিঙ্ক দিয়ে রিপ্লেস করা
+        # ২. লিঙ্ক রূপান্তর: WORKER_DOMAIN/stream_id/index.m3u8
         pattern = re.compile(
-            rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9]+)(\.m3u8|\.ts)?"
+            rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9a-zA-Z_-]+)(\.m3u8|\.ts)?"
         )
         
         def replace_url(match):
             stream_id = match.group(1)
-            ext = match.group(2) if match.group(2) else ".m3u8"
-            return f"{WORKER_DOMAIN}/{stream_id}{ext}"
+            return f"{WORKER_DOMAIN}/{stream_id}/index.m3u8"
 
         updated_m3u = pattern.sub(replace_url, filtered_content)
 
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Playlist X (Selected Live Countries)\n# ⏰ BD Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Custom Filtered Playlist X\n# ⏰ BD Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         # playlist_x.m3u ফাইলে সেভ করা
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
             f.write(updated_m3u)
 
-        print(f"✅ playlist_x.m3u updated successfully at {bd_time}")
+        print(f"✅ playlist_x.m3u generated successfully at {bd_time}")
 
     except Exception as e:
         print(f"❌ Error fetching playlist: {e}")
