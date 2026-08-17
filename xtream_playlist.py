@@ -10,7 +10,7 @@ PASSWORD = "5787654467"
 # Xtream Codes M3U Download URL
 M3U_SOURCE_URL = f"{BASE_URL}/get.php?username={USERNAME}&password={PASSWORD}&type=m3u_plus&output=m3u8"
 
-# আপনার নতুন ক্লাউডফ্লেয়ার ওয়ার্কারের ডোমেইন URL
+# ক্লাউডফ্লেয়ার ওয়ার্কারের ডোমেইন URL
 WORKER_DOMAIN = "https://saiptvlive.ahmed-bd-org.workers.dev"
 
 HEADERS = {
@@ -24,7 +24,6 @@ def fetch_and_generate():
         with urllib.request.urlopen(req, timeout=30) as response:
             content = response.read().decode('utf-8', errors='ignore')
 
-        # মূল Xtream URL থেকে কেটে আপনার নতুন Cloudflare Worker এর URL দিয়ে রিপ্লেস করা
         pattern = re.compile(
             rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9]+)(\.m3u8|\.ts)?"
         )
@@ -36,7 +35,6 @@ def fetch_and_generate():
 
         updated_m3u = pattern.sub(replace_url, content)
 
-        # বাংলাদেশ সময় অনুযায়ী টাইমস্ট্যাম্প যোগ করা
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
