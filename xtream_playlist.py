@@ -18,34 +18,25 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 🇧🇩 ১. বাংলাদেশ জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল
-BD_POPULAR = re.compile(
-    r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|ATN\s*NEWS|SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|DEEPTO|GAZI\s*TV|GTV|T\s*SPORTS|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|CHANNEL\s*24|NEWS24|BIJOY|DESH\s*TV|SA\s*TV|DURANTO|NEXUS)'
-)
+# 📌 চ্যানেল প্যাটার্ন ও গ্রুপ টাইটেল ডেফিনিশন (নির্দিষ্ট ক্যাটাগরি অনুযায়ী)
+BANGLA_NEWS_PAT = re.compile(r'(?i)(SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|CHANNEL\s*24|NEWS24|ATN\s*NEWS)')
+BANGLA_KIDS_PAT = re.compile(r'(?i)(DURANTO)')
+BANGLA_ENT_PAT = re.compile(r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|DEEPTO|GAZI\s*TV|GTV|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|BIJOY|DESH\s*TV|SA\s*TV|NEXUS|\bBD\b|\bBANGLA\b|\bBANGLADESH\b)')
+INDIAN_BANGLA_PAT = re.compile(r'(?i)(STAR\s*JALSHA|ZEE\s*BANGLA|COLORS\s*BANGLA|ABP\s*ANANDA|ZEE\s*24\s*GHANTA)')
 
-# 🇮🇳 ২. ইন্ডিয়া জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল
-IN_POPULAR = re.compile(
-    r'(?i)(STAR\s*PLUS|STAR\s*JALSHA|ZEE\s*TV|ZEE\s*BANGLA|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|COLORS\s*BANGLA|SUN\s*TV|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|AAJ\s*TAK|NDTV|REPUBLIC|ABP\s*ANANDA|ZEE\s*24\s*GHANTA|NEWS18|9XM|MTV)'
-)
+SPORTS_PAT = re.compile(r'(?i)(T\s*SPORTS|SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|PTV\s*SPORTS|GEO\s*SUPER)')
 
-# 🇵🇰 ৩. পাকিস্তান জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল
-PK_POPULAR = re.compile(
-    r'(?i)(GEO\s*NEWS|GEO\s*TV|GEO\s*SUPER|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|PTV\s*SPORTS|TEN\s*SPORTS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)'
-)
+INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18|9XM|MTV)')
+PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
 
-# ⚽ ৪. আন্তর্জাতিক পপুলার স্পোর্টস লাইভ চ্যানেল
-WORLD_SPORTS = re.compile(
-    r'(?i)(BEIN\s*SPORTS|SKY\s*SPORTS|SUPERSPORT|WILLOW|EUROSPORT|FOX\s*SPORTS|ASTRO\s*SUPERSPORT|DAZN\s*[0-9]|DAZN\s*1|DAZN\s*2|CANAL\+\s*SPORT|TNT\s*SPORTS|ESPN)'
-)
-
-# 🚫 STRICT SERIES / EPISODE / VOD FILTER (S01 E01, Season, Episode ফিল্টার করে বাদ দেবে)
+# 🚫 VOD / EPISODE / MOVIE FILTER
 EPISODE_VOD_PATTERN = re.compile(
     r'(?i)('
     r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01, S1 E1
     r'\bs\d{1,2}e\d{1,2}\b|'           # S01E01
     r'\bs\d{2}\b|\be\d{2}\b|'            # S01, E01
     r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01, Episode, Season
-    r'(\(\d{4}\))|'                    # (1997), (2024) ইত্যাদি সাল ব্র্যাকেটে
+    r'(\(\d{4}\))|'                    # (1997), (2024) ইত্যাদি সাল
     r'MOVIE|MOVIES|CINEMA|FILM|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES'
     r')'
 )
@@ -75,17 +66,33 @@ def normalize_channel_name(extinf_line):
     name = re.sub(r'[^a-z0-9]', '', name)
     return name
 
+def set_group_title(extinf_line, group_name):
+    """গ্রুপ টাইটেল স্বয়ংক্রিয়ভাবে নির্দিষ্ট বা পরিবর্তন করার ফাংশন"""
+    if 'group-title="' in extinf_line:
+        return re.sub(r'group-title="[^"]*"', f'group-title="{group_name}"', extinf_line)
+    else:
+        if ',' in extinf_line:
+            header, channel_name = extinf_line.split(',', 1)
+            return f'{header} group-title="{group_name}",{channel_name}'
+        return f'{extinf_line} group-title="{group_name}"'
+
 def filter_requested_channels(content):
     lines = content.splitlines()
     
-    bd_lines = []
-    in_lines = []
-    pk_lines = []
-    other_sports_lines = []
+    # নির্দিষ্ট গ্রুপ ক্যাটাগরি অনুযায়ী বাকেট
+    groups = {
+        "BANGLA NEWS": [],
+        "BANGLA ENTERTAINMENT": [],
+        "BANGLA KIDS": [],
+        "INDIAN BANGLA": [],
+        "SPORTS LIVE": [],
+        "INDIAN HINDI": [],
+        "PAKISTANI TV": [],
+        "OTHERS LIVE TV": []
+    }
     
     seen_urls = set()
     seen_channel_names = set()
-    
     current_extinf = ""
     
     for line in lines:
@@ -97,60 +104,72 @@ def filter_requested_channels(content):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
             
-            # ১. লিঙ্কটি যদি সিরিজ (/series/) বা মুভির (/movie/) ভিডিও লিঙ্ক হয়
+            # ১. ভিওডি/সিরিজ লিংক বাদ
             if "/series/" in line_str or "/movie/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi')):
                 current_extinf = ""
                 continue
 
-            # ২. নামের মধ্যে S01, E01, Season, Episode, বা সাল থাকলে ব্লক
+            # ২. এপিসোড/সাল/১৮+ ফিল্টার
             if EPISODE_VOD_PATTERN.search(current_extinf) or EPISODE_VOD_PATTERN.search(line_str):
                 current_extinf = ""
                 continue
 
-            # ৩. ডুপ্লিকেট চ্যানেল বাদ দেওয়া
+            # ৩. ডুপ্লিকেট চ্যানেল চেক
             channel_key = normalize_channel_name(current_extinf)
             if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 current_extinf = ""
                 continue
                 
-            # ৪. শুধুমাত্র আসল লাইভ স্যাটেলাইট টিভি চ্যানেল ম্যাচিং
-            is_bd = bool(BD_POPULAR.search(current_extinf))
-            is_in = bool(IN_POPULAR.search(current_extinf))
-            is_pk = bool(PK_POPULAR.search(current_extinf))
-            is_sports = bool(WORLD_SPORTS.search(current_extinf))
+            # ৪. স্বয়ংক্রিয় গ্রুপ সনাক্তকরণ
+            target_group = None
             
-            added = False
-            
-            if is_bd:
-                bd_lines.extend([current_extinf, line_str])
-                added = True
-            elif is_in:
-                in_lines.extend([current_extinf, line_str])
-                added = True
-            elif is_pk:
-                pk_lines.extend([current_extinf, line_str])
-                added = True
-            elif is_sports:
-                other_sports_lines.extend([current_extinf, line_str])
-                added = True
-            
-            if added:
+            if SPORTS_PAT.search(current_extinf):
+                target_group = "SPORTS LIVE"
+            elif BANGLA_NEWS_PAT.search(current_extinf):
+                target_group = "BANGLA NEWS"
+            elif BANGLA_KIDS_PAT.search(current_extinf):
+                target_group = "BANGLA KIDS"
+            elif INDIAN_BANGLA_PAT.search(current_extinf):
+                target_group = "INDIAN BANGLA"
+            elif BANGLA_ENT_PAT.search(current_extinf):
+                target_group = "BANGLA ENTERTAINMENT"
+            elif INDIAN_HINDI_PAT.search(current_extinf):
+                target_group = "INDIAN HINDI"
+            elif PAKISTANI_PAT.search(current_extinf):
+                target_group = "PAKISTANI TV"
+                
+            if target_group:
+                updated_extinf = set_group_title(current_extinf, target_group)
+                groups[target_group].extend([updated_extinf, line_str])
+                
                 seen_urls.add(line_str)
                 if channel_key:
                     seen_channel_names.add(channel_key)
                 
             current_extinf = ""
-            
-    total_added = len(seen_urls)
-    print(f"📊 Filtering Summary (Pure Live TV Only):")
-    print(f"   - ✅ Total Live Channels Added: {total_added}")
-    print(f"   - 🇧🇩 Live BD Satellite Channels: {len(bd_lines)//2}")
-    print(f"   - 🇮🇳 Live IN Satellite Channels: {len(in_lines)//2}")
-    print(f"   - 🇵🇰 Live PK Satellite Channels: {len(pk_lines)//2}")
-    print(f"   - ⚽ World Sports Live Channels: {len(other_sports_lines)//2}")
 
-    filtered_lines = ["#EXTM3U"] + bd_lines + in_lines + pk_lines + other_sports_lines
-    return "\n".join(filtered_lines)
+    # 📌 ক্রম ঠিক রাখা: ১. সমস্ত বাংলা ক্যাটাগরি -> ২. স্পোর্টস -> ৩. ইন্ডিয়ান হিন্দি/পাকিস্তান
+    ordered_lines = ["#EXTM3U"]
+    category_order = [
+        "BANGLA NEWS",
+        "BANGLA ENTERTAINMENT",
+        "BANGLA KIDS",
+        "INDIAN BANGLA",
+        "SPORTS LIVE",
+        "INDIAN HINDI",
+        "PAKISTANI TV"
+    ]
+    
+    total_added = 0
+    print("📊 Auto Grouping Summary:")
+    for cat in category_order:
+        count = len(groups[cat]) // 2
+        total_added += count
+        print(f"   - 📁 {cat}: {count} channels")
+        ordered_lines.extend(groups[cat])
+
+    print(f"✅ Total Pure Live Channels Saved: {total_added}")
+    return "\n".join(ordered_lines)
 
 def fetch_and_generate():
     try:
@@ -175,7 +194,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Pure Live Satellite TV Playlist (No Series / No Episodes)\n# ⏰ Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Auto-Categorized Live Satellite TV Playlist\n# ⏰ Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
