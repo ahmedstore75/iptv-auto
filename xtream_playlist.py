@@ -21,6 +21,7 @@ HEADERS = {
 # Regex ফিল্টারিং প্যাটার্ন
 BD_PATTERN = re.compile(r'(?i)\b(BD|BANGLADESH|BANGLA)\b')
 IN_PATTERN = re.compile(r'(?i)\b(IN|INDIA|INDIAN)\b')
+PK_PATTERN = re.compile(r'(?i)\b(PK|PAK|PAKISTAN|PAKISTANI)\b')
 IN_GENRE_PATTERN = re.compile(r'(?i)(MOVIE|MOVIES|CINEMA|FILM|MUSIC|GANA|SONG|SPORT|SPORTS|CRICKET|FOOTBALL)')
 SPORTS_PATTERN = re.compile(r'(?i)(SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|RACING|GOLF|TENNIS)')
 
@@ -41,15 +42,20 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
 
 def filter_requested_channels(content):
     """
-    ১. বাংলাদেশের সকল চ্যানেল
-    ২. ইন্ডিয়ার মুভি, মিউজিক ও স্পোর্টস চ্যানেল
-    ৩. সকল দেশের স্পোর্টস চ্যানেল (PK, USA, NZ, AU, World Sports)
+    ধারাবাহিকতা:
+    ১. বাংলাদেশ (BD)
+    ২. ইন্ডিয়া (IN - Movies, Music, Sports)
+    ৩. পাকিস্তান (PK)
+    ৪. অন্যান্য স্পোর্টস (World Sports)
     """
     lines = content.splitlines()
-    filtered_lines = ["#EXTM3U"]
+    
+    bd_lines = []
+    in_lines = []
+    pk_lines = []
+    other_sports_lines = []
     
     current_extinf = ""
-    added_count = 0
     
     for line in lines:
         line_str = line.strip()
@@ -59,30 +65,43 @@ def filter_requested_channels(content):
         if line_str.startswith("#EXTINF:"):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
-            # VOD/Movie/Series ডিরেক্ট বাদ
+            # VOD/Movie/Series বাদ
             is_vod = "/movie/" in line_str or "/series/" in line_str
             
             if not is_vod:
                 is_bd = bool(BD_PATTERN.search(current_extinf))
-                is_india_targeted = bool(IN_PATTERN.search(current_extinf)) and bool(IN_GENRE_PATTERN.search(current_extinf))
+                is_in = bool(IN_PATTERN.search(current_extinf)) and bool(IN_GENRE_PATTERN.search(current_extinf))
+                is_pk = bool(PK_PATTERN.search(current_extinf))
                 is_sports = bool(SPORTS_PATTERN.search(current_extinf))
                 
-                # নির্বাচিত ক্যাটাগরি ম্যাচ করলে যুক্ত হবে
-                if is_bd or is_india_targeted or is_sports:
-                    filtered_lines.append(current_extinf)
-                    filtered_lines.append(line_str)
-                    added_count += 1
+                # অগ্রাধিকার অনুযায়ী আলাদা লিস্টে সংরক্ষণ
+                if is_bd:
+                    bd_lines.extend([current_extinf, line_str])
+                elif is_in:
+                    in_lines.extend([current_extinf, line_str])
+                elif is_pk:
+                    pk_lines.extend([current_extinf, line_str])
+                elif is_sports:
+                    other_sports_lines.extend([current_extinf, line_str])
                 
             current_extinf = ""
             
-    print(f"📊 Total {added_count} custom channels filtered.")
+    total_added = (len(bd_lines) + len(in_lines) + len(pk_lines) + len(other_sports_lines)) // 2
+    print(f"📊 Total {total_added} custom channels filtered.")
+    print(f"   - 🇧🇩 BD Channels: {len(bd_lines)//2}")
+    print(f"   - 🇮🇳 IN Channels: {len(in_lines)//2}")
+    print(f"   - 🇵🇰 PK Channels: {len(pk_lines)//2}")
+    print(f"   - ⚽ Other Sports: {len(other_sports_lines)//2}")
+
+    # ক্রমানুসারে সাজিয়ে একত্রিত করা
+    filtered_lines = ["#EXTM3U"] + bd_lines + in_lines + pk_lines + other_sports_lines
     return "\n".join(filtered_lines)
 
 def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
 
-        # ১. ফিল্টারিং প্রয়োগ
+        # ১. ফিল্টারিং ও সাজানো
         filtered_content = filter_requested_channels(content)
 
         # ২. লিঙ্ক রূপান্তর: WORKER_DOMAIN/stream_id/index.m3u8
@@ -99,7 +118,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Custom Filtered Playlist X\n# ⏰ BD Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Custom Sorted Playlist X\n# ⏰ BD Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         # playlist_x.m3u ফাইলে সেভ করা
