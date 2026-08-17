@@ -40,11 +40,6 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
                 raise e
 
 def filter_requested_channels(content):
-    """
-    ১. বাংলাদেশের সকল চ্যানেল
-    ২. ইন্ডিয়ার মুভি, মিউজিক ও স্পোর্টস চ্যানেল
-    ৩. সকল দেশের স্পোর্টস চ্যানেল (PK, USA, NZ, AU, World Sports)
-    """
     lines = content.splitlines()
     filtered_lines = ["#EXTM3U"]
     
@@ -59,7 +54,6 @@ def filter_requested_channels(content):
         if line_str.startswith("#EXTINF:"):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
-            # VOD/Movie/Series ডিরেক্ট বাদ
             is_vod = "/movie/" in line_str or "/series/" in line_str
             
             if not is_vod:
@@ -67,7 +61,6 @@ def filter_requested_channels(content):
                 is_india_targeted = bool(IN_PATTERN.search(current_extinf)) and bool(IN_GENRE_PATTERN.search(current_extinf))
                 is_sports = bool(SPORTS_PATTERN.search(current_extinf))
                 
-                # নির্বাচিত ক্যাটাগরি ম্যাচ করলে যুক্ত হবে
                 if is_bd or is_india_targeted or is_sports:
                     filtered_lines.append(current_extinf)
                     filtered_lines.append(line_str)
@@ -85,14 +78,14 @@ def fetch_and_generate():
         # ১. ফিল্টারিং প্রয়োগ
         filtered_content = filter_requested_channels(content)
 
-        # ২. লিঙ্ক রূপান্তর: WORKER_DOMAIN/stream_id/index.m3u8
-        pattern = re.compile(
-            rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9a-zA-Z_-]+)(\.m3u8|\.ts)?"
-        )
+        # ২. ডাইনামিক হ্যাশ/টোকেন সহ যেকোনো লিঙ্ক রূপান্তর: WORKER_DOMAIN/<token>/index.m3u8
+        pattern = re.compile(rf"{re.escape(BASE_URL)}/([^\s\n\r]+)")
         
         def replace_url(match):
-            stream_id = match.group(1)
-            return f"{WORKER_DOMAIN}/{stream_id}/index.m3u8"
+            stream_path = match.group(1).rstrip('/')
+            # এক্সটেনশন থাকলে তা ক্লিন করে শেষে /index.m3u8 যোগ করা
+            clean_path = re.sub(r'(\.m3u8|\.ts)$', '', stream_path)
+            return f"{WORKER_DOMAIN}/{clean_path}/index.m3u8"
 
         updated_m3u = pattern.sub(replace_url, filtered_content)
 
