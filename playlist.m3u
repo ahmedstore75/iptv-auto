@@ -2,8 +2,8 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-08-17 16:52:10 (BD Time)
-# 📺 Channels Count: 2508
+# 🕒 Last Updated: 2026-08-17 17:43:59 (BD Time)
+# 📺 Channels Count: 2510
 # 🔒 Usage: Personal / Educational
 #=================================
 
@@ -4791,20 +4791,22 @@ https://www.tbn24.com/live-tv-stream/20201_0.m3u8
 http://66.102.126.10:8000/play/a021/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2017/10/iontvuk.jpg?x49520" group-title="Bangla",iON TV UK
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iontvuk.stream/live-orgin/iontvuk.stream/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg" group-title="Bangla",Asian TV
+https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png" group-title="Bangla",Global TV
 https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBhxAik9rvkpRV33kdDl-2drT2X3Y2cU_-lrjlMpmIxzBAGCN50afZnqx8vvxgmbaTVZmYITeOyTW1Fg_CAItfNfgRwsrTcxaB1pecb0Z74oky6LcgXFGIAOz8w8IijqMpMo4dUJ8aMsAF4A0x9Xwt57UCZYxhtEpRfOdqTzmfwVjICILOqg9QPbOFww/s1080/1000021053.png" group-title="Bangla",Ayna TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png" group-title="Bangla",Ananda TV
 https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBN1BtXk/20251127_095813.png" group-title="Bangla",Movie Bangla
+https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HxGF4V2b/20250529_103226.png" group-title="Bangla",MY TV
+https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png" group-title="Bangla",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 tvg-logo="https://probashinews24.tv/images/logo.png" group-title="Bangla",Probashi TV
-http://158.69.24.53:8080/probashi_tv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/4xNGSNQS/1000115146.jpg" group-title="Bangla",News 24 BD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d3/Nexus_Television_Logo.png" group-title="Bangla",NEXUS TV
-https://stream.ottplus.live/live/nexus_tv_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/gjyb24hM/1000115063.jpg" group-title="Bangla",Nagorik TV
 https://flussonic.defineatoz.com/backup/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png" group-title="Bangla",Ekattor TV
@@ -4941,6 +4943,8 @@ http://live.balajibroadband.com:3500/live/1763.m3u8
 http://live.balajibroadband.com:3500/live/1450.m3u8
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Hindi",StarPlus HD
 https://yowaimo.in/Sflex-ArtlPVT0719/STAR_PLUS_HD.m3u8
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="Live Action",Nexus TV
+https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1zDXYnMT/1000115107.png" group-title="Indian Bangla",Zee Bangla HD
 https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Indian Bangla",Star Jalsha HD

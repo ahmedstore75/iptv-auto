@@ -14352,6 +14352,12 @@
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iontvuk.stream/live-orgin/iontvuk.stream/chunks.m3u8"
     },
     {
+        "name": "Asian TV",
+        "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8"
+    },
+    {
         "name": "Global TV",
         "logo": "https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
         "group": "Bangla",
@@ -14370,28 +14376,28 @@
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8"
     },
     {
+        "name": "Movie Bangla",
+        "logo": "https://i.postimg.cc/wBN1BtXk/20251127_095813.png",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8"
+    },
+    {
+        "name": "MY TV",
+        "logo": "https://i.postimg.cc/HxGF4V2b/20250529_103226.png",
+        "group": "Bangla",
+        "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8"
+    },
+    {
         "name": "Ekushey TV",
         "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png",
         "group": "Bangla",
         "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8"
     },
     {
-        "name": "Probashi TV",
-        "logo": "https://probashinews24.tv/images/logo.png",
-        "group": "Bangla",
-        "url": "http://158.69.24.53:8080/probashi_tv/tracks-v1a1/mono.m3u8"
-    },
-    {
         "name": "News 24 BD",
         "logo": "https://i.postimg.cc/4xNGSNQS/1000115146.jpg",
         "group": "Bangla",
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
-    },
-    {
-        "name": "NEXUS TV",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/d/d3/Nexus_Television_Logo.png",
-        "group": "Bangla",
-        "url": "https://stream.ottplus.live/live/nexus_tv_abr/index.m3u8"
     },
     {
         "name": "Nagorik TV",
@@ -14800,6 +14806,12 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png",
         "group": "Hindi",
         "url": "https://yowaimo.in/Sflex-ArtlPVT0719/STAR_PLUS_HD.m3u8"
+    },
+    {
+        "name": "Nexus TV",
+        "logo": "https://assets-prod.services.toffeelive.com/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png",
+        "group": "Live Action",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8"
     },
     {
         "name": "Zee Bangla HD",
