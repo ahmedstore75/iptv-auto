@@ -18,17 +18,22 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# Regex ফিল্টারিং প্যাটার্ন
+# Country Patterns
 BD_PATTERN = re.compile(r'(?i)\b(BD|BANGLADESH|BANGLA)\b')
 IN_PATTERN = re.compile(r'(?i)\b(IN|INDIA|INDIAN)\b')
 PK_PATTERN = re.compile(r'(?i)\b(PK|PAK|PAKISTAN|PAKISTANI)\b')
 
-# শুধু জনপ্রিয় লাইভ টিভি নেটওয়ার্ক (মুভি বা ভিওডি বাদ)
-POPULAR_NETWORKS = re.compile(
-    r'(?i)(STAR|ZEE|SONY|COLORS|SUN|SAB|COLOURS|ARY|GEO|HUM|PTV|EXPRESS|DUNYA|SAMAA|NEWS|MUSIC|GANA|SONG|DRAMA)'
+# 🚫 STRICT MOVIE & VOD EXCLUSION PATTERN (মুভি সংক্রান্ত সব ফিল্টার করবে)
+MOVIE_EXCLUDE_PATTERN = re.compile(
+    r'(?i)(MOVIE|MOVIES|CINEMA|FILM|FILMS|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|HOLLYWOOD|BOLLYWOOD|PIX|SHOWTIME|BLOCKBUSTER|STUDIO|THRILL|PREMIER|BOX\s*OFFICE)'
 )
 
-# সকল স্পোর্টস চ্যানেল
+# 📺 POPULAR LIVE TV NETWORKS (শুধুমাত্র মূল লাইভ টিভি নেটওয়ার্ক)
+POPULAR_LIVE_NETWORKS = re.compile(
+    r'(?i)(STAR\s*PLUS|STAR\s*JALSHA|ZEE\s*TV|ZEE\s*BANGLA|SONY\s*SAB|SONY\s*ENTERTAINMENT|COLORS\s*TV|COLORS\s*BANGLA|SUN\s*TV|ARY\s*DIGITAL|GEO\s*TV|HUM\s*TV|PTV\s*HOME|EXPRESS|DUNYA|SAMAA|NEWS|SOMOY|JAMUNA|INDEPENDENT|ATN|NTV|RTV|CHANNEL\s*I|DEEPTO|MUSIC|GANA|SONG|DRAMA)'
+)
+
+# ⚽ SPORTS PATTERN
 SPORTS_PATTERN = re.compile(
     r'(?i)(SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|RACING|GOLF|TENNIS|PTV\s*SPORTS|GEO\s*SUPER)'
 )
@@ -48,6 +53,23 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
             else:
                 raise e
 
+def normalize_channel_name(extinf_line):
+    """
+    চ্যানেলের নাম থেকে HD, SD, FHD, 4K, BD, IN ইত্যাদি বাদ দিয়ে আসল ইউনিক নামটি বের করবে।
+    যেমন: 'BD: STAR JALSHA HD' -> 'starjalsha'
+    """
+    if ',' in extinf_line:
+        name = extinf_line.split(',')[-1]
+    else:
+        name = extinf_line
+        
+    name = name.lower()
+    # কোয়ালিটি ও ট্যাগ রিমুভ করা
+    name = re.sub(r'(?i)\b(bd|in|pk|hd|fhd|sd|4k|hevc|1080p|720p|50fps|raw|vip|backup|server\d*)\b', '', name)
+    # শুধু অক্ষর ও সংখ্যা রাখা (স্পেস বা স্পেশাল ক্যারেক্টার বাদ)
+    name = re.sub(r'[^a-z0-9]', '', name)
+    return name
+
 def filter_requested_channels(content):
     lines = content.splitlines()
     
@@ -57,8 +79,9 @@ def filter_requested_channels(content):
     other_sports_lines = []
     
     seen_urls = set()
+    seen_channel_names = set()
     duplicate_count = 0
-    vod_count = 0
+    movie_excluded_count = 0
     
     current_extinf = ""
     
@@ -70,22 +93,19 @@ def filter_requested_channels(content):
         if line_str.startswith("#EXTINF:"):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
-            # ১. ভিওডি, মুভি ও সিরিজ লিঙ্ক পুরোপুরি ফিল্টার করে বাদ দেওয়া
-            is_vod = (
-                "/movie/" in line_str 
-                or "/series/" in line_str 
-                or line_str.endswith(('.mp4', '.mkv', '.avi'))
-                or "MOVIE" in current_extinf.upper() 
-                or "CINEMA" in current_extinf.upper()
-            )
             
-            if is_vod:
-                vod_count += 1
+            # ১. মুভি, ভিওডি এবং মুভি চ্যানেল ফিল্টার করা
+            is_vod_url = "/movie/" in line_str or "/series/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi'))
+            is_movie_channel = bool(MOVIE_EXCLUDE_PATTERN.search(current_extinf))
+            
+            if is_vod_url or is_movie_channel:
+                movie_excluded_count += 1
                 current_extinf = ""
                 continue
 
-            # ২. ডুপ্লিকেট ইউআরএল ফিল্টারিং
-            if line_str in seen_urls:
+            # ২. চ্যানেল নেম ও ইউআরএল চেক করে ডুপ্লিকেট বাদ দেওয়া
+            channel_key = normalize_channel_name(current_extinf)
+            if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 duplicate_count += 1
                 current_extinf = ""
                 continue
@@ -94,40 +114,42 @@ def filter_requested_channels(content):
             is_in = bool(IN_PATTERN.search(current_extinf))
             is_pk = bool(PK_PATTERN.search(current_extinf))
             is_sports = bool(SPORTS_PATTERN.search(current_extinf))
-            is_popular = bool(POPULAR_NETWORKS.search(current_extinf))
+            is_popular = bool(POPULAR_LIVE_NETWORKS.search(current_extinf))
             
             added = False
             
-            # বাংলাদেশের জনপ্রিয় ও সকল লাইভ চ্যানেল
+            # 🇧🇩 ১. বাংলাদেশের সকল লাইভ চ্যানেল
             if is_bd:
                 bd_lines.extend([current_extinf, line_str])
                 added = True
             
-            # ইন্ডিয়ার জনপ্রিয় লাইভ চ্যানেল এবং স্পোর্টস
+            # 🇮🇳 ২. ইন্ডিয়ার জনপ্রিয় লাইভ চ্যানেল ও স্পোর্টস
             elif is_in and (is_popular or is_sports):
                 in_lines.extend([current_extinf, line_str])
                 added = True
             
-            # পাকিস্তানের জনপ্রিয় লাইভ চ্যানেল এবং স্পোর্টস
+            # 🇵🇰 ৩. পাকিস্তানের জনপ্রিয় লাইভ চ্যানেল ও স্পোর্টস
             elif is_pk and (is_popular or is_sports):
                 pk_lines.extend([current_extinf, line_str])
                 added = True
             
-            # অন্যান্য দেশের স্পোর্টস চ্যানেল
+            # ⚽ ৪. অন্যান্য দেশের স্পোর্টস চ্যানেল
             elif is_sports:
                 other_sports_lines.extend([current_extinf, line_str])
                 added = True
             
             if added:
                 seen_urls.add(line_str)
+                if channel_key:
+                    seen_channel_names.add(channel_key)
                 
             current_extinf = ""
             
     total_added = len(seen_urls)
-    print(f"📊 Filtering Summary:")
-    print(f"   - 🚫 VOD/Movies Excluded: {vod_count}")
-    print(f"   - 🔄 Duplicates Removed: {duplicate_count}")
-    print(f"   - ✅ Total Live Channels Added: {total_added}")
+    print(f"📊 Summary:")
+    print(f"   - 🚫 Movie/Cinema Channels Excluded: {movie_excluded_count}")
+    print(f"   - 🔄 Duplicates Removed (Name & URL): {duplicate_count}")
+    print(f"   - ✅ Unique Live Channels Added: {total_added}")
     print(f"   ----------------------------------")
     print(f"   - 🇧🇩 Live BD Channels: {len(bd_lines)//2}")
     print(f"   - 🇮🇳 Popular IN Live & Sports: {len(in_lines)//2}")
@@ -161,7 +183,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Live Popular Channels Only (No VOD/Movies)\n# ⏰ Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Unique Live TV Channels (No Duplicates / No Movies)\n# ⏰ Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
