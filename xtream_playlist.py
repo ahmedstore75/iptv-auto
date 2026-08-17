@@ -18,12 +18,12 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 🇧🇩 ১. বাংলাদেশ জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল (হোয়াইটলিস্ট)
+# 🇧🇩 ১. বাংলাদেশ জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল
 BD_POPULAR = re.compile(
     r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|ATN\s*NEWS|SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|DEEPTO|GAZI\s*TV|GTV|T\s*SPORTS|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|CHANNEL\s*24|NEWS24|BIJOY|DESH\s*TV|SA\s*TV|DURANTO|NEXUS)'
 )
 
-# 🇮🇳 ২. ইন্ডিয়া জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল (ড্রামা, নিউজ, মিউজিক, স্পোর্টস - নো মুভি)
+# 🇮🇳 ২. ইন্ডিয়া জনপ্রিয় স্যাটেলাইট টিভি চ্যানেল
 IN_POPULAR = re.compile(
     r'(?i)(STAR\s*PLUS|STAR\s*JALSHA|ZEE\s*TV|ZEE\s*BANGLA|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|COLORS\s*BANGLA|SUN\s*TV|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|AAJ\s*TAK|NDTV|REPUBLIC|ABP\s*ANANDA|ZEE\s*24\s*GHANTA|NEWS18|9XM|MTV)'
 )
@@ -33,14 +33,21 @@ PK_POPULAR = re.compile(
     r'(?i)(GEO\s*NEWS|GEO\s*TV|GEO\s*SUPER|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|PTV\s*SPORTS|TEN\s*SPORTS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)'
 )
 
-# ⚽ ৪. আন্তর্জাতিক পপুলার স্পোর্টস স্যাটেলাইট চ্যানেল
+# ⚽ ৪. আন্তর্জাতিক পপুলার স্পোর্টস লাইভ চ্যানেল
 WORLD_SPORTS = re.compile(
-    r'(?i)(BEIN\s*SPORTS|SKY\s*SPORTS|SUPERSPORT|WILLOW|EUROSPORT|FOX\s*SPORTS|ASTRO\s*SUPERSPORT|DAZN|CANAL\+\s*SPORT|TNT\s*SPORTS|ESPN)'
+    r'(?i)(BEIN\s*SPORTS|SKY\s*SPORTS|SUPERSPORT|WILLOW|EUROSPORT|FOX\s*SPORTS|ASTRO\s*SUPERSPORT|DAZN\s*[0-9]|DAZN\s*1|DAZN\s*2|CANAL\+\s*SPORT|TNT\s*SPORTS|ESPN)'
 )
 
-# 🚫 মুভি, এডাল্ট ও ফালতু ফোল্ডার সম্পূর্ণ ব্লক করার ফিল্টার
-HARD_BLOCK = re.compile(
-    r'(?i)(MOVIE|MOVIES|CINEMA|FILM|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES|SEASON|EPISODE|\b20[0-9]{2}\b)'
+# 🚫 STRICT SERIES / EPISODE / VOD FILTER (S01 E01, Season, Episode ফিল্টার করে বাদ দেবে)
+EPISODE_VOD_PATTERN = re.compile(
+    r'(?i)('
+    r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01, S1 E1
+    r'\bs\d{1,2}e\d{1,2}\b|'           # S01E01
+    r'\bs\d{2}\b|\be\d{2}\b|'            # S01, E01
+    r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01, Episode, Season
+    r'(\(\d{4}\))|'                    # (1997), (2024) ইত্যাদি সাল ব্র্যাকেটে
+    r'MOVIE|MOVIES|CINEMA|FILM|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES'
+    r')'
 )
 
 def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
@@ -90,22 +97,23 @@ def filter_requested_channels(content):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
             
-            # ১. মুভি/১৮+/ভিওডি ব্লক
-            if HARD_BLOCK.search(current_extinf) or HARD_BLOCK.search(line_str):
+            # ১. লিঙ্কটি যদি সিরিজ (/series/) বা মুভির (/movie/) ভিডিও লিঙ্ক হয়
+            if "/series/" in line_str or "/movie/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi')):
                 current_extinf = ""
                 continue
 
-            if "/movie/" in line_str or "/series/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi')):
+            # ২. নামের মধ্যে S01, E01, Season, Episode, বা সাল থাকলে ব্লক
+            if EPISODE_VOD_PATTERN.search(current_extinf) or EPISODE_VOD_PATTERN.search(line_str):
                 current_extinf = ""
                 continue
 
-            # ২. ডুপ্লিকেট ফিল্টার
+            # ৩. ডুপ্লিকেট চ্যানেল বাদ দেওয়া
             channel_key = normalize_channel_name(current_extinf)
             if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 current_extinf = ""
                 continue
                 
-            # ৩. হোয়াইটলিস্ট ম্যাচিং
+            # ৪. শুধুমাত্র আসল লাইভ স্যাটেলাইট টিভি চ্যানেল ম্যাচিং
             is_bd = bool(BD_POPULAR.search(current_extinf))
             is_in = bool(IN_POPULAR.search(current_extinf))
             is_pk = bool(PK_POPULAR.search(current_extinf))
@@ -134,12 +142,12 @@ def filter_requested_channels(content):
             current_extinf = ""
             
     total_added = len(seen_urls)
-    print(f"📊 Pure Popular Live TV Filter Summary:")
-    print(f"   - ✅ Total Popular Channels Added: {total_added}")
-    print(f"   - 🇧🇩 Popular BD Satellite Channels: {len(bd_lines)//2}")
-    print(f"   - 🇮🇳 Popular IN Satellite Channels: {len(in_lines)//2}")
-    print(f"   - 🇵🇰 Popular PK Satellite Channels: {len(pk_lines)//2}")
-    print(f"   - ⚽ World Sports Channels: {len(other_sports_lines)//2}")
+    print(f"📊 Filtering Summary (Pure Live TV Only):")
+    print(f"   - ✅ Total Live Channels Added: {total_added}")
+    print(f"   - 🇧🇩 Live BD Satellite Channels: {len(bd_lines)//2}")
+    print(f"   - 🇮🇳 Live IN Satellite Channels: {len(in_lines)//2}")
+    print(f"   - 🇵🇰 Live PK Satellite Channels: {len(pk_lines)//2}")
+    print(f"   - ⚽ World Sports Live Channels: {len(other_sports_lines)//2}")
 
     filtered_lines = ["#EXTM3U"] + bd_lines + in_lines + pk_lines + other_sports_lines
     return "\n".join(filtered_lines)
@@ -167,7 +175,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Popular Satellite Live TV Only\n# ⏰ Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Pure Live Satellite TV Playlist (No Series / No Episodes)\n# ⏰ Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
