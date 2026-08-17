@@ -28,8 +28,8 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        touch playlist_x.m3u
-        git add playlist_x.m3u
+        touch playlist_x.m3u.gz
+        git add playlist_x.m3u.gz
         git commit -m "🔁 Auto update Playlist X $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         git pull --rebase
         git push
