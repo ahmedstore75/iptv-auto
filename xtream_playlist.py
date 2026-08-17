@@ -1,6 +1,7 @@
 import re
 import urllib.request
 import time
+import gzip
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
@@ -19,7 +20,6 @@ HEADERS = {
 }
 
 def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
-    """৩ বার চেষ্টা করবে এবং টাইমআউট ৬০ সেকেন্ড রাখা হয়েছে"""
     for attempt in range(1, retries + 1):
         try:
             print(f"🔄 Attempt {attempt}/{retries}: Downloading playlist from Xtream server...")
@@ -56,11 +56,11 @@ def fetch_and_generate():
         if updated_m3u.startswith("#EXTM3U"):
             updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
-        # প্লেলিস্টের আউটপুট ফাইল playlist_x.m3u
-        with open("playlist_x.m3u", "w", encoding="utf-8") as f:
+        # ১. কমপ্রেসড .gz ফাইল সেভ করা (কম সাইজের জন্য)
+        with gzip.open("playlist_x.m3u.gz", "wt", encoding="utf-8") as f:
             f.write(updated_m3u)
 
-        print(f"✅ Playlist X generated successfully at {bd_time}")
+        print(f"✅ Playlist X (.m3u.gz) generated successfully at {bd_time}")
 
     except Exception as e:
         print(f"❌ Error fetching playlist: {e}")
