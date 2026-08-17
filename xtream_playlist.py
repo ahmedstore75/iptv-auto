@@ -1,5 +1,6 @@
 import re
 import urllib.request
+import time
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
@@ -14,15 +15,28 @@ M3U_SOURCE_URL = f"{BASE_URL}/get.php?username={USERNAME}&password={PASSWORD}&ty
 WORKER_DOMAIN = "https://saiptvlive.ahmed-bd-org.workers.dev"
 
 HEADERS = {
-    "User-Agent": "IPTVSmarters/3.1.5"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
+def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
+    """৩ বার চেষ্টা করবে এবং টাইমআউট ৬০ সেকেন্ড রাখা হয়েছে"""
+    for attempt in range(1, retries + 1):
+        try:
+            print(f"🔄 Attempt {attempt}/{retries}: Downloading playlist from Xtream server...")
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return response.read().decode('utf-8', errors='ignore')
+        except Exception as e:
+            print(f"⚠️ Attempt {attempt} failed: {e}")
+            if attempt < retries:
+                print(f"⏳ Waiting {delay} seconds before retrying...")
+                time.sleep(delay)
+            else:
+                raise e
+
 def fetch_and_generate():
-    print("🔄 Downloading playlist from Xtream server...")
     try:
-        req = urllib.request.Request(M3U_SOURCE_URL, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            content = response.read().decode('utf-8', errors='ignore')
+        content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
 
         pattern = re.compile(
             rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9]+)(\.m3u8|\.ts)?"
