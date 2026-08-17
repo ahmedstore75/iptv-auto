@@ -38,14 +38,15 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# ⏰ BD Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Playlist X\n# ⏰ BD Updated time: {bd_time}\n"
         if updated_m3u.startswith("#EXTM3U"):
             updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
-        with open("playlist.m3u", "w", encoding="utf-8") as f:
+        # প্লেলিস্টের আউটপুট ফাইল playlist_x.m3u
+        with open("playlist_x.m3u", "w", encoding="utf-8") as f:
             f.write(updated_m3u)
 
-        print(f"✅ Playlist generated successfully at {bd_time}")
+        print(f"✅ Playlist X generated successfully at {bd_time}")
 
     except Exception as e:
         print(f"❌ Error fetching playlist: {e}")
