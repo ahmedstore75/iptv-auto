@@ -14289,25 +14289,31 @@
         "name": "Deepto TV HD",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
         "group": "Bangla",
-        "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
     },
     {
         "name": "Channel 9 HD",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
         "group": "Bangla",
-        "url": "https://tvsen6.aynaott.com/kajlsd57jnkdf/index.m3u8"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
+    },
+    {
+        "name": "NTV",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8"
+    },
+    {
+        "name": "Al Jazeera",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+        "group": "Bangla",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
     },
     {
         "name": "Independent TV",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
         "group": "Bangla",
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8"
-    },
-    {
-        "name": "Bhi Channel",
-        "logo": "https://i.postimg.cc/MTD2w3yb/1000115340.png",
-        "group": "Bangla",
-        "url": "http://15.235.185.236/hls/bhi.m3u8"
     },
     {
         "name": "Channel S UK",
@@ -14320,12 +14326,6 @@
         "logo": "https://channeleurope.tv/storage/settings/BNyRMyomifMQ7VlzvHKbNwCfzxM7kF4Vq7bj4zxZ.png",
         "group": "Bangla",
         "url": "https://stream.channeleuropetvboxlondon.co.uk/live/channeleurope/chunklist_w572284654.m3u8"
-    },
-    {
-        "name": "Deshi TV",
-        "logo": "https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png",
-        "group": "Bangla",
-        "url": "https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8"
     },
     {
         "name": "Deshi TV",
@@ -14352,10 +14352,22 @@
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iontvuk.stream/live-orgin/iontvuk.stream/chunks.m3u8"
     },
     {
+        "name": "Global TV",
+        "logo": "https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/globaltv/playlist.m3u8"
+    },
+    {
         "name": "Ayna TV",
         "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBhxAik9rvkpRV33kdDl-2drT2X3Y2cU_-lrjlMpmIxzBAGCN50afZnqx8vvxgmbaTVZmYITeOyTW1Fg_CAItfNfgRwsrTcxaB1pecb0Z74oky6LcgXFGIAOz8w8IijqMpMo4dUJ8aMsAF4A0x9Xwt57UCZYxhtEpRfOdqTzmfwVjICILOqg9QPbOFww/s1080/1000021053.png",
         "group": "Bangla",
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8"
+    },
+    {
+        "name": "Ananda TV",
+        "logo": "https://assets-prod.services.toffeelive.com/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8"
     },
     {
         "name": "Ekushey TV",
@@ -14382,10 +14394,10 @@
         "url": "https://stream.ottplus.live/live/nexus_tv_abr/index.m3u8"
     },
     {
-        "name": "নাগরিক টিভি",
+        "name": "Nagorik TV",
         "logo": "https://i.postimg.cc/gjyb24hM/1000115063.jpg",
         "group": "Bangla",
-        "url": "http://103.151.61.12/Nagorik_TV/video.m3u8?token=i7bZaZWaFrSIE0"
+        "url": "https://flussonic.defineatoz.com/backup/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Ekattor TV",
@@ -14805,7 +14817,7 @@
         "name": "Jalsha Movies HD",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
         "group": "Indian Bangla",
-        "url": "http://103.151.61.12/Jalsha_Movie/video.m3u8"
+        "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
     },
     {
         "name": "Colors Bangla",
@@ -14818,12 +14830,6 @@
         "logo": "https://www.tbn24.com/logo.png",
         "group": "Indian Bangla",
         "url": "http://103.151.60.162:2122/play/a01n/index.m3u8"
-    },
-    {
-        "name": "Star Jalsha HD",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png",
-        "group": "Indian Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/stream.php?id=star_jalsha&formet=.m3u8"
     },
     {
         "name": "Sony Aath",
