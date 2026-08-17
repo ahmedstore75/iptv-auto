@@ -23,19 +23,23 @@ BD_PATTERN = re.compile(r'(?i)\b(BD|BANGLADESH|BANGLA)\b')
 IN_PATTERN = re.compile(r'(?i)\b(IN|INDIA|INDIAN)\b')
 PK_PATTERN = re.compile(r'(?i)\b(PK|PAK|PAKISTAN|PAKISTANI)\b')
 
-# 🚫 STRICT ADULT / 18+ EXCLUSION PATTERN (১৮+ ও এডাল্ট কন্টেন্ট ব্লক)
-ADULT_EXCLUDE_PATTERN = re.compile(
-    r'(?i)(\b18\+|\bADULT\b|\bXXX\b|\bPORN\b|\bEROTIC\b|\bEXPLICIT\b|\bSEX\b|\bNUDE\b|\bNIGHT\b|\bPLAYBOY\b|\bBRAZZERS\b|\bDESI\s*HOT\b)'
+# 🚫 ULTRA STRICT BLOCK LIST (স্ক্রিনশটের SOUTH INDIA, TAMIL, ADULT, DOCUMENTARY, REALITY SHOW, MIX ইত্যাদি ব্লক করবে)
+STRICT_BLOCK_PATTERN = re.compile(
+    r'(?i)('
+    r'XXX|18\+|ADULT|PORN|EROTIC|SEX|VIP|'
+    r'\b20[0-9]{2}\b|\d{4}-\d{4}|'                       # 2024, 2025, 2026, 2000-2023 ইত্যাদি সাল
+    r'SOUTH|TAMIL|TELUGU|KANNADA|MALAYALAM|PUNJABI|'     # South / Regional VODs
+    r'GERMAN|ARAB|AFGHAN|TURKISH|PERSIAN|FRENCH|SPANISH|ITALIAN|ENGLISH|' # Foreign non-sports
+    r'DOCUMENTARY|DOCUMENTRY|REALITY\s*SHOW|AWARD\s*SHOW|TV\s*PROGRAM|' # Shows / Documentaries VOD
+    r'WEB-SERIES|HOTSTAR|DISNEY|SONY\s*LIV|NETFLIX|ZEE5|AMAZON|PRIME|' # OTT / Series
+    r'\bMIX\b|ALL\s*MIX|FULL\s*HD\s*MIX|DRAMA\s*\|\s*MIX|' # MIX Folders
+    r'MOVIE|MOVIES|CINEMA|FILM|FILMS|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|HOLLYWOOD|BOLLYWOOD|TOLLYWOOD|DHALLYWOOD|SERIES|SEASON|EPISODE|VOD|DUBBED|DUAL\s*AUDIO|WEB-DL|HDRIP|BLURAY|TEST'
+    r')'
 )
 
-# 🚫 STRICT VOD / MOVIE / YEAR-BASED EXCLUSION PATTERN (সাল যুক্ত মুভি লিস্ট ও ভিওডি ব্লক)
-VOD_EXCLUDE_PATTERN = re.compile(
-    r'(?i)(MOVIE|MOVIES|CINEMA|FILM|FILMS|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|HOLLYWOOD|BOLLYWOOD|TOLLYWOOD|DHALLYWOOD|SERIES|SEASON|EPISODE|VOD|DUBBED|DUAL\s*AUDIO|WEB-DL|HDRIP|BLURAY|\b202[0-9]\b|\b201[0-9]\b)'
-)
-
-# 📺 POPULAR LIVE TV NETWORKS (শুধুমাত্র মূল লাইভ টিভি চ্যানেল)
+# 📺 POPULAR LIVE TV NETWORKS (শুধুমাত্র নির্দিষ্ট আসল লাইভ টিভি চ্যানেল)
 POPULAR_LIVE_NETWORKS = re.compile(
-    r'(?i)(STAR\s*PLUS|STAR\s*JALSHA|ZEE\s*TV|ZEE\s*BANGLA|SONY\s*SAB|SONY\s*ENTERTAINMENT|COLORS\s*TV|COLORS\s*BANGLA|SUN\s*TV|ARY\s*DIGITAL|GEO\s*TV|HUM\s*TV|PTV\s*HOME|EXPRESS|DUNYA|SAMAA|NEWS|SOMOY|JAMUNA|INDEPENDENT|ATN|NTV|RTV|CHANNEL\s*I|DEEPTO|MUSIC|GANA|SONG|DRAMA)'
+    r'(?i)(STAR\s*PLUS|STAR\s*JALSHA|ZEE\s*TV|ZEE\s*BANGLA|SONY\s*SAB|SONY\s*ENTERTAINMENT|SONY\s*TV|COLORS|SUN\s*TV|ARY\s*DIGITAL|GEO\s*TV|GEO\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|EXPRESS\s*NEWS|DUNYA\s*NEWS|SAMAA|SOMOY|JAMUNA|INDEPENDENT|ATN|NTV|RTV|CHANNEL\s*I|DEEPTO|MYTV|ASIAN\s*TV|GAAZI|GTV|T\s*SPORTS)'
 )
 
 # ⚽ SPORTS PATTERN
@@ -59,9 +63,6 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
                 raise e
 
 def normalize_channel_name(extinf_line):
-    """
-    চ্যানেলের নাম থেকে HD, SD, FHD, 4K, BD, IN ইত্যাদি বাদ দিয়ে ইউনিক নাম বের করা।
-    """
     if ',' in extinf_line:
         name = extinf_line.split(',')[-1]
     else:
@@ -83,8 +84,7 @@ def filter_requested_channels(content):
     seen_urls = set()
     seen_channel_names = set()
     duplicate_count = 0
-    movie_vod_blocked = 0
-    adult_blocked = 0
+    blocked_count = 0
     
     current_extinf = ""
     
@@ -97,22 +97,20 @@ def filter_requested_channels(content):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
             
-            # ১. ১৮+ / এডাল্ট কন্টেন্ট থাকলে সাথে সাথে ব্লক
-            if ADULT_EXCLUDE_PATTERN.search(current_extinf) or ADULT_EXCLUDE_PATTERN.search(line_str):
-                adult_blocked += 1
+            # ১. কড়া ব্লকলিস্ট চেক
+            if STRICT_BLOCK_PATTERN.search(current_extinf) or STRICT_BLOCK_PATTERN.search(line_str):
+                blocked_count += 1
                 current_extinf = ""
                 continue
 
-            # ২. মুভি, সাল যুক্ত ক্যাটাগরি (২০২৫, ২০২৬ ইত্যাদি) বা ভিওডি ব্লক
+            # ২. ভিওডি/ভিডিও ফাইল বাদ দেওয়া
             is_vod_url = "/movie/" in line_str or "/series/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi'))
-            is_movie_or_year_group = bool(VOD_EXCLUDE_PATTERN.search(current_extinf))
-            
-            if is_vod_url or is_movie_or_year_group:
-                movie_vod_blocked += 1
+            if is_vod_url:
+                blocked_count += 1
                 current_extinf = ""
                 continue
 
-            # ৩. ডুপ্লিকেট চ্যানেল বাদ দেওয়া
+            # ৩. ডুপ্লিকেট বাদ দেওয়া
             channel_key = normalize_channel_name(current_extinf)
             if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 duplicate_count += 1
@@ -127,17 +125,17 @@ def filter_requested_channels(content):
             
             added = False
             
-            # 🇧🇩 ১. বাংলাদেশের লাইভ চ্যানেল
+            # 🇧🇩 ১. বাংলাদেশের লাইভ টিভি চ্যানেল
             if is_bd:
                 bd_lines.extend([current_extinf, line_str])
                 added = True
             
-            # 🇮🇳 ২. ইন্ডিয়ার জনপ্রিয় লাইভ চ্যানেল ও স্পোর্টস
+            # 🇮🇳 ২. ইন্ডিয়ার জনপ্রিয় লাইভ টিভি ও স্পোর্টস
             elif is_in and (is_popular or is_sports):
                 in_lines.extend([current_extinf, line_str])
                 added = True
             
-            # 🇵🇰 ৩. পাকিস্তানের জনপ্রিয় লাইভ চ্যানেল ও স্পোর্টস
+            # 🇵🇰 ৩. পাকিস্তানের জনপ্রিয় লাইভ টিভি ও স্পোর্টস
             elif is_pk and (is_popular or is_sports):
                 pk_lines.extend([current_extinf, line_str])
                 added = True
@@ -156,8 +154,7 @@ def filter_requested_channels(content):
             
     total_added = len(seen_urls)
     print(f"📊 Filtering Summary:")
-    print(f"   - 🔞 Adult/18+ Blocked: {adult_blocked}")
-    print(f"   - 🚫 Movies/VODs/Year-based lists Blocked: {movie_vod_blocked}")
+    print(f"   - 🚫 Unwanted Categories / VOD Blocked: {blocked_count}")
     print(f"   - 🔄 Duplicates Removed: {duplicate_count}")
     print(f"   - ✅ Total Pure Live TV Channels Added: {total_added}")
     print(f"   ----------------------------------")
@@ -193,7 +190,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Pure Live TV Playlist (No Adult / No Movies)\n# ⏰ Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Pure Live TV Playlist (No Mix Folders / No VOD)\n# ⏰ Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
