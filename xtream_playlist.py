@@ -23,9 +23,9 @@ BD_PATTERN = re.compile(r'(?i)\b(BD|BANGLADESH|BANGLA)\b')
 IN_PATTERN = re.compile(r'(?i)\b(IN|INDIA|INDIAN)\b')
 PK_PATTERN = re.compile(r'(?i)\b(PK|PAK|PAKISTAN|PAKISTANI)\b')
 
-# ইন্ডিয়া ও পাকিস্তানের জনপ্রিয় নেটওয়ার্ক/ক্যাটাগরি
+# শুধু জনপ্রিয় লাইভ টিভি নেটওয়ার্ক (মুভি বা ভিওডি বাদ)
 POPULAR_NETWORKS = re.compile(
-    r'(?i)(STAR|ZEE|SONY|COLORS|SUN|SAB|COLOURS|ARY|GEO|HUM|PTV|EXPRESS|DUNYA|SAMAA|NEWS|MOVIE|MOVIES|CINEMA|FILM|MUSIC|GANA|SONG|DRAMA)'
+    r'(?i)(STAR|ZEE|SONY|COLORS|SUN|SAB|COLOURS|ARY|GEO|HUM|PTV|EXPRESS|DUNYA|SAMAA|NEWS|MUSIC|GANA|SONG|DRAMA)'
 )
 
 # সকল স্পোর্টস চ্যানেল
@@ -56,9 +56,9 @@ def filter_requested_channels(content):
     pk_lines = []
     other_sports_lines = []
     
-    # ডুপ্লিকেট চ্যানেল আটকানোর জন্য Set
     seen_urls = set()
     duplicate_count = 0
+    vod_count = 0
     
     current_extinf = ""
     
@@ -70,52 +70,68 @@ def filter_requested_channels(content):
         if line_str.startswith("#EXTINF:"):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
-            # ডুপ্লিকেট ইউআরএল ফিল্টারিং
+            # ১. ভিওডি, মুভি ও সিরিজ লিঙ্ক পুরোপুরি ফিল্টার করে বাদ দেওয়া
+            is_vod = (
+                "/movie/" in line_str 
+                or "/series/" in line_str 
+                or line_str.endswith(('.mp4', '.mkv', '.avi'))
+                or "MOVIE" in current_extinf.upper() 
+                or "CINEMA" in current_extinf.upper()
+            )
+            
+            if is_vod:
+                vod_count += 1
+                current_extinf = ""
+                continue
+
+            # ২. ডুপ্লিকেট ইউআরএল ফিল্টারিং
             if line_str in seen_urls:
                 duplicate_count += 1
                 current_extinf = ""
                 continue
                 
-            is_vod = "/movie/" in line_str or "/series/" in line_str
+            is_bd = bool(BD_PATTERN.search(current_extinf))
+            is_in = bool(IN_PATTERN.search(current_extinf))
+            is_pk = bool(PK_PATTERN.search(current_extinf))
+            is_sports = bool(SPORTS_PATTERN.search(current_extinf))
+            is_popular = bool(POPULAR_NETWORKS.search(current_extinf))
             
-            if not is_vod:
-                is_bd = bool(BD_PATTERN.search(current_extinf))
-                is_in = bool(IN_PATTERN.search(current_extinf))
-                is_pk = bool(PK_PATTERN.search(current_extinf))
-                is_sports = bool(SPORTS_PATTERN.search(current_extinf))
-                is_popular = bool(POPULAR_NETWORKS.search(current_extinf))
-                
-                added = False
-                # ১. বাংলাদেশের সকল চ্যানেল
-                if is_bd:
-                    bd_lines.extend([current_extinf, line_str])
-                    added = True
-                
-                # ২. ইন্ডিয়ার জনপ্রিয় চ্যানেল এবং স্পোর্টস
-                elif is_in and (is_popular or is_sports):
-                    in_lines.extend([current_extinf, line_str])
-                    added = True
-                
-                # ৩. পাকিস্তানের জনপ্রিয় চ্যানেল এবং স্পোর্টস
-                elif is_pk and (is_popular or is_sports):
-                    pk_lines.extend([current_extinf, line_str])
-                    added = True
-                
-                # ৪. অন্যান্য দেশের স্পোর্টস চ্যানেল
-                elif is_sports:
-                    other_sports_lines.extend([current_extinf, line_str])
-                    added = True
-                
-                if added:
-                    seen_urls.add(line_str)
+            added = False
+            
+            # বাংলাদেশের জনপ্রিয় ও সকল লাইভ চ্যানেল
+            if is_bd:
+                bd_lines.extend([current_extinf, line_str])
+                added = True
+            
+            # ইন্ডিয়ার জনপ্রিয় লাইভ চ্যানেল এবং স্পোর্টস
+            elif is_in and (is_popular or is_sports):
+                in_lines.extend([current_extinf, line_str])
+                added = True
+            
+            # পাকিস্তানের জনপ্রিয় লাইভ চ্যানেল এবং স্পোর্টস
+            elif is_pk and (is_popular or is_sports):
+                pk_lines.extend([current_extinf, line_str])
+                added = True
+            
+            # অন্যান্য দেশের স্পোর্টস চ্যানেল
+            elif is_sports:
+                other_sports_lines.extend([current_extinf, line_str])
+                added = True
+            
+            if added:
+                seen_urls.add(line_str)
                 
             current_extinf = ""
             
     total_added = len(seen_urls)
-    print(f"📊 Total {total_added} unique channels filtered (Removed {duplicate_count} duplicates).")
-    print(f"   - 🇧🇩 All BD Channels: {len(bd_lines)//2}")
-    print(f"   - 🇮🇳 Popular IN Channels & Sports: {len(in_lines)//2}")
-    print(f"   - 🇵🇰 Popular PK Channels & Sports: {len(pk_lines)//2}")
+    print(f"📊 Filtering Summary:")
+    print(f"   - 🚫 VOD/Movies Excluded: {vod_count}")
+    print(f"   - 🔄 Duplicates Removed: {duplicate_count}")
+    print(f"   - ✅ Total Live Channels Added: {total_added}")
+    print(f"   ----------------------------------")
+    print(f"   - 🇧🇩 Live BD Channels: {len(bd_lines)//2}")
+    print(f"   - 🇮🇳 Popular IN Live & Sports: {len(in_lines)//2}")
+    print(f"   - 🇵🇰 Popular PK Live & Sports: {len(pk_lines)//2}")
     print(f"   - ⚽ Other World Sports: {len(other_sports_lines)//2}")
 
     filtered_lines = ["#EXTM3U"] + bd_lines + in_lines + pk_lines + other_sports_lines
@@ -125,10 +141,9 @@ def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
 
-        # ১. ফিল্টারিং, সাজানো ও ডুপ্লিকেট দূর করা
         filtered_content = filter_requested_channels(content)
 
-        # ২. স্ট্রিম লিঙ্ক রূপান্তর: WORKER_DOMAIN/stream_id/index.m3u8
+        # স্ট্রিম লিঙ্ক রূপান্তর: WORKER_DOMAIN/stream_id/index.m3u8
         stream_pattern = re.compile(
             rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9a-zA-Z_-]+)(\.m3u8|\.ts)?"
         )
@@ -139,17 +154,16 @@ def fetch_and_generate():
 
         updated_m3u = stream_pattern.sub(replace_url, filtered_content)
 
-        # ৩. লোগো লিঙ্ক রূপান্তর
+        # লোগো লিঙ্ক রূপান্তর
         logo_pattern = re.compile(rf'tvg-logo="{re.escape(BASE_URL)}([^"]+)"')
         updated_m3u = logo_pattern.sub(rf'tvg-logo="{WORKER_DOMAIN}\1"', updated_m3u)
 
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Custom Playlist (De-duplicated & Sorted)\n# ⏰ Updated time: {bd_time}\n"
+        header_comment = f"# 📦 Live Popular Channels Only (No VOD/Movies)\n# ⏰ Updated time: {bd_time}\n"
         updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
 
-        # playlist_x.m3u ফাইলে সেভ করা
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
             f.write(updated_m3u)
 
