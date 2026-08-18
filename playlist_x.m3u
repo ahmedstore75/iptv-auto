@@ -1,7 +1,7 @@
 #EXTM3U
+# 📊 Total Saved Channels: 2597
 # 📦 Auto-Categorized Live Satellite TV Playlist
-# ⏰ Updated time: 2026-08-18 21:23:28
-
+# ⏰ Updated time: 2026-08-18 21:49:47
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5M1FYTGpySDhlczRudS9qblZwcC9hQw
 #EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLA NEWS",SOmoy TV HD
@@ -58,6 +58,12 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacTIydms3UERheW9mcWxiVWowbFdVZWl
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nabnp3QjZjU0RwVHdSQS9XV205MzFBY1JGYkpvd1NBVjRIZHRFczBwa0Vmbg
 #EXTINF:-1 tvg-id="" tvg-name="[HORSE] WILLIAM HILL BTV" tvg-logo="https://img.logo-cdn.cc/horseracing.png" group-title="BANGLA ENTERTAINMENT",[HORSE] WILLIAM HILL BTV
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2xWa2xNR284RnJWQkdGRkFUVGlZK0hqbnA4Z2xRNXdiVFdOVTF1bGRvdQ
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 3 FHD" tvg-logo="data:image/png;base64,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" group-title="BANGLA ENTERTAINMENT",NZ: Sky Sport 3 FHD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWRvamtNUjVLQU5aQ0hPdWdyN1N4MEt0REpaaVFkZHdNMUdhRW9xekxQMg
+#EXTINF:-1 tvg-id="DD.Sports.in" tvg-name="BD | T Sports HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEt0mLEbCc7_nwOltfVTtRh95_ytannxqgaeskHI0rfCxd85v3LSaeZ4&s=10" group-title="BANGLA ENTERTAINMENT",BD | T Sports HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaFVOTVFGVDJ6WHEvdXk0b3ZnTFUxVmJXc0FGRTRwemVFdXl3d2cvd290Yw
+#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="BR: SporTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/6eafe5012b43973f31c5ee0b648e0594.png" group-title="BANGLA ENTERTAINMENT",BR: SporTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhTjNBbXpWK0RDMld4WllFU1p0RGg0eA
 #EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="EX-YU: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f2bfdc7a7d51d835fd49eea308a3d302.png" group-title="BANGLA ENTERTAINMENT",EX-YU: Viasat Explore HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackFNWjc2RVgyc3VaZFRSL0ZTWXc0dUNBT3QvaWFHY0hyaEJqWktlcENSKw
 #EXTINF:-1 tvg-id="polsatviasatnature.pl" tvg-name="EX-YU: Viasat Nature HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/659c11816d46f52fd2068d3ebc5b25aa.png" group-title="BANGLA ENTERTAINMENT",EX-YU: Viasat Nature HD
@@ -86,6 +92,8 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacVRWSTFVVWsySm5RYXRtTzZDNHZ3TkZ
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackdVc0dHUE9hNnlDK0RkRzB2VHV5WU1mWisvZk5xdWZYeml6S3JEK3BsdA
 #EXTINF:-1 tvg-id="" tvg-name="US: CBS Greensboro North Carolina WFMY TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/7ab03601c5e6751edf0aa1fe701ec1f8.png" group-title="BANGLA ENTERTAINMENT",US: CBS Greensboro North Carolina WFMY TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackdVc0dHUE9hNnlDK0RkRzB2VHV5YlBjWFprSnEvYm13M3lXYlJUZkZyYg
+#EXTINF:-1 tvg-id="" tvg-name="US: MY Williamsport Pennsylvania WQMY TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/a41059ee5ea8ff91713c0cf9a55cf103.png" group-title="BANGLA ENTERTAINMENT",US: MY Williamsport Pennsylvania WQMY TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa09pQU9sczZETEE2ZmlqY3JHVnhVeWhJaWlPOStmL0xNNnFBNUI5MmVLZw
 #EXTINF:-1 tvg-id="" tvg-name="US: NBC Denver Colorado KUSA TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6604144798284476ca52086a0ce5d7b2.png" group-title="BANGLA ENTERTAINMENT",US: NBC Denver Colorado KUSA TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa01EN1lYZFU3TVhkQTJsRnVVYlRtRlAycGVoSW0rdUE1enA1MmxoTU1rag
 #EXTINF:-1 tvg-id="" tvg-name="US: NASA TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/db4fd024fa7cd582051275ac44a579e8.png" group-title="BANGLA ENTERTAINMENT",US: NASA TV HD
@@ -168,12 +176,18 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaclpTNXFlMGl0QjVWWG1DazhBQmtOY1V
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvRWVnUEl1U1RuTHZ1aFJIb1FXb0kvKw
 #EXTINF:-1 tvg-id="startv.tr" tvg-name="IT: Videostar TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/5a109ae4585418eff566acad14c3c936.png" group-title="BANGLA ENTERTAINMENT",IT: Videostar TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nadk1LU284UmdNN1FHSno3WEx0TURoSmluUXM4QWJmUnB2cnpYbUllenU4Tg
+#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="IT: RTV Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/21392a7fea3217a159aff86d98651770.png" group-title="BANGLA ENTERTAINMENT",IT: RTV Sport HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kN3VlUmdPTjN3ajVhU0t5N1FUeit4eA
 #EXTINF:-1 tvg-id="discoveryhistoria.pl" tvg-name="IT: Discovery HGTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="BANGLA ENTERTAINMENT",IT: Discovery HGTV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEdEMGhxdlFHNHFxVDRsNVZubW9qdnRUL1NIWkI5UWx0eEJ1VENCek9mTw
 #EXTINF:-1 tvg-id="ion.us" tvg-name="IT: FashionTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/91102ed57f8a11715c1b40c300ef38a8.png" group-title="BANGLA ENTERTAINMENT",IT: FashionTV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEdEMGhxdlFHNHFxVDRsNVZubW9qczB6MHhwYnNWS1h1T2dTUG93alNZNA
 #EXTINF:-1 tvg-id="clantve.es" tvg-name="BR: CaTVe HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/4ba36880b3fbdf3758c90ad1b79ecdfc.jpg" group-title="BANGLA ENTERTAINMENT",BR: CaTVe HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naajl1d05JWnNHZzhwek9JSkhCNEhCd3VieWptRHR5UmFkR1h2aERxb1NZag
+#EXTINF:-1 tvg-id="sporttv2.pt" tvg-name="BR: SporTV 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/2f163193ab2de12c120e02e264bc16a7.png" group-title="BANGLA ENTERTAINMENT",BR: SporTV 2 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhT2dTc1o5N2EzSThNaTJId3cxOEhKUw
+#EXTINF:-1 tvg-id="sporttv3.pt" tvg-name="BR: SporTV 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/50dc54d140bb68ee92fc1aa01bec5bb5.png" group-title="BANGLA ENTERTAINMENT",BR: SporTV 3 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhT3hCMHp4RGtRdlJhTERrYjhRM2FFcg
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="BR: GNT HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/f9e7782911f80ec04ad4fb4fa63f1df9.png" group-title="BANGLA ENTERTAINMENT",BR: GNT HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZzdvek9zaExkbmRibFo0UWRzSG0vckM3QUVnU3drZ2NvUkU4dSt5YmxFUg
 #EXTINF:-1 tvg-id="hgtv.de" tvg-name="BR: HGTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/11f067c48dbaca37b55e0c0d5c3f99a1.png" group-title="BANGLA ENTERTAINMENT",BR: HGTV HD
@@ -904,6 +918,8 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3dPaEprMXR2Q1JvV2dHMkJVMnlMM0V
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3dPaEprMXR2Q1JvV2dHMkJVMnlMM0JHdTlvWExNTC9zR293RytEc3BLNA
 #EXTINF:-1 tvg-id="rds2.ca" tvg-name="SK: RTVS 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/da4d55e682952781082178dbfd44dc81.jpg" group-title="BANGLA ENTERTAINMENT",SK: RTVS 2 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nadk5NNE5JdEIwd1ErSXZha3VqeDhXZmhnbUkvTW5aa3lmd1RWN0JKd1FtYw
+#EXTINF:-1 tvg-id="orfsport.at" tvg-name="SK: RTVS Šport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-09/4e6e91405a9a82d267a60373136a36df.png" group-title="BANGLA ENTERTAINMENT",SK: RTVS Šport HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nadk5NNE5JdEIwd1ErSXZha3VqeDhXY0J2cUw1dk1PS252K1BnQ3Y0cTJWaQ
 #EXTINF:-1 tvg-id="startv.tr" tvg-name="SK: Óčko STAR HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-09/6d6e12cac93443aeed697f41fa6ff6e3.png" group-title="BANGLA ENTERTAINMENT",SK: Óčko STAR HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabU1TSkRJV3Z3d0xiRHludUJJTVFxd25sb2dhSnN4QmVCN1pLVFliYnltQg
 #EXTINF:-1 tvg-id="rds2.ca" tvg-name="SK: RTVS 24 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-09/0674980fec273edc5ad9735f0f9d2f0b.svg" group-title="BANGLA ENTERTAINMENT",SK: RTVS 24 HD
@@ -1202,8 +1218,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabS8ydGpHOVVKYkFpY0dtcFNDWld1bEF
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabS8ydGpHOVVKYkFpY0dtcFNDWld1a2xNZG9GekQ0WHFSOExIdllJZG9YSw
 #EXTINF:-1 tvg-id="" tvg-name="NZ | TVSN" tvg-logo="" group-title="SPORTS LIVE",NZ | TVSN
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabS8ydGpHOVVKYkFpY0dtcFNDWld1bkE1d3YxQVdEdHlZWlcreHVYYUFxZQ
-#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 3 FHD" tvg-logo="data:image/png;base64,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" group-title="SPORTS LIVE",NZ: Sky Sport 3 FHD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWRvamtNUjVLQU5aQ0hPdWdyN1N4MEt0REpaaVFkZHdNMUdhRW9xekxQMg
 #EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 4 FHD" tvg-logo="s:1:/images/75ca34246ecf435cae2af7bd745d613d.png" group-title="SPORTS LIVE",NZ: Sky Sport 4 FHD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1JjeXFMdzZYdXNUY253OS8zdFNCQU1HRE9Tb3NpWmMvaHArN3Q0eW0zMw
 #EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 6 FHD" tvg-logo="s:1:/images/f786e8f2ac259d168d4e10c1f337510b.png" group-title="SPORTS LIVE",NZ: Sky Sport 6 FHD
@@ -1710,8 +1724,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacDJlcFU3aXBVRjVRQjZFaUh6VDZlOTF
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3VFS0kzOTBaWTh4LzNBQzZITTM1d0NqQWNDU2k4S2RIMXFpTms5ZTZqVw
 #EXTINF:-1 tvg-id="" tvg-name="AU | FOX Cricket 501 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxMlQT4snqSoZ3n1sSoyDqMusGgAFA-xCKx4--nVa8x5D9nhRRci3zBk&s=10" group-title="SPORTS LIVE",AU | FOX Cricket 501 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaXVpVHlGMjFZZEZiVkloU09kOEUzTExZaWRuUWNiMmluUVgxSzZJUXpVdQ
-#EXTINF:-1 tvg-id="DD.Sports.in" tvg-name="BD | T Sports HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEt0mLEbCc7_nwOltfVTtRh95_ytannxqgaeskHI0rfCxd85v3LSaeZ4&s=10" group-title="SPORTS LIVE",BD | T Sports HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaFVOTVFGVDJ6WHEvdXk0b3ZnTFUxVmJXc0FGRTRwemVFdXl3d2cvd290Yw
 #EXTINF:-1 tvg-id="" tvg-name="IN | EURO Sports HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSS2t3vnoBzEwTIpgOnVT5ImhlxC-AKPh8nxh8uWIqEBWNpYP_0Md1pA&s=10" group-title="SPORTS LIVE",IN | EURO Sports HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wyeUJKcHorNEMrM056b2JhelliTUswRG1TbXphcnNtRlVMeTd2bzV0Rg
 #EXTINF:-1 tvg-id="STAR.SPORTS.1.in" tvg-name="TNT Spots 1 HD" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png" group-title="SPORTS LIVE",TNT Spots 1 HD
@@ -1746,8 +1758,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaUZ6UDJoRVFiRWUxbHY4emttZHYwTlM
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabFMxVnBZc0k0K0Jid2hHcGpUR2gza0pUYVpJSmtHdDZxV1dNK09OODAyaw
 #EXTINF:-1 tvg-id="TSN.1.ca2" tvg-name="CA: TSN 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/1fba41bf57803049ca52a3131bf7b749.png" group-title="SPORTS LIVE",CA: TSN 1 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackIxdkJFczVqNUUzTEVGbm1SQktsVHZtWkFhNHRKcXlPbjl4UXVMWjVQYw
-#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="BR: SporTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/6eafe5012b43973f31c5ee0b648e0594.png" group-title="SPORTS LIVE",BR: SporTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhTjNBbXpWK0RDMld4WllFU1p0RGg0eA
 #EXTINF:-1 tvg-id="arenasport1.hr" tvg-name="BIH: Arena Sport 1 Premium HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/3f49ed109214b84440ecebae4ccbbba4.png" group-title="SPORTS LIVE",BIH: Arena Sport 1 Premium HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab09janFhdWl5Unkzbzh1ZEN6WEZ1SkVEbnhYOGxHRmo5VG5rWVAvZldPUw
 #EXTINF:-1 tvg-id="" tvg-name="ARG: TYC Sports HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/a845a6541822a8cad70a73b6c708610a.png" group-title="SPORTS LIVE",ARG: TYC Sports HD
@@ -2172,8 +2182,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nadkl1N2xmVzhQaTJGUVV0bEZRbG9zQTI
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1dlRmtBcEtGcnh0U2VjRmlxUE5YckZaRmEwbk94TldETlA0bkhuUkZEUA
 #EXTINF:-1 tvg-id="" tvg-name="US: FOX College Sports Pacific HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/517e6234b4cda003a9ee14e52ca657d7.png" group-title="SPORTS LIVE",US: FOX College Sports Pacific HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1dlRmtBcEtGcnh0U2VjRmlxUE5YcSt0eXRqWGVQY2JIWjA1UjFZZThnQg
-#EXTINF:-1 tvg-id="" tvg-name="US: MY Williamsport Pennsylvania WQMY TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/a41059ee5ea8ff91713c0cf9a55cf103.png" group-title="SPORTS LIVE",US: MY Williamsport Pennsylvania WQMY TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa09pQU9sczZETEE2ZmlqY3JHVnhVeWhJaWlPOStmL0xNNnFBNUI5MmVLZw
 #EXTINF:-1 tvg-id="NBC.Sports.California.SAT.us2" tvg-name="US: NBC PALM Springs California KMIR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0e8afd85b6879edcb9b0f9c9057be297.png" group-title="SPORTS LIVE",US: NBC PALM Springs California KMIR TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadUpkMW5UaGFRUEpya0ZyMy81UXpJYTE5L1BMREFKRTZzK0lxUHZtNUZsSw
 #EXTINF:-1 tvg-id="" tvg-name="USA | MLB | Houston Astros" tvg-logo="http://xplatinmedia.com:8080/images/e58b86e8f2e69afc36af95022ae1cadf.png" group-title="SPORTS LIVE",USA | MLB | Houston Astros
@@ -2596,8 +2604,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kNjh
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kNmMzZVcxb09rdkdtWkFjYlI4b0JyTQ
 #EXTINF:-1 tvg-id="raisportplus.it" tvg-name="IT: RAI Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/656ac05b7c17f067a65253e268e8dde8.png" group-title="SPORTS LIVE",IT: RAI Sport HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kNjNyeTlEUjE3YWVlMHIrOEsxYmxlVg
-#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="IT: RTV Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/21392a7fea3217a159aff86d98651770.png" group-title="SPORTS LIVE",IT: RTV Sport HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kN3VlUmdPTjN3ajVhU0t5N1FUeit4eA
 #EXTINF:-1 tvg-id="skysportaustria2.at" tvg-name="IT: SKY Sport 24 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/24b6324c3989f35d6f05c126fcc7fdcc.png" group-title="SPORTS LIVE",IT: SKY Sport 24 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVR1MHRiWWlhNE9WYksrcFBoaE1kNTJjZGJ5SVY1UXljTnZUcEdaUXQyLw
 #EXTINF:-1 tvg-id="" tvg-name="IT: SKY Sport Calcio HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/24daa976b558fb05e4e7d3896a4933c4.png" group-title="SPORTS LIVE",IT: SKY Sport Calcio HD
@@ -2658,10 +2664,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXZuMTVDS0xlZ1JHSGRjd3FHNDlyZDV
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXZuMTVDS0xlZ1JHSGRjd3FHNDlyZktOMmt5S0hKNlJRU3pBY0NUUzYxOA
 #EXTINF:-1 tvg-id="" tvg-name="BR: FOX Sports HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/2c324e02d5a437786a2e0e9657c52501.png" group-title="SPORTS LIVE",BR: FOX Sports HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhTUIwejQrTW5INHZzL0t2cEkyeU8rWA
-#EXTINF:-1 tvg-id="sporttv2.pt" tvg-name="BR: SporTV 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/2f163193ab2de12c120e02e264bc16a7.png" group-title="SPORTS LIVE",BR: SporTV 2 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhT2dTc1o5N2EzSThNaTJId3cxOEhKUw
-#EXTINF:-1 tvg-id="sporttv3.pt" tvg-name="BR: SporTV 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/50dc54d140bb68ee92fc1aa01bec5bb5.png" group-title="SPORTS LIVE",BR: SporTV 3 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWNZNllzUG5qRWRIWk9PdzB0ekhhT3hCMHp4RGtRdlJhTERrYjhRM2FFcg
 #EXTINF:-1 tvg-id="elevensports1.pt" tvg-name="ES: DAZN 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/484784419a9faf9cbeac602c51174f16.png" group-title="SPORTS LIVE",ES: DAZN 1 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWZsVXhOaFJvMDJNUFU3R05GSjBYeGtKbTNBWUdBRm0wZ3ZXSDZubWZ3aQ
 #EXTINF:-1 tvg-id="elevensports2.pt" tvg-name="ES: DAZN 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7b025261b7fc8b187dddf757424b01db.png" group-title="SPORTS LIVE",ES: DAZN 2 HD
@@ -4052,8 +4054,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabU1SWE9ZYlA3ZkROUDJPc1h5TmVhNi9
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU50NkpMdzNqU29BVk9oMW9OU0t6bUVSelgwN3M3VjVwMHFlM1RKRHZPSQ
 #EXTINF:-1 tvg-id="arenasport1.hr" tvg-name="SK: Arena Sport 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-10/0cbb5978c829aecd89ee19dffae6bb33.png" group-title="SPORTS LIVE",SK: Arena Sport 1 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHhmZzVLcEJRdzV6OGUvR1V0bEZEcm1XeStpOW5ydWdtaXY1Qjh6WDhrZw
-#EXTINF:-1 tvg-id="orfsport.at" tvg-name="SK: RTVS Šport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-09/4e6e91405a9a82d267a60373136a36df.png" group-title="SPORTS LIVE",SK: RTVS Šport HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nadk5NNE5JdEIwd1ErSXZha3VqeDhXY0J2cUw1dk1PS252K1BnQ3Y0cTJWaQ
 #EXTINF:-1 tvg-id="eurosport2.de" tvg-name="SI: Eurosport 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1609aae69ac2fbfdab0fbc5de966a322.png" group-title="SPORTS LIVE",SI: Eurosport 2 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabklPQ2drTlhiQlY3eUw1dFM1eEZveUZQNGVReDZlNTBOcmxyN01BVHRMdA
 #EXTINF:-1 tvg-id="planetsport2.hr" tvg-name="SI: Sport KLUB 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/41fc4a842069711f567566194b20eb61.png" group-title="SPORTS LIVE",SI: Sport KLUB 1 HD
@@ -4498,6 +4498,306 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05ib2M0UFJZMVR6YTdCeElxZ2diRUk
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05ib2M0UFJZMVR6YTdCeElxZ2diRmhxL1pGQllhVllJclE2cGtkVENDUQ
 #EXTINF:-1 tvg-id="" tvg-name="WWE-Money-in-the-Bank-Kickoff-2024" tvg-logo="" group-title="SPORTS LIVE",WWE-Money-in-the-Bank-Kickoff-2024
 http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1V1lsdmZ1aXlJckZGam81MUNYeDJYZEVyaDVpS0x2TUpQRXlJV09SSThDVQ
+#EXTINF:-1 tvg-id="" tvg-name="IND_B4U BHOJPURI" tvg-logo="" group-title="INDIAN MUSIC",IND_B4U BHOJPURI
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmpFZi9RM3VMb3V2MGlMdjI4L1J1UzhpSlVVVmhXZ3AyR2R4ckR3cUlQRg
+#EXTINF:-1 tvg-id="" tvg-name="IND_B4U KADAK" tvg-logo="" group-title="INDIAN MUSIC",IND_B4U KADAK
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmtSNUIzR2JOSStvVjZwbXhmODdBTXAzVzFoRVpjeWFDRWtmL2taV3VNUA
+#EXTINF:-1 tvg-id="" tvg-name="IND_B4U MUSIC" tvg-logo="" group-title="INDIAN MUSIC",IND_B4U MUSIC
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmtSNUIzR2JOSStvVjZwbXhmODdBUHJFM1BaQmFRV2cyTnhYdEw0N0tvZg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="PAKISTANI-GOHAR MUMTAZ HD" tvg-logo="http://stariptv.fun/logos/pakistanisinger.png" group-title="INDIAN MUSIC",PAKISTANI-GOHAR MUMTAZ HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacU5maDhEeFZWSW0vSHFpSlFGY3l0SjRjOFVVaW8rOU1tWWR1enlGTE1Ddg
+#EXTINF:-1 tvg-id="" tvg-name="IN | 9XM Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/num/9x_music.png" group-title="INDIAN MUSIC",IN | 9XM Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZSHFLRUtmZG1UclNuYkIzOHRISlhnNA
+#EXTINF:-1 tvg-id="463866" tvg-name="IN | B4U Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/bb/b4u_music_in.png" group-title="INDIAN MUSIC",IN | B4U Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZRXovK2h5ZWJKRW9EdGt3UEM5T0p3SQ
+#EXTINF:-1 tvg-id="464208" tvg-name="IN | M TV Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mtv-us.png" group-title="INDIAN MUSIC",IN | M TV Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabDNkMUwzTFo1MzhTVWc3ZlNIYTQzQW02M1U2VkNYOSt3ckt3M3BtMWZpMA
+#EXTINF:-1 tvg-id="" tvg-name="IN | Masti Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mastiii_tv_in.png" group-title="INDIAN MUSIC",IN | Masti Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZSDRmVHJITllma1lsc3pMVlhxNGZ6dA
+#EXTINF:-1 tvg-id="" tvg-name="IN | MTV Beats HD" tvg-logo="http://14.192.144.8:80/images/26df5b71360319d1b741e9c94b55806a.png" group-title="INDIAN MUSIC",IN | MTV Beats HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZRXRoSnJUUEdIWUdnenM4QmpNcy96aA
+#EXTINF:-1 tvg-id="" tvg-name="IN | ZOOM Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zoom_tv_in.png" group-title="INDIAN MUSIC",IN | ZOOM Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZR29MYUYwdlRkT040WkJNVXduTGlITw
+#EXTINF:-1 tvg-id="" tvg-name="UK: B4U MUSIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-music-uk.png" group-title="INDIAN MUSIC",UK: B4U MUSIC
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacThrTE15ZFRUYjgwWUU3WGFyQmtRWDBnblVpbnhOdW90S1hhenAzbGdORQ
+#EXTINF:-1 tvg-id="" tvg-name="UK: B4U PLUS" tvg-logo="https://s9.gifyu.com/images/SFWhL.png" group-title="INDIAN MUSIC",UK: B4U PLUS
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacThrTE15ZFRUYjgwWUU3WGFyQmtRVVRLSFdJMkJwZ3REeTM3aFBDNnlUTQ
+#EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 00S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",UK: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ29hQkV1Qm9Ca0l1bktyN1JXM2NXenFUa2tWdFRvRkU5dmE0R0d1bjdVSA
+#EXTINF:-1 tvg-id="9618" tvg-name="UK: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/5f0736e55c04b29d0b57b10c9ca028d5.svg" group-title="INDIAN MUSIC",UK: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY1VvWVdDUkpFUkJmV2lBdG5JdlVRNQ
+#EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/ca3681aa6c3c94669967bb2409db44d9.png" group-title="INDIAN MUSIC",UK: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LYzRaR296dzdCUmtzNTZWNjhVMThJQw
+#EXTINF:-1 tvg-id="12555" tvg-name="UK: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/31ffe827059b8b18b9a76b6b940e9f71.jpg" group-title="INDIAN MUSIC",UK: MTV 90S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LYytoamZxekd2U2ZPYnNuZTB5a1hGWg
+#EXTINF:-1 tvg-id="9627" tvg-name="UK: MTV Classic HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",UK: MTV Classic HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY3RhakpIaEhYbDdkMzlBc3M4Q0d2dQ
+#EXTINF:-1 tvg-id="" tvg-name="UK: MTV CLUB HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",UK: MTV CLUB HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY1VRa2g3UjQ2NzFSMTRvU01pNTVZdQ
+#EXTINF:-1 tvg-id="9538" tvg-name="UK: MTV HITS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",UK: MTV HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LZmNDUDY4MXowUXFGMHdVQ1NPU1lJdw
+#EXTINF:-1 tvg-id="9155" tvg-name="UK: MTV Music HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/664676a1629f33cb224804dbca11e0d2.svg" group-title="INDIAN MUSIC",UK: MTV Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LZWwxSFIreXQwTDNXYy9QUmFlYlN3WA
+#EXTINF:-1 tvg-id="" tvg-name="UK: Zoomoo HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-04/07d619fcb6d4bacfa375dcd224e7f1e9.png" group-title="INDIAN MUSIC",UK: Zoomoo HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacDcvMEU3eU1nNDhXTjcwdEhMRHNxaEp2RDhKTTJRS2JDbVJ3a1YxTittdw
+#EXTINF:-1 tvg-id="" tvg-name="US: CBS Omaha Nebraska KMTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0780f4e676d74cd3bf0dca9eae8882ac.png" group-title="INDIAN MUSIC",US: CBS Omaha Nebraska KMTV TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nabk9Fdjg4V01HR1NyVTdVR0gyTHJ0Q3Q3MUx4QnNQZDI3TDY1NnhoaGd6Nw
+#EXTINF:-1 tvg-id="" tvg-name="US: NBC Madison Wisconsin WMTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/abc02a80c28f73f2453c5901ce6fa6a8.png" group-title="INDIAN MUSIC",US: NBC Madison Wisconsin WMTV TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEFYNEo5Yko1a3FWTXNqSDBlQzEvQVBtc1pYdDdkMzZDTnFYWGxNRkFKVw
+#EXTINF:-1 tvg-id="" tvg-name="US: CLUB MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/394e113f22fee6021c7b600eacc12a07.png" group-title="INDIAN MUSIC",US: CLUB MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWVhYXNEaHBpSWk5MStBenRJdGVXcExlTU9hd2NreW9nZ3YzcmJXYVZNRg
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/928b1bb2310329b7809241d92fc30061.png" group-title="INDIAN MUSIC",US: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UFBRYURlckEzRnpHdG5WWnVQQ2I5Lw
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/09cc4c6c30d46d10fc0f05137b9203ed.png" group-title="INDIAN MUSIC",US: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TTd0elNpNFJJdUpSQXR3eCtEcW95Yg
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/5d835a17ef8e354c192ac4cb508786b2.png" group-title="INDIAN MUSIC",US: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TVBPSmpBTTE0MCtuZGlYdnNrRFdkTA
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7d4becbed0d461d8dc25ae62ea473f97.png" group-title="INDIAN MUSIC",US: MTV 90S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TTQyVU9nNVRjZHEzVDBURk1kMFI1cg
+#EXTINF:-1 tvg-id="MTV.Classic.us2" tvg-name="US: MTV Classic HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/6a9be37123e36e726eb8d071f434654a.png" group-title="INDIAN MUSIC",US: MTV Classic HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TUZNNkZnQnQ5bzM5UXh5SXB1bUZuUQ
+#EXTINF:-1 tvg-id="MGM+.Hits.HD.us2" tvg-name="US: MTV HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b8a13ece3e61f706b0ba8b65784a39df.png" group-title="INDIAN MUSIC",US: MTV HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TnhtdGpMNHhGQjh4VjRHRXBpZ1Q1SA
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV HITS Latin America HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/8a094477f290cd6d46ae02decdc98371.png" group-title="INDIAN MUSIC",US: MTV HITS Latin America HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TStxWkpKbWlMWGIwQi9hUGxGNFdPMA
+#EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="US: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/2bd71aa02833d403385d52f26700f74b.png" group-title="INDIAN MUSIC",US: MTV LIVE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0T1I2VlJCa0lTWXZ3MEpWTHNqQW1iTA
+#EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="US: MTV LIVE USA HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2fd03b160cbd6cf993329d6be134c42b.png" group-title="INDIAN MUSIC",US: MTV LIVE USA HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UFQxU015S3paeVBMY1hIcldHb2hQNA
+#EXTINF:-1 tvg-id="Nick.Music.us2" tvg-name="US: MTV Music HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/25f525cd39cb74256e83a6ae72dc58aa.jpg" group-title="INDIAN MUSIC",US: MTV Music HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UEFPZnp6cW13OEJ4Rjh0b203Z0pBbA
+#EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="US: MTV U HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2715ca9ae65a9c212b299d9a70a23006.png" group-title="INDIAN MUSIC",US: MTV U HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabmRKcVZMZE5mZVllYzFvNXlWalpUMzVDeHpRcDhUNDlic1BJL1FEQjNRNw
+#EXTINF:-1 tvg-id="" tvg-name="USA | CBS Omaha, NE KMTV HD" tvg-logo="" group-title="INDIAN MUSIC",USA | CBS Omaha, NE KMTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmhBeDJwS3haRkUxa0tzcWNYU2M2ZUc5VEVaR2hndjRMclhZOGk2Y2wxZg
+#EXTINF:-1 tvg-id="" tvg-name="USA | NBC Madison, WI WMTVⓧ" tvg-logo="" group-title="INDIAN MUSIC",USA | NBC Madison, WI WMTVⓧ
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHg4YzhndVpoY3dCQlhmR3lLOEJIS0NIM0g1aHROV2FMa3Rwa0g5UmwzQQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LMTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/226d264495aa22db551f1ce0e7698f9c.png" group-title="INDIAN MUSIC",AF: LMTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnY21zaDZFT0VPeFRDcWI3T3JSamJYdQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LTM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/a34e2ef647c8fb5f2f84b7ed441eed21.png" group-title="INDIAN MUSIC",AF: LTM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnZHk4U28zeHEvNEZWWWlNbVdtZTVNTA
+#EXTINF:-1 tvg-id="mtv.fr" tvg-name="AF: Mande TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/b1b0a3150e16ba3c90faff8a36bad270.png" group-title="INDIAN MUSIC",AF: Mande TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnZnhWQitJdDRsbGE3eTh1V1BKNnZFNQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: MCR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/91521c5f7cb5b065bfcde8c39e654904.png" group-title="INDIAN MUSIC",AF: MCR TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTVNaTJVNHV5WnQyNWMzOVVqOHd5S3lNZTVzcStpVHpQMWJkK1NZMHNHYg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TFM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-06/f47188fd023290e5a0bba4148b40d77f.png" group-title="INDIAN MUSIC",AF: TFM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naci90MFg2UDFQclBaV3hOVWsxNWxoakd2bmxTUXJVZnl5Z1QwME90Wjg5ZQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TM1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/62e3ea77f2be118d3bf83c8920be813a.png" group-title="INDIAN MUSIC",AF: TM1 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadTVsU0RyVEhpa0J6cW9yVEhvSFpoUk9mY2hYWm5RTlhudXYwOU90N0E2aQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TVM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/7482a5150f2bf298dd9a20db4ebb5e45.png" group-title="INDIAN MUSIC",AF: TVM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacG9KTldEd1JOVlNzdEVIeUU4Y1owbm40RTFobnlCdXFMZ3ZET2o0MENIQQ
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="ZA: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-04/f212fcfcf3f296f1cb3398ee633b26ce.png" group-title="INDIAN MUSIC",ZA: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2IxYTkwQmZiOEV4OERhKzllcDFlcitSTEtoRFU2cDFCdmUra3pRSHJMMw
+#EXTINF:-1 tvg-id="rtpafrica.pt" tvg-name="ZA: MTV Africa HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/0e7629dfbf60cfcaa6fcaa24953715b5.png" group-title="INDIAN MUSIC",ZA: MTV Africa HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaanE4dktYVS96enA3b2lRRk5HQk9iV3VhLzBxc09SZVlTcVlXbXBVdndwcQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DE: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4f07704f5ad2f88963e357271609b3d6.png" group-title="INDIAN MUSIC",DE: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmRaaWhHa3dvUVpoM2FPL0k0ekNUclI2Q0dXd1lFbXNkd3NlNFEzQVR2aw
+#EXTINF:-1 tvg-id="" tvg-name="DE: Pluto TV MTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",DE: Pluto TV MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmRaaWhHa3dvUVpoM2FPL0k0ekNUcVBSNTJWVlhkcTFBSTduNHorMmpYWA
+#EXTINF:-1 tvg-id="" tvg-name="CA: MTV 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/66acd659cadbac0a7dbc2a81474fde26.png" group-title="INDIAN MUSIC",CA: MTV 2 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHBQRXBZWHRkVTE3dFJuSWtqNmFHUW1mL0gxczRMNkx6VGdueVdmYU1Vcg
+#EXTINF:-1 tvg-id="AMC.Canada.HD.ca2" tvg-name="CA: MTV Canada HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/44c13cab60011638dcae59fe2506df1e.png" group-title="INDIAN MUSIC",CA: MTV Canada HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHBQRXBZWHRkVTE3dFJuSWtqNmFHUXI1aFUwUDlRUXV1MkpxVDVvOVloQQ
+#EXTINF:-1 tvg-id="bfmtv.fr" tvg-name="FR: BFM Business HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/390b7a05da50b0b9768b41bc0e730434.png" group-title="INDIAN MUSIC",FR: BFM Business HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabTluVUZFRUFpRDVORGVsTG0ycStaVDNaejJUa2tBb3JUR1hESElwUTUwYw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: MDL HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/fc548d03cc074ad09753a96f78c243c3.png" group-title="INDIAN MUSIC",FR: MDL HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK1RqQ3NXSlJaTkgyVHVRZURQU1YzbQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: MGG TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/de840737619b61dc03062621e01e4ca3.png" group-title="INDIAN MUSIC",FR: MGG TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK0EzQUJNTk5HOEppb1lJaTk4MlJCRg
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="FR: MTV 00S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",FR: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK3BXYzNuK085d2dTRncybkFINlc5Vg
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="FR: MTV 80S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",FR: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvOFBDZlk5RlJNc0l3UVBteGFIVmU2dw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: RFM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cdef9aee38db38ace5eda5576d976e24.png" group-title="INDIAN MUSIC",FR: RFM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2J5eStGcWdoWkQ2YzRGcU4vdEdKcXFMSDZ2N296UG9NSFZpRDAwYjAxTg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: BFM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/5627dd6103d6cd8e74a05509d5ff3e8e.png" group-title="INDIAN MUSIC",FR: BFM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0w3RnJEV2l2bFJNU0ltaTM2SWlid01wcVI0di93eWVlcGlRRE02cnl1Sg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: DBM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f5db790ff4792ed22f8e39df89b37964.png" group-title="INDIAN MUSIC",FR: DBM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaclpTNXFlMGl0QjVWWG1DazhBQmtOZjlSR1dKblpHM05mbHlmV0dENkdMZQ
+#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="FR: MCM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/65679ea45867f0d5035c43a7b543f08c.png" group-title="INDIAN MUSIC",FR: MCM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvRzdwTk5adGYySW5uRzBwRVV0LytrNw
+#EXTINF:-1 tvg-id="mtv.fr" tvg-name="FR: MTV France HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1883c9a8cfe1fe4729927f6b91c059eb.png" group-title="INDIAN MUSIC",FR: MTV France HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvSGpPS2JoelkvWEg0elBVSG9vblZZUw
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="FR: MTV HITS France HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb9b264cd4a32ef991ff1d5a02c3ad64.png" group-title="INDIAN MUSIC",FR: MTV HITS France HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvRno3R0JMZCtqTzBENUpSSU0wdHB3SA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IT: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-10/c957f9f900c3468fc3497a351c7ac392.png" group-title="INDIAN MUSIC",IT: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmVZVnJqTzlETkpuRUYyYU5ZK0hMNm12MXJvWHU0cHZMRTFXbUhKczNjZg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IT: M2O HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/88603c72a2ec8904a028fdf31e0402fc.png" group-title="INDIAN MUSIC",IT: M2O HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWRicWthNkFFNnNvLzZ4OEJSVk9zWlJhS3VkbTVGTFVKMGQzTGpxakhqag
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="BR: TV Pampa HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/7c0db3f4bd687a220070caef15863b16.png" group-title="INDIAN MUSIC",BR: TV Pampa HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFRUSGpQMzlDekhTS0RYNmF2dW9sRWRvTzFkdEJleVNOUHhEWDIvK01zTg
+#EXTINF:-1 tvg-id="" tvg-name="BR: Zoomoo KIDS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/670dd04d606c4c64360f9800e75069c6.png" group-title="INDIAN MUSIC",BR: Zoomoo KIDS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2dwWWFWeTVJS2MwenhmWmNNWGozVytNWWs1a3dIWWVJdEt1K0JwTm1aOA
+#EXTINF:-1 tvg-id="" tvg-name="BR: MTV Brasil HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/e28bcf462d5d2310a16ec7fb6edbc24f.png" group-title="INDIAN MUSIC",BR: MTV Brasil HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naam1pU1N1SlR4NEVGWTdFNG1tcnJjeko4VS9wU244TXNOU3FQNzNYaWxKQw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ES: MAR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/75694e8a55fe582b635f6b84378c9957.jpg" group-title="INDIAN MUSIC",ES: MAR TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzlrcHFYN1lrVWg5V3RHWk1nU0N1emdDQmJSUEFWNnFzMmVEUEM1bTE4ZQ
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="ES: Molahits TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/17073835bc7b38b48d7eb3089eed8b50.jpg" group-title="INDIAN MUSIC",ES: Molahits TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGNDbEZaWngyTmp0MnMwRFphVjFFRTh0amZiWUwwa0U0Z2c0N3lxeHNNUQ
+#EXTINF:-1 tvg-id="mangas.fr" tvg-name="ES: MTV Espana HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/29c1e128ba3a6e05e3fd3e529e63f435.png" group-title="INDIAN MUSIC",ES: MTV Espana HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGNDbEZaWngyTmp0MnMwRFphVjFFRSt5L1JkcFZ1bUlVSVVzM2JvTzZUSA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: DIM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/cd2370c1bf4759c3628fee17a29fd473.jpg" group-title="INDIAN MUSIC",TR: DIM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacC81emFpMEVmVnJ0Vk5tc3FhYkRwQnhGK01DMnNzbVpURCthbGZ5b3YyRQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: FM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/899e12116bb5163e2586b77f20bdd548.png" group-title="INDIAN MUSIC",TR: FM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabUxYQUp6SURTSmtxWEh6c0pQblhISEJuQWphb0w0d1IxRjVNQ2E2dGhyTQ
+#EXTINF:-1 tvg-id="mtvu.us" tvg-name="TR: MC EU HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/1d1adb867fd8374943fba91d79fdc808.png" group-title="INDIAN MUSIC",TR: MC EU HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabEdkZ0RSdE10ZHcvQUxRRmFyNWVLMmxkNzFHTEpmYTBxaGtCdWJrVkV6aw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: TMB HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/bf762b7668823b34b75f22b46d0af857.png" group-title="INDIAN MUSIC",TR: TMB HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaczdrZ0hvUkVhZktvODFyT2ZReUJmYkU3ZXBDV2xxSytHQ2hrcmEvSGZlNw
+#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="TR: CEM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac0610a7e164f2a427658b58aec70a89.png" group-title="INDIAN MUSIC",TR: CEM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabWx4cGJxeFZZQlM1MEZjTVVQRU9nVGNSVUxHdEVOUHIrZ0t3ZERhUmg1Yg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FI: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/943f8755b65534ff44654822e00ad4fd.png" group-title="INDIAN MUSIC",FI: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjk5ZFRPbUs1RTVPMVIremFpWGVFWkFkbitvUkh1Z0VzWmU0ZkdrTWhwNg
+#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="FI: MTV 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/fbc08a9b6269bd813fcb45cd862e346e.png" group-title="INDIAN MUSIC",FI: MTV 3 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjk5ZFRPbUs1RTVPMVIremFpWGVFWm1XY3Y5ajhqa0ZwcUdOYUpWamFCVw
+#EXTINF:-1 tvg-id="cmorejuniori.fi" tvg-name="FI: MTV Juniori/c MORE Juniori HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/3a6b5945e8ac66077566d8a3b561ea46.jpg" group-title="INDIAN MUSIC",FI: MTV Juniori/c MORE Juniori HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0lNOXM0TmZYYjE4UTVlQmFScXJ0T21sVnQ3WU1hZ3R3cGo2RVF2c2dRRw
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="SE: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/565cbe7469564234855cb09a47808ad5.png" group-title="INDIAN MUSIC",SE: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJ5TkIwaGZJSG9naGEyamZZbjl3a21DT0tWclY0RU5qbE8wYXpYTUdaMQ
+#EXTINF:-1 tvg-id="" tvg-name="SE: MTV Nordic HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/69c954931fd6297cba123045874fab46.png" group-title="INDIAN MUSIC",SE: MTV Nordic HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJ5TkIwaGZJSG9naGEyamZZbjl3a21YL00wU0p5NTYyajRXbmhhMkpBZg
+#EXTINF:-1 tvg-id="cmorefirst.se" tvg-name="SE: MTV Aitio HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/b2811cd9eff1a852f706b766ec43dc87.jpg" group-title="INDIAN MUSIC",SE: MTV Aitio HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadUhwRnRQSE93ZUtwNVpoWm12RVI0Y3hSblB6S0FobHI3cnpFZFpvTHV6Uw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DK: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d4f5e66240f8eb76feb846cfa48838a4.svg" group-title="INDIAN MUSIC",DK: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaajZGZk9INDNtSlF6cGJGNzY1eG1ocw
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="DK: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ea2ea80b62ac4be4b2a51febc4309681.png" group-title="INDIAN MUSIC",DK: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaalZXMnpoYnBYWURQWjF0WTdhWURsSQ
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="DK: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c6ef43da060b94bdd9cac31ef6e9a0f9.png" group-title="INDIAN MUSIC",DK: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaajNEV1REQWZCaytRMkR2WWVmYUJjLw
+#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="DK: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/05c86c71d9aa3a83105db471da8835fa.jpg" group-title="INDIAN MUSIC",DK: MTV 90S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaZ1VFKzh2L0ttVzgrK0ZsWmM0YjFHWg
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="DK: MTV HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/03a1b4277915c436468a6334522d119e.svg" group-title="INDIAN MUSIC",DK: MTV HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU5pWVNPQXNyeTNiZjFxSXQ0cW1oSnArOGtCc3hwNlJzclRuUVJWV1N2Qg
+#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="DK: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d2477c209d6417877e34ebfe07346516.svg" group-title="INDIAN MUSIC",DK: MTV LIVE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU5pWVNPQXNyeTNiZjFxSXQ0cW1oSmcxOXVxalF2RDlKVHN2UmpEdHVZKw
+#EXTINF:-1 tvg-id="MTV.Live.pt" tvg-name="PT: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",PT: MTV LIVE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU4xcEMvT3JwcFZZTWY4cklnY1dGRGhGMnlML2F3WVo2S1RaMUpsTW8rUQ
+#EXTINF:-1 tvg-id="CMTV.HD.pt" tvg-name="PT: CM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac1ea8e2c36914812a32029089a0b6d1.png" group-title="INDIAN MUSIC",PT: CM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWdra0p4WFJza0NoTHZkUkNsMXdJMlFUZUJnaHl4NjdQT2N0ZlhKM2RPcQ
+#EXTINF:-1 tvg-id="MTV.Portugal.HD.pt" tvg-name="PT: MTV Portugal HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9eb16db3f705768cdb9266a9c7de0730.png" group-title="INDIAN MUSIC",PT: MTV Portugal HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWtEeGpYNTBlYndLekZlWHBZNkJCaVNzWllIMjJLQ3EwOUZBdWRJdzI3eg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MAD TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/691a789fdf76e738acc4db0289b00166.png" group-title="INDIAN MUSIC",GR: MAD TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1pRaEhxSXFOZ2VOcExjdmNoZW9TTkxTR1FZdFZxRHllVmo5ZXR3aHo2Wg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MGR TV FHD" tvg-logo="" group-title="INDIAN MUSIC",GR: MGR TV FHD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaajZnMXp4V2F5alNBR2VYNmdmZDl2bHl4ZkE3UytFV2xoRGZ1TjQ4WjhCNg
+#EXTINF:-1 tvg-id="" tvg-name="MX ▎MTV" tvg-logo="https://img.logo-cdn.cc/mtvhd.png" group-title="INDIAN MUSIC",MX ▎MTV
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadXBDVUtKRkpkblNlZ1JzNFErMXZteEpEUnpWd1FoK0NuT2E2V0VoU3pqYg
+#EXTINF:-1 tvg-id="" tvg-name="MX ▎PLUTO TV MTV EMBARAZADA A LOS 16" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN MUSIC",MX ▎PLUTO TV MTV EMBARAZADA A LOS 16
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoeEdmZzY5cDZoSnZRQnE4QmNMZHM5cQ
+#EXTINF:-1 tvg-id="natgeo.de" tvg-name="MX ▎PLUTO TV MTV LATINO" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN MUSIC",MX ▎PLUTO TV MTV LATINO
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoejFDY0ZuR2l1TWN3ZnZrOGN5cjJKTg
+#EXTINF:-1 tvg-id="nickelodeon.it" tvg-name="MX ▎PLUTO TV MTV TATTOO A DOS" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN MUSIC",MX ▎PLUTO TV MTV TATTOO A DOS
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoeUQwem1TVlJraFUzVXdqSlQwVGNpUg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="MX ▎PLUTO TV SPIKE AVENTURA" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN MUSIC",MX ▎PLUTO TV SPIKE AVENTURA
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacThvWDVGRHFqTlZBNzMrMmR2cmZSUVR2M3BZMkhBQXVaaFU1K2F2OG1yKw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="PL: TV Trwam HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/3ed508e70ca33943ea85c89c720173ba.png" group-title="INDIAN MUSIC",PL: TV Trwam HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWxqK0x0Z2JHTE05WmROemtHWTJHMmttR05OM1NPTkFXRWNYTnc0a3Q0eQ
+#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="PL: ZOOM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/515fbca039b0382bee7f002998ff7fa1.png" group-title="INDIAN MUSIC",PL: ZOOM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWJkd1pBSUNFdFlIR2gyRWRZSisxTW9PSllyMnFPVmFrWTA5SVpHN2NFWQ
+#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="PL: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/4aebc71246a299650b24d96c2e9a7d0a.jpg" group-title="INDIAN MUSIC",PL: MTV 90S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaStCVGF1YzZRaFAyd1Uzbm5iNVV5R2R1eGhxOWdJR25MOVJ3MTZiVERBNg
+#EXTINF:-1 tvg-id="mtvpolska.pl" tvg-name="PL: MTV Polska HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b5ba95468faf2a01e2dfc0063f37c87e.png" group-title="INDIAN MUSIC",PL: MTV Polska HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaStCVGF1YzZRaFAyd1Uzbm5iNVV5SDdqdzhOWnNOb2U0OFkzVTNqUE14Rg
+#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="CH: TVM 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/1fefd2b10ca49bba6abe26c738c810cc.png" group-title="INDIAN MUSIC",CH: TVM 3 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0NQck1BZjl0MzdGdE5NZGtCeC9WekhnK25PNTZ0YndSR2Q0V2k3TXZ6cg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="NL: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9a1c4d99aeabcc79410136e126394b86.png" group-title="INDIAN MUSIC",NL: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacnphVmVUcGIwQzZjWExIOWJ3RnR6Zmd1b282d3ViZ2Y3cVN2UmpmdVhSdA
+#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="NL: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/c31fea88f41d76e67d7d5087e298714c.jpg" group-title="INDIAN MUSIC",NL: MTV 90S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzZEY2ZOUktCMmtjaW1xVElqcWo1T29XSVhVRTJrQ2ZBTGxZdnNCZGozTQ
+#EXTINF:-1 tvg-id="" tvg-name="PUN || MH1 DIL SE HD" tvg-logo="https://i.imgur.com/Pi6ldXm.png" group-title="INDIAN MUSIC",PUN || MH1 DIL SE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabERzQ2hhMTV0N2pNMVo2NXZEQ21veTREYkE1RENyZlVnZ2wyOWJmcGhkTw
+#EXTINF:-1 tvg-id="407811" tvg-name="IN | 9x Jalwa" tvg-logo="" group-title="INDIAN MUSIC",IN | 9x Jalwa
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaHIxUGZwLzd3MlJBQnJibUxzN2pVVmsxK0Rxb0IrRFZrb1dIOGtFQyttQg
+#EXTINF:-1 tvg-id="" tvg-name="IN-kan | ZEE Kananda HD" tvg-logo="https://rolextv.one:443/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dRzdRq072r5vgpUsulHfl0MMh1PNXg19_ABKmIbo7Hivg.png" group-title="INDIAN MUSIC",IN-kan | ZEE Kananda HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0tGYzJ2bDgwVTVPc05pOUlObkJNRUJkSVA1dkptWkp0THA5RGNYTHJjTg
+#EXTINF:-1 tvg-id="mtv.fr" tvg-name="PH: ANC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="INDIAN MUSIC",PH: ANC HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ1JuYUVVQzVFa3l4TnFHMSttNk5ET0UvczAzdXQrQlNlTzVMb0ExWlI3Tg
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="ID: HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/ae782ad6176bbda366bbaf7e52bdff09.png" group-title="INDIAN MUSIC",ID: HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGpZMlVuMXNjSkt6ZmVoTnh4MWR4MDU3c2tiNkxoZXk3Y0ZPV20wcTd0Zw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: IMC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2b58230b601a563bb26eb0e8adc69e5d.png" group-title="INDIAN MUSIC",ID: IMC HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0x0ZXFPbysvMVBvYjc1eXFMemc1bDBUL2czZVB1OXptb1ZnMzkwZ0g1ZQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: MQTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",ID: MQTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadDBEZndQZXBheTlkL2lBSEJPWmdkUUdHdWVPQ05RVXJ3bUYwSERrUm1vWQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: MTA TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/572ee91ff1e528d04284dd7e952bed14.png" group-title="INDIAN MUSIC",ID: MTA TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadDBEZndQZXBheTlkL2lBSEJPWmdkVGNoZVVBSVZmaGJWMy9pM1pJSWVwZA
+#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="ID: Zoomoo HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ffe9e8c7ffa0c48eccb971c397c8e0de.png" group-title="INDIAN MUSIC",ID: Zoomoo HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaditSaDZtclp4MG4yNnlhOGk4VXdiOS9vb0JLTG1OTUxmNFo5V2Z5enNXYQ
+#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="ID: CCM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/e781645d9f686de47e29b212df4791a1.png" group-title="INDIAN MUSIC",ID: CCM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5HK0xBL2lDVVZCdnpET1R3MWp4OXBBWkJ0LytyQVo2OE96Z0IxL2E0TQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DO: GDM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/b36ba83559db3e9590c4da4ad2f5afbf.jpg" group-title="INDIAN MUSIC",DO: GDM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2pHcDBNMEN1UmhaK3N2aWdqV2hVaFVIWUFmZ2pXTnR0dVQyVnJXNE83cw
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="MY: HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/25ab65a39a10d628b5c9319b423b6497.png" group-title="INDIAN MUSIC",MY: HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabWxaUXNrWmd1Vm1SK09sVUJ2aTlZcHhNdWR1enUrR0Z0eVdaQlVJMUZYTQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="MY: MTV HD" tvg-logo="http://s3.i3ns.net/portal/picon/2020-12/02fe87f4680ce4c67197ba3c4c5bf9c7.png" group-title="INDIAN MUSIC",MY: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ3dhamppdjJaczFmOTVIMURxMThaZmdtdGF2aGlsOExjVnpaTzVnZk9Ieg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="EG: DMC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/680745c4bcf505cf50c64ac422d9e5db.png" group-title="INDIAN MUSIC",EG: DMC HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnNqTnZsRmR0elRkQUFsRjhhaEZXcDF4aWZaNytXbWFlcllMTTFIQndlLw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: MTM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/e1f2bc1fa93cce489bc1efab5d9eee6a.png" group-title="INDIAN MUSIC",UKR: MTM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwazdNaUpzQTE0QTBmSjlWRGxxZ0wvZg
+#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="UKR: ZOOM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/dd9c85a9b990477b679a41a7dd5875de.png" group-title="INDIAN MUSIC",UKR: ZOOM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1Z3YTVGTzVLT2lKWGpRZFZCYXRsMDY4MXhrQXAveTAwQTBoRE1ncUFhNw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: M1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/9ccd2b4866b7e0441c47cdb22ebf6362.png" group-title="INDIAN MUSIC",UKR: M1 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwa2FZRnhQbjFzZnY2U3lxa0V0bHpYUg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: M2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/406be2f78d76429e52d05ad3d145e633.jfif" group-title="INDIAN MUSIC",UKR: M2 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwbWxBaUp5alNFQTVUNk1KNXRDTWpNVA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IRAN | PMC HD" tvg-logo="" group-title="INDIAN MUSIC",IRAN | PMC HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaGRzbDc2YTkyK0t6eUM2ZjFSSlE1RmpnbytVR2pqVGJYZDNvVmdvbTJhMA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="LA: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/c34a5b676610864fdc6ff17aedc599ee.png" group-title="INDIAN MUSIC",LA: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMG9kUk9JNWpJRkM4aXNla0VwOHpuWA
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="LA: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/2cb6212de04cd4a5ddd751297bc9cc36.png" group-title="INDIAN MUSIC",LA: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMm1kSzB0RTFaeXlYcUJzTXludXFYSw
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="LA: MTV HITS HD" tvg-logo="" group-title="INDIAN MUSIC",LA: MTV HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMkI0V0pCcG00VzB1a21zRGhZY2Nrdw
+#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="LA: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/a0507e5e292fe195d99f86b0eb85121f.svg" group-title="INDIAN MUSIC",LA: MTV LIVE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMGgwdUxXUmxwOHQ0RWxDWm1CNFRLRQ
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="LA: MTV SIM HD" tvg-logo="" group-title="INDIAN MUSIC",LA: MTV SIM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMi9DKzNZRDVjOGpBU1VENWhTbVpKaw
+#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="LA: Zoomoo HD" tvg-logo="" group-title="INDIAN MUSIC",LA: Zoomoo HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabVByT0lzcloySFZpWHJMZ29jOWR0dEpCT1hDUUN6SnR3bExodUphN0p2Rw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="JP: MBS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",JP: MBS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabkwvVzJrOFNodFVrMXFGcjkyODJ1azRRdG9SYXVaN09WV2tXSEZaTElzZg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TH: DMC TV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",TH: DMC TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacnJ5ZVN6Y3kvZUFxT3VLM2V1VjhUTEZGUnZ0WUtrQlNBbmhscVBiVVF5UA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TH: UMM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/e856d2e65855aa3517fb075898524fc9.png" group-title="INDIAN MUSIC",TH: UMM TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakJuSlNvMFViL0pTdzl1Wm5tN3VkbzdRdEFxa0FoaG0zZDQ2Q2gySFNDaA
+#EXTINF:-1 tvg-id="" tvg-name="VN: VIET MTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",VN: VIET MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnNma1JFc1Q1RmhobG1CWWszMXVReGhpSEw2NmY3eEd4VDl1c0kzSW5xMw
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="RS: MIS TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/ecf70aeff7b5e582a52b65dc1c556b4e.png" group-title="INDIAN MUSIC",RS: MIS TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzBKbkx5ZHhXUFlQc2hQeSs5ZUhmdm5WQUVFS0JhZjlGZkd4dDdsWmpOZw
+#EXTINF:-1 tvg-id="mtv.fr" tvg-name="RS: PINK Romance HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac8ab7d1e17506b5a01e6c4fcde67ecb.png" group-title="INDIAN MUSIC",RS: PINK Romance HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabFUvVTVtM2c3ZnFwOG9HSFBpQldQeUVuWHdmbUcvbWx4M25vYWFQZktyLw
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="BG: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",BG: MTV 00S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0tHMGhzajd5blJBVFRxVU1aZFpmbFNtQ2p6SThXYU9iQU5RTnZmTTRQRg
+#EXTINF:-1 tvg-id="vh1.ro" tvg-name="BG: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",BG: MTV 80S HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0tHMGhzajd5blJBVFRxVU1aZFpmbFNPWU9pSFNRQXljblBza0docXZVTg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HR: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/e8d942aa6c81a24c8a30849943b403e8.png" group-title="INDIAN MUSIC",HR: MTV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaXhFYWdqVlNONGdObnNlRGV3NjFscmJ1eGFTRVgyeVkzWTZ6Rm5mTnVJNQ
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="HU: MTV HITS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",HU: MTV HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaandFSS9MeDRSSTRrcEhwa0o4WStTNmlEUkdRYk1DVXBuUy9jbFFub1hmbA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HU: M5 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1f31c5a4e84895b7406a329a4e9cc499.png" group-title="INDIAN MUSIC",HU: M5 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabytzanNHNXQ0ckVXL2tnOW9lQ1FSVW5aMmRScUtZYkVQYmlMU3BleklUcg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HU: M1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3009b7b623b42e55e6a1f35a9b33231.png" group-title="INDIAN MUSIC",HU: M1 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaandFSS9MeDRSSTRrcEhwa0o4WStTNXd0dkNLMTM0RnIxMm8vN084anU0QQ
+#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="BE: VTM 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/c646293d99a238000698eaf4a065c80a.png" group-title="INDIAN MUSIC",BE: VTM 3 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadXBrTDBUbVVvRk1xMjdxUmlVcmswbngveFJMQTdaTnpiMmxJOWRhRHRDUA
+#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="AL: EB HITS HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",AL: EB HITS HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NablVaVkZXc1NuZHlXMWhubGtBV3FNWGJRcDFsRDdNMGd6UHUzNnpYQW4wVw
+#EXTINF:-1 tvg-id="" tvg-name="AL: MTV Kosova HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8c62bf6c87574289bf103877b09ee901.jpg" group-title="INDIAN MUSIC",AL: MTV Kosova HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nabk9LR21Wdmd3TldaSjg2YWVpWEs0YWJTdEJ5cWVyMXlWeWZiZTJyNDUwbg
+#EXTINF:-1 tvg-id="" tvg-name="IN-NEWS | TS C News Bharat" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/MH1-News.png" group-title="INDIAN MUSIC",IN-NEWS | TS C News Bharat
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1J3RGFENnJFeit4a3NNK1ZjME9qZVp6Q3JOeGgrS1FJQ25sQWoyVlBsYg
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="RO: MDI TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/6aff93c65f1ec0261cbe131a50a6ebc8.jpg" group-title="INDIAN MUSIC",RO: MDI TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEV3TkFFSVFJWklLa1NqelAwbFlsT0dNR1Urc1NydXZQejdCajVKNVM3TQ
+#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="RO: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/8adbb9df2619478f70b280d08b051af8.svg" group-title="INDIAN MUSIC",RO: MTV LIVE HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabmFpTGQ2a0Q3ZWxtTWRpZHNQalZURTc5RGR3Uk8xRTVMT1lqdG54eFlBdw
+#EXTINF:-1 tvg-id="" tvg-name="BIH: MTV Igman HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/78626303d341aef8dddd63855249dea1.png" group-title="INDIAN MUSIC",BIH: MTV Igman HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacktMdFBjbi9iOHZEVVBVcDIzUGJ6WFJkVFlKRFdFU0NRSnoxU0VuYU5LUA
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="SI: MMC TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/113cb66d5fc4342c2009ae7e3b617a43.jpeg" group-title="INDIAN MUSIC",SI: MMC TV HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabklPQ2drTlhiQlY3eUw1dFM1eEZveU1XalNiMnlZRkpJL2pSZmFUUzArcQ
+#EXTINF:-1 tvg-id="" tvg-name="NE | OMAHA | CBS | KMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN MUSIC",NE | OMAHA | CBS | KMTV
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabHc2Z09HZE85cFNXUWFsaUVRUnJRZFRzSG94WmpLWXA0V001eGpkd1JtQw
+#EXTINF:-1 tvg-id="" tvg-name="WI | MADISON | NBC | WMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN MUSIC",WI | MADISON | NBC | WMTV
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1krZDc5MkNVbVY2NDZYckNLWjQ4REpXUFFFaWNQUUZOdXIreFNRQWVCMw
 #EXTINF:-1 tvg-id="404001" tvg-name="IN | ZEE TV HD." tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-tv-in.png" group-title="INDIAN HINDI",IN | ZEE TV HD.
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0xWQWM3S2ZUYXM5dlZUUUFJazNOQ2hkSXJ5cHU4YTFvZXhZM2NEcGVGOQ
 #EXTINF:-1 tvg-id="404001" tvg-name="IN | SONY SAB HD." tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-sab-tv-in.png" group-title="INDIAN HINDI",IN | SONY SAB HD.
@@ -4510,14 +4810,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1ZlMW4yNmpiR3pWMmQ0SnlFWFZ5OGd
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3BvbURpcTQ1S3BjbC9NQTV6RW4ySy85Y1NMdC84N2hxUU40T1hUd05yTQ
 #EXTINF:-1 tvg-id="464202" tvg-name="| IND |UK | NDTV 24x7" tvg-logo="" group-title="INDIAN HINDI",| IND |UK | NDTV 24x7
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2UrQTV4bDdRaUhwbTVSU0dBMXhwZ09tOWx3UWkzdWtUWjN6Vng4MVBCZw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="PAKISTANI-GOHAR MUMTAZ HD" tvg-logo="http://stariptv.fun/logos/pakistanisinger.png" group-title="INDIAN HINDI",PAKISTANI-GOHAR MUMTAZ HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacU5maDhEeFZWSW0vSHFpSlFGY3l0SjRjOFVVaW8rOU1tWWR1enlGTE1Ddg
-#EXTINF:-1 tvg-id="" tvg-name="IN | 9XM Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/num/9x_music.png" group-title="INDIAN HINDI",IN | 9XM Music HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZSHFLRUtmZG1UclNuYkIzOHRISlhnNA
-#EXTINF:-1 tvg-id="464208" tvg-name="IN | M TV Music HD" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mtv-us.png" group-title="INDIAN HINDI",IN | M TV Music HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabDNkMUwzTFo1MzhTVWc3ZlNIYTQzQW02M1U2VkNYOSt3ckt3M3BtMWZpMA
-#EXTINF:-1 tvg-id="" tvg-name="IN | MTV Beats HD" tvg-logo="http://14.192.144.8:80/images/26df5b71360319d1b741e9c94b55806a.png" group-title="INDIAN HINDI",IN | MTV Beats HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabXVETkVkV1R1Z1BHVElzck9odDBZRXRoSnJUUEdIWUdnenM4QmpNcy96aA
 #EXTINF:-1 tvg-id="" tvg-name="UK: SONY SAB" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sony-sab-uk.png" group-title="INDIAN HINDI",UK: SONY SAB
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacHJ3Wk5Ob1ZXNVJkeU5sMHV2TldJd1ZJMmYwREN1QTVEUS95TFExSFFXaw
 #EXTINF:-1 tvg-id="" tvg-name="UK: COLORS TV HD (G)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/colors-in.png" group-title="INDIAN HINDI",UK: COLORS TV HD (G)
@@ -4528,186 +4820,8 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nack9IcUUvZVNXUjJRbUZTZFhobTBvYjJ
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabDJMZG1qOExFOTF5MlR4a2NVY1l0Uy9WcTNac3ZLamEwYTEzb2RtcCtmeQ
 #EXTINF:-1 tvg-id="" tvg-name="UK: AAJ TAK (UK)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/aaj-tak-in.png" group-title="INDIAN HINDI",UK: AAJ TAK (UK)
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabDJMZG1qOExFOTF5MlR4a2NVY1l0VHQwRWwrSHZTdy9rSFZ3d1lLZHhjVg
-#EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 00S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",UK: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ29hQkV1Qm9Ca0l1bktyN1JXM2NXenFUa2tWdFRvRkU5dmE0R0d1bjdVSA
-#EXTINF:-1 tvg-id="9618" tvg-name="UK: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/5f0736e55c04b29d0b57b10c9ca028d5.svg" group-title="INDIAN HINDI",UK: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY1VvWVdDUkpFUkJmV2lBdG5JdlVRNQ
-#EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/ca3681aa6c3c94669967bb2409db44d9.png" group-title="INDIAN HINDI",UK: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LYzRaR296dzdCUmtzNTZWNjhVMThJQw
-#EXTINF:-1 tvg-id="12555" tvg-name="UK: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/31ffe827059b8b18b9a76b6b940e9f71.jpg" group-title="INDIAN HINDI",UK: MTV 90S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LYytoamZxekd2U2ZPYnNuZTB5a1hGWg
-#EXTINF:-1 tvg-id="9627" tvg-name="UK: MTV Classic HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",UK: MTV Classic HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY3RhakpIaEhYbDdkMzlBc3M4Q0d2dQ
-#EXTINF:-1 tvg-id="" tvg-name="UK: MTV CLUB HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",UK: MTV CLUB HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY1VRa2g3UjQ2NzFSMTRvU01pNTVZdQ
-#EXTINF:-1 tvg-id="9538" tvg-name="UK: MTV HITS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",UK: MTV HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LZmNDUDY4MXowUXFGMHdVQ1NPU1lJdw
-#EXTINF:-1 tvg-id="9155" tvg-name="UK: MTV Music HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/664676a1629f33cb224804dbca11e0d2.svg" group-title="INDIAN HINDI",UK: MTV Music HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LZWwxSFIreXQwTDNXYy9QUmFlYlN3WA
-#EXTINF:-1 tvg-id="" tvg-name="US: CBS Omaha Nebraska KMTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0780f4e676d74cd3bf0dca9eae8882ac.png" group-title="INDIAN HINDI",US: CBS Omaha Nebraska KMTV TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nabk9Fdjg4V01HR1NyVTdVR0gyTHJ0Q3Q3MUx4QnNQZDI3TDY1NnhoaGd6Nw
-#EXTINF:-1 tvg-id="" tvg-name="US: NBC Madison Wisconsin WMTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/abc02a80c28f73f2453c5901ce6fa6a8.png" group-title="INDIAN HINDI",US: NBC Madison Wisconsin WMTV TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEFYNEo5Yko1a3FWTXNqSDBlQzEvQVBtc1pYdDdkMzZDTnFYWGxNRkFKVw
-#EXTINF:-1 tvg-id="" tvg-name="US: CLUB MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/394e113f22fee6021c7b600eacc12a07.png" group-title="INDIAN HINDI",US: CLUB MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWVhYXNEaHBpSWk5MStBenRJdGVXcExlTU9hd2NreW9nZ3YzcmJXYVZNRg
-#EXTINF:-1 tvg-id="" tvg-name="US: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/928b1bb2310329b7809241d92fc30061.png" group-title="INDIAN HINDI",US: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UFBRYURlckEzRnpHdG5WWnVQQ2I5Lw
-#EXTINF:-1 tvg-id="" tvg-name="US: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/09cc4c6c30d46d10fc0f05137b9203ed.png" group-title="INDIAN HINDI",US: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TTd0elNpNFJJdUpSQXR3eCtEcW95Yg
-#EXTINF:-1 tvg-id="" tvg-name="US: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/5d835a17ef8e354c192ac4cb508786b2.png" group-title="INDIAN HINDI",US: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TVBPSmpBTTE0MCtuZGlYdnNrRFdkTA
-#EXTINF:-1 tvg-id="" tvg-name="US: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7d4becbed0d461d8dc25ae62ea473f97.png" group-title="INDIAN HINDI",US: MTV 90S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TTQyVU9nNVRjZHEzVDBURk1kMFI1cg
-#EXTINF:-1 tvg-id="MTV.Classic.us2" tvg-name="US: MTV Classic HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/6a9be37123e36e726eb8d071f434654a.png" group-title="INDIAN HINDI",US: MTV Classic HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TUZNNkZnQnQ5bzM5UXh5SXB1bUZuUQ
-#EXTINF:-1 tvg-id="MGM+.Hits.HD.us2" tvg-name="US: MTV HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b8a13ece3e61f706b0ba8b65784a39df.png" group-title="INDIAN HINDI",US: MTV HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TnhtdGpMNHhGQjh4VjRHRXBpZ1Q1SA
-#EXTINF:-1 tvg-id="" tvg-name="US: MTV HITS Latin America HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/8a094477f290cd6d46ae02decdc98371.png" group-title="INDIAN HINDI",US: MTV HITS Latin America HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0TStxWkpKbWlMWGIwQi9hUGxGNFdPMA
-#EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="US: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/2bd71aa02833d403385d52f26700f74b.png" group-title="INDIAN HINDI",US: MTV LIVE HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0T1I2VlJCa0lTWXZ3MEpWTHNqQW1iTA
-#EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="US: MTV LIVE USA HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2fd03b160cbd6cf993329d6be134c42b.png" group-title="INDIAN HINDI",US: MTV LIVE USA HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UFQxU015S3paeVBMY1hIcldHb2hQNA
-#EXTINF:-1 tvg-id="Nick.Music.us2" tvg-name="US: MTV Music HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/25f525cd39cb74256e83a6ae72dc58aa.jpg" group-title="INDIAN HINDI",US: MTV Music HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UEFPZnp6cW13OEJ4Rjh0b203Z0pBbA
-#EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="US: MTV U HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2715ca9ae65a9c212b299d9a70a23006.png" group-title="INDIAN HINDI",US: MTV U HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabmRKcVZMZE5mZVllYzFvNXlWalpUMzVDeHpRcDhUNDlic1BJL1FEQjNRNw
-#EXTINF:-1 tvg-id="" tvg-name="USA | CBS Omaha, NE KMTV HD" tvg-logo="" group-title="INDIAN HINDI",USA | CBS Omaha, NE KMTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmhBeDJwS3haRkUxa0tzcWNYU2M2ZUc5VEVaR2hndjRMclhZOGk2Y2wxZg
-#EXTINF:-1 tvg-id="" tvg-name="USA | NBC Madison, WI WMTVⓧ" tvg-logo="" group-title="INDIAN HINDI",USA | NBC Madison, WI WMTVⓧ
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHg4YzhndVpoY3dCQlhmR3lLOEJIS0NIM0g1aHROV2FMa3Rwa0g5UmwzQQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LMTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/226d264495aa22db551f1ce0e7698f9c.png" group-title="INDIAN HINDI",AF: LMTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnY21zaDZFT0VPeFRDcWI3T3JSamJYdQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LTM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/a34e2ef647c8fb5f2f84b7ed441eed21.png" group-title="INDIAN HINDI",AF: LTM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnZHk4U28zeHEvNEZWWWlNbVdtZTVNTA
-#EXTINF:-1 tvg-id="mtv.fr" tvg-name="AF: Mande TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/b1b0a3150e16ba3c90faff8a36bad270.png" group-title="INDIAN HINDI",AF: Mande TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnZnhWQitJdDRsbGE3eTh1V1BKNnZFNQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: MCR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/91521c5f7cb5b065bfcde8c39e654904.png" group-title="INDIAN HINDI",AF: MCR TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTVNaTJVNHV5WnQyNWMzOVVqOHd5S3lNZTVzcStpVHpQMWJkK1NZMHNHYg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TFM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-06/f47188fd023290e5a0bba4148b40d77f.png" group-title="INDIAN HINDI",AF: TFM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naci90MFg2UDFQclBaV3hOVWsxNWxoakd2bmxTUXJVZnl5Z1QwME90Wjg5ZQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TM1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/62e3ea77f2be118d3bf83c8920be813a.png" group-title="INDIAN HINDI",AF: TM1 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadTVsU0RyVEhpa0J6cW9yVEhvSFpoUk9mY2hYWm5RTlhudXYwOU90N0E2aQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: TVM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/7482a5150f2bf298dd9a20db4ebb5e45.png" group-title="INDIAN HINDI",AF: TVM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacG9KTldEd1JOVlNzdEVIeUU4Y1owbm40RTFobnlCdXFMZ3ZET2o0MENIQQ
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="ZA: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-04/f212fcfcf3f296f1cb3398ee633b26ce.png" group-title="INDIAN HINDI",ZA: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2IxYTkwQmZiOEV4OERhKzllcDFlcitSTEtoRFU2cDFCdmUra3pRSHJMMw
-#EXTINF:-1 tvg-id="rtpafrica.pt" tvg-name="ZA: MTV Africa HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/0e7629dfbf60cfcaa6fcaa24953715b5.png" group-title="INDIAN HINDI",ZA: MTV Africa HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaanE4dktYVS96enA3b2lRRk5HQk9iV3VhLzBxc09SZVlTcVlXbXBVdndwcQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DE: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4f07704f5ad2f88963e357271609b3d6.png" group-title="INDIAN HINDI",DE: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmRaaWhHa3dvUVpoM2FPL0k0ekNUclI2Q0dXd1lFbXNkd3NlNFEzQVR2aw
-#EXTINF:-1 tvg-id="" tvg-name="DE: Pluto TV MTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",DE: Pluto TV MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmRaaWhHa3dvUVpoM2FPL0k0ekNUcVBSNTJWVlhkcTFBSTduNHorMmpYWA
-#EXTINF:-1 tvg-id="" tvg-name="CA: MTV 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/66acd659cadbac0a7dbc2a81474fde26.png" group-title="INDIAN HINDI",CA: MTV 2 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHBQRXBZWHRkVTE3dFJuSWtqNmFHUW1mL0gxczRMNkx6VGdueVdmYU1Vcg
-#EXTINF:-1 tvg-id="AMC.Canada.HD.ca2" tvg-name="CA: MTV Canada HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/44c13cab60011638dcae59fe2506df1e.png" group-title="INDIAN HINDI",CA: MTV Canada HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHBQRXBZWHRkVTE3dFJuSWtqNmFHUXI1aFUwUDlRUXV1MkpxVDVvOVloQQ
-#EXTINF:-1 tvg-id="bfmtv.fr" tvg-name="FR: BFM Business HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/390b7a05da50b0b9768b41bc0e730434.png" group-title="INDIAN HINDI",FR: BFM Business HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabTluVUZFRUFpRDVORGVsTG0ycStaVDNaejJUa2tBb3JUR1hESElwUTUwYw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: MDL HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/fc548d03cc074ad09753a96f78c243c3.png" group-title="INDIAN HINDI",FR: MDL HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK1RqQ3NXSlJaTkgyVHVRZURQU1YzbQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: MGG TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/de840737619b61dc03062621e01e4ca3.png" group-title="INDIAN HINDI",FR: MGG TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK0EzQUJNTk5HOEppb1lJaTk4MlJCRg
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="FR: MTV 00S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",FR: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvK3BXYzNuK085d2dTRncybkFINlc5Vg
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="FR: MTV 80S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",FR: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2pkckNwRFdDWjhxbE9iTjBrUVdvOFBDZlk5RlJNc0l3UVBteGFIVmU2dw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: RFM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cdef9aee38db38ace5eda5576d976e24.png" group-title="INDIAN HINDI",FR: RFM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2J5eStGcWdoWkQ2YzRGcU4vdEdKcXFMSDZ2N296UG9NSFZpRDAwYjAxTg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: BFM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/5627dd6103d6cd8e74a05509d5ff3e8e.png" group-title="INDIAN HINDI",FR: BFM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0w3RnJEV2l2bFJNU0ltaTM2SWlid01wcVI0di93eWVlcGlRRE02cnl1Sg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FR: DBM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f5db790ff4792ed22f8e39df89b37964.png" group-title="INDIAN HINDI",FR: DBM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaclpTNXFlMGl0QjVWWG1DazhBQmtOZjlSR1dKblpHM05mbHlmV0dENkdMZQ
-#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="FR: MCM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/65679ea45867f0d5035c43a7b543f08c.png" group-title="INDIAN HINDI",FR: MCM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvRzdwTk5adGYySW5uRzBwRVV0LytrNw
-#EXTINF:-1 tvg-id="mtv.fr" tvg-name="FR: MTV France HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1883c9a8cfe1fe4729927f6b91c059eb.png" group-title="INDIAN HINDI",FR: MTV France HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvSGpPS2JoelkvWEg0elBVSG9vblZZUw
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="FR: MTV HITS France HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb9b264cd4a32ef991ff1d5a02c3ad64.png" group-title="INDIAN HINDI",FR: MTV HITS France HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2ZpZ2k1ZXpPakNrVnBaZUsrVmMvRno3R0JMZCtqTzBENUpSSU0wdHB3SA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IT: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-10/c957f9f900c3468fc3497a351c7ac392.png" group-title="INDIAN HINDI",IT: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadmVZVnJqTzlETkpuRUYyYU5ZK0hMNm12MXJvWHU0cHZMRTFXbUhKczNjZg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IT: M2O HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/88603c72a2ec8904a028fdf31e0402fc.png" group-title="INDIAN HINDI",IT: M2O HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWRicWthNkFFNnNvLzZ4OEJSVk9zWlJhS3VkbTVGTFVKMGQzTGpxakhqag
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="BR: TV Pampa HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/7c0db3f4bd687a220070caef15863b16.png" group-title="INDIAN HINDI",BR: TV Pampa HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFRUSGpQMzlDekhTS0RYNmF2dW9sRWRvTzFkdEJleVNOUHhEWDIvK01zTg
-#EXTINF:-1 tvg-id="" tvg-name="BR: MTV Brasil HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/e28bcf462d5d2310a16ec7fb6edbc24f.png" group-title="INDIAN HINDI",BR: MTV Brasil HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naam1pU1N1SlR4NEVGWTdFNG1tcnJjeko4VS9wU244TXNOU3FQNzNYaWxKQw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ES: MAR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/75694e8a55fe582b635f6b84378c9957.jpg" group-title="INDIAN HINDI",ES: MAR TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzlrcHFYN1lrVWg5V3RHWk1nU0N1emdDQmJSUEFWNnFzMmVEUEM1bTE4ZQ
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="ES: Molahits TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/17073835bc7b38b48d7eb3089eed8b50.jpg" group-title="INDIAN HINDI",ES: Molahits TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGNDbEZaWngyTmp0MnMwRFphVjFFRTh0amZiWUwwa0U0Z2c0N3lxeHNNUQ
-#EXTINF:-1 tvg-id="mangas.fr" tvg-name="ES: MTV Espana HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/29c1e128ba3a6e05e3fd3e529e63f435.png" group-title="INDIAN HINDI",ES: MTV Espana HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGNDbEZaWngyTmp0MnMwRFphVjFFRSt5L1JkcFZ1bUlVSVVzM2JvTzZUSA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: DIM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/cd2370c1bf4759c3628fee17a29fd473.jpg" group-title="INDIAN HINDI",TR: DIM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacC81emFpMEVmVnJ0Vk5tc3FhYkRwQnhGK01DMnNzbVpURCthbGZ5b3YyRQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: FM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/899e12116bb5163e2586b77f20bdd548.png" group-title="INDIAN HINDI",TR: FM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabUxYQUp6SURTSmtxWEh6c0pQblhISEJuQWphb0w0d1IxRjVNQ2E2dGhyTQ
-#EXTINF:-1 tvg-id="mtvu.us" tvg-name="TR: MC EU HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/1d1adb867fd8374943fba91d79fdc808.png" group-title="INDIAN HINDI",TR: MC EU HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabEdkZ0RSdE10ZHcvQUxRRmFyNWVLMmxkNzFHTEpmYTBxaGtCdWJrVkV6aw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TR: TMB HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/bf762b7668823b34b75f22b46d0af857.png" group-title="INDIAN HINDI",TR: TMB HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaczdrZ0hvUkVhZktvODFyT2ZReUJmYkU3ZXBDV2xxSytHQ2hrcmEvSGZlNw
-#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="TR: CEM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac0610a7e164f2a427658b58aec70a89.png" group-title="INDIAN HINDI",TR: CEM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabWx4cGJxeFZZQlM1MEZjTVVQRU9nVGNSVUxHdEVOUHIrZ0t3ZERhUmg1Yg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="FI: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/943f8755b65534ff44654822e00ad4fd.png" group-title="INDIAN HINDI",FI: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjk5ZFRPbUs1RTVPMVIremFpWGVFWkFkbitvUkh1Z0VzWmU0ZkdrTWhwNg
-#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="FI: MTV 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/fbc08a9b6269bd813fcb45cd862e346e.png" group-title="INDIAN HINDI",FI: MTV 3 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjk5ZFRPbUs1RTVPMVIremFpWGVFWm1XY3Y5ajhqa0ZwcUdOYUpWamFCVw
-#EXTINF:-1 tvg-id="cmorejuniori.fi" tvg-name="FI: MTV Juniori/c MORE Juniori HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/3a6b5945e8ac66077566d8a3b561ea46.jpg" group-title="INDIAN HINDI",FI: MTV Juniori/c MORE Juniori HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0lNOXM0TmZYYjE4UTVlQmFScXJ0T21sVnQ3WU1hZ3R3cGo2RVF2c2dRRw
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="SE: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/565cbe7469564234855cb09a47808ad5.png" group-title="INDIAN HINDI",SE: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJ5TkIwaGZJSG9naGEyamZZbjl3a21DT0tWclY0RU5qbE8wYXpYTUdaMQ
-#EXTINF:-1 tvg-id="" tvg-name="SE: MTV Nordic HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/69c954931fd6297cba123045874fab46.png" group-title="INDIAN HINDI",SE: MTV Nordic HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJ5TkIwaGZJSG9naGEyamZZbjl3a21YL00wU0p5NTYyajRXbmhhMkpBZg
-#EXTINF:-1 tvg-id="cmorefirst.se" tvg-name="SE: MTV Aitio HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/b2811cd9eff1a852f706b766ec43dc87.jpg" group-title="INDIAN HINDI",SE: MTV Aitio HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadUhwRnRQSE93ZUtwNVpoWm12RVI0Y3hSblB6S0FobHI3cnpFZFpvTHV6Uw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DK: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d4f5e66240f8eb76feb846cfa48838a4.svg" group-title="INDIAN HINDI",DK: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaajZGZk9INDNtSlF6cGJGNzY1eG1ocw
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="DK: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ea2ea80b62ac4be4b2a51febc4309681.png" group-title="INDIAN HINDI",DK: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaalZXMnpoYnBYWURQWjF0WTdhWURsSQ
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="DK: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c6ef43da060b94bdd9cac31ef6e9a0f9.png" group-title="INDIAN HINDI",DK: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaajNEV1REQWZCaytRMkR2WWVmYUJjLw
-#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="DK: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/05c86c71d9aa3a83105db471da8835fa.jpg" group-title="INDIAN HINDI",DK: MTV 90S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1BoNlNhM1d2SGVobFY5LzVINlNaZ1VFKzh2L0ttVzgrK0ZsWmM0YjFHWg
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="DK: MTV HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/03a1b4277915c436468a6334522d119e.svg" group-title="INDIAN HINDI",DK: MTV HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU5pWVNPQXNyeTNiZjFxSXQ0cW1oSnArOGtCc3hwNlJzclRuUVJWV1N2Qg
-#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="DK: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d2477c209d6417877e34ebfe07346516.svg" group-title="INDIAN HINDI",DK: MTV LIVE HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU5pWVNPQXNyeTNiZjFxSXQ0cW1oSmcxOXVxalF2RDlKVHN2UmpEdHVZKw
-#EXTINF:-1 tvg-id="MTV.Live.pt" tvg-name="PT: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",PT: MTV LIVE HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaU4xcEMvT3JwcFZZTWY4cklnY1dGRGhGMnlML2F3WVo2S1RaMUpsTW8rUQ
-#EXTINF:-1 tvg-id="CMTV.HD.pt" tvg-name="PT: CM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac1ea8e2c36914812a32029089a0b6d1.png" group-title="INDIAN HINDI",PT: CM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaWdra0p4WFJza0NoTHZkUkNsMXdJMlFUZUJnaHl4NjdQT2N0ZlhKM2RPcQ
-#EXTINF:-1 tvg-id="MTV.Portugal.HD.pt" tvg-name="PT: MTV Portugal HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9eb16db3f705768cdb9266a9c7de0730.png" group-title="INDIAN HINDI",PT: MTV Portugal HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWtEeGpYNTBlYndLekZlWHBZNkJCaVNzWllIMjJLQ3EwOUZBdWRJdzI3eg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MAD TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/691a789fdf76e738acc4db0289b00166.png" group-title="INDIAN HINDI",GR: MAD TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1pRaEhxSXFOZ2VOcExjdmNoZW9TTkxTR1FZdFZxRHllVmo5ZXR3aHo2Wg
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="GR: ENA Channel HD" tvg-logo="" group-title="INDIAN HINDI",GR: ENA Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzlGUm9rTkFWZ3hELzhGRHErRDF2R3Fpb205UThuc3RTbE9QS2NLY3plVg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MGR TV FHD" tvg-logo="" group-title="INDIAN HINDI",GR: MGR TV FHD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaajZnMXp4V2F5alNBR2VYNmdmZDl2bHl4ZkE3UytFV2xoRGZ1TjQ4WjhCNg
-#EXTINF:-1 tvg-id="" tvg-name="MX ▎MTV" tvg-logo="https://img.logo-cdn.cc/mtvhd.png" group-title="INDIAN HINDI",MX ▎MTV
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadXBDVUtKRkpkblNlZ1JzNFErMXZteEpEUnpWd1FoK0NuT2E2V0VoU3pqYg
-#EXTINF:-1 tvg-id="" tvg-name="MX ▎PLUTO TV MTV EMBARAZADA A LOS 16" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN HINDI",MX ▎PLUTO TV MTV EMBARAZADA A LOS 16
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoeEdmZzY5cDZoSnZRQnE4QmNMZHM5cQ
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="MX ▎PLUTO TV MTV LATINO" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN HINDI",MX ▎PLUTO TV MTV LATINO
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoejFDY0ZuR2l1TWN3ZnZrOGN5cjJKTg
-#EXTINF:-1 tvg-id="nickelodeon.it" tvg-name="MX ▎PLUTO TV MTV TATTOO A DOS" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN HINDI",MX ▎PLUTO TV MTV TATTOO A DOS
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnRaZ0t4UGR4SjZ2dDdCa0NtbExoeUQwem1TVlJraFUzVXdqSlQwVGNpUg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="MX ▎PLUTO TV SPIKE AVENTURA" tvg-logo="https://img.logo-cdn.cc/PLUTOTV.png" group-title="INDIAN HINDI",MX ▎PLUTO TV SPIKE AVENTURA
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacThvWDVGRHFqTlZBNzMrMmR2cmZSUVR2M3BZMkhBQXVaaFU1K2F2OG1yKw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="PL: TV Trwam HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/3ed508e70ca33943ea85c89c720173ba.png" group-title="INDIAN HINDI",PL: TV Trwam HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWxqK0x0Z2JHTE05WmROemtHWTJHMmttR05OM1NPTkFXRWNYTnc0a3Q0eQ
-#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="PL: ZOOM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/515fbca039b0382bee7f002998ff7fa1.png" group-title="INDIAN HINDI",PL: ZOOM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWJkd1pBSUNFdFlIR2gyRWRZSisxTW9PSllyMnFPVmFrWTA5SVpHN2NFWQ
-#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="PL: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/4aebc71246a299650b24d96c2e9a7d0a.jpg" group-title="INDIAN HINDI",PL: MTV 90S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaStCVGF1YzZRaFAyd1Uzbm5iNVV5R2R1eGhxOWdJR25MOVJ3MTZiVERBNg
-#EXTINF:-1 tvg-id="mtvpolska.pl" tvg-name="PL: MTV Polska HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b5ba95468faf2a01e2dfc0063f37c87e.png" group-title="INDIAN HINDI",PL: MTV Polska HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaStCVGF1YzZRaFAyd1Uzbm5iNVV5SDdqdzhOWnNOb2U0OFkzVTNqUE14Rg
-#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="CH: TVM 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/1fefd2b10ca49bba6abe26c738c810cc.png" group-title="INDIAN HINDI",CH: TVM 3 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0NQck1BZjl0MzdGdE5NZGtCeC9WekhnK25PNTZ0YndSR2Q0V2k3TXZ6cg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="NL: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9a1c4d99aeabcc79410136e126394b86.png" group-title="INDIAN HINDI",NL: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacnphVmVUcGIwQzZjWExIOWJ3RnR6Zmd1b282d3ViZ2Y3cVN2UmpmdVhSdA
-#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="NL: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/c31fea88f41d76e67d7d5087e298714c.jpg" group-title="INDIAN HINDI",NL: MTV 90S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzZEY2ZOUktCMmtjaW1xVElqcWo1T29XSVhVRTJrQ2ZBTGxZdnNCZGozTQ
 #EXTINF:-1 tvg-id="463850" tvg-name="IN-tam | News18 Tamil NADU HD" tvg-logo="https://rolextv.one:443/images/5c1992c1c9cd68ab2ab32e9816d02ad3.jpg" group-title="INDIAN HINDI",IN-tam | News18 Tamil NADU HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0tGYzJ2bDgwVTVPc05pOUlObkJNRU1yUEZ5d0tMQ0YwaWJQQk5RWEcxbA
 #EXTINF:-1 tvg-id="463850" tvg-name="IN-news | NEWS 18 Tamilnadu HD" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News18-Tamil-Nadu.png" group-title="INDIAN HINDI",IN-news | NEWS 18 Tamilnadu HD
@@ -4720,20 +4834,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1Vxc2NPWDRrTlNxMk40THRhb2gyTnV
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0tGYzJ2bDgwVTVPc05pOUlObkJNRUg3MTk1VkVnNEFCMUlXSUYrZ0FGWg
 #EXTINF:-1 tvg-id="" tvg-name="News18 ODIA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/News18_Odia_Logo.svg/1200px-News18_Odia_Logo.svg.png" group-title="INDIAN HINDI",News18 ODIA HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabS9QL2NnSVNhQ05FQjJLVFVoSGpqdm9PK216aFpFK1VLQWttYTVTNUlaVQ
-#EXTINF:-1 tvg-id="mtv.fr" tvg-name="PH: ANC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="INDIAN HINDI",PH: ANC HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ1JuYUVVQzVFa3l4TnFHMSttNk5ET0UvczAzdXQrQlNlTzVMb0ExWlI3Tg
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="ID: HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/ae782ad6176bbda366bbaf7e52bdff09.png" group-title="INDIAN HINDI",ID: HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGpZMlVuMXNjSkt6ZmVoTnh4MWR4MDU3c2tiNkxoZXk3Y0ZPV20wcTd0Zw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: IMC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2b58230b601a563bb26eb0e8adc69e5d.png" group-title="INDIAN HINDI",ID: IMC HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0x0ZXFPbysvMVBvYjc1eXFMemc1bDBUL2czZVB1OXptb1ZnMzkwZ0g1ZQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: MQTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",ID: MQTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadDBEZndQZXBheTlkL2lBSEJPWmdkUUdHdWVPQ05RVXJ3bUYwSERrUm1vWQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="ID: MTA TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/572ee91ff1e528d04284dd7e952bed14.png" group-title="INDIAN HINDI",ID: MTA TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadDBEZndQZXBheTlkL2lBSEJPWmdkVGNoZVVBSVZmaGJWMy9pM1pJSWVwZA
-#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="ID: Zoomoo HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ffe9e8c7ffa0c48eccb971c397c8e0de.png" group-title="INDIAN HINDI",ID: Zoomoo HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaditSaDZtclp4MG4yNnlhOGk4VXdiOS9vb0JLTG1OTUxmNFo5V2Z5enNXYQ
-#EXTINF:-1 tvg-id="cmtv.pt" tvg-name="ID: CCM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/e781645d9f686de47e29b212df4791a1.png" group-title="INDIAN HINDI",ID: CCM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5HK0xBL2lDVVZCdnpET1R3MWp4OXBBWkJ0LytyQVo2OE96Z0IxL2E0TQ
 #EXTINF:-1 tvg-id="axnblack.pl" tvg-name="CZ: AXN Black HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",CZ: AXN Black HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadFY3TXExcTdPS2JrWWhncm9aQWxCV3lGaDVKZ3FRblZwR0oyQ3d3ZnM4ZQ
 #EXTINF:-1 tvg-id="" tvg-name="CZ: Elektrika TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/f62519b0e6dfaeb1c63e66bcae9f102c.png" group-title="INDIAN HINDI",CZ: Elektrika TV HD
@@ -4866,8 +4966,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab2VKd3E2Vyt1QUdkNFpYZFN6bEpMVUQ
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2pHcDBNMEN1UmhaK3N2aWdqV2hVZ1pETHg2RUdXa29uZFZIVjlFc2UzKw
 #EXTINF:-1 tvg-id="" tvg-name="DO: Fuego TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/69409d10a60712bda5c609bfc77299fc.png" group-title="INDIAN HINDI",DO: Fuego TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2pHcDBNMEN1UmhaK3N2aWdqV2hVaW9ieDZTQXJrTlNsN0w2RkdVK0FLVQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="DO: GDM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/b36ba83559db3e9590c4da4ad2f5afbf.jpg" group-title="INDIAN HINDI",DO: GDM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2pHcDBNMEN1UmhaK3N2aWdqV2hVaFVIWUFmZ2pXTnR0dVQyVnJXNE83cw
 #EXTINF:-1 tvg-id="tvlandeast.us" tvg-name="DO: Hilando FINO TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/61826acf8e24f36f23fd88bf36d10a12.png" group-title="INDIAN HINDI",DO: Hilando FINO TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2pHcDBNMEN1UmhaK3N2aWdqV2hVZ2R1S0VlUHRJRjFYcXhLUHFOSGRpYw
 #EXTINF:-1 tvg-id="" tvg-name="DO: Imagen Universal TV HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",DO: Imagen Universal TV HD
@@ -4954,76 +5052,18 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakJvR2FYbFZ0TG5lRzB1bnNxOUp2OHd
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakJvR2FYbFZ0TG5lRzB1bnNxOUp2OG5mUnZicVZtNHRhWTNIc3cxRVBuSw
 #EXTINF:-1 tvg-id="tv10.se" tvg-name="DO: Zol106 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/730ccf8dcf46ba03115b4fc2237e581c.jpg" group-title="INDIAN HINDI",DO: Zol106 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakJvR2FYbFZ0TG5lRzB1bnNxOUp2K0pNY0h3bjFXSUpQZk5RVm1vNDZTcQ
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="MY: HITS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/25ab65a39a10d628b5c9319b423b6497.png" group-title="INDIAN HINDI",MY: HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabWxaUXNrWmd1Vm1SK09sVUJ2aTlZcHhNdWR1enUrR0Z0eVdaQlVJMUZYTQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="MY: MTV HD" tvg-logo="http://s3.i3ns.net/portal/picon/2020-12/02fe87f4680ce4c67197ba3c4c5bf9c7.png" group-title="INDIAN HINDI",MY: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ3dhamppdjJaczFmOTVIMURxMThaZmdtdGF2aGlsOExjVnpaTzVnZk9Ieg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="EG: DMC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/680745c4bcf505cf50c64ac422d9e5db.png" group-title="INDIAN HINDI",EG: DMC HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabnNqTnZsRmR0elRkQUFsRjhhaEZXcDF4aWZaNytXbWFlcllMTTFIQndlLw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: MTM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/e1f2bc1fa93cce489bc1efab5d9eee6a.png" group-title="INDIAN HINDI",UKR: MTM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwazdNaUpzQTE0QTBmSjlWRGxxZ0wvZg
-#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="UKR: ZOOM HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/dd9c85a9b990477b679a41a7dd5875de.png" group-title="INDIAN HINDI",UKR: ZOOM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1Z3YTVGTzVLT2lKWGpRZFZCYXRsMDY4MXhrQXAveTAwQTBoRE1ncUFhNw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: M1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/9ccd2b4866b7e0441c47cdb22ebf6362.png" group-title="INDIAN HINDI",UKR: M1 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwa2FZRnhQbjFzZnY2U3lxa0V0bHpYUg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: M2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/406be2f78d76429e52d05ad3d145e633.jfif" group-title="INDIAN HINDI",UKR: M2 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadWxIK2hrb0U2WmxCSFQ0V0V2cGxwbWxBaUp5alNFQTVUNk1KNXRDTWpNVA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IRAN | PMC HD" tvg-logo="" group-title="INDIAN HINDI",IRAN | PMC HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaGRzbDc2YTkyK0t6eUM2ZjFSSlE1RmpnbytVR2pqVGJYZDNvVmdvbTJhMA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="LA: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/c34a5b676610864fdc6ff17aedc599ee.png" group-title="INDIAN HINDI",LA: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMG9kUk9JNWpJRkM4aXNla0VwOHpuWA
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="LA: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/2cb6212de04cd4a5ddd751297bc9cc36.png" group-title="INDIAN HINDI",LA: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMm1kSzB0RTFaeXlYcUJzTXludXFYSw
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="LA: MTV HITS HD" tvg-logo="" group-title="INDIAN HINDI",LA: MTV HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMkI0V0pCcG00VzB1a21zRGhZY2Nrdw
-#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="LA: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/a0507e5e292fe195d99f86b0eb85121f.svg" group-title="INDIAN HINDI",LA: MTV LIVE HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMGgwdUxXUmxwOHQ0RWxDWm1CNFRLRQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="LA: MTV SIM HD" tvg-logo="" group-title="INDIAN HINDI",LA: MTV SIM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacEJMM3Y3NEpXY0Zra0tYbm9XVW5DMi9DKzNZRDVjOGpBU1VENWhTbVpKaw
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="LA: SONY Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c80659865fa29bfb3dc08fda6624fb05.png" group-title="INDIAN HINDI",LA: SONY Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadGtIVmNxaFVzTVBqRHBNN2FIOVpCNDY2Rm82Y1U5ZG1xc0ZldWc5WURPYw
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="LA: SUN Channel HD" tvg-logo="" group-title="INDIAN HINDI",LA: SUN Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadGtIVmNxaFVzTVBqRHBNN2FIOVpCNWRmeHR2UUFpN3M1VXZrcW9aNE5qZA
-#EXTINF:-1 tvg-id="zoomtv.pl" tvg-name="LA: Zoomoo HD" tvg-logo="" group-title="INDIAN HINDI",LA: Zoomoo HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabVByT0lzcloySFZpWHJMZ29jOWR0dEpCT1hDUUN6SnR3bExodUphN0p2Rw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="JP: MBS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",JP: MBS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabkwvVzJrOFNodFVrMXFGcjkyODJ1azRRdG9SYXVaN09WV2tXSEZaTElzZg
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="JP: SHOP Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/8bb74457648ebcdb4f0c8d59bbdefcdb.png" group-title="INDIAN HINDI",JP: SHOP Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackJJcG9OaTg5bVRkelkrZ3RCdk8ySC9CMENROHd4ZmJGazBrdHlZT284eA
 #EXTINF:-1 tvg-id="sjuan.se" tvg-name="JP: SUN TV HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",JP: SUN TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NackJJcG9OaTg5bVRkelkrZ3RCdk8yR0FOeDROMXJ6WnpzaDJKdWZXTGxidw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TH: DMC TV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",TH: DMC TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacnJ5ZVN6Y3kvZUFxT3VLM2V1VjhUTEZGUnZ0WUtrQlNBbmhscVBiVVF5UA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="TH: UMM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/e856d2e65855aa3517fb075898524fc9.png" group-title="INDIAN HINDI",TH: UMM TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakJuSlNvMFViL0pTdzl1Wm5tN3VkbzdRdEFxa0FoaG0zZDQ2Q2gySFNDaA
-#EXTINF:-1 tvg-id="" tvg-name="VN: VIET MTV HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",VN: VIET MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadnNma1JFc1Q1RmhobG1CWWszMXVReGhpSEw2NmY3eEd4VDl1c0kzSW5xMw
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="CO: SONY Channel HD" tvg-logo="" group-title="INDIAN HINDI",CO: SONY Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadERaQ05Za29sc3puTW1Fcmd3NWx3NnV3eTdxcHYvaHlMRnFwK0lwY3BiOQ
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="RS: MIS TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/ecf70aeff7b5e582a52b65dc1c556b4e.png" group-title="INDIAN HINDI",RS: MIS TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzBKbkx5ZHhXUFlQc2hQeSs5ZUhmdm5WQUVFS0JhZjlGZkd4dDdsWmpOZw
-#EXTINF:-1 tvg-id="mtv.fr" tvg-name="RS: PINK Romance HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ac8ab7d1e17506b5a01e6c4fcde67ecb.png" group-title="INDIAN HINDI",RS: PINK Romance HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabFUvVTVtM2c3ZnFwOG9HSFBpQldQeUVuWHdmbUcvbWx4M25vYWFQZktyLw
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="BG: MTV 00S HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",BG: MTV 00S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0tHMGhzajd5blJBVFRxVU1aZFpmbFNtQ2p6SThXYU9iQU5RTnZmTTRQRg
-#EXTINF:-1 tvg-id="vh1.ro" tvg-name="BG: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",BG: MTV 80S HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0tHMGhzajd5blJBVFRxVU1aZFpmbFNPWU9pSFNRQXljblBza0docXZVTg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HR: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/e8d942aa6c81a24c8a30849943b403e8.png" group-title="INDIAN HINDI",HR: MTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaXhFYWdqVlNONGdObnNlRGV3NjFscmJ1eGFTRVgyeVkzWTZ6Rm5mTnVJNQ
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="HU: MTV HITS HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN HINDI",HU: MTV HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaandFSS9MeDRSSTRrcEhwa0o4WStTNmlEUkdRYk1DVXBuUy9jbFFub1hmbA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HU: M5 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1f31c5a4e84895b7406a329a4e9cc499.png" group-title="INDIAN HINDI",HU: M5 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabytzanNHNXQ0ckVXL2tnOW9lQ1FSVW5aMmRScUtZYkVQYmlMU3BleklUcg
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="HU: M1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3009b7b623b42e55e6a1f35a9b33231.png" group-title="INDIAN HINDI",HU: M1 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaandFSS9MeDRSSTRrcEhwa0o4WStTNXd0dkNLMTM0RnIxMm8vN084anU0QQ
-#EXTINF:-1 tvg-id="mtv3.fi" tvg-name="BE: VTM 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/c646293d99a238000698eaf4a065c80a.png" group-title="INDIAN HINDI",BE: VTM 3 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadXBrTDBUbVVvRk1xMjdxUmlVcmswbngveFJMQTdaTnpiMmxJOWRhRHRDUA
-#EXTINF:-1 tvg-id="mtvhits.uk" tvg-name="AL: EB HITS HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="INDIAN HINDI",AL: EB HITS HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NablVaVkZXc1NuZHlXMWhubGtBV3FNWGJRcDFsRDdNMGd6UHUzNnpYQW4wVw
 #EXTINF:-1 tvg-id="sonyentertainmenttv.de" tvg-name="AL: Istogu Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/6a7c815152522f3a3208afe0b759235d.png" group-title="INDIAN HINDI",AL: Istogu Channel HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadllTWnpUdHJhKzlQM1dPdkdHSjhsc0VJSUdEbWZrUmkwU3hDRUFhY0NSag
-#EXTINF:-1 tvg-id="" tvg-name="AL: MTV Kosova HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8c62bf6c87574289bf103877b09ee901.jpg" group-title="INDIAN HINDI",AL: MTV Kosova HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nabk9LR21Wdmd3TldaSjg2YWVpWEs0YWJTdEJ5cWVyMXlWeWZiZTJyNDUwbg
 #EXTINF:-1 tvg-id="" tvg-name="Chhota-Bheem---Republic-Day-in-Dholakpur" tvg-logo="" group-title="INDIAN HINDI",Chhota-Bheem---Republic-Day-in-Dholakpur
 http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1ZlY5ejZFSzBzMXVJYlk1b2ZiSXhrY2pMajBLeGsxT1EwTldjWVZHWFQ1ZA
 #EXTINF:-1 tvg-id="" tvg-name="Chhota-Bheem---Dholakpur-Shoor-Veer-Pratiyogita-_-Republic-Day-Special-_-Hindi-Cartoon-for-Kids" tvg-logo="" group-title="INDIAN HINDI",Chhota-Bheem---Dholakpur-Shoor-Veer-Pratiyogita-_-Republic-Day-Special-_-Hindi-Cartoon-for-Kids
@@ -5094,18 +5134,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaajU2YWgveXFnQ0VORGR1clhnaS9mbUl
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaajU2YWgveXFnQ0VORGR1clhnaS9mbG5jVk4zenZOcExzdmg3Y1ZFSkJ1SA
 #EXTINF:-1 tvg-id="" tvg-name="UK-NEWS | NDTV 24X7 SD*" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/NDTV.png" group-title="INDIAN HINDI",UK-NEWS | NDTV 24X7 SD*
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaajU2YWgveXFnQ0VORGR1clhnaS9mbDZkalJYOEhhaFBHcXdxSmF1MEdqNw
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="RO: MDI TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/6aff93c65f1ec0261cbe131a50a6ebc8.jpg" group-title="INDIAN HINDI",RO: MDI TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadEV3TkFFSVFJWklLa1NqelAwbFlsT0dNR1Urc1NydXZQejdCajVKNVM3TQ
-#EXTINF:-1 tvg-id="mtvlive.us" tvg-name="RO: MTV LIVE HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/8adbb9df2619478f70b280d08b051af8.svg" group-title="INDIAN HINDI",RO: MTV LIVE HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabmFpTGQ2a0Q3ZWxtTWRpZHNQalZURTc5RGR3Uk8xRTVMT1lqdG54eFlBdw
-#EXTINF:-1 tvg-id="" tvg-name="BIH: MTV Igman HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/78626303d341aef8dddd63855249dea1.png" group-title="INDIAN HINDI",BIH: MTV Igman HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacktMdFBjbi9iOHZEVVBVcDIzUGJ6WFJkVFlKRFdFU0NRSnoxU0VuYU5LUA
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="SI: MMC TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/113cb66d5fc4342c2009ae7e3b617a43.jpeg" group-title="INDIAN HINDI",SI: MMC TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabklPQ2drTlhiQlY3eUw1dFM1eEZveU1XalNiMnlZRkpJL2pSZmFUUzArcQ
-#EXTINF:-1 tvg-id="" tvg-name="NE | OMAHA | CBS | KMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN HINDI",NE | OMAHA | CBS | KMTV
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabHc2Z09HZE85cFNXUWFsaUVRUnJRZFRzSG94WmpLWXA0V001eGpkd1JtQw
-#EXTINF:-1 tvg-id="" tvg-name="WI | MADISON | NBC | WMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN HINDI",WI | MADISON | NBC | WMTV
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1krZDc5MkNVbVY2NDZYckNLWjQ4REpXUFFFaWNQUUZOdXIreFNRQWVCMw
 #EXTINF:-1 tvg-id="" tvg-name="PK | HUM TV SD" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hum_tv_pk.png" group-title="PAKISTANI TV",PK | HUM TV SD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamcyMzFHbnJ2SXBTY2loRWZubExpVC90cFpidzNRZ1RuWlljeUwxdk8xYg
 #EXTINF:-1 tvg-id="" tvg-name="PK | ARY Digital SD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/ary_digital_asia.png" group-title="PAKISTANI TV",PK | ARY Digital SD
