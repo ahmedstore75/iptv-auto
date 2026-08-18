@@ -18,7 +18,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 📌 চ্যানেল প্যাটার্ন ও নির্দিষ্ট গ্রুপ টাইটেল
+# 📌 শুধুমাত্র পপুলার চ্যানেল ফিল্টারিং প্যাটার্নসমূহ
 BANGLA_NEWS_PAT = re.compile(r'(?i)(SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|CHANNEL\s*24|NEWS24|ATN\s*NEWS)')
 BANGLA_KIDS_PAT = re.compile(r'(?i)(DURANTO)')
 BANGLA_ENT_PAT = re.compile(r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|DEEPTO|GAZI\s*TV|GTV|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|BIJOY|DESH\s*TV|SA\s*TV|NEXUS|\bBD\b|\bBANGLA\b|\bBANGLADESH\b)')
@@ -26,23 +26,21 @@ INDIAN_BANGLA_PAT = re.compile(r'(?i)(STAR\s*JALSHA|ZEE\s*BANGLA|COLORS\s*BANGLA
 
 SPORTS_PAT = re.compile(r'(?i)(T\s*SPORTS|SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|PTV\s*SPORTS|GEO\s*SUPER)')
 
-# 🎬 পপুলার ইন্ডিয়ান মুভি চ্যানেল ফিল্টার
 INDIAN_MOVIES_PAT = re.compile(r'(?i)(ZEE\s*CINEMA|SONY\s*MAX\s*2|SONY\s*MAX|STAR\s*GOLD\s*2|STAR\s*GOLD\s*SELECT|STAR\s*GOLD|GOLDMINES|COLORS\s*CINEPLEX|ZEE\s*ANMOL\s*CINEMA|ZEE\s*ACTION|SONY\s*WAH|STAR\s*UTSAV\s*MOVIES)')
 
-# 🎵 ইন্ডিয়ান পপুলার মিউজিক চ্যানেল ফিল্টার
 INDIAN_MUSIC_PAT = re.compile(r'(?i)(9XM|9X\s*JALWA|9XJALWA|B4U\s*MUSIC|B4U|MASTIII|ZOOM|SONY\s*MIX|MTV\s*BEATS|MTV|MH1|MUSIC\s*INDIA)')
 
 INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18)')
-PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
+PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\_NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
 
-# 🚫 VOD / EPISODE / SINGLE MOVIE FILE FILTER (চ্যানেলের নাম ব্লক করবে না)
+# 🚫 STRICT VOD / SINGLE FILE / MOVIE FILTER
 EPISODE_VOD_PATTERN = re.compile(
     r'(?i)('
-    r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01, S1 E1
+    r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01
     r'\bs\d{1,2}e\d{1,2}\b|'           # S01E01
     r'\bs\d{2}\b|\be\d{2}\b|'            # S01, E01
-    r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01, Episode, Season
-    r'(\(\d{4}\))|'                    # (1997), (2024) ইত্যাদি সাল
+    r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01
+    r'(\(\d{4}\))|'                    # (2024)
     r'XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES|WEB\s*SERIES'
     r')'
 )
@@ -63,12 +61,17 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
                 raise e
 
 def normalize_channel_name(extinf_line):
+    """
+    চ্যানেলের নাম নর্মালাইজ করে যাতে HD, FHD, SD, 4K বা ব্যাকআপ সার্ভারের কারণে 
+    একই চ্যানেল ২ বার সেভ না হতে পারে।
+    """
     if ',' in extinf_line:
         name = extinf_line.split(',')[-1]
     else:
         name = extinf_line
     name = name.lower()
-    name = re.sub(r'(?i)\b(bd|in|pk|hd|fhd|sd|4k|hevc|1080p|720p|50fps|raw|vip|backup|server\d*)\b', '', name)
+    # HD, SD, 4K, Server, Quality ট্যাগ মুছে মূল নামটি রাখা
+    name = re.sub(r'(?i)\b(bd|in|pk|hd|fhd|sd|4k|hevc|1080p|720p|50fps|raw|vip|backup|server\d*|alt|stream)\b', '', name)
     name = re.sub(r'[^a-z0-9]', '', name)
     return name
 
@@ -97,7 +100,7 @@ def filter_requested_channels(content):
     }
     
     seen_urls = set()
-    seen_channel_names = set()
+    seen_channel_names = set() # কঠোর ডুপ্লিকেট ট্র্যাকিং
     current_extinf = ""
     
     for line in lines:
@@ -109,23 +112,23 @@ def filter_requested_channels(content):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
             
-            # ১. ভিওডি/সিরিজ লিংক বাদ
+            # ১. ভিওডি/সিরিজ ও ভিডিও ফাইল ব্লক
             if "/series/" in line_str or "/movie/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi')):
                 current_extinf = ""
                 continue
 
-            # ২. এপিসোড/সাল/১৮+ ফিল্টার
+            # ২. এপিসোড/১৮+ ব্লক
             if EPISODE_VOD_PATTERN.search(current_extinf) or EPISODE_VOD_PATTERN.search(line_str):
                 current_extinf = ""
                 continue
 
-            # ৩. ডুপ্লিকেট চ্যানেল চেক
+            # ৩. ডুপ্লিকেট চেক (একটি চ্যানেল প্লেলিস্টে একবারই আসবে)
             channel_key = normalize_channel_name(current_extinf)
             if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 current_extinf = ""
                 continue
                 
-            # ৪. স্বয়ংক্রিয় গ্রুপ ফিল্টারিং
+            # ৪. পপুলার ক্যাটাগরি ম্যাচিং
             target_group = None
             
             if BANGLA_NEWS_PAT.search(current_extinf):
@@ -151,6 +154,7 @@ def filter_requested_channels(content):
                 updated_extinf = set_group_title(current_extinf, target_group)
                 groups[target_group].extend([updated_extinf, line_str])
                 
+                # একবার সেভ হয়ে গেলে চ্যানেল কী (Key) লক করা হবে
                 seen_urls.add(line_str)
                 if channel_key:
                     seen_channel_names.add(channel_key)
@@ -171,14 +175,14 @@ def filter_requested_channels(content):
     ]
     
     total_added = 0
-    print("📊 Auto Grouping Summary:")
+    print("📊 Strict Unique Filtering Summary:")
     for cat in category_order:
         count = len(groups[cat]) // 2
         total_added += count
-        print(f"   - 📁 {cat}: {count} channels")
+        print(f"   - 📁 {cat}: {count} unique channels")
         ordered_lines.extend(groups[cat])
 
-    print(f"✅ Total Saved Live Channels: {total_added}")
+    print(f"✅ Total Unique Saved Live Channels: {total_added}")
     return "\n".join(ordered_lines), total_added
 
 def fetch_and_generate():
@@ -204,11 +208,11 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        # 📌 প্লেলিস্টের উপরে মোট চ্যানেলের কাউন্টিং হেডার
+        # 📌 হেডার ফিল্ড (একদম উপরে মোট ইউনিক চ্যানেল কাউন্ট করবে)
         playlist_header = (
             f"#EXTM3U\n"
             f"# 📊 Total Saved Channels: {total_saved}\n"
-            f"# 📦 Auto-Categorized Live Satellite TV Playlist\n"
+            f"# 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)\n"
             f"# ⏰ Updated time: {bd_time}\n"
         )
         
