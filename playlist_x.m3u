@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3109
+# 📊 Total Saved Channels: 3100
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-19 00:25:20
+# ⏰ Updated time: 2026-08-19 01:22:26
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5M1FYTGpySDhlczRudS9qblZwcC9hQw
 #EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLA NEWS",SOmoy TV HD
@@ -140,14 +140,10 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacVZFRUxudTIyWnl4VEFNNGE4b2hDSDl
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2c2aDZkaW9wY2lHUWNSSy9zcXQ3RVloUk5XMDZIa08yMUFxUHVsSjNrNg
 #EXTINF:-1 tvg-id="" tvg-name="US: HGTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4e08d5b87b33a42ab5d3f2c0a6eaddfc.png" group-title="BANGLA ENTERTAINMENT",US: HGTV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac2c2aDZkaW9wY2lHUWNSSy9zcXQ3RVJycHRyNFY0NXJKcFZNRi93cmZ0WQ
-#EXTINF:-1 tvg-id="" tvg-name="USA | ABC San Diego, CA KGTVⓧ" tvg-logo="" group-title="BANGLA ENTERTAINMENT",USA | ABC San Diego, CA KGTVⓧ
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaazVYNVA0eVlsZnc4VVZTQnFxaE56T3FVcDdSMmwrSGo1TytGN1daVVJPKw
-#EXTINF:-1 tvg-id="" tvg-name="USA | ABC Indianapolis, IN WRTVⓧ" tvg-logo="" group-title="BANGLA ENTERTAINMENT",USA | ABC Indianapolis, IN WRTVⓧ
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabkMwTzNrMzNaWTdVeUhrb2ZXQU16V0ZWM2taa0RpZHJFSUlVcmFMdjhsbQ
-#EXTINF:-1 tvg-id="" tvg-name="USA | CBS Charlotte, NC WBTV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",USA | CBS Charlotte, NC WBTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ3ZxUlp6Q2tmeFdvZmpJRG1QeThFNUV0OVpGMHJFdk5zS2hRdlN3ZnpaZQ
-#EXTINF:-1 tvg-id="" tvg-name="USA | NBC SF Bay Area, CA KNTVⓧ" tvg-logo="" group-title="BANGLA ENTERTAINMENT",USA | NBC SF Bay Area, CA KNTVⓧ
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadFZPVTNBd2MyK0JTbFR3TmZqeldOMk1Ba1o5L0hya1djQStZMzVHYUhGRA
+#EXTINF:-1 tvg-id="" tvg-name="US ▎ABC WRTV INDIANAPOLIS" tvg-logo="https://img.logo-cdn.cc/abc.png" group-title="BANGLA ENTERTAINMENT",US ▎ABC WRTV INDIANAPOLIS
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGVRKzgxd0x1WGo0TnJ2WC9sRXQwWWJNS3puZlhwQ2MzOU1rWHYzeU4vNA
+#EXTINF:-1 tvg-id="" tvg-name="US ▎ABC KGTV SAN DIEGO" tvg-logo="https://img.logo-cdn.cc/abc.png" group-title="BANGLA ENTERTAINMENT",US ▎ABC KGTV SAN DIEGO
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacGVRKzgxd0x1WGo0TnJ2WC9sRXQwWTZlcS85SjlNemRYVDJOd2l5bXZJVw
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="AF: ACN TV (ambazonia Communication Network) HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/ebfedbb1347484377ddfb4950019cb0c.jpg" group-title="BANGLA ENTERTAINMENT",AF: ACN TV (ambazonia Communication Network) HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacTJPdGRBNkhYVGtlTjVvSytEWlVqTnVJOEFhVlFsNFpyYUcvNDlYWko3UQ
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="AF: BTN TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/c1b4d5060a968dba169c6882931be47e.png" group-title="BANGLA ENTERTAINMENT",AF: BTN TV HD
@@ -372,6 +368,8 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWpMSUtvdE1adFNPQ2dVQjBVTWxlZ3B
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWpMSUtvdE1adFNPQ2dVQjBVTWxlaU1yaWMrbnYzdWVCcGFyK21vbWIvbg
 #EXTINF:-1 tvg-id="" tvg-name="NL: RTV Maastricht HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/eaca7adfd8de319516f58a9377c0289c.png" group-title="BANGLA ENTERTAINMENT",NL: RTV Maastricht HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabzZEY2ZOUktCMmtjaW1xVElqcWo1TkxvaE1Fanp0RVU1NVNIOWlYNXNJbg
+#EXTINF:-1 tvg-id="OSNTVMoviesPremiere.sa" tvg-name="AR ▎BEIN NAT GEO WILD" tvg-logo="https://img.logo-cdn.cc/ngcwildhd.png" group-title="BANGLA ENTERTAINMENT",AR ▎BEIN NAT GEO WILD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPWGdZdVlSekZlNktJczJycWpubkprVg
 #EXTINF:-1 tvg-id="OSNTVKids.sa" tvg-name="AR: SAT 7 KIDS HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/b80f1baeb2f01cc1f2ea8bba954c9cfb.jfif" group-title="BANGLA ENTERTAINMENT",AR: SAT 7 KIDS HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacXhoT3NISHV5c0dqekRON25PYjljbFd3ZC9WSWFPc05zMlBON2pGZ251OA
 #EXTINF:-1 tvg-id="OSNTVMoviesFamily.sa" tvg-name="OSN Movies Family HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/0b40ba4312f45832f5834f52c7d9e33d.png" group-title="BANGLA ENTERTAINMENT",OSN Movies Family HD
@@ -2550,24 +2548,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1dlRmtBcEtGcnh0U2VjRmlxUE5YckZ
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1dlRmtBcEtGcnh0U2VjRmlxUE5YcSt0eXRqWGVQY2JIWjA1UjFZZThnQg
 #EXTINF:-1 tvg-id="NBC.Sports.California.SAT.us2" tvg-name="US: NBC PALM Springs California KMIR TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0e8afd85b6879edcb9b0f9c9057be297.png" group-title="SPORTS LIVE",US: NBC PALM Springs California KMIR TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadUpkMW5UaGFRUEpya0ZyMy81UXpJYTE5L1BMREFKRTZzK0lxUHZtNUZsSw
-#EXTINF:-1 tvg-id="" tvg-name="USA | MLB | Houston Astros" tvg-logo="http://xplatinmedia.com:8080/images/e58b86e8f2e69afc36af95022ae1cadf.png" group-title="SPORTS LIVE",USA | MLB | Houston Astros
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2tJWVA0b2ZubmdwL09zK29MNlB6Rk1GYU00Zks0NU81NjF4T0h5ODBOaw
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 001: Washington State vs. Utah State | Mon 22nd Dec 2:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 001: Washington State vs. Utah State | Mon 22nd Dec 2:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVplNlZqZXFBUGhJT1JWOVA3QnJsSDMxOHVYZlRZSEp3b3NTcWdmWkxZRg
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 003: WKU vs. Southern Miss | Tue 23rd Dec 5:30PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 003: WKU vs. Southern Miss | Tue 23rd Dec 5:30PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVplNlZqZXFBUGhJT1JWOVA3QnJsSHdUVERaUlpzQ3JiY2lXUm9HWlNrWQ
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 002: Toledo vs. Louisville | Tue 23rd Dec 2:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 002: Toledo vs. Louisville | Tue 23rd Dec 2:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadVplNlZqZXFBUGhJT1JWOVA3QnJsRmh2RG5Dam5XTTA2VFJJZC9LcmxwSg
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 004: UNLV vs. Ohio | Tue 23rd Dec 9:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 004: UNLV vs. Ohio | Tue 23rd Dec 9:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wxTDJnWTdoOU9ZemQ1Z2pWNmlEQzJZWkNyM0ZpNXVya3Z2OUNQYkdBRA
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 005: California vs. Hawaii | Wed 24th Dec 8:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 005: California vs. Hawaii | Wed 24th Dec 8:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wxTDJnWTdoOU9ZemQ1Z2pWNmlEQzF3WHN1K0svQUVDWE5teWpBaE02WA
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 008: FIU vs. UTSA | Fri 26th Dec 8:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 008: FIU vs. UTSA | Fri 26th Dec 8:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wxTDJnWTdoOU9ZemQ1Z2pWNmlERGZib0JkeUVlZGY0aTZVOUo2cmRJbw
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 007: New Mexico vs. Minnesota | Fri 26th Dec 4:30PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 007: New Mexico vs. Minnesota | Fri 26th Dec 4:30PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wxTDJnWTdoOU9ZemQ1Z2pWNmlERDBSVXkwTEs3V0paMm5hOVdvNDd1OQ
-#EXTINF:-1 tvg-id="" tvg-name="USA | NCAAF 006: Central Michigan vs. Northwestern | Fri 26th Dec 1:00PM ET | ESPN" tvg-logo="http://xplatinmedia.com:8080/images/4eab41fc619f72071924023c2b2ce8ce.png" group-title="SPORTS LIVE",USA | NCAAF 006: Central Michigan vs. Northwestern | Fri 26th Dec 1:00PM ET | ESPN
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2wxTDJnWTdoOU9ZemQ1Z2pWNmlEQkJiRitUckVQb0hWdE1EYTAyOGJzTA
 #EXTINF:-1 tvg-id="btsport2.uk" tvg-name="AF: NTA Sports 24 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/7d72d334cf7a4de0f529482fb169ebf0.png" group-title="SPORTS LIVE",AF: NTA Sports 24 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacE00dGtiYVBJM3JxaVhYVGs2STF5VWhnYnVrY1QySHhLMCtIRFhObU43bw
 #EXTINF:-1 tvg-id="sporttv1.pt" tvg-name="AF: ORTM 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/93cffa404815f6875e52444808499341.png" group-title="SPORTS LIVE",AF: ORTM 1 HD
@@ -3552,6 +3532,38 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadU5ET2VtM254L3Ivblk1d1g5OXE2clh
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadU5ET2VtM254L3Ivblk1d1g5OXE2cVVrTlpmQXZVRFVuck16WGszQXZEMA
 #EXTINF:-1 tvg-id="ziggosportracing.nl" tvg-name="NL: Ziggo Sport Racing HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/478f67bb97135c0385065d63c872a9a5.png" group-title="SPORTS LIVE",NL: Ziggo Sport Racing HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadU5ET2VtM254L3Ivblk1d1g5OXE2cWpYMjB1QzJDYkd1Qi9oZFYvRHdlOQ
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN JEEM HD" tvg-logo="https://img.logo-cdn.cc/jeemtv.png" group-title="SPORTS LIVE",AR ▎BEIN JEEM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjV3NteXJFcGRRZWJ3dDNHcGFKYUZ6bw
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN GOURMET HD" tvg-logo="https://img.logo-cdn.cc/beingourmet.png" group-title="SPORTS LIVE",AR ▎BEIN GOURMET HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRUTFwdEVheTIrc2VXTlYvTVFTVitqQg
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN FATAFEAT HD" tvg-logo="https://img.logo-cdn.cc/fatafeat.png" group-title="SPORTS LIVE",AR ▎BEIN FATAFEAT HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4azE3ZGxRekJqNll4NEVSelh3anlrZw
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN BARAEM HD" tvg-logo="https://img.logo-cdn.cc/baraemtv.png" group-title="SPORTS LIVE",AR ▎BEIN BARAEM HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRUzI5cEV1c3hsQTg5OElhNU1VdDRXYw
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN DRAMA HD" tvg-logo="https://img.logo-cdn.cc/beindrama.png" group-title="SPORTS LIVE",AR ▎BEIN DRAMA HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRU1VnSEtNOVQ1TjRKN0dmakxmdEFWSg
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN SERIES 2 HD" tvg-logo="https://img.logo-cdn.cc/beinseries2.png" group-title="SPORTS LIVE",AR ▎BEIN SERIES 2 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRU0lTeThFd0hGRUdmVkdNZFZkTHBSRg
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN SERIES 1 HD" tvg-logo="https://img.logo-cdn.cc/beinseries1.png" group-title="SPORTS LIVE",AR ▎BEIN SERIES 1 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRVGR0NDlVMGl4bTNBelVoZjJLaXI0Vg
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN MOVIES 4 HD" tvg-logo="https://img.logo-cdn.cc/beinmovies4.png" group-title="SPORTS LIVE",AR ▎BEIN MOVIES 4 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRU2V2bW94UnR2T1lRb2YvclZZOFpzMQ
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN MOVIES 3 HD" tvg-logo="https://img.logo-cdn.cc/beinmovies3.png" group-title="SPORTS LIVE",AR ▎BEIN MOVIES 3 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4a1BJUnNHT0tnME9CeFpOWitldW9YcQ
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN MOVIES 2 HD" tvg-logo="https://img.logo-cdn.cc/beinmovies2.png" group-title="SPORTS LIVE",AR ▎BEIN MOVIES 2 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRVGN1QUtYM09Uc1hvaXNYM3dZUXBvRA
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN MOVIES 1 HD" tvg-logo="https://img.logo-cdn.cc/beinmovies1.png" group-title="SPORTS LIVE",AR ▎BEIN MOVIES 1 HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjVmVLSGdNN1FrSytjSEVObFhwb1pJYg
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN FOX MOVIES ACTION HD" tvg-logo="https://img.logo-cdn.cc/foxmovies.png" group-title="SPORTS LIVE",AR ▎BEIN FOX MOVIES ACTION HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPV3NWRFlwVjIvYlFvWjdwc2drcDVmMA
+#EXTINF:-1 tvg-id="Movies.sa" tvg-name="AR ▎BEIN BOX OFFICE 1 HD 8ᴋ" tvg-logo="https://img.logo-cdn.cc/beinboxoffice1.png" group-title="SPORTS LIVE",AR ▎BEIN BOX OFFICE 1 HD 8ᴋ
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPVlE5WnFVL3hDWjdJOTl3VVVTMVZ6MA
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN BOX OFFICE 2 HD 8ᴋ" tvg-logo="https://img.logo-cdn.cc/beinboxoffice2.png" group-title="SPORTS LIVE",AR ▎BEIN BOX OFFICE 2 HD 8ᴋ
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjWHlFamg1aFZWdDJBa0RrTTdXaFlnVQ
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN NAT GEO HD" tvg-logo="" group-title="SPORTS LIVE",AR ▎BEIN NAT GEO HD
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPWHBLcm5xNUM3Z015RWZqQTdVWXd4QQ
+#EXTINF:-1 tvg-id="" tvg-name="AR ▎BEIN BOX OFFICE 3 HD 8ᴋ" tvg-logo="" group-title="SPORTS LIVE",AR ▎BEIN BOX OFFICE 3 HD 8ᴋ
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4bTdxMk1IczcxYkR4MmJPQjVUYjlvOQ
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 1 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 1 FHD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1djUHBwTStwK0pYVkF3dnhoVHJtMlY3OUl6THRYTE56L1JTSUdVRzVmcg
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 2 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 2 FHD
@@ -3566,44 +3578,12 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1VtWWV5Y1c0SUVoTVR4OGRXUXVHK1p
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacXJFQlZjcE1pZTlmb1h6TFo3bFV1MFFZbXNFV2NmT1VQaFBveXZtb1lFUA
 #EXTINF:-1 tvg-id="" tvg-name="OSN WWE HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/87531549521.png" group-title="SPORTS LIVE",OSN WWE HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaUJ4VXh1TjlOL25iM3puUE9CY2l6N1R4VFRlVHkwSGdDVnRzWEZKVUh4MA
-#EXTINF:-1 tvg-id="" tvg-name="AR: Bein Fatafeat HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/39627579321.png" group-title="SPORTS LIVE",AR: Bein Fatafeat HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjV3NteXJFcGRRZWJ3dDNHcGFKYUZ6bw
-#EXTINF:-1 tvg-id="" tvg-name="Bein National Geographic HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/30769832241.png" group-title="SPORTS LIVE",Bein National Geographic HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRUTFwdEVheTIrc2VXTlYvTVFTVitqQg
-#EXTINF:-1 tvg-id="" tvg-name="Bein HG TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/14821532041.png" group-title="SPORTS LIVE",Bein HG TV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4azE3ZGxRekJqNll4NEVSelh3anlrZw
-#EXTINF:-1 tvg-id="" tvg-name="Bein JEEM HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/51147659771.png" group-title="SPORTS LIVE",Bein JEEM HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRUzI5cEV1c3hsQTg5OElhNU1VdDRXYw
-#EXTINF:-1 tvg-id="" tvg-name="Bein Movies 2 HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/80697042641.png" group-title="SPORTS LIVE",Bein Movies 2 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRU1VnSEtNOVQ1TjRKN0dmakxmdEFWSg
-#EXTINF:-1 tvg-id="" tvg-name="Bein Movies 3 HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/31692249781.png" group-title="SPORTS LIVE",Bein Movies 3 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRU0lTeThFd0hGRUdmVkdNZFZkTHBSRg
-#EXTINF:-1 tvg-id="" tvg-name="Bein Movies 4 HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/94251272661.png" group-title="SPORTS LIVE",Bein Movies 4 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRVGR0NDlVMGl4bTNBelVoZjJLaXI0Vg
-#EXTINF:-1 tvg-id="" tvg-name="Bein FOX Rewayat HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/56496048711.png" group-title="SPORTS LIVE",Bein FOX Rewayat HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4a1BJUnNHT0tnME9CeFpOWitldW9YcQ
-#EXTINF:-1 tvg-id="" tvg-name="Bein Outdoor HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/63602564911.png" group-title="SPORTS LIVE",Bein Outdoor HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaamhOY2NONG5TUTl2YUt5RGMyM2lRVGN1QUtYM09Uc1hvaXNYM3dZUXBvRA
-#EXTINF:-1 tvg-id="" tvg-name="Bein Series 1 HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/65447397071.png" group-title="SPORTS LIVE",Bein Series 1 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjVmVLSGdNN1FrSytjSEVObFhwb1pJYg
-#EXTINF:-1 tvg-id="" tvg-name="Bein Series 2 HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/60310797381.png" group-title="SPORTS LIVE",Bein Series 2 HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPV3NWRFlwVjIvYlFvWjdwc2drcDVmMA
-#EXTINF:-1 tvg-id="Movies.sa" tvg-name="Bein STAR Movies HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/86772496191.png" group-title="SPORTS LIVE",Bein STAR Movies HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPVlE5WnFVL3hDWjdJOTl3VVVTMVZ6MA
-#EXTINF:-1 tvg-id="" tvg-name="Bein STAR World HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/67496330981.png" group-title="SPORTS LIVE",Bein STAR World HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjWHlFamg1aFZWdDJBa0RrTTdXaFlnVQ
-#EXTINF:-1 tvg-id="" tvg-name="Bein Travel HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/89383092141.png" group-title="SPORTS LIVE",Bein Travel HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaakY4QjdsMlVrYklyK2dGVi83N0VPWHBLcm5xNUM3Z015RWZqQTdVWXd4QQ
-#EXTINF:-1 tvg-id="" tvg-name="Bein Gourmet HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/70715459651.png" group-title="SPORTS LIVE",Bein Gourmet HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4bTdxMk1IczcxYkR4MmJPQjVUYjlvOQ
 #EXTINF:-1 tvg-id="" tvg-name="Bein FOX LIFE HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/33882909071.png" group-title="SPORTS LIVE",Bein FOX LIFE HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4bG9VTXJWcDVQNFZ0eEh1Zm5kTmE2aw
 #EXTINF:-1 tvg-id="" tvg-name="AR: Bein FOX Rewayat HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/65120320981.png" group-title="SPORTS LIVE",AR: Bein FOX Rewayat HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjWERYcEFzaFhvNGU4TERHQWxZV3NHdw
 #EXTINF:-1 tvg-id="" tvg-name="Bein BBC Earth HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/59127001941.png" group-title="SPORTS LIVE",Bein BBC Earth HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadER1M09HY0FmVzYveHhsRWpXQmR4bUZHck1oUjhKc2tLV0ExbDNUdUdrSg
-#EXTINF:-1 tvg-id="" tvg-name="AR: Bein Gourmet HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/59078196151.png" group-title="SPORTS LIVE",AR: Bein Gourmet HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjWGtJUDUzZUFrYTkxYWVpaFgrYUZvNw
 #EXTINF:-1 tvg-id="" tvg-name="AR: Bein Gulli Arabic  HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/77545951181.png" group-title="SPORTS LIVE",AR: Bein Gulli Arabic  HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacFc4UnhYa0VNTXd5TWtzLzB5Q1RjVmRmZXltVE1yWVFuK0VYZEFIdERJZg
 #EXTINF:-1 tvg-id="" tvg-name="BE: Baraem HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/86814101351.png" group-title="SPORTS LIVE",BE: Baraem HD
@@ -3982,6 +3962,12 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadThGRy9zNXdiQnlFMFR3VmxSVFptNXB
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadThGRy9zNXdiQnlFMFR3VmxSVFptNFlBN09CVEY1bWxRSTRlN25vcitMNw
 #EXTINF:-1 tvg-id="" tvg-name="beIN Movies Drama 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/14fdcdb04d6dedc02d4c5da6b8799ac9.png" group-title="SPORTS LIVE",beIN Movies Drama 3
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadThGRy9zNXdiQnlFMFR3VmxSVFptN014VENxUUM3RDM0YXpxNjdLQzlUZQ
+#EXTINF:-1 tvg-id="" tvg-name="beIN Series 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/6306dcf5a1a9da5240d1a3952f822936.png" group-title="SPORTS LIVE",beIN Series 1
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmR5eEo0am5VSWxXVG0rQlNyTXZLdXJ3MkhDS0RPOE00TFV1WlN3YUp1UQ
+#EXTINF:-1 tvg-id="" tvg-name="beIN Series 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/a1b0e8b1557f00883b0f6709d6d54e33.png" group-title="SPORTS LIVE",beIN Series 2
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmR5eEo0am5VSWxXVG0rQlNyTXZLdnAwR0pQR2hhUzlDem96VXM2TjdNNQ
+#EXTINF:-1 tvg-id="" tvg-name="beIN Gourmet" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/3ed2da3eb57b68e64b3c86821ca6201e.png" group-title="SPORTS LIVE",beIN Gourmet
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabExvSU95MnJZbWVCaXp5aWVSU2VaM21vVms4WmJ2aWJVd2VaeXJBdHF4ag
 #EXTINF:-1 tvg-id="sportklub.pl" tvg-name="RS: Sport KLUB 6 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/3d3625edc8a744fbced185b8647c17c6.png" group-title="SPORTS LIVE",RS: Sport KLUB 6 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadXgxTjdmTklYVGkyb1RkUE5ZMWxwOWJGQVZLTzZyN3dZdHQ4dUg3LzRrWg
 #EXTINF:-1 tvg-id="arenasport1.hr" tvg-name="RS: Arena Esport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/23dffbbe5386161aeed488d37ab14424.png" group-title="SPORTS LIVE",RS: Arena Esport HD
@@ -5360,10 +5346,6 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UFQ
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac3Jaa3kwR1A1SDkzbmVuSWVYYjU0UEFPZnp6cW13OEJ4Rjh0b203Z0pBbA
 #EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="US: MTV U HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2715ca9ae65a9c212b299d9a70a23006.png" group-title="INDIAN MUSIC",US: MTV U HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabmRKcVZMZE5mZVllYzFvNXlWalpUMzVDeHpRcDhUNDlic1BJL1FEQjNRNw
-#EXTINF:-1 tvg-id="" tvg-name="USA | CBS Omaha, NE KMTV HD" tvg-logo="" group-title="INDIAN MUSIC",USA | CBS Omaha, NE KMTV HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacmhBeDJwS3haRkUxa0tzcWNYU2M2ZUc5VEVaR2hndjRMclhZOGk2Y2wxZg
-#EXTINF:-1 tvg-id="" tvg-name="USA | NBC Madison, WI WMTVⓧ" tvg-logo="" group-title="INDIAN MUSIC",USA | NBC Madison, WI WMTVⓧ
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NadHg4YzhndVpoY3dCQlhmR3lLOEJIS0NIM0g1aHROV2FMa3Rwa0g5UmwzQQ
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LMTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/226d264495aa22db551f1ce0e7698f9c.png" group-title="INDIAN MUSIC",AF: LMTV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacWNwNGl0ejRwcjdKWjZpeFphcFRnY21zaDZFT0VPeFRDcWI3T3JSamJYdQ
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="AF: LTM TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/a34e2ef647c8fb5f2f84b7ed441eed21.png" group-title="INDIAN MUSIC",AF: LTM TV HD
