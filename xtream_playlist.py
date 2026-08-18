@@ -26,13 +26,16 @@ INDIAN_BANGLA_PAT = re.compile(r'(?i)(STAR\s*JALSHA|ZEE\s*BANGLA|COLORS\s*BANGLA
 
 SPORTS_PAT = re.compile(r'(?i)(T\s*SPORTS|SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|PTV\s*SPORTS|GEO\s*SUPER)')
 
+# 🎬 পপুলার ইন্ডিয়ান মুভি চ্যানেল ফিল্টার
+INDIAN_MOVIES_PAT = re.compile(r'(?i)(ZEE\s*CINEMA|SONY\s*MAX\s*2|SONY\s*MAX|STAR\s*GOLD\s*2|STAR\s*GOLD\s*SELECT|STAR\s*GOLD|GOLDMINES|COLORS\s*CINEPLEX|ZEE\s*ANMOL\s*CINEMA|ZEE\s*ACTION|SONY\s*WAH|STAR\s*UTSAV\s*MOVIES)')
+
 # 🎵 ইন্ডিয়ান পপুলার মিউজিক চ্যানেল ফিল্টার
 INDIAN_MUSIC_PAT = re.compile(r'(?i)(9XM|9X\s*JALWA|9XJALWA|B4U\s*MUSIC|B4U|MASTIII|ZOOM|SONY\s*MIX|MTV\s*BEATS|MTV|MH1|MUSIC\s*INDIA)')
 
 INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18)')
 PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
 
-# 🚫 VOD / EPISODE / MOVIE FILTER
+# 🚫 VOD / EPISODE / SINGLE MOVIE FILE FILTER (চ্যানেলের নাম ব্লক করবে না)
 EPISODE_VOD_PATTERN = re.compile(
     r'(?i)('
     r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01, S1 E1
@@ -40,7 +43,7 @@ EPISODE_VOD_PATTERN = re.compile(
     r'\bs\d{2}\b|\be\d{2}\b|'            # S01, E01
     r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01, Episode, Season
     r'(\(\d{4}\))|'                    # (1997), (2024) ইত্যাদি সাল
-    r'MOVIE|MOVIES|CINEMA|FILM|FLIX|HBO|GOLD|MAX|CINE|CINEPLEX|TALKIES|ACTION|XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES'
+    r'XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES|WEB\s*SERIES'
     r')'
 )
 
@@ -87,6 +90,7 @@ def filter_requested_channels(content):
         "BANGLA KIDS": [],
         "INDIAN BANGLA": [],
         "SPORTS LIVE": [],
+        "INDIAN MOVIES": [],
         "INDIAN MUSIC": [],
         "INDIAN HINDI": [],
         "PAKISTANI TV": []
@@ -121,7 +125,7 @@ def filter_requested_channels(content):
                 current_extinf = ""
                 continue
                 
-            # ৪. স্বয়ংক্রিয় গ্রুপ ফিল্টারিং (মিউজিক চ্যানেল অন্তর্ভুক্ত)
+            # ৪. স্বয়ংক্রিয় গ্রুপ ফিল্টারিং
             target_group = None
             
             if BANGLA_NEWS_PAT.search(current_extinf):
@@ -134,6 +138,8 @@ def filter_requested_channels(content):
                 target_group = "BANGLA ENTERTAINMENT"
             elif SPORTS_PAT.search(current_extinf):
                 target_group = "SPORTS LIVE"
+            elif INDIAN_MOVIES_PAT.search(current_extinf):
+                target_group = "INDIAN MOVIES"
             elif INDIAN_MUSIC_PAT.search(current_extinf):
                 target_group = "INDIAN MUSIC"
             elif INDIAN_HINDI_PAT.search(current_extinf):
@@ -158,6 +164,7 @@ def filter_requested_channels(content):
         "BANGLA KIDS",
         "INDIAN BANGLA",
         "SPORTS LIVE",
+        "INDIAN MOVIES",
         "INDIAN MUSIC",
         "INDIAN HINDI",
         "PAKISTANI TV"
@@ -197,7 +204,7 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        # 📌 প্লেলিস্টের একদম উপরে মোট চ্যানেলের সংখ্যা অটো-কাউন্ট হেডার হিসেবে যোগ
+        # 📌 প্লেলিস্টের উপরে মোট চ্যানেলের কাউন্টিং হেডার
         playlist_header = (
             f"#EXTM3U\n"
             f"# 📊 Total Saved Channels: {total_saved}\n"
