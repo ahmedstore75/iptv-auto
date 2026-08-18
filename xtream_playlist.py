@@ -18,7 +18,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 📌 চ্যানেল প্যাটার্ন ও গ্রুপ টাইটেল ডেফিনিশন (নির্দিষ্ট ক্যাটাগরি অনুযায়ী)
+# 📌 চ্যানেল প্যাটার্ন ও নির্দিষ্ট গ্রুপ টাইটেল
 BANGLA_NEWS_PAT = re.compile(r'(?i)(SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|CHANNEL\s*24|NEWS24|ATN\s*NEWS)')
 BANGLA_KIDS_PAT = re.compile(r'(?i)(DURANTO)')
 BANGLA_ENT_PAT = re.compile(r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|DEEPTO|GAZI\s*TV|GTV|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|BIJOY|DESH\s*TV|SA\s*TV|NEXUS|\bBD\b|\bBANGLA\b|\bBANGLADESH\b)')
@@ -26,7 +26,10 @@ INDIAN_BANGLA_PAT = re.compile(r'(?i)(STAR\s*JALSHA|ZEE\s*BANGLA|COLORS\s*BANGLA
 
 SPORTS_PAT = re.compile(r'(?i)(T\s*SPORTS|SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|PTV\s*SPORTS|GEO\s*SUPER)')
 
-INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18|9XM|MTV)')
+# 🎵 ইন্ডিয়ান পপুলার মিউজিক চ্যানেল ফিল্টার
+INDIAN_MUSIC_PAT = re.compile(r'(?i)(9XM|9X\s*JALWA|9XJALWA|B4U\s*MUSIC|B4U|MASTIII|ZOOM|SONY\s*MIX|MTV\s*BEATS|MTV|MH1|MUSIC\s*INDIA)')
+
+INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18)')
 PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\s*NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
 
 # 🚫 VOD / EPISODE / MOVIE FILTER
@@ -67,7 +70,6 @@ def normalize_channel_name(extinf_line):
     return name
 
 def set_group_title(extinf_line, group_name):
-    """গ্রুপ টাইটেল স্বয়ংক্রিয়ভাবে নির্দিষ্ট বা পরিবর্তন করার ফাংশন"""
     if 'group-title="' in extinf_line:
         return re.sub(r'group-title="[^"]*"', f'group-title="{group_name}"', extinf_line)
     else:
@@ -79,16 +81,15 @@ def set_group_title(extinf_line, group_name):
 def filter_requested_channels(content):
     lines = content.splitlines()
     
-    # নির্দিষ্ট গ্রুপ ক্যাটাগরি অনুযায়ী বাকেট
     groups = {
         "BANGLA NEWS": [],
         "BANGLA ENTERTAINMENT": [],
         "BANGLA KIDS": [],
         "INDIAN BANGLA": [],
         "SPORTS LIVE": [],
+        "INDIAN MUSIC": [],
         "INDIAN HINDI": [],
-        "PAKISTANI TV": [],
-        "OTHERS LIVE TV": []
+        "PAKISTANI TV": []
     }
     
     seen_urls = set()
@@ -120,12 +121,10 @@ def filter_requested_channels(content):
                 current_extinf = ""
                 continue
                 
-            # ৪. স্বয়ংক্রিয় গ্রুপ সনাক্তকরণ
+            # ৪. স্বয়ংক্রিয় গ্রুপ ফিল্টারিং (মিউজিক চ্যানেল অন্তর্ভুক্ত)
             target_group = None
             
-            if SPORTS_PAT.search(current_extinf):
-                target_group = "SPORTS LIVE"
-            elif BANGLA_NEWS_PAT.search(current_extinf):
+            if BANGLA_NEWS_PAT.search(current_extinf):
                 target_group = "BANGLA NEWS"
             elif BANGLA_KIDS_PAT.search(current_extinf):
                 target_group = "BANGLA KIDS"
@@ -133,6 +132,10 @@ def filter_requested_channels(content):
                 target_group = "INDIAN BANGLA"
             elif BANGLA_ENT_PAT.search(current_extinf):
                 target_group = "BANGLA ENTERTAINMENT"
+            elif SPORTS_PAT.search(current_extinf):
+                target_group = "SPORTS LIVE"
+            elif INDIAN_MUSIC_PAT.search(current_extinf):
+                target_group = "INDIAN MUSIC"
             elif INDIAN_HINDI_PAT.search(current_extinf):
                 target_group = "INDIAN HINDI"
             elif PAKISTANI_PAT.search(current_extinf):
@@ -148,14 +151,14 @@ def filter_requested_channels(content):
                 
             current_extinf = ""
 
-    # 📌 ক্রম ঠিক রাখা: ১. সমস্ত বাংলা ক্যাটাগরি -> ২. স্পোর্টস -> ৩. ইন্ডিয়ান হিন্দি/পাকিস্তান
-    ordered_lines = ["#EXTM3U"]
+    ordered_lines = []
     category_order = [
         "BANGLA NEWS",
         "BANGLA ENTERTAINMENT",
         "BANGLA KIDS",
         "INDIAN BANGLA",
         "SPORTS LIVE",
+        "INDIAN MUSIC",
         "INDIAN HINDI",
         "PAKISTANI TV"
     ]
@@ -168,13 +171,13 @@ def filter_requested_channels(content):
         print(f"   - 📁 {cat}: {count} channels")
         ordered_lines.extend(groups[cat])
 
-    print(f"✅ Total Pure Live Channels Saved: {total_added}")
-    return "\n".join(ordered_lines)
+    print(f"✅ Total Saved Live Channels: {total_added}")
+    return "\n".join(ordered_lines), total_added
 
 def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
-        filtered_content = filter_requested_channels(content)
+        filtered_content, total_saved = filter_requested_channels(content)
 
         # স্ট্রিম লিঙ্ক রূপান্তর
         stream_pattern = re.compile(
@@ -194,13 +197,20 @@ def fetch_and_generate():
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        header_comment = f"# 📦 Auto-Categorized Live Satellite TV Playlist\n# ⏰ Updated time: {bd_time}\n"
-        updated_m3u = updated_m3u.replace("#EXTM3U", f"#EXTM3U\n{header_comment}", 1)
+        # 📌 প্লেলিস্টের একদম উপরে মোট চ্যানেলের সংখ্যা অটো-কাউন্ট হেডার হিসেবে যোগ
+        playlist_header = (
+            f"#EXTM3U\n"
+            f"# 📊 Total Saved Channels: {total_saved}\n"
+            f"# 📦 Auto-Categorized Live Satellite TV Playlist\n"
+            f"# ⏰ Updated time: {bd_time}\n"
+        )
+        
+        final_m3u = playlist_header + updated_m3u
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
-            f.write(updated_m3u)
+            f.write(final_m3u)
 
-        print(f"✅ playlist_x.m3u generated successfully at {bd_time}")
+        print(f"✅ playlist_x.m3u generated successfully at {bd_time} (Total Channels: {total_saved})")
 
     except Exception as e:
         print(f"❌ Error fetching playlist: {e}")
