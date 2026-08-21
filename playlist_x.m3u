@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3102
+# 📊 Total Saved Channels: 3105
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-22 01:20:50
+# ⏰ Updated time: 2026-08-22 02:17:15
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5M1FYTGpySDhlczRudS9qblZwcC9hQw
 #EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLA NEWS",SOmoy TV HD
@@ -2112,6 +2112,12 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa010aENLOEx3dEhWKytyRC9DbFJQMGN
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa010aENLOEx3dEhWKytyRC9DbFJQMXhpUGJzSFFiWThrNzVLanNGWTJkMA
 #EXTINF:-1 tvg-id="" tvg-name="CRICKET | CRICLIFE 1 FHD" tvg-logo="https://www.ooredoo.qa/web/wp-content/uploads/2023/08/10-CricLife1-Logo_02_Web-site-logo-150x120pxl_.png" group-title="SPORTS LIVE",CRICKET | CRICLIFE 1 FHD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaUZ6UDJoRVFiRWUxbHY4emttZHYwTlMxaUlDckVRbFNRcUVOVUUxelJOSA
+#EXTINF:-1 tvg-id="" tvg-name="CRICKET (1)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",CRICKET (1)
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ05sdlUzUmlQNXBic0krcTRoNXl3ZVRiYXphdTFzZzhybUQ4MDdUdUxuOQ
+#EXTINF:-1 tvg-id="" tvg-name="CRICKET (2) " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",CRICKET (2)
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacHVuNFhPUVhoZVFGdG1kLzlwM1dXajRzclF5RHJsaEQydGd5VnZPNE5lWg
+#EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",EPL | DAZN
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacHVuNFhPUVhoZVFGdG1kLzlwM1dXaG5GdStCcGdob2FOeGlGNS84NkgwUg
 #EXTINF:-1 tvg-id="FS1.HD.us2" tvg-name="US: FS1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/30569238d01ed9c7e8f50b4f61c70865.png" group-title="SPORTS LIVE",US: FS1 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabFMxVnBZc0k0K0Jid2hHcGpUR2gza0pUYVpJSmtHdDZxV1dNK09OODAyaw
 #EXTINF:-1 tvg-id="TSN.1.ca2" tvg-name="CA: TSN 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/1fba41bf57803049ca52a3131bf7b749.png" group-title="SPORTS LIVE",CA: TSN 1 HD
