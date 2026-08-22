@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3105
+# 📊 Total Saved Channels: 3114
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-22 06:45:05
+# ⏰ Updated time: 2026-08-22 08:11:09
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5M1FYTGpySDhlczRudS9qblZwcC9hQw
 #EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLA NEWS",SOmoy TV HD
@@ -4348,6 +4348,24 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVZnMk40cjlZbzJicGdJUjN5QzJJaUx
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NacG5ZV3lSd2FzTWM4Z25UTUcvcElGLzhhbXZkSjlJK1NvK3BGRDI5cFFwUw
 #EXTINF:-1 tvg-id="" tvg-name="AR: JORDAN SPORT HD" tvg-logo="http://137.74.40.152/Categories.Logo/JORDAN.png" group-title="SPORTS LIVE",AR: JORDAN SPORT HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1BTMVlDRkNiTmxxWm5jMjRnKzhxN0VhMUZNQldxYjJjZE5hSkVDNSt6Ug
+#EXTINF:-1 tvg-id="" tvg-name="WWE Monday Night Raw (17th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRk5F7ow_uN9Rqd6Z-3YfzwUqjaDOBKL8OYSWr-hCLZzN2LqSRv4Dmg35A&s=10" group-title="SPORTS LIVE",WWE Monday Night Raw (17th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSV2JWRGNocmVkWDVKeUJ3VGFkbStzTw
+#EXTINF:-1 tvg-id="" tvg-name="WWE Friday Night SmackDown (14th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBhl_f76_gRSfS0KqSCy1rbUTT9NeIQnngjqD0kRG0A&s=10" group-title="SPORTS LIVE",WWE Friday Night SmackDown (14th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSWC8xclI4SlJHQ1Y1d2tuWTU4MzJDSw
+#EXTINF:-1 tvg-id="" tvg-name="WWE NXT (11th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi18mrl1I6hF_QonZVeYNSDuV_KwjwdldFtXyryvA_h2BHCv0un7n4CYA&s=10" group-title="SPORTS LIVE",WWE NXT (11th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSV2xGZlQ5bVJ2d2xXOGRDck4zUkI3Qg
+#EXTINF:-1 tvg-id="" tvg-name="WWE Monday Night Raw (10th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEyFflKBWfAnJP_hUCSA0IL2MhGJZuAiXS5XaFZLOPoy8_y5sHH0Ydi50&s=10" group-title="SPORTS LIVE",WWE Monday Night Raw (10th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSVW8wWGF0a05uUzcxaE82ZHQ4dU5hUw
+#EXTINF:-1 tvg-id="" tvg-name="WWE Friday Night SmackDown (7th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5UyFCxYx03RQ5-3gSMNhxrAbhczfZoaItsI2dwScAHnPqvVT_QPzjIeN&s=10" group-title="SPORTS LIVE",WWE Friday Night SmackDown (7th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSVXlwRDBBVnhFYkNKSE8vcHBpSXc4UA
+#EXTINF:-1 tvg-id="" tvg-name="WWE NXT (4th August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbubJKA9F46I4WOsHde7uC9z0QbWoPbqZZqVSiaGQIA&s=10" group-title="SPORTS LIVE",WWE NXT (4th August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSWGNqWmRQTWl5ZmlkanRRYWN6ZUk5OA
+#EXTINF:-1 tvg-id="" tvg-name="WWE Monday Night Raw (3rd August 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQETmwM4Tt8qRi_35-aEGyzxbg4sY8IRU7QyN6aMDdjFvrpdXChfuKk0Ro&s=10" group-title="SPORTS LIVE",WWE Monday Night Raw (3rd August 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSVWhaajVBNXhnUVI1SWVvc0RFaEZrbw
+#EXTINF:-1 tvg-id="" tvg-name="WWE Friday Night SmackDown (31st July 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWkyg4fvMAvpvcDRXdSPIkddg_ox5-5F0ywuDEuKi43hhnPv2OdXsw7uI&s=10" group-title="SPORTS LIVE",WWE Friday Night SmackDown (31st July 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSVUxLK1ZMV2ZDRGZxNitGRjhzQnhWbA
+#EXTINF:-1 tvg-id="" tvg-name="WWE NXT (28th July 2026)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8LQijRgJgOft5wqLecIdBi-H1zII3Tk8zoxzrVS6KRr6xvHX8bacI2pMk&s=10" group-title="SPORTS LIVE",WWE NXT (28th July 2026)
+http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1U0JMc1pCWGhXRnM0VXNKYTlDYjVSWFB2SnRRaDAwSnA5ZDhrQTYzd1Y5OQ
 #EXTINF:-1 tvg-id="" tvg-name="CAM | Being.Alive.2024" tvg-logo="" group-title="SPORTS LIVE",CAM | Being.Alive.2024
 http://filex.me:8080/aldNSjRGbnpzczNMQ3dpNWFmdkJ1Yk9tbi83cUVOdXd6RWgzZlg2bUU3dEZPbGVTK3NYbXBKREJ2bEtUWEIveg
 #EXTINF:-1 tvg-id="" tvg-name="WWE 1NXT 5th March ( 2024)" tvg-logo="" group-title="SPORTS LIVE",WWE 1NXT 5th March ( 2024)
