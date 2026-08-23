@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3119
+# 📊 Total Saved Channels: 3120
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-24 03:13:56
+# ⏰ Updated time: 2026-08-24 04:13:43
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Naa3JqNUZ5MmtURi8zalExeG02SHprUXJJdXEvUXNjVmIwb0xobkhyc1JVcA
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -2048,6 +2048,8 @@ http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1VaTEdqbXIrcWdPaWR0d3puL1A1WGl
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1VaTEdqbXIrcWdPaWR0d3puL1A1WHExbGYrN2V4dThPczRzOGhpQ05BNg
 #EXTINF:-1 tvg-id="" tvg-name="Dazn UHD Laliga" tvg-logo="" group-title="SPORTS LIVE",Dazn UHD Laliga
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1VaTEdqbXIrcWdPaWR0d3puL1A1WGsyeTVjVjFIbjV3azJldGdvZTQvZw
+#EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1VaTEdqbXIrcWdPaWR0d3puL1A1WGtZa0xqMGx3R2NpeUpScVhvTm1KMA
 #EXTINF:-1 tvg-id="" tvg-name="PK | ARY Sports HD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/a-sports-pk.png" group-title="SPORTS LIVE",PK | ARY Sports HD
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa0NWQzdkOC93L2F5cFFabGhsbWpJUA
 #EXTINF:-1 tvg-id="" tvg-name="IN | TEN CRICKET" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3aN0ryLiLSNAhrnn3MnXSPTtEOKGRhKVRJdp_qligKbpjnkRXmTjD_M&s=10" group-title="SPORTS LIVE",IN | TEN CRICKET
