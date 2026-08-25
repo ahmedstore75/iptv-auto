@@ -14826,12 +14826,6 @@
         "url": "http://103.114.11.37:8081/Star-Jalsha/index.m3u8?token=dsgdfgsdfgasf"
     },
     {
-        "name": "Jalsha Movies HD",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
-        "group": "Indian Bangla",
-        "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
-    },
-    {
         "name": "Colors Bangla",
         "logo": "https://dl.dropbox.com/s/44vdhjj6fja02co/CBHD.jpg",
         "group": "Indian Bangla",
@@ -14842,12 +14836,6 @@
         "logo": "https://www.tbn24.com/logo.png",
         "group": "Indian Bangla",
         "url": "http://103.151.60.162:2122/play/a01n/index.m3u8"
-    },
-    {
-        "name": "Star Jalsha HD",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png",
-        "group": "Indian Bangla",
-        "url": "http://103.165.93.31:8095/starJalsha/index.m3u8"
     },
     {
         "name": "Sony Aath",
