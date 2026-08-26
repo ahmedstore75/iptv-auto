@@ -14262,10 +14262,10 @@
         "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8"
     },
     {
-        "name": "BTV News",
-        "logo": "https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1735648543857_Poster.jpg",
+        "name": "BTV Shangshad",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png",
         "group": "Bangla",
-        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
     },
     {
         "name": "Channel 1",
@@ -14296,6 +14296,12 @@
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
         "group": "Bangla",
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
+    },
+    {
+        "name": "Bangla Vision",
+        "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
+        "group": "Bangla",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
     },
     {
         "name": "NTV",
@@ -14370,6 +14376,12 @@
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8"
     },
     {
+        "name": "Mohona TV",
+        "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png",
+        "group": "Bangla",
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8"
+    },
+    {
         "name": "Movie Bangla",
         "logo": "https://i.postimg.cc/wBN1BtXk/20251127_095813.png",
         "group": "Bangla",
@@ -14379,19 +14391,13 @@
         "name": "MY TV",
         "logo": "https://i.postimg.cc/HxGF4V2b/20250529_103226.png",
         "group": "Bangla",
-        "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8"
+        "url": "http://116.204.149.16/mytv/index.m3u8"
     },
     {
         "name": "Ekushey TV",
         "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/cd/Ekushey_Television_logo_2000-2002%2C_2007.png",
         "group": "Bangla",
         "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8"
-    },
-    {
-        "name": "News 24 BD",
-        "logo": "https://i.postimg.cc/4xNGSNQS/1000115146.jpg",
-        "group": "Bangla",
-        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
     },
     {
         "name": "Nexus TV",
@@ -14407,7 +14413,7 @@
     },
     {
         "name": "PTV",
-        "logo": "https://sm-monirul.top/assets/images/ptv_sports.png",
+        "logo": "https://i.postimg.cc/zB0GG09t/ptv-sports.png",
         "group": "Sports",
         "url": "http://103.151.60.162:2122/play/a0f9/index.m3u8"
     },
@@ -14442,16 +14448,10 @@
         "url": "http://66.102.126.10:8000/play/a018/index.m3u8"
     },
     {
-        "name": "Star Sports Select 2 HD",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png",
+        "name": "Star Sports Select 1 HD",
+        "logo": "https://i.postimg.cc/NMYdkKxf/1000114839.png",
         "group": "Sports",
-        "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8"
-    },
-    {
-        "name": "Unite8 Sports 2",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_9bd5db31bbc4d98defd1cb51a5606d9c_playmist_unite_sports_2.jpg",
-        "group": "Sports",
-        "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8"
+        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "TSN 1",
@@ -14833,7 +14833,7 @@
     },
     {
         "name": "Star Gold",
-        "logo": "https://www.tbn24.com/logo.png",
+        "logo": "https://i.postimg.cc/X786Sr04/star-gold.png",
         "group": "Indian Bangla",
         "url": "http://103.151.60.162:2122/play/a01n/index.m3u8"
     },
