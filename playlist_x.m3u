@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3120
+# 📊 Total Saved Channels: 3147
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-30 14:45:20
+# ⏰ Updated time: 2026-08-30 20:09:44
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa3JqNUZ5MmtURi8zalExeG02SHprUXJJdXEvUXNjVmIwb0xobkhyc1JVcA
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1468,12 +1468,20 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabWtySGkrNjZDSFJOWnI5VStEMWU0OE
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabERQUExnUWozb3BYYWJPelNKWnhCTS9OdHRLUjhndWprQlQwL1RXZWlSag
 #EXTINF:-1 tvg-id="" tvg-name="IND_UNITE8 SPORTS 2 HD" tvg-logo="https://i.ibb.co/84RhY6HW/Picsart-26-06-13-01-41-58-563.jpg" group-title="SPORTS LIVE",IND_UNITE8 SPORTS 2 HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabERQUExnUWozb3BYYWJPelNKWnhCTkhncHVpbVRtaTdJVFhtakRscHNXMg
-#EXTINF:-1 tvg-id="" tvg-name="CRICKET (1)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",CRICKET (1)
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ05sdlUzUmlQNXBic0krcTRoNXl3ZVRiYXphdTFzZzhybUQ4MDdUdUxuOQ
-#EXTINF:-1 tvg-id="" tvg-name="CRICKET (2) " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",CRICKET (2)
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacHVuNFhPUVhoZVFGdG1kLzlwM1dXajRzclF5RHJsaEQydGd5VnZPNE5lWg
-#EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStx7da_qa94FyoeuOHp7jhGWruG_Xw4KO8pEXlHLQgNT5Q8Jjtke-0mX8&s=10" group-title="SPORTS LIVE",EPL | DAZN
+#EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | DAZN
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacHVuNFhPUVhoZVFGdG1kLzlwM1dXaG5GdStCcGdob2FOeGlGNS84NkgwUg
+#EXTINF:-1 tvg-id="" tvg-name="EPL | REAL 4K" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | REAL 4K
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0VibjhUeXo1TzhLMmREc0NIbzlleFB1M1Q1WHFxWUt6dzlqMXpKenRSYg
+#EXTINF:-1 tvg-id="" tvg-name="EPL 1 HD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 1 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSZU1YOGpGSW5Xa2lKY2w0N0hzWHBLZg
+#EXTINF:-1 tvg-id="" tvg-name="EPL 2 HD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 2 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSZDYySW44Z3A2ajdkRHZPaGNnY3lnbA
+#EXTINF:-1 tvg-id="" tvg-name="EPL 3 HD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 3 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSY1F2bDhTejRLckpJWEJOSzl3R0I4Qw
+#EXTINF:-1 tvg-id="" tvg-name="EPL 4 HD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 4 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSZEIvTnEzT29RNTVDY0toOVFkY2dTQw
+#EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSZUY0MnRMYVZQNlhsdFFuSWlVZ053WQ
 #EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="SPORTS LIVE",ESPN Deportes
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1VaTEdqbXIrcWdPaWR0d3puL1A1WGlTNnF0NEZUWDZ0UlY2RTNXRFhReg
 #EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORTA UHD" tvg-logo="" group-title="SPORTS LIVE",PREMIER SPORTA UHD
@@ -1582,6 +1590,76 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naanl3bmdjdUlab1F2SmM4NUhmeGNjK3
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naanl3bmdjdUlab1F2SmM4NUhmeGNjK2IyWG16WnFIZEF3akZmR0ZYR0VDYQ
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 50:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 50:
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naanl3bmdjdUlab1F2SmM4NUhmeGNjK3hFdmpqV2VZUyt4bk1Oa0JIM2NoYw
+#EXTINF:-1 tvg-id="" tvg-name="Now HK Sports 4K 1 UHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afc9LsVFO3qe5f0p3BYEKDhMs18IvFOSZ2XgvXXe0Ri0Gg.png" group-title="SPORTS LIVE",Now HK Sports 4K 1 UHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbC9sQzNoY0w3QnRpQ0hOQjkxeUdybw
+#EXTINF:-1 tvg-id="" tvg-name="Now HK Sports 4K 2 UHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcdi8rDR9PzHipX8J9uLFgW7c61Q3CLK9WI-e3x9y8JYw.png" group-title="SPORTS LIVE",Now HK Sports 4K 2 UHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbDZieFZpaDJtMFZSdDFnMFUxcm9nSw
+#EXTINF:-1 tvg-id="" tvg-name="Now HK Sports 4K 3 UHD" tvg-logo="https://ptvs.live:443/images/LjMxooJdLoUjs_tBLxgrV_1I1qvZu7whgNKD2GSJgCSmTPrbN-r9BApv7tPWyjOY.png" group-title="SPORTS LIVE",Now HK Sports 4K 3 UHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMazR6MnJHRzBaN2wydFFGL3d4bGhRYQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Astro Cricket HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afci0UT_SNtkIP1tGpbQ1VcrthgJAfZgBo7SvW5qkNzyNw.png" group-title="SPORTS LIVE",NowHK Astro Cricket HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbkI5VExEZTE5M1BwVmM4WGFvbUg1UA
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 1 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcuBOTcBiWOsev-sGgtArE86s_163cMkcxV7c2OWDzjBw.png" group-title="SPORTS LIVE",NowHK beIN 1 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbHpUOURhZFVmOUUyYURuQS9JTFBaSg
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 2 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcFvhqmk85Ukd173IWmh8st_iBYrfzi7ghLtrjrqkpuZw.png" group-title="SPORTS LIVE",NowHK beIN 2 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbUZqVG13K1BJT2tlZ2VRWnFVRVVlaw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 3 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affbIlkZxhHN22HyNJN-Cox0q9Qj78j0JRXgKYi9xl719A.png" group-title="SPORTS LIVE",NowHK beIN 3 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbmM5aHdETmVwYXZDMVdyNmVaOXplaA
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 4 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afe-QN-AkPvYE-oogz0Fl4fDU_nPpZyn31jP40LaCQBEkg.png" group-title="SPORTS LIVE",NowHK beIN 4 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbEZOOHZmakQ4am9IeGFMS1V6c3I0dQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 5 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affAXcXxeUP1q2WXN0e5E5nZDa3EXsF0MDpSjIRK6R_yig.png" group-title="SPORTS LIVE",NowHK beIN 5 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbFo0T0cxQ3BYbUh3SWRMdEdNL1UvNw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK beIN 6 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afdszn-LTzlc5Hk11HunsRmAYwDjzT8Ci95oJ2GvgtYzhg.png" group-title="SPORTS LIVE",NowHK beIN 6 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbVNVZGt5aXVWNUdvdTY5Yjk2SWF3eg
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Golf 2 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affKI8yGNRK2wPMwTZTfiNEI_6rbjEN759Nv9H-6NpCeVQ.png" group-title="SPORTS LIVE",NowHK Golf 2 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMazhxUnRXTmgrVDU0ME5CQmNXVFk2Lw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Golf 3 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcUHk-VIuHJcykYBYiSw5RJXFF4iiJYa_PSCLrhg6zVFQ.png" group-title="SPORTS LIVE",NowHK Golf 3 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa1NTc0V3N0s3Z2dXbzBsV1dwN2sxcQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK MUTV HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affiypeQ0NzkAZK4Jrkx8yMGNsjiTtSI61BpNT6fnogMbg.png" group-title="SPORTS LIVE",NowHK MUTV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbkIwZ3I4YXllUWVlQkx2OFQyREtOSw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK NBA TV FHD" tvg-logo="https://ptvs.live:443/images/uO9NC4b5HzlRujAnoUeGVfyg6i9N4fCnOatIfPWJXmx86h6JcFrLJoudFJ1_zSwO.png" group-title="SPORTS LIVE",NowHK NBA TV FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa2V3ckRid3MvRUxBd3BjUmJFK2QzQQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 1 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tVeuMW6prjq8ykcIe48s0JbrJKjhQRKmMy-DIQGmPDo8A.png" group-title="SPORTS LIVE",NowHK PL 1 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbGVoWkFOaEFHdC81R3hJRkIrMmNnOQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 2 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tV5UE0Ic4qsmTxne9MZPTWNpkIWOkZOd2gYV1aq8FQJFs.png" group-title="SPORTS LIVE",NowHK PL 2 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbkl2bGthWXEwejRzbFdiMFJsNDladw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 3 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tV1Yk2mlCVKyVA2YaTDQ4roG47YValti2GdFd7njUA4uo.png" group-title="SPORTS LIVE",NowHK PL 3 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa2xUNWlEVDQrTXFFS1k1TzVyUjRybA
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 4 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tV--hM8B7Vc8iRq1IUNnFEG7o4Rc5p2fNZjZLeCYdwsJo.png" group-title="SPORTS LIVE",NowHK PL 4 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblhKTG9qMGlkUkZybnFLRVl6RFpiaA
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 5 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tVuRldCNiED7JS71btrwZwmQXWN9rwVtCv7sENZ69cVn4.png" group-title="SPORTS LIVE",NowHK PL 5 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa29WYlJhbE1sbGJGQmRxOTdrS3hNNw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL 6 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tVA_t3MzokGjZBg0Q4ipGdveFYArunBYPB6ArO1UWFXvg.png" group-title="SPORTS LIVE",NowHK PL 6 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblROSnVoaDR2NmhWWlZXd2E2OWc2NQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK PL TV HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tVEIL9PBcZhsX2gwBURcOjANWIilSAA_DXOaGV7fRX2NU.png" group-title="SPORTS LIVE",NowHK PL TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbjRuaEU2cUtIRmhZaDVrN1kwMS9Pbg
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 1 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcETdKz1DXVFnSX3y4H9V2fgIcDlYjDac5NhKzfBIW1Ug.png" group-title="SPORTS LIVE",NowHK Sports 1 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbFdSTWttQTU0ckYzMElFMFl2eFZpNw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 2 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcMomdyy6KRnVeWbZgRUBZvp6E_c4M9juzajvj60vKHkw.png" group-title="SPORTS LIVE",NowHK Sports 2 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbStXVlVLRXBTRU1obGFGQU4wV1V2aA
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 3 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcGn-9_DV6zVm1NvwZN7lZeVYIzigidU3s10Pr-8rfB3A.png" group-title="SPORTS LIVE",NowHK Sports 3 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa2szY1R1U0pyNHNUMHdRWTFjRzRReQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 4 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0aff5cCQ99xWDpzWlYNJZvIBpXXqSQYEravr3QKiUJgnZZQ.png" group-title="SPORTS LIVE",NowHK Sports 4 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblRCSEZCU0h2Umg1cHROMTZOVFNXSw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 5 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affuZYiYa1wMPJCMrSW49tglTZA9OFxIwnEE58PQB7xE6A.png" group-title="SPORTS LIVE",NowHK Sports 5 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbmVGMnlRdnFmSDA2RkR0M0htaXgrNQ
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 6 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afee6dg3ZY8uZsLEEFCQQ6amhj6TaLWSX7BngZhECUsOLg.png" group-title="SPORTS LIVE",NowHK Sports 6 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbHlWNlQ5N3loT2w5cTlnRDdqamZiRw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 641 FHD" tvg-logo="https://ptvs.live:443/images/6925WpU8IVOT71BcgjCh7VRuSrAYuzfr5dQl24lk6qI.png" group-title="SPORTS LIVE",NowHK Sports 641 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblZqR2pQKytsckw3NGRsVUcySW1IYg
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 681 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afcc5kxIoPubccklNy5kXWiuCbYLwAsGKV0aqxAtORvv3w.png" group-title="SPORTS LIVE",NowHK Sports 681 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblI2Y2IrNVQveGNjQUtCZFpKdHZPQw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 688 FHD" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch688_110_80" group-title="SPORTS LIVE",NowHK Sports 688 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa29PbTJ4Zzc1RFhaYjNiQjVsdnBiag
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports 7 HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0aff2PA9rZNSIwPMLq_izM_uklLISvTNWUOU4AEFwgZe5gQ.png" group-title="SPORTS LIVE",NowHK Sports 7 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMblRhMDZWOHZjeVhMV0svMmlkaEdzTw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports Plus FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afczwVDsdB2VP5QDBASXGZ8bAhVrvDQuuVKkt16EYb7tcw.png" group-title="SPORTS LIVE",NowHK Sports Plus FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMa2MyN0p2UEN5TFBTQ1hEdXYzRjlraw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK Sports Prime HD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0affPspt2T87j7rVNnS5Kr-tVBP_Mzf5J5OslFUZBJ_aZKw.png" group-title="SPORTS LIVE",NowHK Sports Prime HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRFbG1URTlVcmhmYmwvTDJ4R1hMbGtiZlpRZDVVeEJESk9ScWNZSzFTZg
+#EXTINF:-1 tvg-id="" tvg-name="NowHK SPOTV 2 FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0aff9BCRD5n5yOBalEtbZi5k08V1r3KzSD1TI85anTjsSbg.png" group-title="SPORTS LIVE",NowHK SPOTV 2 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSZVA1bXNBdkViTGZlYTQrMytxVlB5Zw
+#EXTINF:-1 tvg-id="" tvg-name="NowHK SPOTV FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afdx1xj_g-Va_iRMPiFp4B5c-oFAYLQG17VdEJcA80ZWcw.png" group-title="SPORTS LIVE",NowHK SPOTV FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaclBlcHZSZHhld2JnMnoyRnhxWFFSYzBvbDJrZndYRmhqUjB2Mk1LNXZLeQ
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 1 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 1 FHD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1djUHBwTStwK0pYVkF3dnhoVHJtMlY3OUl6THRYTE56L1JTSUdVRzVmcg
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 2 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 2 FHD
@@ -2206,6 +2284,8 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadFBDdmt4TlA4RzFjcHBlM0FnYUFDYX
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaazQxRUZxT1lPN0h4YU5KWWE1M1V2REdxWmZ3Qis0bUdvNDBpbkxZQmw0dg
 #EXTINF:-1 tvg-id="" tvg-name="4K | ESPN (Events Only)" tvg-logo="https://i.ibb.co/VpyQTLg/ESPN4k.png" group-title="SPORTS LIVE",4K | ESPN (Events Only)
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacnFObHN3dzhuSk43bnJ3bWlOK1h3L1RobWV0bE9XdWtUYWZMV2NPdTI1Yg
+#EXTINF:-1 tvg-id="" tvg-name="PLAYMAX WWE 24/7" tvg-logo="s:1:/images/sF5tEpdd2Lvyz1dx1JUPnRL4D3ofeeKACSP5mOFRkmCBxOIhGqd6RVwlhux24X-V.png" group-title="SPORTS LIVE",PLAYMAX WWE 24/7
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eCszUTk2QXdYWFlJMU5SYVNUNDlRRw
 #EXTINF:-1 tvg-id="" tvg-name="IND_DD SPORTS" tvg-logo="" group-title="SPORTS LIVE",IND_DD SPORTS
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacURLbnhDdnc3NjJnblA3eGtJVDNpelMrRlk3alBlTDlaYWhoWU5XT1l5NQ
 #EXTINF:-1 tvg-id="464014" tvg-name="IN | TS STAR Sports 1 FHD Tamil" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-sports-1-tamil-hk-in.png" group-title="SPORTS LIVE",IN | TS STAR Sports 1 FHD Tamil
@@ -6196,32 +6276,6 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nack5TcjRuM3NQcnkrMEZwQXBqVG43MW
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaDkxc0VkbVI5NXNMN3A4RjVmYm15M0hvRm5kbjFYd3JLQW1IQlB6SVdydw
 #EXTINF:-1 tvg-id="" tvg-name="PK | Dunya NEWS 4K" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dunya_news_tv_pk.png" group-title="PAKISTANI TV",PK | Dunya NEWS 4K
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacTIydms3UERheW9mcWxiVWowbFdVZHMyc3hWUGVsL0lMTzdVRXRETFdqZg
-#EXTINF:-1 tvg-id="" tvg-name="PK: HOTI SI Zindagi HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: HOTI SI Zindagi HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltK3AwZ3pIcHhaVVBHS0xlQkduazFTVg
-#EXTINF:-1 tvg-id="" tvg-name="PK: HUM TV Telefilm HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: HUM TV Telefilm HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltOXhUdkk3Sm1MT3FESkVhK3hZNW9obQ
-#EXTINF:-1 tvg-id="" tvg-name="PK: ISHQ Tamasha HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: ISHQ Tamasha HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltL3Z0Yloxdmo1dG5NdkR2cnNyUVVBUQ
-#EXTINF:-1 tvg-id="" tvg-name="PK: Khamoshi HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: Khamoshi HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltOHNjYWdRQWdqcVFCYTJxN0ttS3F2ZQ
-#EXTINF:-1 tvg-id="" tvg-name="PK: MAAT HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: MAAT HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltOVVubWt0OFV6QUtvSGR3NURiZm04eg
-#EXTINF:-1 tvg-id="" tvg-name="PK: MATA E JAAN HAI TU HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: MATA E JAAN HAI TU HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltL21kK3pDVy9HaWpGOEFoVWdEVVJ6Kw
-#EXTINF:-1 tvg-id="" tvg-name="PK: Parchayee HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: Parchayee HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltOTNjSlk1bHZKZjdHSGJKeFJQejlEcA
-#EXTINF:-1 tvg-id="" tvg-name="PK: Parizaad HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: Parizaad HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadHRabFFiVHo4cU5jZk12ektTTFltK0QxSE9HRHc5RytaOW93WUhmWURueQ
-#EXTINF:-1 tvg-id="" tvg-name="PK: QAID E Tanhai HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: QAID E Tanhai HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eW1ncUpRV2JITlFRUG1FdjFNK0VxMQ
-#EXTINF:-1 tvg-id="" tvg-name="PK: Sanam HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: Sanam HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eDIyUndMWFhXb2tCam9DVVVmQTlmaA
-#EXTINF:-1 tvg-id="" tvg-name="PK: SANG E MAR MAR HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: SANG E MAR MAR HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eEY4MXo5MjJybnlSNmpDTEdwSHo0dg
-#EXTINF:-1 tvg-id="" tvg-name="PK: SUNO Chanda HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: SUNO Chanda HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eCszUTk2QXdYWFlJMU5SYVNUNDlRRw
-#EXTINF:-1 tvg-id="" tvg-name="PK: WOH AIK PAL HUM TV HD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="PAKISTANI TV",PK: WOH AIK PAL HUM TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacktmcWhtbGFHSm9BRG5IT2NnL1l6eEtBcytMaGZobFcyYmJvcVIwa3RwYw
 #EXTINF:-1 tvg-id="" tvg-name="IN-NEWS | EXPRESS NEWS BHARAT" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Express-News-Bharat.png" group-title="PAKISTANI TV",IN-NEWS | EXPRESS NEWS BHARAT
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac1J3RGFENnJFeit4a3NNK1ZjME9qY0gwd2h0MGtqK21YNVpyVldVZTNQdA
 #EXTINF:-1 tvg-id="" tvg-name="Samaa TV (SD H264)" tvg-logo="" group-title="PAKISTANI TV",Samaa TV (SD H264)
