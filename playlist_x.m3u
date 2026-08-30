@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3147
+# 📊 Total Saved Channels: 3158
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-08-30 20:09:44
+# ⏰ Updated time: 2026-08-31 00:18:36
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa3JqNUZ5MmtURi8zalExeG02SHprUXJJdXEvUXNjVmIwb0xobkhyc1JVcA
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -2378,6 +2378,28 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVZqcUdhMklWdDh6bHoxYzI1cENMeT
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacnBqQ3lYR213b0RDdjYrc3RWQWM1aXdSTFZzSFA5K3pMVFA0ZkZVUmZqOA
 #EXTINF:-1 tvg-id="" tvg-name="UK: MavTV Europe HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/dc2c24fa5c8000363c63a1a1a89cd4c3.png" group-title="SPORTS LIVE",UK: MavTV Europe HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacnBqQ3lYR213b0RDdjYrc3RWQWM1Z2Zod1VnY0VXdWw2a1ZWUWUrcFBRaQ
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-6-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 6 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZiazFZOTRIR1FIMFdMcDJvb0E3ZHNEQ1VCeDVvUnduTEk1S044RGt1SQ
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-7-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 7 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZiazFZOTRIR1FIMFdMcDJvb0E3ZEtQcEZENjlxb3dZeFduUmNlTVYvYg
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-8-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 8 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZiazFZOTRIR1FIMFdMcDJvb0E3ZEZtWnM0OFdEY1ZKazBPWTNDQURxUg
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 9 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-9-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 9 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z3haSGpIdm85YlkvdEdsZThteUV2Vg
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-10-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 10 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3aVVXKzNDMU5Nbi9QWkJ1cUk5N0gwLw
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB PREMIER 11 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-11-sg.png" group-title="SPORTS LIVE",SG: HUB PREMIER 11 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z3ZDL3cvL21WcG45UkhZTllpanN2Wg
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-2-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 2 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3aTg1NExBV2QvdWJwazJsVHRFMmlPag
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 3 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-3-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 3 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3andLZUNISmsvSE1Da2x6Yy9rYUpiNA
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-4-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 4 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z2VpMm9rdzBsc3ZtTTBPc1J1TWQrdw
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 1 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-1-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 1 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3aVF0dFh0NFNqSVhZcWF5VzdEOWJqcA
+#EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-5-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 5 FHD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z2YyUGJpazd2M2o5Vlg3QkxPUWtsUA
 #EXTINF:-1 tvg-id="" tvg-name="UK ▎PREMIER LEAGUE REPLAY INFO" tvg-logo="https://img.logo-cdn.cc/premierleague.png" group-title="SPORTS LIVE",UK ▎PREMIER LEAGUE REPLAY INFO
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1p5cDJ0aVZVZDZ2OTNoSDFHZDZWU3NNOEpVeGc3UlZRRGkxdkZjSGtZbQ
 #EXTINF:-1 tvg-id="" tvg-name="UK ▎PREMIER LEAGUE HIGHLIGHTS" tvg-logo="https://img.logo-cdn.cc/premierleague.png" group-title="SPORTS LIVE",UK ▎PREMIER LEAGUE HIGHLIGHTS
