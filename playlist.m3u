@@ -2,7 +2,7 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-08-30 11:54:01 (BD Time)
+# 🕒 Last Updated: 2026-08-30 17:59:36 (BD Time)
 # 📺 Channels Count: 2508
 # 🔒 Usage: Personal / Educational
 #=================================
@@ -4930,7 +4930,7 @@ http://live.balajibroadband.com:3500/live/1450.m3u8
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Hindi",StarPlus HD
 https://yowaimo.in/Sflex-ArtlPVT0719/STAR_PLUS_HD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1zDXYnMT/1000115107.png" group-title="Indian Bangla",Zee Bangla HD
-https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8
+http://103.141.70.136:8080/bdtv/restrem/35.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Indian Bangla",Star Jalsha HD
 http://103.141.70.136:8080/bdtv/restrem/33.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png" group-title="Indian Bangla",Jalsha Movies HD
