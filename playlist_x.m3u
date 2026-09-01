@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3158
+# 📊 Total Saved Channels: 3167
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-01 11:54:58
+# ⏰ Updated time: 2026-09-01 16:51:51
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa3JqNUZ5MmtURi8zalExeG02SHprUXJJdXEvUXNjVmIwb0xobkhyc1JVcA
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -2400,6 +2400,26 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z2
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3aVF0dFh0NFNqSVhZcWF5VzdEOWJqcA
 #EXTINF:-1 tvg-id="" tvg-name="SG: HUB Sports 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/hub-premier-5-sg.png" group-title="SPORTS LIVE",SG: HUB Sports 5 FHD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRWd3VXN3BobWhnNGIzQXNIMWs3Z2YyUGJpazd2M2o5Vlg3QkxPUWtsUA
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS en Español" tvg-logo="https://yt3.ggpht.com/azsLkUVieAiTxj_AP1Uz9FzbDoHLMlIcKfSw3SgPTKEev2wDemvcH9IL6PiXYwRgoaaXv1pcpmtk0g=ns-nd" group-title="SPORTS LIVE",beIN SPORTS en Español
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4enJaV05QVGJxUmpsMmZvRDROYUhxVw
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA" tvg-logo="https://yt3.ggpht.com/YCSELLLWlCg3E3BfW2YThtP8hi8GAsy3Ip6y04uF8f6eW-5xqA84DkCNzpN9D6h08-kQURkWiGoeJw=ns-nd" group-title="SPORTS LIVE",beIN SPORTS XTRA
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4eVg4RiszcnVSdmZhY2VzRW9KZ2I2cQ
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports usa" tvg-logo="https://yt3.ggpht.com/-nYW5uhnTMDj0JgVCN4RkV0tZw_nJcE2cpe72tM_pH-nf-_0KYWPuRdInmOWIflf41BIcdwdSn0=ns-nd" group-title="SPORTS LIVE",beIN Sports usa
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4enVOemZoSXR6K25zZkM3TE1MTHVhZg
+#EXTINF:-1 tvg-id="" tvg-name="TyC Sports HD" tvg-logo="https://yt3.ggpht.com/YH7abZM4dyTpelr_y5NcnushSdcCWP4ipr_-7LJWCQP-IBGi6Hc9m0GTMeYU_ZuxN6go26dctr4=ns-nd" group-title="SPORTS LIVE",TyC Sports HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4eGRwK2RJd2JZdlEyQ1gzOVlkclEwNg
+#EXTINF:-1 tvg-id="" tvg-name="Espn HD+" tvg-logo="http://miarea.vip:8080/images/8a1deda029cf0e61340ed468c2233ac5.png" group-title="SPORTS LIVE",Espn HD+
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4d0Rxb0o3ckRQZGNzZ3ZvdEhrMWtwWA
+#EXTINF:-1 tvg-id="" tvg-name="Espn 2 HD+" tvg-logo="http://escuadronx.com:8080/images/59c9edbf2450db71e77dffa603f4621b.png" group-title="SPORTS LIVE",Espn 2 HD+
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4eTZ1eS9hVDQvT2Vid3llK1VaT3ZEQw
+#EXTINF:-1 tvg-id="" tvg-name="Espn U" tvg-logo="https://yt3.ggpht.com/Eep5r-kg7T-GnAhEXfW1FFgLFZYMtzKSBkSO2Tssjs5lerjQwgAlmJTdo_nKOemRpmB570gzUz9AYw=ns-nd" group-title="SPORTS LIVE",Espn U
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacVdsWnlURWttbHZtSmc3cDNrZjA4eXZZRnBDazdzdTJiWmJUalNSYlQ2Ug
+#EXTINF:-1 tvg-id="" tvg-name="Fox sports 1 HD" tvg-logo="http://escuadronx.com:8080/images/2017ffae50a5989b93e103d42042a5b3.png" group-title="SPORTS LIVE",Fox sports 1 HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTN0SlJOdXRsazRIaGoyU3BLMEVPS24zNWxtNGdidFk3ekNOYWV0VFRMTw
+#EXTINF:-1 tvg-id="" tvg-name="FOX Soccer Plus HD+" tvg-logo="https://yt3.ggpht.com/bbiOV2wlb3W-VkZrj2qFytCqAoE2c4idgocF_4l3g7fdW7J-au2-cnXtFfbBMpGZhWZERY-yLv_g=ns-nd" group-title="SPORTS LIVE",FOX Soccer Plus HD+
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTN0SlJOdXRsazRIaGoyU3BLMEVPS0VtR2VwVmp0SmtmeUorbW55RERFbw
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Boston" tvg-logo="https://yt3.ggpht.com/J0EbqzsQpFEVgSLlT97gAU8W_F4_FXLetP70OuyfTvf5lXBUR59sFDqHShRLDWtLdUXsGYd6rKGb=ns-nd" group-title="SPORTS LIVE",NBC Sports Boston
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTN0SlJOdXRsazRIaGoyU3BLMEVPTFFoTElDMzVqaTFKc3JxNnZpSDBUMQ
 #EXTINF:-1 tvg-id="" tvg-name="UK ▎PREMIER LEAGUE REPLAY INFO" tvg-logo="https://img.logo-cdn.cc/premierleague.png" group-title="SPORTS LIVE",UK ▎PREMIER LEAGUE REPLAY INFO
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab1p5cDJ0aVZVZDZ2OTNoSDFHZDZWU3NNOEpVeGc3UlZRRGkxdkZjSGtZbQ
 #EXTINF:-1 tvg-id="" tvg-name="UK ▎PREMIER LEAGUE HIGHLIGHTS" tvg-logo="https://img.logo-cdn.cc/premierleague.png" group-title="SPORTS LIVE",UK ▎PREMIER LEAGUE HIGHLIGHTS
@@ -3572,10 +3592,6 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadVZXbmtDSkpldTg3Z2dIckhWcmtUNG
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadVZXbmtDSkpldTg3Z2dIckhWcmtUNzB6QlB5VDVIUll3bk80Z0YvZUFjNw
 #EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="Fox Sports 502" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/3a660bbb5217b20183e9135bf2aaf562.png" group-title="SPORTS LIVE",Fox Sports 502
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDNGck1ITng2bWdGQVpFM0hQZzl5Y01OYmkwLzRFT3Q2NFFSVURDbkU3cg
-#EXTINF:-1 tvg-id="espn2.us" tvg-name="ESPN 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/fb92789b21c6126b4225207c332bd82a.svg" group-title="SPORTS LIVE",ESPN 2
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacmY5RmhCOVhWS011RnVWZy9VTzVaS3ZIUnl6bSsxY2EyajFQNnJSdVNnTw
-#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/dd9092b9b5cd89506da4d6ba6ab8939d.svg" group-title="SPORTS LIVE",ESPN
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacmY5RmhCOVhWS011RnVWZy9VTzVaSTBoV28xQXlwcmtHTkM3UDZCWksrWA
 #EXTINF:-1 tvg-id="" tvg-name="AU : AFL TV 24/7 (AUSTRALIAN FOOTBALL LEAGUE)" tvg-logo="" group-title="SPORTS LIVE",AU : AFL TV 24/7 (AUSTRALIAN FOOTBALL LEAGUE)
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFpyd1cxSGF5WEVqa0txaTd2QVU1Vi9nVTIybXlFWU9EbExyZW9SaEp5eg
 #EXTINF:-1 tvg-id="" tvg-name="AU: 10 SPORT 04" tvg-logo="" group-title="SPORTS LIVE",AU: 10 SPORT 04
@@ -5454,6 +5470,8 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacThrTE15ZFRUYjgwWUU3WGFyQmtRVV
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacThrTE15ZFRUYjgwWUU3WGFyQmtRVmQyc0VldzlCaHp5eFlLbXcvZ0RqLw
 #EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 00S HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="INDIAN MUSIC",UK: MTV 00S HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ29hQkV1Qm9Ca0l1bktyN1JXM2NXenFUa2tWdFRvRkU5dmE0R0d1bjdVSA
+#EXTINF:-1 tvg-id="" tvg-name="NFL Network HD+" tvg-logo="https://yt3.ggpht.com/IuY4w91B-kITPAhtocGjjbapgxe5Jop5MlU8b4uUT3444lBUErmxdqJL5H4cWd86TEVP-absl20alw=ns-nd" group-title="INDIAN MUSIC",NFL Network HD+
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaTN0SlJOdXRsazRIaGoyU3BLMEVPS09wZ3ZWT1NoMFZKQ0YrSHN1QXdodg
 #EXTINF:-1 tvg-id="9618" tvg-name="UK: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/5f0736e55c04b29d0b57b10c9ca028d5.svg" group-title="INDIAN MUSIC",UK: MTV HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadituWm94WE15cTZqNzh6WnpkcG5LY1VvWVdDUkpFUkJmV2lBdG5JdlVRNQ
 #EXTINF:-1 tvg-id="12551" tvg-name="UK: MTV 80S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/ca3681aa6c3c94669967bb2409db44d9.png" group-title="INDIAN MUSIC",UK: MTV 80S HD
