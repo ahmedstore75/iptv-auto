@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 3167
+# 📊 Total Saved Channels: 3168
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-06 06:26:07
+# ⏰ Updated time: 2026-09-06 11:21:06
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa3JqNUZ5MmtURi8zalExeG02SHprUXJJdXEvUXNjVmIwb0xobkhyc1JVcA
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -5750,6 +5750,8 @@ https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5HK0xBL2lDVVZCdnpET1R3MWp4OX
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadnNma1JFc1Q1RmhobG1CWWszMXVReGhpSEw2NmY3eEd4VDl1c0kzSW5xMw
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MGR TV FHD" tvg-logo="" group-title="INDIAN MUSIC",GR: MGR TV FHD
 https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaajZnMXp4V2F5alNBR2VYNmdmZDl2bHl4ZkE3UytFV2xoRGZ1TjQ4WjhCNg
+#EXTINF:-1 tvg-id="" tvg-name="Echo Point" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ncab4UU3ZpIv6PwMEg0jlgQEjxe.jpg" group-title="INDIAN MUSIC",Echo Point
+https://filex.me:8443/aldNSjRGbnpzczNMQ3dpNWFmdkJ1ZFQwY0t4QkNvN25FRDUrVGZQRHNWTVlyTktxKzZoUFE5cTBydTlralZrOA
 #EXTINF:-1 tvg-id="" tvg-name="2021-MTV-Movie-TV-Award-2021" tvg-logo="" group-title="INDIAN MUSIC",2021-MTV-Movie-TV-Award-2021
 https://filex.me:8443/aldNSjRGbnpzczNMQ3dpNWFmdkJ1WVZzNlhVb21Yb0FRSzg5emNaOGxpYW1CcGJCU1hReFlYRVRQc0lUWWZDbA
 #EXTINF:-1 tvg-id="" tvg-name="FR: All My Friends Are Dead" tvg-logo="https://image.tmdb.org/t/p/original/lpPQN2WoC6SY9xmdH7Hd6ILpbz6.jpg" group-title="INDIAN MUSIC",FR: All My Friends Are Dead
