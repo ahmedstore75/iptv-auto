@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2810
+# 📊 Total Saved Channels: 2645
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-10 03:25:05
+# ⏰ Updated time: 2026-09-10 05:42:24
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -2312,424 +2312,94 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1822381/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1823839/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AF DASH TV SPORT AND ENTERTAINMENT" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",AF DASH TV SPORT AND ENTERTAINMENT
 https://saiptvlive.ahmed-bd-org.workers.dev/1392988/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 ES" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 1 ES
-https://saiptvlive.ahmed-bd-org.workers.dev/1393064/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 ES" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 2 ES
-https://saiptvlive.ahmed-bd-org.workers.dev/1393065/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 3 ES" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 3 ES
-https://saiptvlive.ahmed-bd-org.workers.dev/1393066/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 4 ES" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 4 ES
-https://saiptvlive.ahmed-bd-org.workers.dev/1393067/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN F1 ES" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN F1 ES
-https://saiptvlive.ahmed-bd-org.workers.dev/1393068/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 BRASIL" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 1 BRASIL
-https://saiptvlive.ahmed-bd-org.workers.dev/1393069/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 BRASIL" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 2 BRASIL
-https://saiptvlive.ahmed-bd-org.workers.dev/1393070/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 IT" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 1 IT
-https://saiptvlive.ahmed-bd-org.workers.dev/1393071/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 IT" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",DAZN 2 IT
-https://saiptvlive.ahmed-bd-org.workers.dev/1393072/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 1" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 1
-https://saiptvlive.ahmed-bd-org.workers.dev/1393073/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 2" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 2
-https://saiptvlive.ahmed-bd-org.workers.dev/1393074/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 3" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 3
-https://saiptvlive.ahmed-bd-org.workers.dev/1393075/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 4" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 4
-https://saiptvlive.ahmed-bd-org.workers.dev/1393076/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 5" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 5
-https://saiptvlive.ahmed-bd-org.workers.dev/1393077/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 6" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 6
-https://saiptvlive.ahmed-bd-org.workers.dev/1393078/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 7" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 7
-https://saiptvlive.ahmed-bd-org.workers.dev/1393079/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 8" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 8
-https://saiptvlive.ahmed-bd-org.workers.dev/1393080/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 9" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 9
-https://saiptvlive.ahmed-bd-org.workers.dev/1393081/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 10" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 10
-https://saiptvlive.ahmed-bd-org.workers.dev/1393082/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 11" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 11
-https://saiptvlive.ahmed-bd-org.workers.dev/1393083/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 12" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 12
-https://saiptvlive.ahmed-bd-org.workers.dev/1393084/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 13" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 13
-https://saiptvlive.ahmed-bd-org.workers.dev/1393085/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 14" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 14
-https://saiptvlive.ahmed-bd-org.workers.dev/1393086/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 15" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 15
-https://saiptvlive.ahmed-bd-org.workers.dev/1393087/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 16" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 16
-https://saiptvlive.ahmed-bd-org.workers.dev/1393088/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 17" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 17
-https://saiptvlive.ahmed-bd-org.workers.dev/1393089/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 18" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 18
-https://saiptvlive.ahmed-bd-org.workers.dev/1393090/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 19" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 19
-https://saiptvlive.ahmed-bd-org.workers.dev/1393091/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 20" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 20
-https://saiptvlive.ahmed-bd-org.workers.dev/1393092/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 21" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 21
-https://saiptvlive.ahmed-bd-org.workers.dev/1393093/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 22" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 22
-https://saiptvlive.ahmed-bd-org.workers.dev/1393094/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 23" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 23
-https://saiptvlive.ahmed-bd-org.workers.dev/1393095/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 24" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 24
-https://saiptvlive.ahmed-bd-org.workers.dev/1393096/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 25" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 25
-https://saiptvlive.ahmed-bd-org.workers.dev/1393097/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 26" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 26
-https://saiptvlive.ahmed-bd-org.workers.dev/1393098/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 27" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 27
-https://saiptvlive.ahmed-bd-org.workers.dev/1393099/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 28" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 28
-https://saiptvlive.ahmed-bd-org.workers.dev/1393100/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 29" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 29
-https://saiptvlive.ahmed-bd-org.workers.dev/1393101/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 30" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 30
-https://saiptvlive.ahmed-bd-org.workers.dev/1393102/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 31" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 31
-https://saiptvlive.ahmed-bd-org.workers.dev/1393103/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 32" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 32
-https://saiptvlive.ahmed-bd-org.workers.dev/1393104/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 33" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 33
-https://saiptvlive.ahmed-bd-org.workers.dev/1393105/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 34" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 34
-https://saiptvlive.ahmed-bd-org.workers.dev/1393106/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 35" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 35
-https://saiptvlive.ahmed-bd-org.workers.dev/1393107/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 36" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 36
-https://saiptvlive.ahmed-bd-org.workers.dev/1393108/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 37" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 37
-https://saiptvlive.ahmed-bd-org.workers.dev/1393109/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 38" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 38
-https://saiptvlive.ahmed-bd-org.workers.dev/1393110/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 39" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 39
-https://saiptvlive.ahmed-bd-org.workers.dev/1393111/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 40" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 40
-https://saiptvlive.ahmed-bd-org.workers.dev/1393112/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 41" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 41
-https://saiptvlive.ahmed-bd-org.workers.dev/1393113/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 42" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 42
-https://saiptvlive.ahmed-bd-org.workers.dev/1393114/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 43" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 43
-https://saiptvlive.ahmed-bd-org.workers.dev/1393115/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 44" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 44
-https://saiptvlive.ahmed-bd-org.workers.dev/1393116/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 45" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 45
-https://saiptvlive.ahmed-bd-org.workers.dev/1393117/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 46" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 46
-https://saiptvlive.ahmed-bd-org.workers.dev/1393118/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 47" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 47
-https://saiptvlive.ahmed-bd-org.workers.dev/1393119/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 48" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 48
-https://saiptvlive.ahmed-bd-org.workers.dev/1393120/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 49" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 49
-https://saiptvlive.ahmed-bd-org.workers.dev/1393121/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 50" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 50
-https://saiptvlive.ahmed-bd-org.workers.dev/1393122/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 51" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 51
-https://saiptvlive.ahmed-bd-org.workers.dev/1393123/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 52" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 52
-https://saiptvlive.ahmed-bd-org.workers.dev/1393124/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 53" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 53
-https://saiptvlive.ahmed-bd-org.workers.dev/1393125/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 54" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 54
-https://saiptvlive.ahmed-bd-org.workers.dev/1393126/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 55" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 55
-https://saiptvlive.ahmed-bd-org.workers.dev/1393127/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 56" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 56
-https://saiptvlive.ahmed-bd-org.workers.dev/1393128/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 57" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 57
-https://saiptvlive.ahmed-bd-org.workers.dev/1393129/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 58" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 58
-https://saiptvlive.ahmed-bd-org.workers.dev/1393130/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 59" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 59
-https://saiptvlive.ahmed-bd-org.workers.dev/1393131/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 60" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 60
-https://saiptvlive.ahmed-bd-org.workers.dev/1393132/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 61" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 61
-https://saiptvlive.ahmed-bd-org.workers.dev/1393133/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 62" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 62
-https://saiptvlive.ahmed-bd-org.workers.dev/1393134/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 63" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 63
-https://saiptvlive.ahmed-bd-org.workers.dev/1393135/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 64" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 64
-https://saiptvlive.ahmed-bd-org.workers.dev/1393136/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 65" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 65
-https://saiptvlive.ahmed-bd-org.workers.dev/1393137/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 66" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 66
-https://saiptvlive.ahmed-bd-org.workers.dev/1393138/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 67" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 67
-https://saiptvlive.ahmed-bd-org.workers.dev/1393139/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 68" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 68
-https://saiptvlive.ahmed-bd-org.workers.dev/1393140/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 69" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 69
-https://saiptvlive.ahmed-bd-org.workers.dev/1393141/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 70" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 70
-https://saiptvlive.ahmed-bd-org.workers.dev/1393142/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 71" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 71
-https://saiptvlive.ahmed-bd-org.workers.dev/1393143/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 72" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 72
-https://saiptvlive.ahmed-bd-org.workers.dev/1393144/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 73" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 73
-https://saiptvlive.ahmed-bd-org.workers.dev/1393145/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 74" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 74
-https://saiptvlive.ahmed-bd-org.workers.dev/1393146/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 75" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 75
-https://saiptvlive.ahmed-bd-org.workers.dev/1393147/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 76" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 76
-https://saiptvlive.ahmed-bd-org.workers.dev/1393148/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 77" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 77
-https://saiptvlive.ahmed-bd-org.workers.dev/1393149/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 78" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 78
-https://saiptvlive.ahmed-bd-org.workers.dev/1393150/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 79" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 79
-https://saiptvlive.ahmed-bd-org.workers.dev/1393151/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 80" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 80
-https://saiptvlive.ahmed-bd-org.workers.dev/1393152/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 81" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 81
-https://saiptvlive.ahmed-bd-org.workers.dev/1393153/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 82" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 82
-https://saiptvlive.ahmed-bd-org.workers.dev/1393154/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 83" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 83
-https://saiptvlive.ahmed-bd-org.workers.dev/1393155/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 84" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 84
-https://saiptvlive.ahmed-bd-org.workers.dev/1393156/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 85" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 85
-https://saiptvlive.ahmed-bd-org.workers.dev/1393157/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 86" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 86
-https://saiptvlive.ahmed-bd-org.workers.dev/1393158/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 87" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 87
-https://saiptvlive.ahmed-bd-org.workers.dev/1393159/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 88" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 88
-https://saiptvlive.ahmed-bd-org.workers.dev/1393160/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 89" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 89
-https://saiptvlive.ahmed-bd-org.workers.dev/1393161/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 90" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 90
-https://saiptvlive.ahmed-bd-org.workers.dev/1393162/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 91" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 91
-https://saiptvlive.ahmed-bd-org.workers.dev/1393163/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 92" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 92
-https://saiptvlive.ahmed-bd-org.workers.dev/1393164/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 93" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 93
-https://saiptvlive.ahmed-bd-org.workers.dev/1393165/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 94" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 94
-https://saiptvlive.ahmed-bd-org.workers.dev/1393166/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 95" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 95
-https://saiptvlive.ahmed-bd-org.workers.dev/1393167/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 96" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 96
-https://saiptvlive.ahmed-bd-org.workers.dev/1393168/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 97" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 97
-https://saiptvlive.ahmed-bd-org.workers.dev/1393169/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 98" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 98
-https://saiptvlive.ahmed-bd-org.workers.dev/1393170/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 99" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 99
-https://saiptvlive.ahmed-bd-org.workers.dev/1393171/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA| DAZN 100" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CA| DAZN 100
-https://saiptvlive.ahmed-bd-org.workers.dev/1393172/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 1" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 1
-https://saiptvlive.ahmed-bd-org.workers.dev/1393173/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 2" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 2
-https://saiptvlive.ahmed-bd-org.workers.dev/1393174/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 3" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 3
-https://saiptvlive.ahmed-bd-org.workers.dev/1393175/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 4" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 4
-https://saiptvlive.ahmed-bd-org.workers.dev/1393176/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 5" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 5
-https://saiptvlive.ahmed-bd-org.workers.dev/1393177/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 6" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 6
-https://saiptvlive.ahmed-bd-org.workers.dev/1393178/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 7" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 7
-https://saiptvlive.ahmed-bd-org.workers.dev/1393179/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 8" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 8
-https://saiptvlive.ahmed-bd-org.workers.dev/1393180/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 9" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 9
-https://saiptvlive.ahmed-bd-org.workers.dev/1393181/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 10" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 10
-https://saiptvlive.ahmed-bd-org.workers.dev/1393182/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 11" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 11
-https://saiptvlive.ahmed-bd-org.workers.dev/1393183/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 12" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 12
-https://saiptvlive.ahmed-bd-org.workers.dev/1393184/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 13" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 13
-https://saiptvlive.ahmed-bd-org.workers.dev/1393185/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 14" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 14
-https://saiptvlive.ahmed-bd-org.workers.dev/1393186/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 15" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 15
-https://saiptvlive.ahmed-bd-org.workers.dev/1393187/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 16" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 16
-https://saiptvlive.ahmed-bd-org.workers.dev/1393188/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 17" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 17
-https://saiptvlive.ahmed-bd-org.workers.dev/1393189/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 18" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 18
-https://saiptvlive.ahmed-bd-org.workers.dev/1393190/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 19" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 19
-https://saiptvlive.ahmed-bd-org.workers.dev/1393191/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 20" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 20
-https://saiptvlive.ahmed-bd-org.workers.dev/1393192/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 21" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 21
-https://saiptvlive.ahmed-bd-org.workers.dev/1393193/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 22" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 22
-https://saiptvlive.ahmed-bd-org.workers.dev/1393194/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 23" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 23
-https://saiptvlive.ahmed-bd-org.workers.dev/1393195/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 24" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 24
-https://saiptvlive.ahmed-bd-org.workers.dev/1393196/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 25" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 25
-https://saiptvlive.ahmed-bd-org.workers.dev/1393197/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 26" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 26
-https://saiptvlive.ahmed-bd-org.workers.dev/1393198/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 27" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 27
-https://saiptvlive.ahmed-bd-org.workers.dev/1393199/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 28" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 28
-https://saiptvlive.ahmed-bd-org.workers.dev/1393200/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 29" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 29
-https://saiptvlive.ahmed-bd-org.workers.dev/1393201/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 30" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 30
-https://saiptvlive.ahmed-bd-org.workers.dev/1393202/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 31" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 31
-https://saiptvlive.ahmed-bd-org.workers.dev/1393203/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 32" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 32
-https://saiptvlive.ahmed-bd-org.workers.dev/1393204/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 33" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 33
-https://saiptvlive.ahmed-bd-org.workers.dev/1393205/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 34" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 34
-https://saiptvlive.ahmed-bd-org.workers.dev/1393206/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 35" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 35
-https://saiptvlive.ahmed-bd-org.workers.dev/1393207/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 36" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 36
-https://saiptvlive.ahmed-bd-org.workers.dev/1393208/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 37" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 37
-https://saiptvlive.ahmed-bd-org.workers.dev/1393209/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 38" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 38
-https://saiptvlive.ahmed-bd-org.workers.dev/1393210/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 39" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 39
-https://saiptvlive.ahmed-bd-org.workers.dev/1393211/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 40" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 40
-https://saiptvlive.ahmed-bd-org.workers.dev/1393212/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 41" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 41
-https://saiptvlive.ahmed-bd-org.workers.dev/1393213/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 42" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 42
-https://saiptvlive.ahmed-bd-org.workers.dev/1393214/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 43" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 43
-https://saiptvlive.ahmed-bd-org.workers.dev/1393215/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 44" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 44
-https://saiptvlive.ahmed-bd-org.workers.dev/1393216/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 45" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 45
-https://saiptvlive.ahmed-bd-org.workers.dev/1393217/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 46" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 46
-https://saiptvlive.ahmed-bd-org.workers.dev/1393218/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 47" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 47
-https://saiptvlive.ahmed-bd-org.workers.dev/1393219/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 48" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 48
-https://saiptvlive.ahmed-bd-org.workers.dev/1393220/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 49" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 49
-https://saiptvlive.ahmed-bd-org.workers.dev/1393221/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 50" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 50
-https://saiptvlive.ahmed-bd-org.workers.dev/1393222/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 51" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 51
-https://saiptvlive.ahmed-bd-org.workers.dev/1393223/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 52" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 52
-https://saiptvlive.ahmed-bd-org.workers.dev/1393224/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 53" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 53
-https://saiptvlive.ahmed-bd-org.workers.dev/1393225/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 54" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 54
-https://saiptvlive.ahmed-bd-org.workers.dev/1393226/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 55" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 55
-https://saiptvlive.ahmed-bd-org.workers.dev/1393227/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 56" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 56
-https://saiptvlive.ahmed-bd-org.workers.dev/1393228/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 57" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 57
-https://saiptvlive.ahmed-bd-org.workers.dev/1393229/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 58" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 58
-https://saiptvlive.ahmed-bd-org.workers.dev/1393230/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 59" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 59
-https://saiptvlive.ahmed-bd-org.workers.dev/1393231/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 60" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 60
-https://saiptvlive.ahmed-bd-org.workers.dev/1393232/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 61" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 61
-https://saiptvlive.ahmed-bd-org.workers.dev/1393233/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 62" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 62
-https://saiptvlive.ahmed-bd-org.workers.dev/1393234/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 63" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 63
-https://saiptvlive.ahmed-bd-org.workers.dev/1393235/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 64" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 64
-https://saiptvlive.ahmed-bd-org.workers.dev/1393236/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 65" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 65
-https://saiptvlive.ahmed-bd-org.workers.dev/1393237/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 66" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 66
-https://saiptvlive.ahmed-bd-org.workers.dev/1393238/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 67" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 67
-https://saiptvlive.ahmed-bd-org.workers.dev/1393239/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 68" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 68
-https://saiptvlive.ahmed-bd-org.workers.dev/1393240/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 69" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 69
-https://saiptvlive.ahmed-bd-org.workers.dev/1393241/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 70" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 70
-https://saiptvlive.ahmed-bd-org.workers.dev/1393242/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 71" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 71
-https://saiptvlive.ahmed-bd-org.workers.dev/1393243/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 72" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 72
-https://saiptvlive.ahmed-bd-org.workers.dev/1393244/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 73" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 73
-https://saiptvlive.ahmed-bd-org.workers.dev/1393245/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 74" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 74
-https://saiptvlive.ahmed-bd-org.workers.dev/1393246/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 75" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 75
-https://saiptvlive.ahmed-bd-org.workers.dev/1393247/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 76" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 76
-https://saiptvlive.ahmed-bd-org.workers.dev/1393248/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 77" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 77
-https://saiptvlive.ahmed-bd-org.workers.dev/1393249/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 78" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 78
-https://saiptvlive.ahmed-bd-org.workers.dev/1393250/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 79" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 79
-https://saiptvlive.ahmed-bd-org.workers.dev/1393251/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 80" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 80
-https://saiptvlive.ahmed-bd-org.workers.dev/1393252/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 81" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 81
-https://saiptvlive.ahmed-bd-org.workers.dev/1393253/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 82" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 82
-https://saiptvlive.ahmed-bd-org.workers.dev/1393254/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 83" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 83
-https://saiptvlive.ahmed-bd-org.workers.dev/1393255/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 84" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 84
-https://saiptvlive.ahmed-bd-org.workers.dev/1393256/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 85" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 85
-https://saiptvlive.ahmed-bd-org.workers.dev/1393257/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 86" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 86
-https://saiptvlive.ahmed-bd-org.workers.dev/1393258/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 87" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 87
-https://saiptvlive.ahmed-bd-org.workers.dev/1393259/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 88" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 88
-https://saiptvlive.ahmed-bd-org.workers.dev/1393260/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 89" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 89
-https://saiptvlive.ahmed-bd-org.workers.dev/1393261/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 90" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 90
-https://saiptvlive.ahmed-bd-org.workers.dev/1393262/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 91" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 91
-https://saiptvlive.ahmed-bd-org.workers.dev/1393263/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 92" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 92
-https://saiptvlive.ahmed-bd-org.workers.dev/1393264/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 93" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 93
-https://saiptvlive.ahmed-bd-org.workers.dev/1393265/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 94" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 94
-https://saiptvlive.ahmed-bd-org.workers.dev/1393266/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 95" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 95
-https://saiptvlive.ahmed-bd-org.workers.dev/1393267/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 96" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 96
-https://saiptvlive.ahmed-bd-org.workers.dev/1393268/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 97" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 97
-https://saiptvlive.ahmed-bd-org.workers.dev/1393269/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 98" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 98
-https://saiptvlive.ahmed-bd-org.workers.dev/1393270/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 99" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 99
-https://saiptvlive.ahmed-bd-org.workers.dev/1393271/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UK| DAZN 100" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",UK| DAZN 100
-https://saiptvlive.ahmed-bd-org.workers.dev/1393272/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | PLAY SPORT 1 DUTCH" tvg-logo="" group-title="SPORTS LIVE",BE | PLAY SPORT 1 DUTCH
+https://saiptvlive.ahmed-bd-org.workers.dev/3165107/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN 1 NL" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN 1 NL
+https://saiptvlive.ahmed-bd-org.workers.dev/3165108/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN 2 NL" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN 2 NL
+https://saiptvlive.ahmed-bd-org.workers.dev/3165109/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE 1 FR" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE 1 FR
+https://saiptvlive.ahmed-bd-org.workers.dev/3165110/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE 2 FR" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE 2 FR
+https://saiptvlive.ahmed-bd-org.workers.dev/3165111/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN LIVE 3" tvg-logo="" group-title="SPORTS LIVE",DAZN LIVE 3
+https://saiptvlive.ahmed-bd-org.workers.dev/3165112/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN LIVE 4" tvg-logo="" group-title="SPORTS LIVE",DAZN LIVE 4
+https://saiptvlive.ahmed-bd-org.workers.dev/3165113/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN LIVE 5" tvg-logo="" group-title="SPORTS LIVE",DAZN LIVE 5
+https://saiptvlive.ahmed-bd-org.workers.dev/3165114/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN LIVE 6" tvg-logo="" group-title="SPORTS LIVE",DAZN LIVE 6
+https://saiptvlive.ahmed-bd-org.workers.dev/3165115/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 1" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 1
+https://saiptvlive.ahmed-bd-org.workers.dev/3165116/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 2" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 2
+https://saiptvlive.ahmed-bd-org.workers.dev/3165117/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 3" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 3
+https://saiptvlive.ahmed-bd-org.workers.dev/3165118/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 4" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 4
+https://saiptvlive.ahmed-bd-org.workers.dev/3165119/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 5" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 5
+https://saiptvlive.ahmed-bd-org.workers.dev/3165120/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 6" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 6
+https://saiptvlive.ahmed-bd-org.workers.dev/3165121/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 7" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 7
+https://saiptvlive.ahmed-bd-org.workers.dev/3165122/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 8" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 8
+https://saiptvlive.ahmed-bd-org.workers.dev/3165123/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 9" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 9
+https://saiptvlive.ahmed-bd-org.workers.dev/3165124/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 10" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 10
+https://saiptvlive.ahmed-bd-org.workers.dev/3165125/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 11" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 11
+https://saiptvlive.ahmed-bd-org.workers.dev/3165126/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 12" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 12
+https://saiptvlive.ahmed-bd-org.workers.dev/3165127/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 13" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 13
+https://saiptvlive.ahmed-bd-org.workers.dev/3165128/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 14" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 14
+https://saiptvlive.ahmed-bd-org.workers.dev/3165129/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 15" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 15
+https://saiptvlive.ahmed-bd-org.workers.dev/3165130/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 16" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 16
+https://saiptvlive.ahmed-bd-org.workers.dev/3165131/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 17" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 17
+https://saiptvlive.ahmed-bd-org.workers.dev/3165132/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 18" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 18
+https://saiptvlive.ahmed-bd-org.workers.dev/3165133/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 19" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 19
+https://saiptvlive.ahmed-bd-org.workers.dev/3165134/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 20" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 20
+https://saiptvlive.ahmed-bd-org.workers.dev/3165135/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 21" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 21
+https://saiptvlive.ahmed-bd-org.workers.dev/3165136/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 22" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 22
+https://saiptvlive.ahmed-bd-org.workers.dev/3165137/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 23" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 23
+https://saiptvlive.ahmed-bd-org.workers.dev/3165138/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 24" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 24
+https://saiptvlive.ahmed-bd-org.workers.dev/3165139/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BE | DAZN LIVE EVENT 25" tvg-logo="" group-title="SPORTS LIVE",BE | DAZN LIVE EVENT 25
+https://saiptvlive.ahmed-bd-org.workers.dev/3165140/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 1" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 1
+https://saiptvlive.ahmed-bd-org.workers.dev/3165141/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 2" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 2
+https://saiptvlive.ahmed-bd-org.workers.dev/3165142/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 3" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 3
+https://saiptvlive.ahmed-bd-org.workers.dev/3165143/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 4" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 4
+https://saiptvlive.ahmed-bd-org.workers.dev/3165144/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 5" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 5
+https://saiptvlive.ahmed-bd-org.workers.dev/3165145/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 6" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 6
+https://saiptvlive.ahmed-bd-org.workers.dev/3165146/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 7" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 7
+https://saiptvlive.ahmed-bd-org.workers.dev/3165147/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 8" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 8
+https://saiptvlive.ahmed-bd-org.workers.dev/3165148/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 9" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 9
+https://saiptvlive.ahmed-bd-org.workers.dev/3165149/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 10" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 10
+https://saiptvlive.ahmed-bd-org.workers.dev/3165150/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEING MARY JANE" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",BEING MARY JANE
 https://saiptvlive.ahmed-bd-org.workers.dev/1392307/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CATASTROPHE" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CATASTROPHE
