@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2645
+# 📊 Total Saved Channels: 2644
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-10 18:32:45
+# ⏰ Updated time: 2026-09-10 22:47:52
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1426,8 +1426,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1907699/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1907700/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NowHK SPOTV FHD" tvg-logo="https://ptvs.live:443/images/eGqxKQFYBvdaZ1gtJTHXnxeLgJvyxvq7TMFRr6T0afdx1xj_g-Va_iRMPiFp4B5c-oFAYLQG17VdEJcA80ZWcw.png" group-title="SPORTS LIVE",NowHK SPOTV FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/1907701/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Paramount+ 04: 2PM Sporting CP vs. Galatasaray" tvg-logo="https://iptvnow.app/telegramlogos/paramount.png" group-title="SPORTS LIVE",Paramount+ 04: 2PM Sporting CP vs. Galatasaray
-https://saiptvlive.ahmed-bd-org.workers.dev/1390766/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 1 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 1 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/839169/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 2 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 2 FHD
