@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2644
+# 📊 Total Saved Channels: 2636
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-12 23:34:10
+# ⏰ Updated time: 2026-09-13 01:55:47
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -448,14 +448,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1393009/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1393010/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AF WASSA TV SENEGAL" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="BANGLA ENTERTAINMENT",AF WASSA TV SENEGAL
 https://saiptvlive.ahmed-bd-org.workers.dev/1393022/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA | SAN DIEGO | ABC | KGTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="BANGLA ENTERTAINMENT",CA | SAN DIEGO | ABC | KGTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1391527/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA | SAN FRANCISCO | NBC | KNTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="BANGLA ENTERTAINMENT",CA | SAN FRANCISCO | NBC | KNTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1391535/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IN | INDIANAPOLIS | ABC | WRTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="BANGLA ENTERTAINMENT",IN | INDIANAPOLIS | ABC | WRTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1391655/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NC | CHARLOTTE | CBS | WBTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="BANGLA ENTERTAINMENT",NC | CHARLOTTE | CBS | WBTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1391777/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: ABC Indianapolis Indiana WRTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/12584b334b66c776ff349752778ec7d7.png" group-title="BANGLA ENTERTAINMENT",US: ABC Indianapolis Indiana WRTV TV HD
 https://saiptvlive.ahmed-bd-org.workers.dev/291214/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: ABC SAN Diego California KGTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/f0cef387586f7cf5073875994c4431cd.png" group-title="BANGLA ENTERTAINMENT",US: ABC SAN Diego California KGTV TV HD
@@ -2398,10 +2390,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/3165148/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/3165149/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NL | DAZN EVENT 10" tvg-logo="" group-title="SPORTS LIVE",NL | DAZN EVENT 10
 https://saiptvlive.ahmed-bd-org.workers.dev/3165150/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEING MARY JANE" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",BEING MARY JANE
-https://saiptvlive.ahmed-bd-org.workers.dev/1392307/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CATASTROPHE" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="SPORTS LIVE",CATASTROPHE
-https://saiptvlive.ahmed-bd-org.workers.dev/1392348/index.m3u8
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="US: FOX Sports 1 HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="SPORTS LIVE",US: FOX Sports 1 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/291052/index.m3u8
 #EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="US: FOX Sports 2 HD" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="SPORTS LIVE",US: FOX Sports 2 HD
@@ -4600,10 +4588,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/495278/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/495334/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AF LMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN MUSIC",AF LMTV
 https://saiptvlive.ahmed-bd-org.workers.dev/1393002/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NE | OMAHA | CBS | KMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN MUSIC",NE | OMAHA | CBS | KMTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1391807/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="WI | MADISON | NBC | WMTV" tvg-logo="https://logo.timdb.site:2053/logo/4khevc.png" group-title="INDIAN MUSIC",WI | MADISON | NBC | WMTV
-https://saiptvlive.ahmed-bd-org.workers.dev/1392044/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: MTV 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/5aa556bace610c8bc65e10e0822995b8.png" group-title="INDIAN MUSIC",US: MTV 2 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/290958/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: CBS Omaha Nebraska KMTV TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0780f4e676d74cd3bf0dca9eae8882ac.png" group-title="INDIAN MUSIC",US: CBS Omaha Nebraska KMTV TV HD
