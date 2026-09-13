@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2636
+# 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-13 13:50:45
+# ⏰ Updated time: 2026-09-13 18:59:47
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -698,8 +698,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/317717/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/317728/index.m3u8
 #EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="RO: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/5bc572666095a714d1b38f9a4df7031e.jpg" group-title="BANGLA ENTERTAINMENT",RO: Viasat Explore HD
 https://saiptvlive.ahmed-bd-org.workers.dev/317684/index.m3u8
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="RO: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/6215d82f8d562228fa768f4cd6654713.png" group-title="BANGLA ENTERTAINMENT",RO: Viasat History HD
-https://saiptvlive.ahmed-bd-org.workers.dev/317685/index.m3u8
 #EXTINF:-1 tvg-id="acasatv.ro" tvg-name="RO: Acasa HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/df40b8d678e90ff2902295be63f99832.png" group-title="BANGLA ENTERTAINMENT",RO: Acasa HD
 https://saiptvlive.ahmed-bd-org.workers.dev/317781/index.m3u8
 #EXTINF:-1 tvg-id="ion.us" tvg-name="RO: FashionTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/532667b2949c89efcfba09fe19303748.png" group-title="BANGLA ENTERTAINMENT",RO: FashionTV HD
