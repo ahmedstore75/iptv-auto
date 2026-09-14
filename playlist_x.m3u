@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-14 08:36:56
+# ⏰ Updated time: 2026-09-14 14:22:33
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1246,39 +1246,39 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1861569/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1861575/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
 https://saiptvlive.ahmed-bd-org.workers.dev/1861578/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 10:15AM Levante vs Barcelona" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 10:15AM Levante vs Barcelona
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 3PM Leeds United vs Newcastle United" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 3PM Leeds United vs Newcastle United
 https://saiptvlive.ahmed-bd-org.workers.dev/1822185/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12:30PM Getafe vs Deportivo La Coruña" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12:30PM Getafe vs Deportivo La Coruña
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 3PM Villarreal vs Real Betis" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 3PM Villarreal vs Real Betis
 https://saiptvlive.ahmed-bd-org.workers.dev/1822186/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 3PM Real Sociedad vs Atlético Madrid" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 3PM Real Sociedad vs Atlético Madrid
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12:30PM Como vs Parma" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12:30PM Como vs Parma
 https://saiptvlive.ahmed-bd-org.workers.dev/1822187/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 11:30AM Elversberg vs Bayern München" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 11:30AM Elversberg vs Bayern München
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 12:30PM Torino vs Roma" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 12:30PM Torino vs Roma
 https://saiptvlive.ahmed-bd-org.workers.dev/1822188/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 11:30AM Manchester United vs Manchester City" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 11:30AM Manchester United vs Manchester City
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 2:45PM Internazionale vs Udinese" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 2:45PM Internazionale vs Udinese
 https://saiptvlive.ahmed-bd-org.workers.dev/1822189/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 2:45PM Sassuolo vs Juventus" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 2:45PM Sassuolo vs Juventus
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 6PM Deportivo Riestra vs Lanús" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 6PM Deportivo Riestra vs Lanús
 https://saiptvlive.ahmed-bd-org.workers.dev/1822190/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 12PM Napoli vs Bologna" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 12PM Napoli vs Bologna
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 6PM Banfield vs Barracas Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 6PM Banfield vs Barracas Central
 https://saiptvlive.ahmed-bd-org.workers.dev/1822191/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 2:45PM Brest vs PSG" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 2:45PM Brest vs PSG
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 8:15PM Instituto vs Estudiantes Río Cuarto" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 8:15PM Instituto vs Estudiantes Río Cuarto
 https://saiptvlive.ahmed-bd-org.workers.dev/1822192/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 1:45PM Sarmiento vs Belgrano" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 1:45PM Sarmiento vs Belgrano
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 9PM León vs Atlético San Luis" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 9PM León vs Atlético San Luis
 https://saiptvlive.ahmed-bd-org.workers.dev/1822193/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 1:45AM Tigre vs Rosario Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 1:45AM Tigre vs Rosario Central
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822194/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 4PM Argentinos Juniors vs Gimnasia La Plata" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 4PM Argentinos Juniors vs Gimnasia La Plata
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822195/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 6:15PM Independiente vs San Lorenzo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 6:15PM Independiente vs San Lorenzo
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822196/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 8:30PM Huracán vs Racing Club" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 8:30PM Huracán vs Racing Club
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822197/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 8PM Santos Laguna vs Juárez" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 8PM Santos Laguna vs Juárez
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822198/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 9PM Guadalajara vs Pumas UNAM" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 9PM Guadalajara vs Pumas UNAM
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822199/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 2PM Sport Boys vs Deportivo Garcilaso" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 2PM Sport Boys vs Deportivo Garcilaso
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822200/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 17: 4:15PM Atlético Grau vs Alianza Atlético" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17: 4:15PM Atlético Grau vs Alianza Atlético
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822201/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 18:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822202/index.m3u8
