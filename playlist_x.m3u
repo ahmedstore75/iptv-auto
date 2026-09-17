@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2645
+# 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-17 19:59:41
+# ⏰ Updated time: 2026-09-18 00:00:12
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -64,26 +64,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/52223/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/911593/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 3 FHD" tvg-logo="data:image/png;base64,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" group-title="BANGLA ENTERTAINMENT",NZ: Sky Sport 3 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/955550/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 1 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 1 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166972/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 2 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 2 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166973/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 3 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 3 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166974/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 4 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 4 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166975/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 5 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 5 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166976/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 6 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 6 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166977/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 7 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 7 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166978/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 8 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 8 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166979/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 9 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 9 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166980/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vibe Bangla 10 FHD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Vibe Bangla 10 FHD
-https://saiptvlive.ahmed-bd-org.workers.dev/3166981/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CInemania Bangla 1 FHD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="BANGLA ENTERTAINMENT",CInemania Bangla 1 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/507288/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CInemania Bangla 2 FHD" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon/54089973711.png" group-title="BANGLA ENTERTAINMENT",CInemania Bangla 2 FHD
@@ -1266,41 +1246,41 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1861569/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1861575/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
 https://saiptvlive.ahmed-bd-org.workers.dev/1861578/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12:45PM Ararat-Armenia vs Sparta Praha" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12:45PM Ararat-Armenia vs Sparta Praha
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12:45PM OFI vs Hoffenheim" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12:45PM OFI vs Hoffenheim
 https://saiptvlive.ahmed-bd-org.workers.dev/1822185/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12:45PM Omonia Nicosia vs Celta de Vigo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12:45PM Omonia Nicosia vs Celta de Vigo
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12:45PM Levski Sofia vs Salzburg" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12:45PM Levski Sofia vs Salzburg
 https://saiptvlive.ahmed-bd-org.workers.dev/1822186/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 3PM Sunderland vs AZ" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 3PM Sunderland vs AZ
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 3PM Viktoria Plzeň vs Union Saint-Gilloise" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 3PM Viktoria Plzeň vs Union Saint-Gilloise
 https://saiptvlive.ahmed-bd-org.workers.dev/1822187/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 3PM Sturm Graz vs Rennes" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 3PM Sturm Graz vs Rennes
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 3PM Juventus vs NEC" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 3PM Juventus vs NEC
 https://saiptvlive.ahmed-bd-org.workers.dev/1822188/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 3PM Olympiakos Piraeus vs Jagiellonia Białystok" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 3PM Olympiakos Piraeus vs Jagiellonia Białystok
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 3PM Crystal Palace vs Lech Poznań" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 3PM Crystal Palace vs Lech Poznań
 https://saiptvlive.ahmed-bd-org.workers.dev/1822189/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 3PM Hapoel Be'er Sheva vs Dinamo Zagreb" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 3PM Hapoel Be'er Sheva vs Dinamo Zagreb
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 3PM Celtic vs Ferencváros" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 3PM Celtic vs Ferencváros
 https://saiptvlive.ahmed-bd-org.workers.dev/1822190/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 3PM Bayer Leverkusen vs Celje" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 3PM Bayer Leverkusen vs Celje
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 3PM Beşiktaş vs Olympique Marseille" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 3PM Beşiktaş vs Olympique Marseille
 https://saiptvlive.ahmed-bd-org.workers.dev/1822191/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 3PM Anderlecht vs Olympique Lyonnais" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 3PM Anderlecht vs Olympique Lyonnais
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 3PM Lillestrøm vs Torreense" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 3PM Lillestrøm vs Torreense
 https://saiptvlive.ahmed-bd-org.workers.dev/1822192/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 3PM Milan vs Benfica" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 3PM Milan vs Benfica
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 3PM Real Sociedad vs AFC Bournemouth" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 3PM Real Sociedad vs AFC Bournemouth
 https://saiptvlive.ahmed-bd-org.workers.dev/1822193/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 1PM Atlético Madrid vs Osasuna" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 1PM Atlético Madrid vs Osasuna
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 1PM Real Betis vs Getafe" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 1PM Real Betis vs Getafe
 https://saiptvlive.ahmed-bd-org.workers.dev/1822194/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 1PM Deportivo La Coruña vs Sevilla" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 1PM Deportivo La Coruña vs Sevilla
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 3:30PM Málaga vs Villarreal" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 3:30PM Málaga vs Villarreal
 https://saiptvlive.ahmed-bd-org.workers.dev/1822195/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 3:30PM Levante vs Athletic Club" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 3:30PM Levante vs Athletic Club
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 2:30PM Manchester City vs Norwich City" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 2:30PM Manchester City vs Norwich City
 https://saiptvlive.ahmed-bd-org.workers.dev/1822196/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 3:30PM Barcelona vs Racing Santander" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 3:30PM Barcelona vs Racing Santander
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 8:30PM Torque vs Cienciano" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 8:30PM Torque vs Cienciano
 https://saiptvlive.ahmed-bd-org.workers.dev/1822197/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 3PM Manchester United vs Brighton & Hove Albion" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 3PM Manchester United vs Brighton & Hove Albion
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 8:30PM Flamengo vs Independiente del Valle" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 8:30PM Flamengo vs Independiente del Valle
 https://saiptvlive.ahmed-bd-org.workers.dev/1822198/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 6PM Atlético Mineiro vs Santos" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 6PM Atlético Mineiro vs Santos
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822199/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 6PM LDU Quito vs Palmeiras" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 6PM LDU Quito vs Palmeiras
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822200/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 17: 8:30PM Corinthians vs Estudiantes" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17: 8:30PM Corinthians vs Estudiantes
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822201/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 18: 6PM Independiente Rivadavia vs Atlético Tucumán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18: 6PM Independiente Rivadavia vs Atlético Tucumán
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 18:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822202/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 19:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 19:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822203/index.m3u8
