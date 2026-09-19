@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-19 06:50:14
+# ⏰ Updated time: 2026-09-19 11:20:50
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1182,10 +1182,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/957585/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/957584/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CRICKET | CRICLIFE 1 FHD" tvg-logo="https://www.ooredoo.qa/web/wp-content/uploads/2023/08/10-CricLife1-Logo_02_Web-site-logo-150x120pxl_.png" group-title="SPORTS LIVE",CRICKET | CRICLIFE 1 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/1342651/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tapmad | Event 1" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad | Event 1
-https://saiptvlive.ahmed-bd-org.workers.dev/1385531/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tapmad Event 2 | Match Time" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad Event 2 | Match Time
-https://saiptvlive.ahmed-bd-org.workers.dev/1387247/index.m3u8
 #EXTINF:-1 tvg-id="DD.Sports.in" tvg-name="A Sports 4K" tvg-logo="https://www.lyngsat.com/logo/tv/aa/a-sports-pk.png" group-title="SPORTS LIVE",A Sports 4K
 https://saiptvlive.ahmed-bd-org.workers.dev/247168/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PAK GEO Super HD" tvg-logo="https://www.lyngsat.com/logo/tv/gg/geo_super.png" group-title="SPORTS LIVE",PAK GEO Super HD
@@ -1224,6 +1220,10 @@ https://saiptvlive.ahmed-bd-org.workers.dev/911450/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1369005/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IND_UNITE8 SPORTS 2 HD" tvg-logo="https://i.ibb.co/84RhY6HW/Picsart-26-06-13-01-41-58-563.jpg" group-title="SPORTS LIVE",IND_UNITE8 SPORTS 2 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/1369003/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Tapmad | Event 1" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad | Event 1
+https://saiptvlive.ahmed-bd-org.workers.dev/1385531/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Tapmad Event 2 | Match Time" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad Event 2 | Match Time
+https://saiptvlive.ahmed-bd-org.workers.dev/1387247/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | DAZN
 https://saiptvlive.ahmed-bd-org.workers.dev/905193/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | REAL 4K" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | REAL 4K
