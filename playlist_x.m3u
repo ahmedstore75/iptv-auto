@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2636
+# 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-22 06:26:32
+# ⏰ Updated time: 2026-09-22 11:40:44
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1224,8 +1224,6 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1369003/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1385531/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tapmad Event 2 | Match Time" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad Event 2 | Match Time
 https://saiptvlive.ahmed-bd-org.workers.dev/1387247/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="LIVE EVENT 01 - 8pm WWE Monday Night RAW" tvg-logo="http://57.128.182.77:8080/USA/UFC.png" group-title="SPORTS LIVE",LIVE EVENT 01 - 8pm WWE Monday Night RAW
-https://saiptvlive.ahmed-bd-org.workers.dev/1922855/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | DAZN
 https://saiptvlive.ahmed-bd-org.workers.dev/905193/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | REAL 4K" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | REAL 4K
