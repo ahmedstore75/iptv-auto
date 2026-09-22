@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2635
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-22 16:40:02
+# ⏰ Updated time: 2026-09-22 21:18:09
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1246,15 +1246,15 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1861569/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1861575/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
 https://saiptvlive.ahmed-bd-org.workers.dev/1861578/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 1:30PM Aldosivi vs Atlético Tucumán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 1:30PM Aldosivi vs Atlético Tucumán
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12:45PM Bayern vs Manchester City" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12:45PM Bayern vs Manchester City
 https://saiptvlive.ahmed-bd-org.workers.dev/1822185/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 6PM Barracas Central vs Independiente Rivadavia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 6PM Barracas Central vs Independiente Rivadavia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12:45PM Inter Milano vs Häcken" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12:45PM Inter Milano vs Häcken
 https://saiptvlive.ahmed-bd-org.workers.dev/1822186/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 8:15PM Lanús vs Estudiantes" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 8:15PM Lanús vs Estudiantes
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 3PM Arsenal vs Køge" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 3PM Arsenal vs Køge
 https://saiptvlive.ahmed-bd-org.workers.dev/1822187/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 3PM  Juventus vs SL Benfica" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 3PM  Juventus vs SL Benfica
 https://saiptvlive.ahmed-bd-org.workers.dev/1822188/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 3PM Real Madrid vs PSG" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 3PM Real Madrid vs PSG
 https://saiptvlive.ahmed-bd-org.workers.dev/1822189/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 06:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822190/index.m3u8
