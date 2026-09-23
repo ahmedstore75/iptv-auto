@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2635
+# 📊 Total Saved Channels: 2639
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-23 04:34:35
+# ⏰ Updated time: 2026-09-23 07:06:04
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://saiptvlive.ahmed-bd-org.workers.dev/955608/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -50,10 +50,10 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1371077/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1371078/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ISL | Imam Hussein TV 6 FHD" tvg-logo="https://imamhusseintv.com/assets/images/ch6.webp" group-title="BANGLA ENTERTAINMENT",ISL | Imam Hussein TV 6 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/1371079/index.m3u8
-#EXTINF:-1 tvg-id="DD.Sports.in" tvg-name="BD | T Sports HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEt0mLEbCc7_nwOltfVTtRh95_ytannxqgaeskHI0rfCxd85v3LSaeZ4&s=10" group-title="BANGLA ENTERTAINMENT",BD | T Sports HD
-https://saiptvlive.ahmed-bd-org.workers.dev/111409/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BANGLA BIGG BOSS 24/7 LIVE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqVevmyh4uHqLDVsNyX7pDG8M7E42Zeef8H8VoVYiR9xAIU1x8Ty07m0&s=10" group-title="BANGLA ENTERTAINMENT",BANGLA BIGG BOSS 24/7 LIVE
 https://saiptvlive.ahmed-bd-org.workers.dev/2093170/index.m3u8
+#EXTINF:-1 tvg-id="DD.Sports.in" tvg-name="BD | T Sports HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEt0mLEbCc7_nwOltfVTtRh95_ytannxqgaeskHI0rfCxd85v3LSaeZ4&s=10" group-title="BANGLA ENTERTAINMENT",BD | T Sports HD
+https://saiptvlive.ahmed-bd-org.workers.dev/111409/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PK | GTV HD" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gtv-network-pk.png" group-title="BANGLA ENTERTAINMENT",PK | GTV HD
 https://saiptvlive.ahmed-bd-org.workers.dev/911591/index.m3u8
 #EXTINF:-1 tvg-id="PTV.News.pk" tvg-name="PK | GTV NEWS 4K" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gtv-network-pk.png" group-title="BANGLA ENTERTAINMENT",PK | GTV NEWS 4K
@@ -100,14 +100,14 @@ https://saiptvlive.ahmed-bd-org.workers.dev/520290/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/520304/index.m3u8
 #EXTINF:-1 tvg-id="464293" tvg-name="MNTV HD" tvg-logo="https://rolextv.one:443/images/mg9e4VnU5MiobcDarwnBsTl1v8UtyHldrs542MhLlJI.png" group-title="BANGLA ENTERTAINMENT",MNTV HD
 https://saiptvlive.ahmed-bd-org.workers.dev/520342/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ori_TarangTv" tvg-logo="" group-title="BANGLA ENTERTAINMENT",Ori_TarangTv
+https://saiptvlive.ahmed-bd-org.workers.dev/3177803/index.m3u8
 #EXTINF:-1 tvg-id="464241" tvg-name="Vissa TV" tvg-logo="https://jacreation.com/telugu/vissa.png" group-title="BANGLA ENTERTAINMENT",Vissa TV
 https://saiptvlive.ahmed-bd-org.workers.dev/955320/index.m3u8
 #EXTINF:-1 tvg-id="463911" tvg-name="NTV TELUGU" tvg-logo="https://jacreation.com/telugu/ntv.png" group-title="BANGLA ENTERTAINMENT",NTV TELUGU
 https://saiptvlive.ahmed-bd-org.workers.dev/955315/index.m3u8
 #EXTINF:-1 tvg-id="463870" tvg-name="IN-tel | NTV NEWS HD" tvg-logo="https://www.lyngsat.com/logo/tv/nn/ntv-news-np.png" group-title="BANGLA ENTERTAINMENT",IN-tel | NTV NEWS HD
 https://saiptvlive.ahmed-bd-org.workers.dev/522574/index.m3u8
-#EXTINF:-1 tvg-id="463956" tvg-name="IN-ori | Tarang TV HD" tvg-logo="https://www.tarangtv.in/taranglogo.png" group-title="BANGLA ENTERTAINMENT",IN-ori | Tarang TV HD
-https://saiptvlive.ahmed-bd-org.workers.dev/519939/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NEP: NTV NEWS" tvg-logo="" group-title="BANGLA ENTERTAINMENT",NEP: NTV NEWS
 https://saiptvlive.ahmed-bd-org.workers.dev/1371097/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NEP: NTV PLUS" tvg-logo="" group-title="BANGLA ENTERTAINMENT",NEP: NTV PLUS
@@ -418,6 +418,8 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1369529/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1369530/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BGD_DURONTO TV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",BGD_DURONTO TV HD
 https://saiptvlive.ahmed-bd-org.workers.dev/1369531/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SRI LANKA ▎SIRASA TV" tvg-logo="" group-title="BANGLA ENTERTAINMENT",SRI LANKA ▎SIRASA TV
+https://saiptvlive.ahmed-bd-org.workers.dev/3177831/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC One Channel Islands HD (1080p H264)" tvg-logo="" group-title="BANGLA ENTERTAINMENT",BBC One Channel Islands HD (1080p H264)
 https://saiptvlive.ahmed-bd-org.workers.dev/957611/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: NTV" tvg-logo="https://s9.gifyu.com/images/SFpDq.png" group-title="BANGLA ENTERTAINMENT",UK: NTV
@@ -1224,6 +1226,14 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1369003/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1385531/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tapmad Event 2 | Match Time" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad Event 2 | Match Time
 https://saiptvlive.ahmed-bd-org.workers.dev/1387247/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="SPORTS LIVE",ESPN Deportes
+https://saiptvlive.ahmed-bd-org.workers.dev/1861566/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORTA UHD" tvg-logo="" group-title="SPORTS LIVE",PREMIER SPORTA UHD
+https://saiptvlive.ahmed-bd-org.workers.dev/1861569/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Dazn UHD Laliga" tvg-logo="" group-title="SPORTS LIVE",Dazn UHD Laliga
+https://saiptvlive.ahmed-bd-org.workers.dev/1861575/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
+https://saiptvlive.ahmed-bd-org.workers.dev/1861578/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | DAZN " tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | DAZN
 https://saiptvlive.ahmed-bd-org.workers.dev/905193/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL | REAL 4K" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL | REAL 4K
@@ -1238,23 +1248,15 @@ https://saiptvlive.ahmed-bd-org.workers.dev/1907738/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/1907739/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
 https://saiptvlive.ahmed-bd-org.workers.dev/1907740/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="SPORTS LIVE",ESPN Deportes
-https://saiptvlive.ahmed-bd-org.workers.dev/1861566/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORTA UHD" tvg-logo="" group-title="SPORTS LIVE",PREMIER SPORTA UHD
-https://saiptvlive.ahmed-bd-org.workers.dev/1861569/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Dazn UHD Laliga" tvg-logo="" group-title="SPORTS LIVE",Dazn UHD Laliga
-https://saiptvlive.ahmed-bd-org.workers.dev/1861575/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Arbic beIN Sports | 4K " tvg-logo="" group-title="SPORTS LIVE",Arbic beIN Sports | 4K
-https://saiptvlive.ahmed-bd-org.workers.dev/1861578/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 1:30PM Aldosivi vs Atlético Tucumán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 1:30PM Aldosivi vs Atlético Tucumán
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12:45PM Bayern vs Manchester City" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12:45PM Bayern vs Manchester City
 https://saiptvlive.ahmed-bd-org.workers.dev/1822185/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 6PM Barracas Central vs Independiente Rivadavia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 6PM Barracas Central vs Independiente Rivadavia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12:45PM Inter Milano vs Häcken" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12:45PM Inter Milano vs Häcken
 https://saiptvlive.ahmed-bd-org.workers.dev/1822186/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 8:15PM Lanús vs Estudiantes" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 8:15PM Lanús vs Estudiantes
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 3PM Arsenal vs Køge" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 3PM Arsenal vs Køge
 https://saiptvlive.ahmed-bd-org.workers.dev/1822187/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 3PM  Juventus vs SL Benfica" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 3PM  Juventus vs SL Benfica
 https://saiptvlive.ahmed-bd-org.workers.dev/1822188/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 3PM Real Madrid vs PSG" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 3PM Real Madrid vs PSG
 https://saiptvlive.ahmed-bd-org.workers.dev/1822189/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 06:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06:
 https://saiptvlive.ahmed-bd-org.workers.dev/1822190/index.m3u8
@@ -4554,8 +4556,12 @@ https://saiptvlive.ahmed-bd-org.workers.dev/955586/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/818637/index.m3u8
 #EXTINF:-1 tvg-id="464187" tvg-name="SHOLAM TV" tvg-logo="http://lg.mygolden.xyz:8080/logo/ASIA/INDIAN/sholamtv.png" group-title="INDIAN MUSIC",SHOLAM TV
 https://saiptvlive.ahmed-bd-org.workers.dev/955272/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="B4U BHOJPURI" tvg-logo="" group-title="INDIAN MUSIC",B4U BHOJPURI
+https://saiptvlive.ahmed-bd-org.workers.dev/3177738/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IN-kan | ZEE Kananda HD" tvg-logo="https://rolextv.one:443/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dRzdRq072r5vgpUsulHfl0MMh1PNXg19_ABKmIbo7Hivg.png" group-title="INDIAN MUSIC",IN-kan | ZEE Kananda HD
 https://saiptvlive.ahmed-bd-org.workers.dev/519945/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SRI LANKA ▎VERBUM TV" tvg-logo="https://img.logo-cdn.cc/verbumtv.png" group-title="INDIAN MUSIC",SRI LANKA ▎VERBUM TV
+https://saiptvlive.ahmed-bd-org.workers.dev/3177824/index.m3u8
 #EXTINF:-1 tvg-id="mtv.fr" tvg-name="PH: ANC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="INDIAN MUSIC",PH: ANC HD
 https://saiptvlive.ahmed-bd-org.workers.dev/290852/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: B4U MUSIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-music-uk.png" group-title="INDIAN MUSIC",UK: B4U MUSIC
@@ -4930,6 +4936,8 @@ https://saiptvlive.ahmed-bd-org.workers.dev/519940/index.m3u8
 https://saiptvlive.ahmed-bd-org.workers.dev/520296/index.m3u8
 #EXTINF:-1 tvg-id="464031" tvg-name="News18 Lokmat HD" tvg-logo="https://i.imgur.com/SjbtAFh.png" group-title="INDIAN HINDI",News18 Lokmat HD
 https://saiptvlive.ahmed-bd-org.workers.dev/522589/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="IN:  News18 Assam North East" tvg-logo="" group-title="INDIAN HINDI",IN:  News18 Assam North East
+https://saiptvlive.ahmed-bd-org.workers.dev/3177791/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="News18 ODIA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/News18_Odia_Logo.svg/1200px-News18_Odia_Logo.svg.png" group-title="INDIAN HINDI",News18 ODIA HD
 https://saiptvlive.ahmed-bd-org.workers.dev/520427/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: SONY SAB" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sony-sab-uk.png" group-title="INDIAN HINDI",UK: SONY SAB
