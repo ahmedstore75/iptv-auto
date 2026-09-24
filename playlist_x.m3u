@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2638
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-24 06:08:48
+# ⏰ Updated time: 2026-09-24 11:41:25
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -2708,12 +2708,6 @@ https://filex.me:8443/live/3114654477/5787654467/908663.m3u8
 https://filex.me:8443/live/3114654477/5787654467/908664.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR: ZAMALEK SPORT" tvg-logo="" group-title="SPORTS LIVE",AR: ZAMALEK SPORT
 https://filex.me:8443/live/3114654477/5787654467/908677.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="KSA_KSA SPORTS 1 HD" tvg-logo="" group-title="SPORTS LIVE",KSA_KSA SPORTS 1 HD
-https://filex.me:8443/live/3114654477/5787654467/1369761.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="KSA_KSA SPORTS  2 HD" tvg-logo="" group-title="SPORTS LIVE",KSA_KSA SPORTS  2 HD
-https://filex.me:8443/live/3114654477/5787654467/1369762.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="KSA_KSA SPORTS 3 HD" tvg-logo="" group-title="SPORTS LIVE",KSA_KSA SPORTS 3 HD
-https://filex.me:8443/live/3114654477/5787654467/1369763.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR: JORDAN SPORT HD" tvg-logo="http://137.74.40.152/Categories.Logo/JORDAN.png" group-title="SPORTS LIVE",AR: JORDAN SPORT HD
 https://filex.me:8443/live/3114654477/5787654467/908933.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR: Alkarma TV Discipleship HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/3da862e2ece2fe6bf5561af2b178e84f.png" group-title="SPORTS LIVE",AR: Alkarma TV Discipleship HD
@@ -2922,6 +2916,12 @@ https://filex.me:8443/live/3114654477/5787654467/1368999.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1369000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IRN_PERSIANA SPORTS 3 HD" tvg-logo="" group-title="SPORTS LIVE",IRN_PERSIANA SPORTS 3 HD
 https://filex.me:8443/live/3114654477/5787654467/1369001.m3u8
+#EXTINF:-1 tvg-id="aspor.tr" tvg-name="KSa_ksa Sports 1 HD" tvg-logo="" group-title="SPORTS LIVE",KSa_ksa Sports 1 HD
+https://filex.me:8443/live/3114654477/5787654467/516685.m3u8
+#EXTINF:-1 tvg-id="aspor.tr" tvg-name="KSa_ksa Sports 2 HD" tvg-logo="" group-title="SPORTS LIVE",KSa_ksa Sports 2 HD
+https://filex.me:8443/live/3114654477/5787654467/516686.m3u8
+#EXTINF:-1 tvg-id="aspor.tr" tvg-name="KSa_ksa Sports 3 HD" tvg-logo="" group-title="SPORTS LIVE",KSa_ksa Sports 3 HD
+https://filex.me:8443/live/3114654477/5787654467/516687.m3u8
 #EXTINF:-1 tvg-id="btsport2.uk" tvg-name="AF: NTA Sports 24 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/7d72d334cf7a4de0f529482fb169ebf0.png" group-title="SPORTS LIVE",AF: NTA Sports 24 HD
 https://filex.me:8443/live/3114654477/5787654467/292702.m3u8
 #EXTINF:-1 tvg-id="sporttv1.pt" tvg-name="AF: ORTM 1 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/93cffa404815f6875e52444808499341.png" group-title="SPORTS LIVE",AF: ORTM 1 HD
