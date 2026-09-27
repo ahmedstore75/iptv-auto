@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2638
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-27 20:27:22
+# ⏰ Updated time: 2026-09-28 00:48:21
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1248,41 +1248,41 @@ https://filex.me:8443/live/3114654477/5787654467/1907738.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1907739.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
 https://filex.me:8443/live/3114654477/5787654467/1907740.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 9AM Eslovenia vs Escocia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 9AM Eslovenia vs Escocia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12PM Serbia vs Países Bajos" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12PM Serbia vs Países Bajos
 https://filex.me:8443/live/3114654477/5787654467/1822185.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12PM San Marino vs Finlandia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12PM San Marino vs Finlandia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12PM Dinamarca vs Gales" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12PM Dinamarca vs Gales
 https://filex.me:8443/live/3114654477/5787654467/1822186.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12PM Islandia vs Estonia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12PM Islandia vs Estonia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12PM Austria vs Kosovo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12PM Austria vs Kosovo
 https://filex.me:8443/live/3114654477/5787654467/1822187.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 12PM Islas Feroe vs Kazajstán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 12PM Islas Feroe vs Kazajstán
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 12PM Gibraltar vs Andorra" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 12PM Gibraltar vs Andorra
 https://filex.me:8443/live/3114654477/5787654467/1822188.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 12PM Bulgaria vs Luxemburgo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 12PM Bulgaria vs Luxemburgo
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 2:45PM Israel vs República de Irlanda" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 2:45PM Israel vs República de Irlanda
 https://filex.me:8443/live/3114654477/5787654467/1822189.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 2:45PM Eslovaquia vs Moldavia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 2:45PM Eslovaquia vs Moldavia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 2:45PM Noruega vs Portugal" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 2:45PM Noruega vs Portugal
 https://filex.me:8443/live/3114654477/5787654467/1822190.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 2:45PM  Albania vs Bielorrusia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 2:45PM  Albania vs Bielorrusia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 2:45PM  Alemania vs Grecia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 2:45PM  Alemania vs Grecia
 https://filex.me:8443/live/3114654477/5787654467/1822191.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 2:45PM Inglaterra vs España" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 2:45PM Inglaterra vs España
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 12:45PM Malta vs Liechtenstein" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 12:45PM Malta vs Liechtenstein
 https://filex.me:8443/live/3114654477/5787654467/1822192.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 2:45PM República Checa vs Croacia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 2:45PM República Checa vs Croacia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 4:30PM Bolivia vs Paraguay" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 4:30PM Bolivia vs Paraguay
 https://filex.me:8443/live/3114654477/5787654467/1822193.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 2:45PM Macedonia del Norte vs Suiza" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 2:45PM Macedonia del Norte vs Suiza
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 4PM Racing Club vs Boca Juniors" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 4PM Racing Club vs Boca Juniors
 https://filex.me:8443/live/3114654477/5787654467/1822194.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 4:30PM EE. UU. vs Perú" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 4:30PM EE. UU. vs Perú
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 2PM Pumas UNAM vs Atlético San Luis" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 2PM Pumas UNAM vs Atlético San Luis
 https://filex.me:8443/live/3114654477/5787654467/1822195.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 7PM Canadá vs Chile" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 7PM Canadá vs Chile
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 9PM León vs Juárez" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 9PM León vs Juárez
 https://filex.me:8443/live/3114654477/5787654467/1822196.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 9PM México vs Colombia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 9PM México vs Colombia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 11PM Necaxa vs América" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 11PM Necaxa vs América
 https://filex.me:8443/live/3114654477/5787654467/1822197.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 6:50PM Cruz Azul vs Toluca" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 6:50PM Cruz Azul vs Toluca
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14:
 https://filex.me:8443/live/3114654477/5787654467/1822198.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 7PM Guadalajara vs Querétaro" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 7PM Guadalajara vs Querétaro
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15:
 https://filex.me:8443/live/3114654477/5787654467/1822199.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 11PM Santos Laguna vs Pachuca" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 11PM Santos Laguna vs Pachuca
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16:
 https://filex.me:8443/live/3114654477/5787654467/1822200.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 17: 11PM Tigres UANL vs Puebla" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17: 11PM Tigres UANL vs Puebla
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17:
 https://filex.me:8443/live/3114654477/5787654467/1822201.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 18: 3PM Estudiantes vs Rosario Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18: 3PM Estudiantes vs Rosario Central
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 18:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18:
 https://filex.me:8443/live/3114654477/5787654467/1822202.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 19:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 19:
 https://filex.me:8443/live/3114654477/5787654467/1822203.m3u8
