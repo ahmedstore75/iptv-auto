@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2639
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-28 20:46:37
+# ⏰ Updated time: 2026-09-29 02:57:52
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1250,31 +1250,31 @@ https://filex.me:8443/live/3114654477/5787654467/1907738.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1907739.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
 https://filex.me:8443/live/3114654477/5787654467/1907740.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12PM Serbia vs Países Bajos" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12PM Serbia vs Países Bajos
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 12PM Armenia vs Montenegro" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 12PM Armenia vs Montenegro
 https://filex.me:8443/live/3114654477/5787654467/1822185.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12PM Dinamarca vs Gales" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12PM Dinamarca vs Gales
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 12PM Letonia vs Chipre" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 12PM Letonia vs Chipre
 https://filex.me:8443/live/3114654477/5787654467/1822186.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12PM Austria vs Kosovo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12PM Austria vs Kosovo
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12PM Georgia vs Ucrania" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12PM Georgia vs Ucrania
 https://filex.me:8443/live/3114654477/5787654467/1822187.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 12PM Gibraltar vs Andorra" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 12PM Gibraltar vs Andorra
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 2:45PM Irlanda del Norte vs Hungría" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 2:45PM Irlanda del Norte vs Hungría
 https://filex.me:8443/live/3114654477/5787654467/1822188.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 2:45PM Israel vs República de Irlanda" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 2:45PM Israel vs República de Irlanda
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 2:45PM Rumania vs Bosnia-Herzegovina" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 2:45PM Rumania vs Bosnia-Herzegovina
 https://filex.me:8443/live/3114654477/5787654467/1822189.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 2:45PM Noruega vs Portugal" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 2:45PM Noruega vs Portugal
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 2:45PM Suecia vs Polonia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 2:45PM Suecia vs Polonia
 https://filex.me:8443/live/3114654477/5787654467/1822190.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 2:45PM  Alemania vs Grecia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 2:45PM  Alemania vs Grecia
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 2:45PM Bélgica vs Francia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 2:45PM Bélgica vs Francia
 https://filex.me:8443/live/3114654477/5787654467/1822191.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 12:45PM Malta vs Liechtenstein" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 12:45PM Malta vs Liechtenstein
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 2:45PM Turquía vs Italia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 2:45PM Turquía vs Italia
 https://filex.me:8443/live/3114654477/5787654467/1822192.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 4:30PM Bolivia vs Paraguay" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 4:30PM Bolivia vs Paraguay
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 4PM Cuba vs Bonaire" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 4PM Cuba vs Bonaire
 https://filex.me:8443/live/3114654477/5787654467/1822193.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 4PM Racing Club vs Boca Juniors" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 4PM Racing Club vs Boca Juniors
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 6PM Surinam vs Martinica" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 6PM Surinam vs Martinica
 https://filex.me:8443/live/3114654477/5787654467/1822194.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 2PM Pumas UNAM vs Atlético San Luis" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 2PM Pumas UNAM vs Atlético San Luis
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 8PM Jamaica vs Honduras" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 8PM Jamaica vs Honduras
 https://filex.me:8443/live/3114654477/5787654467/1822195.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 9PM León vs Juárez" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 9PM León vs Juárez
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 8PM St. Kitts and Nevis vs Granada" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 8PM St. Kitts and Nevis vs Granada
 https://filex.me:8443/live/3114654477/5787654467/1822196.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 11PM Necaxa vs América" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 11PM Necaxa vs América
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 10PM Guatemala vs El Salvador" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 10PM Guatemala vs El Salvador
 https://filex.me:8443/live/3114654477/5787654467/1822197.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 14:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14:
 https://filex.me:8443/live/3114654477/5787654467/1822198.m3u8
