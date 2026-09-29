@@ -906,26 +906,56 @@
         "url": "https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8"
     },
     {
-        "name": "Ten Cricket",
-        "logo": "https://i.postimg.cc/0yzwt46Q/20241126-220214.png",
+        "name": "Tapmad 2",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
         "group": "Sports",
-        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8"
+        "url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
     },
     {
-        "name": "Willow Sports",
-        "logo": "https://i.postimg.cc/HntSg3xw/20240823_024624.png",
+        "name": "Tapmad 3",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
         "group": "Sports",
         "url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
     },
     {
-        "name": "Willow Sports 2",
-        "logo": "https://i.postimg.cc/HntSg3xw/20240823_024624.png",
+        "name": "Tapmad 4",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
+        "group": "Sports",
+        "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
+    },
+    {
+        "name": "Tapmad 5",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
+        "group": "Sports",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8"
+    },
+    {
+        "name": "Tapmad 6",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
+        "group": "Sports",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8"
+    },
+    {
+        "name": "Tapmad 7",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
+        "group": "Sports",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
+    },
+    {
+        "name": "Tapmad 8",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
+        "group": "Sports",
+        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8"
+    },
+    {
+        "name": "Tapmad 9",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
         "group": "Sports",
         "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8"
     },
     {
-        "name": "TUDN",
-        "logo": "https://i.postimg.cc/XNF8KVSb/o-T5CAvd.png",
+        "name": "Tapmad 10",
+        "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
         "group": "Sports",
         "url": "https://saseries.akamaized.net/hls/live/2110097/tapmad123321/master.m3u8"
     },
@@ -933,7 +963,7 @@
         "name": "Star Sports 1",
         "logo": "https://i.postimg.cc/DzDHjCJm/20240823_024249.png",
         "group": "Sports",
-        "url": "http://tvsen7.aynascope.net/sspts1/index.m3u8"
+        "url": "https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Star Sports 2",
@@ -945,13 +975,13 @@
         "name": "Star Sports SL 1",
         "logo": "https://i.postimg.cc/ZnzgZCLS/20240823_024321.png",
         "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
+        "url": "https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8"
     },
     {
         "name": "Star Sports SL 2",
         "logo": "https://i.postimg.cc/rmczbb8g/20240825_060019.png",
         "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
+        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Sony Ten 1",
@@ -982,12 +1012,6 @@
         "logo": "https://i.postimg.cc/441hHtgZ/20250120_193746.png",
         "group": "Sports",
         "url": "http://host.phorious.art/validation/377?deviceMac=10:27:BE:25:67:80&split=33da9c80155413830543e27c8520ba99&smart=1"
-    },
-    {
-        "name": "Mundial",
-        "logo": "https://i.imgur.com/jVBfQNj.png",
-        "group": "Sports",
-        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8"
     },
     {
         "name": "Animal Planet HD",
@@ -1072,18 +1096,6 @@
         "logo": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
         "group": "News",
         "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
-    },
-    {
-        "name": "T Sports HD",
-        "logo": "https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",
-        "group": "Sports",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
-    },
-    {
-        "name": "PTV Sports",
-        "logo": "https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014",
-        "group": "Sports",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8"
     },
     {
         "name": "TSN 1",
