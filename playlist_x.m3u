@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2639
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-09-29 02:57:52
+# ⏰ Updated time: 2026-09-29 06:49:18
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -4848,11 +4848,11 @@ https://filex.me:8443/live/3114654477/5787654467/501234.m3u8
 https://filex.me:8443/live/3114654477/5787654467/302805.m3u8
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="GR: MGR TV FHD" tvg-logo="" group-title="INDIAN MUSIC",GR: MGR TV FHD
 https://filex.me:8443/live/3114654477/5787654467/500130.m3u8
-#EXTINF:-1 tvg-id="441259" tvg-name="IN | ZEE TV HD" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-tv-in.png" group-title="INDIAN HINDI",IN | ZEE TV HD
+#EXTINF:-1 tvg-id="404001" tvg-name="IN | ZEE TV HD" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-tv-in.png" group-title="INDIAN HINDI",IN | ZEE TV HD
 https://filex.me:8443/live/3114654477/5787654467/13.m3u8
 #EXTINF:-1 tvg-id="463859" tvg-name="IN | STAR PLUS HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-plus-hk.png" group-title="INDIAN HINDI",IN | STAR PLUS HD
 https://filex.me:8443/live/3114654477/5787654467/17.m3u8
-#EXTINF:-1 tvg-id="463922" tvg-name="IN | SONY SAB HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-sab-tv-in.png" group-title="INDIAN HINDI",IN | SONY SAB HD
+#EXTINF:-1 tvg-id="404001" tvg-name="IN | SONY SAB HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-sab-tv-in.png" group-title="INDIAN HINDI",IN | SONY SAB HD
 https://filex.me:8443/live/3114654477/5787654467/25.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IND_REPUBLIC BHARAT" tvg-logo="" group-title="INDIAN HINDI",IND_REPUBLIC BHARAT
 https://filex.me:8443/live/3114654477/5787654467/911267.m3u8
