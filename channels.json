@@ -897,7 +897,7 @@
         "name": "T Sports HD",
         "logo": "https://i.postimg.cc/Qx3GZn6T/20240823_024117.png",
         "group": "Sports",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjkl/index.m3u8"
     },
     {
         "name": "PTV Sports",
@@ -1072,6 +1072,12 @@
         "logo": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
         "group": "News",
         "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
+    },
+    {
+        "name": "T Sports HD",
+        "logo": "https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",
+        "group": "Sports",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
     },
     {
         "name": "PTV Sports",
