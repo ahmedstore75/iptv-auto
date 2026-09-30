@@ -1005,13 +1005,13 @@
         "name": "Bein Sports",
         "logo": "https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",
         "group": "Sports",
-        "url": "https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8"
+        "url": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8"
     },
     {
         "name": "Bein Sports 1",
         "logo": "https://i.postimg.cc/441hHtgZ/20250120_193746.png",
         "group": "Sports",
-        "url": "http://host.phorious.art/validation/377?deviceMac=10:27:BE:25:67:80&split=33da9c80155413830543e27c8520ba99&smart=1"
+        "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8"
     },
     {
         "name": "Animal Planet HD",
