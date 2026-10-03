@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2637
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-03 16:55:12
+# ⏰ Updated time: 2026-10-03 21:00:53
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1264,21 +1264,21 @@ https://filex.me:8443/live/3114654477/5787654467/1822191.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1822192.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 2PM Canadá vs Perú" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 2PM Canadá vs Perú
 https://filex.me:8443/live/3114654477/5787654467/1822193.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 3PM Costa de Marfil vs Camerún" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 3PM Costa de Marfil vs Camerún
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 10PM EE. UU. vs México" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 10PM EE. UU. vs México
 https://filex.me:8443/live/3114654477/5787654467/1822194.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 8PM Argentina vs Burkina Faso" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 8PM Argentina vs Burkina Faso
 https://filex.me:8443/live/3114654477/5787654467/1822195.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 10PM EE. UU. vs México" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 10PM EE. UU. vs México
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 10PM Belice vs Guayana Francesa" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 10PM Belice vs Guayana Francesa
 https://filex.me:8443/live/3114654477/5787654467/1822196.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 5PM Sint Maarten vs San Vicente / Granadinas" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 5PM Sint Maarten vs San Vicente / Granadinas
 https://filex.me:8443/live/3114654477/5787654467/1822197.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 10PM Belice vs Guayana Francesa" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 10PM Belice vs Guayana Francesa
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 12:45PM Defensa y Justicia vs San Lorenzo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 12:45PM Defensa y Justicia vs San Lorenzo
 https://filex.me:8443/live/3114654477/5787654467/1822198.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 1:45PM Belice vs Guayana Francesa" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 1:45PM Belice vs Guayana Francesa
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 4PM  Atlético Tucumán vs Barracas Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 4PM  Atlético Tucumán vs Barracas Central
 https://filex.me:8443/live/3114654477/5787654467/1822199.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 4PM Atlético Tucumán vs Barracas Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 4PM Atlético Tucumán vs Barracas Central
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 4PM  Newell's Old Boys vs Lanús" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 4PM  Newell's Old Boys vs Lanús
 https://filex.me:8443/live/3114654477/5787654467/1822200.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 17: 4PM Newell's Old Boys vs Lanús" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17: 4PM Newell's Old Boys vs Lanús
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17:
 https://filex.me:8443/live/3114654477/5787654467/1822201.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 18:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18:
 https://filex.me:8443/live/3114654477/5787654467/1822202.m3u8
