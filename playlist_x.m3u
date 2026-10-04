@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2637
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-04 12:33:30
+# ⏰ Updated time: 2026-10-04 18:58:56
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -864,8 +864,8 @@ https://filex.me:8443/live/3114654477/5787654467/303707.m3u8
 https://filex.me:8443/live/3114654477/5787654467/303708.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NL: RTV Noord Extra HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/675d9e2010797b2686bb3cc3847b9f7c.png" group-title="BANGLA ENTERTAINMENT",NL: RTV Noord Extra HD
 https://filex.me:8443/live/3114654477/5787654467/303709.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NL: RTV Maastricht HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/eaca7adfd8de319516f58a9377c0289c.png" group-title="BANGLA ENTERTAINMENT",NL: RTV Maastricht HD
-https://filex.me:8443/live/3114654477/5787654467/303592.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTV Maastricht" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/eaca7adfd8de319516f58a9377c0289c.png" group-title="BANGLA ENTERTAINMENT",RTV Maastricht
+https://filex.me:8443/live/3114654477/5787654467/303593.m3u8
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="FR: LCN HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/ca5ff539663aff84dda5b346cfcb6886.png" group-title="BANGLA ENTERTAINMENT",FR: LCN HD
 https://filex.me:8443/live/3114654477/5787654467/301971.m3u8
 #EXTINF:-1 tvg-id="startv.tr" tvg-name="FR: C STAR HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a82b69d8d733ff08691cf4ae2f1c7a29.png" group-title="BANGLA ENTERTAINMENT",FR: C STAR HD
@@ -4748,9 +4748,9 @@ https://filex.me:8443/live/3114654477/5787654467/304073.m3u8
 https://filex.me:8443/live/3114654477/5787654467/304102.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AL: MTV Kosova HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8c62bf6c87574289bf103877b09ee901.jpg" group-title="INDIAN MUSIC",AL: MTV Kosova HD
 https://filex.me:8443/live/3114654477/5787654467/303989.m3u8
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="NL: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9a1c4d99aeabcc79410136e126394b86.png" group-title="INDIAN MUSIC",NL: MTV HD
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="Mezzo" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/393f6164266893d3bd92e3702ef14689.svg" group-title="INDIAN MUSIC",Mezzo
 https://filex.me:8443/live/3114654477/5787654467/303589.m3u8
-#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="NL: MTV 90S HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/c31fea88f41d76e67d7d5087e298714c.jpg" group-title="INDIAN MUSIC",NL: MTV 90S HD
+#EXTINF:-1 tvg-id="mtvmusic24.nl" tvg-name="MTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9a1c4d99aeabcc79410136e126394b86.png" group-title="INDIAN MUSIC",MTV
 https://filex.me:8443/live/3114654477/5787654467/303590.m3u8
 #EXTINF:-1 tvg-id="bfmtv.fr" tvg-name="FR: BFM Business HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/390b7a05da50b0b9768b41bc0e730434.png" group-title="INDIAN MUSIC",FR: BFM Business HD
 https://filex.me:8443/live/3114654477/5787654467/301999.m3u8
