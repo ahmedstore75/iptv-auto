@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2637
+# 📊 Total Saved Channels: 2638
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-05 05:44:56
+# ⏰ Updated time: 2026-10-05 09:15:36
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1224,6 +1224,8 @@ https://filex.me:8443/live/3114654477/5787654467/1369003.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1385531.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tapmad Event 2 | Match Time" tvg-logo="https://cdn.prod.website-files.com/5f651a96c695e94c1190d5a4/65f05b62c9baf02486cb6ce8_Tapmad.webp" group-title="SPORTS LIVE",Tapmad Event 2 | Match Time
 https://filex.me:8443/live/3114654477/5787654467/1387247.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="LIVE EVENT 02 - 8pm WWE Monday Night RAW" tvg-logo="http://57.128.182.77:8080/USA/UFC.png" group-title="SPORTS LIVE",LIVE EVENT 02 - 8pm WWE Monday Night RAW
+https://filex.me:8443/live/3114654477/5787654467/1922856.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="SPORTS LIVE",ESPN Deportes
 https://filex.me:8443/live/3114654477/5787654467/1861566.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORTA UHD" tvg-logo="" group-title="SPORTS LIVE",PREMIER SPORTA UHD
