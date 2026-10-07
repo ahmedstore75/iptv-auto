@@ -2,8 +2,8 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-10-07 12:07:57 (BD Time)
-# 📺 Channels Count: 647
+# 🕒 Last Updated: 2026-10-07 19:33:07 (BD Time)
+# 📺 Channels Count: 646
 # 🔒 Usage: Personal / Educational
 #=================================
 
@@ -200,9 +200,9 @@ https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/0ykfppN3/20240822-231405.png",Star Jalsha HD
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZY0dqYlZNUFYweExnT3NtUHFpWTFrbA
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/5tjSrbLS/20240822-231445.png",Zee Bangla HD
-http://103.159.180.34:5001/live/625.m3u8
+https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/3w6F5VZ5/20240822-231514.png",Colors Bangla HD
 http://103.151.61.12/COLORS_BANHLA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/J0QXn2jh/20240823_020641.png",Enter 10 Bangla
@@ -252,17 +252,17 @@ https://stream.ottplus.bd/live/max_2_abr/live/max_2_720/chunks.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/Gpz6FLrP/20240823_023114.png",Sony Sab HD
 https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/13nLvxQx/20250630_050504.png",B4U Movie
-http://103.175.73.12:8080/live/43/43_0.m3u8
+https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/tC7JLFj0/20240825_055845.png",Shemarooenterta
 http://103.175.73.12:8080/live/189/189_0.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/Z5dRqZnV/20240825_055816.png",Bhojopuri Cinema
-http://103.175.73.12:8080/live/646/646_0.m3u8
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/7ZNqRywh/20240823-023440.png",Gold Mines
-http://103.175.73.12:8080/live/53/53_0.m3u8
+https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/7ZNqRywh/20240823-023440.png",Gold Mines Movie
-http://103.175.73.12:8080/live/51/51_0.m3u8
+https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/7ZNqRywh/20240823-023440.png",Gold Mines Bollywood
-http://103.175.73.12:8080/live/52/52_0.m3u8
+https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Indian Hindi" tvg-logo="https://i.postimg.cc/L8xzTtQY/k-Ug6WSk.jpg",ZB Cinema
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Indian News" tvg-logo="https://i.postimg.cc/T3TrX75k/Calcutta-news.webp",Calcutta News
@@ -489,8 +489,6 @@ https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
 http://atg100.xyz/live/UL33K17/SYC4T9D/1090644.ts
 #EXTINF:-1 group-title="Bangla" tvg-name="Al Jazeera News" tvg-logo="https://i.ibb.co.com/WKfBNBp/images-1.png",Al Jazeera News
 https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 group-title="Bangla" tvg-name="Bhojpuri Cinema" tvg-logo="https://i.ibb.co.com/k84zD8T/images-1.png",Bhojpuri Cinema
-https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="Bangla" tvg-name="Bangla Jago" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/63ad9523-b600-4106-aafd-7237755b7990.jpg",Bangla Jago
 https://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8
 #EXTINF:-1 tvg-id="star_jalsha_hd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Bangla",STAR JALSHA HD

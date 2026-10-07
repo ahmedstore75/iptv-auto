@@ -579,13 +579,13 @@
         "name": "Star Jalsha HD",
         "logo": "https://i.postimg.cc/0ykfppN3/20240822-231405.png",
         "group": "Indian Bangla",
-        "url": "http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZY0dqYlZNUFYweExnT3NtUHFpWTFrbA"
+        "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8"
     },
     {
         "name": "Zee Bangla HD",
         "logo": "https://i.postimg.cc/5tjSrbLS/20240822-231445.png",
         "group": "Indian Bangla",
-        "url": "http://103.159.180.34:5001/live/625.m3u8"
+        "url": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8"
     },
     {
         "name": "Colors Bangla HD",
@@ -735,7 +735,7 @@
         "name": "B4U Movie",
         "logo": "https://i.postimg.cc/13nLvxQx/20250630_050504.png",
         "group": "Indian Hindi",
-        "url": "http://103.175.73.12:8080/live/43/43_0.m3u8"
+        "url": "https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8"
     },
     {
         "name": "Shemarooenterta",
@@ -747,25 +747,25 @@
         "name": "Bhojopuri Cinema",
         "logo": "https://i.postimg.cc/Z5dRqZnV/20240825_055816.png",
         "group": "Indian Hindi",
-        "url": "http://103.175.73.12:8080/live/646/646_0.m3u8"
+        "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8"
     },
     {
         "name": "Gold Mines",
         "logo": "https://i.postimg.cc/7ZNqRywh/20240823-023440.png",
         "group": "Indian Hindi",
-        "url": "http://103.175.73.12:8080/live/53/53_0.m3u8"
+        "url": "https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8"
     },
     {
         "name": "Gold Mines Movie",
         "logo": "https://i.postimg.cc/7ZNqRywh/20240823-023440.png",
         "group": "Indian Hindi",
-        "url": "http://103.175.73.12:8080/live/51/51_0.m3u8"
+        "url": "https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8"
     },
     {
         "name": "Gold Mines Bollywood",
         "logo": "https://i.postimg.cc/7ZNqRywh/20240823-023440.png",
         "group": "Indian Hindi",
-        "url": "http://103.175.73.12:8080/live/52/52_0.m3u8"
+        "url": "https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8"
     },
     {
         "name": "ZB Cinema",
@@ -1444,12 +1444,6 @@
         "logo": "https://i.ibb.co.com/WKfBNBp/images-1.png",
         "group": "Bangla",
         "url": "https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8"
-    },
-    {
-        "name": "Bhojpuri Cinema",
-        "logo": "https://i.ibb.co.com/k84zD8T/images-1.png",
-        "group": "Bangla",
-        "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8"
     },
     {
         "name": "Bangla Jago",
