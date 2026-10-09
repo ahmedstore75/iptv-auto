@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2637
+# 📊 Total Saved Channels: 2636
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-09 13:01:56
+# ⏰ Updated time: 2026-10-09 20:50:00
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -88,6 +88,8 @@ https://filex.me:8443/live/3114654477/5787654467/507298.m3u8
 https://filex.me:8443/live/3114654477/5787654467/507299.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IN-NEWS | FD BTV World" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/BTV-World.png" group-title="BANGLA ENTERTAINMENT",IN-NEWS | FD BTV World
 https://filex.me:8443/live/3114654477/5787654467/1339722.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|LK| Nenasa TV Grade 10" tvg-logo="https://www.millionmakers.com/wp-content/uploads/2020/07/business-brokers-sri-lanka-business-brokerage-services-sri-lanka-business-lawyers-sri-lanka-business-attorneys-business-lawyer-sri-lanka-business-attorney-sri-lanka-broker.png" group-title="BANGLA ENTERTAINMENT",|LK| Nenasa TV Grade 10
+https://filex.me:8443/live/3114654477/5787654467/3177833.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BENGALI_DD BANGLA" tvg-logo="" group-title="BANGLA ENTERTAINMENT",BENGALI_DD BANGLA
 https://filex.me:8443/live/3114654477/5787654467/1370097.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IN | 5aabTV kabaddi HD (punjabi)" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IN | 5aabTV kabaddi HD (punjabi)
@@ -416,8 +418,6 @@ https://filex.me:8443/live/3114654477/5787654467/1369529.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1369530.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BGD_DURONTO TV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",BGD_DURONTO TV HD
 https://filex.me:8443/live/3114654477/5787654467/1369531.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SRI LANKA ▎SIRASA TV" tvg-logo="" group-title="BANGLA ENTERTAINMENT",SRI LANKA ▎SIRASA TV
-https://filex.me:8443/live/3114654477/5787654467/3177831.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC One Channel Islands HD (1080p H264)" tvg-logo="" group-title="BANGLA ENTERTAINMENT",BBC One Channel Islands HD (1080p H264)
 https://filex.me:8443/live/3114654477/5787654467/957611.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: NTV" tvg-logo="https://s9.gifyu.com/images/SFpDq.png" group-title="BANGLA ENTERTAINMENT",UK: NTV
@@ -1246,27 +1246,27 @@ https://filex.me:8443/live/3114654477/5787654467/1907738.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1907739.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
 https://filex.me:8443/live/3114654477/5787654467/1907740.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 7PM Atlético Nacional vs Deportes Tolima" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 7PM Atlético Nacional vs Deportes Tolima
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 3PM Málaga vs Espanyol" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 3PM Málaga vs Espanyol
 https://filex.me:8443/live/3114654477/5787654467/1822185.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 9PM Fortaleza CEIF vs Millonarios" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 9PM Fortaleza CEIF vs Millonarios
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 2:30PM Borussia Dortmund vs Werder Bremen" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 2:30PM Borussia Dortmund vs Werder Bremen
 https://filex.me:8443/live/3114654477/5787654467/1822186.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 2PM Deportivo Moquegua vs Cienciano" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 2PM Deportivo Moquegua vs Cienciano
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 2:45PM Lens vs Olympique Lyonnais" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 2:45PM Lens vs Olympique Lyonnais
 https://filex.me:8443/live/3114654477/5787654467/1822187.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 4:30PM Atlético Grau vs Los Chankas" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 4:30PM Atlético Grau vs Los Chankas
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 1:30PM Aldosivi vs Sarmiento" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 1:30PM Aldosivi vs Sarmiento
 https://filex.me:8443/live/3114654477/5787654467/1822188.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 5PM Gimnasia La Plata vs Atlético Tucumán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 5PM Gimnasia La Plata vs Atlético Tucumán
 https://filex.me:8443/live/3114654477/5787654467/1822189.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 6:30PM Gimnasia La Plata vs Atlético Tucumán" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 6:30PM Gimnasia La Plata vs Atlético Tucumán
 https://filex.me:8443/live/3114654477/5787654467/1822190.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 8:45PM Unión Santa Fe vs Defensa y Justicia" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 8:45PM Unión Santa Fe vs Defensa y Justicia
 https://filex.me:8443/live/3114654477/5787654467/1822191.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 2PM Al Nassr vs Diriyah" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 2PM Al Nassr vs Diriyah
 https://filex.me:8443/live/3114654477/5787654467/1822192.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 9PM Puebla vs León" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 9PM Puebla vs León
 https://filex.me:8443/live/3114654477/5787654467/1822193.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 11PM Tigres UANL vs Toluca" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 11PM Tigres UANL vs Toluca
 https://filex.me:8443/live/3114654477/5787654467/1822194.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11:
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 9PM Deportivo Garcilaso vs Sport Huancayo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 9PM Deportivo Garcilaso vs Sport Huancayo
 https://filex.me:8443/live/3114654477/5787654467/1822195.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 12:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12:
 https://filex.me:8443/live/3114654477/5787654467/1822196.m3u8
@@ -4556,8 +4556,6 @@ https://filex.me:8443/live/3114654477/5787654467/955272.m3u8
 https://filex.me:8443/live/3114654477/5787654467/3177738.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IN-kan | ZEE Kananda HD" tvg-logo="https://rolextv.one:443/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dRzdRq072r5vgpUsulHfl0MMh1PNXg19_ABKmIbo7Hivg.png" group-title="INDIAN MUSIC",IN-kan | ZEE Kananda HD
 https://filex.me:8443/live/3114654477/5787654467/519945.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SRI LANKA ▎VERBUM TV" tvg-logo="https://img.logo-cdn.cc/verbumtv.png" group-title="INDIAN MUSIC",SRI LANKA ▎VERBUM TV
-https://filex.me:8443/live/3114654477/5787654467/3177824.m3u8
 #EXTINF:-1 tvg-id="mtv.fr" tvg-name="PH: ANC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="INDIAN MUSIC",PH: ANC HD
 https://filex.me:8443/live/3114654477/5787654467/290852.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: B4U MUSIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/b4u-music-uk.png" group-title="INDIAN MUSIC",UK: B4U MUSIC
