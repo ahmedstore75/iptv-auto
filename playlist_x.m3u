@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2636
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-09 20:50:00
+# ⏰ Updated time: 2026-10-10 01:56:50
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1138,9 +1138,9 @@ https://filex.me:8443/live/3114654477/5787654467/957590.m3u8
 https://filex.me:8443/live/3114654477/5787654467/453435.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IN | Astro Cricket HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/edc8a9c38c820781eb4785f4e5ee89ca.png" group-title="SPORTS LIVE",IN | Astro Cricket HD
 https://filex.me:8443/live/3114654477/5787654467/451415.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IN | Willow Cricket HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/b8b56a633aad6900e1565ed87811f342.png" group-title="SPORTS LIVE",IN | Willow Cricket HD
+#EXTINF:-1 tvg-id="" tvg-name="IN | Willow Cricket Cricbuzz " tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/b8b56a633aad6900e1565ed87811f342.png" group-title="SPORTS LIVE",IN | Willow Cricket Cricbuzz
 https://filex.me:8443/live/3114654477/5787654467/52109.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IN | WILLOW EXTRA" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BVjsBNkxdiMiGIpQMA6V%2Fz%2FPQvrkDCzssXwhkug62NpVSuVWgZr3mn" group-title="SPORTS LIVE",IN | WILLOW EXTRA
+#EXTINF:-1 tvg-id="" tvg-name="IN | WILLOW 2 Cricbuzz" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BVjsBNkxdiMiGIpQMA6V%2Fz%2FPQvrkDCzssXwhkug62NpVSuVWgZr3mn" group-title="SPORTS LIVE",IN | WILLOW 2 Cricbuzz
 https://filex.me:8443/live/3114654477/5787654467/970119.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AF | Super Sports Cricket  HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5b9d9ddbf95526d59c2fdd6725253646.png" group-title="SPORTS LIVE",AF | Super Sports Cricket  HD
 https://filex.me:8443/live/3114654477/5787654467/53044.m3u8
