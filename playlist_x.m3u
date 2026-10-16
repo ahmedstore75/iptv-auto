@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2636
+# 📊 Total Saved Channels: 2639
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-16 13:44:20
+# ⏰ Updated time: 2026-10-16 18:54:06
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -974,15 +974,13 @@ https://filex.me:8443/live/3114654477/5787654467/303166.m3u8
 https://filex.me:8443/live/3114654477/5787654467/303183.m3u8
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="UKR: NTN HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/3b75f09b3f3e9032e276e29ce617ef22.png" group-title="BANGLA ENTERTAINMENT",UKR: NTN HD
 https://filex.me:8443/live/3114654477/5787654467/302649.m3u8
-#EXTINF:-1 tvg-id="ntv.de" tvg-name="IRAN | AFN TV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IRAN | AFN TV HD
+#EXTINF:-1 tvg-id="ntv.de" tvg-name="4U TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/ff126c63318c9b5aa529bc8fb1337c7d.jpeg" group-title="BANGLA ENTERTAINMENT",4U TV
 https://filex.me:8443/live/3114654477/5787654467/499845.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IRAN | INTV Simaye Azadi HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IRAN | INTV Simaye Azadi HD
-https://filex.me:8443/live/3114654477/5787654467/499880.m3u8
-#EXTINF:-1 tvg-id="ntv.de" tvg-name="IRAN | TIN TV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IRAN | TIN TV HD
+#EXTINF:-1 tvg-id="ntv.de" tvg-name="IRIB IRINN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/2988868e457dc495850fce0204b08cad.png" group-title="BANGLA ENTERTAINMENT",IRIB IRINN
 https://filex.me:8443/live/3114654477/5787654467/499943.m3u8
-#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="IR | Abadan TV HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IR | Abadan TV HD
+#EXTINF:-1 tvg-id="yabantv.tr" tvg-name="IRIB Sabz" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/52c29b4541036eebae082b3333a33a31" group-title="BANGLA ENTERTAINMENT",IRIB Sabz
 https://filex.me:8443/live/3114654477/5787654467/499961.m3u8
-#EXTINF:-1 tvg-id="rtv7.nl" tvg-name="IRAN | Persiana HD" tvg-logo="" group-title="BANGLA ENTERTAINMENT",IRAN | Persiana HD
+#EXTINF:-1 tvg-id="rtv7.nl" tvg-name="Persiana Folk" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-11/e98ad39eeb50a562a08872b91b9df730.png" group-title="BANGLA ENTERTAINMENT",Persiana Folk
 https://filex.me:8443/live/3114654477/5787654467/500003.m3u8
 #EXTINF:-1 tvg-id="ntv.de" tvg-name="HN: UNE TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/63cc50f499dfaab9e7c93df4b262c6af.png" group-title="BANGLA ENTERTAINMENT",HN: UNE TV HD
 https://filex.me:8443/live/3114654477/5787654467/302690.m3u8
@@ -4342,8 +4340,16 @@ https://filex.me:8443/live/3114654477/5787654467/302162.m3u8
 https://filex.me:8443/live/3114654477/5787654467/302163.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="IQ: Iraqia Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-03/1b130e321ac7322a53e0c3fb66ea6485.jpg" group-title="SPORTS LIVE",IQ: Iraqia Sport HD
 https://filex.me:8443/live/3114654477/5787654467/302188.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IRAN | Persiana Sport HD" tvg-logo="" group-title="SPORTS LIVE",IRAN | Persiana Sport HD
-https://filex.me:8443/live/3114654477/5787654467/499922.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="GEM Sport" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-11/9f0edff09e98d3181fa3d0445c4e0b18.png" group-title="SPORTS LIVE",GEM Sport
+https://filex.me:8443/live/3114654477/5787654467/499902.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Persiana Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2026-05/11a169858ed3455ce88a0312635fa7fd.png" group-title="SPORTS LIVE",Persiana Sports
+https://filex.me:8443/live/3114654477/5787654467/3190591.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TW Sport 1" tvg-logo="https://s3.i3ns.net:2053/cs/etc/blank-icon.png" group-title="SPORTS LIVE",TW Sport 1
+https://filex.me:8443/live/3114654477/5787654467/3190614.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TW Sport 2" tvg-logo="https://s3.i3ns.net:2053/cs/etc/blank-icon.png" group-title="SPORTS LIVE",TW Sport 2
+https://filex.me:8443/live/3114654477/5787654467/3190615.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TW Sport 3" tvg-logo="https://s3.i3ns.net:2053/cs/etc/blank-icon.png" group-title="SPORTS LIVE",TW Sport 3
+https://filex.me:8443/live/3114654477/5787654467/3190616.m3u8
 #EXTINF:-1 tvg-id="espndeportes.us" tvg-name="HN: Deportes TVC HD" tvg-logo="" group-title="SPORTS LIVE",HN: Deportes TVC HD
 https://filex.me:8443/live/3114654477/5787654467/302681.m3u8
 #EXTINF:-1 tvg-id="espndeportes.us" tvg-name="LA: ESPN Deportes HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/539a05a3d37b2362763c4779fd461efc.png" group-title="SPORTS LIVE",LA: ESPN Deportes HD
@@ -4806,7 +4812,7 @@ https://filex.me:8443/live/3114654477/5787654467/302669.m3u8
 https://filex.me:8443/live/3114654477/5787654467/302643.m3u8
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="UKR: M2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/406be2f78d76429e52d05ad3d145e633.jfif" group-title="INDIAN MUSIC",UKR: M2 HD
 https://filex.me:8443/live/3114654477/5787654467/302644.m3u8
-#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IRAN | PMC HD" tvg-logo="" group-title="INDIAN MUSIC",IRAN | PMC HD
+#EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="IRIB Aftab" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/defdf60b9652f989cad9dfb8de6f82c1.png" group-title="INDIAN MUSIC",IRIB Aftab
 https://filex.me:8443/live/3114654477/5787654467/499930.m3u8
 #EXTINF:-1 tvg-id="mtvgermany.de" tvg-name="LA: MTV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/c34a5b676610864fdc6ff17aedc599ee.png" group-title="INDIAN MUSIC",LA: MTV HD
 https://filex.me:8443/live/3114654477/5787654467/303373.m3u8
