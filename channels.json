@@ -831,7 +831,7 @@
         "name": "B4U Music",
         "logo": "https://i.postimg.cc/0N2VWksB/channels4-profile.jpg",
         "group": "Music",
-        "url": "http://103.175.73.12:8080/live/157/master.m3u8"
+        "url": "https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8"
     },
     {
         "name": "PTC Music",
@@ -849,13 +849,13 @@
         "name": "9XM",
         "logo": "https://i.postimg.cc/SRKS6TwR/20240823_022008.png",
         "group": "Music",
-        "url": "http://103.175.73.12:8080/live/155/155_0.m3u8"
+        "url": "https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8"
     },
     {
         "name": "9X Jalwa",
         "logo": "https://i.postimg.cc/BnSQC8xm/unnamed.jpg",
         "group": "Music",
-        "url": "http://103.175.73.12:8080/live/161/master.m3u8"
+        "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8"
     },
     {
         "name": "7S Music",
@@ -1023,13 +1023,13 @@
         "name": "Bein Sports",
         "logo": "https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",
         "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8"
+        "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8?e=1784102515&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=67d5960a5b93b5cfcf562312b4627330"
     },
     {
         "name": "Bein Sports 1",
         "logo": "https://i.postimg.cc/441hHtgZ/20250120_193746.png",
         "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8"
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
     },
     {
         "name": "Animal Planet HD",
