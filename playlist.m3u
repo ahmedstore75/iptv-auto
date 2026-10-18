@@ -2,7 +2,7 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-10-19 00:10:53 (BD Time)
+# 🕒 Last Updated: 2026-10-19 02:51:25 (BD Time)
 # 📺 Channels Count: 648
 # 🔒 Usage: Personal / Educational
 #=================================
@@ -36,7 +36,7 @@ https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
 #EXTINF:-1 tvg-id="134" tvg-name="Deepto TV HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png" group-title="Entertainment",Deepto TV HD
 https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 #EXTINF:-1 tvg-id="188" tvg-name="Channel 9 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="Entertainment",Channel 9 HD
-https://iptv-proxy.ahmed-bd-org.workers.dev/channel-9/index.m3u8
+https://nkafmbewiff.gpcdn.net/tile_7/master.m3u8
 #EXTINF:-1 tvg-id="132" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Entertainment",Channel I HD
 https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
@@ -282,7 +282,7 @@ https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",Bengali Beats
 https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/pdddb1bs/20250529_120025.png",Sangeet Bangla
-http://103.175.73.12:8080/live/379/379_0.m3u8
+https://cdn.pishow.tv/ott/live/1143/master.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/0N2VWksB/channels4-profile.jpg",B4U Music
 https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/NFKqPkBP/image.png",PTC Music
