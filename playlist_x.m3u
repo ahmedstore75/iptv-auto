@@ -1,7 +1,7 @@
 #EXTM3U
 # 📊 Total Saved Channels: 2640
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-19 17:41:10
+# ⏰ Updated time: 2026-10-20 00:02:30
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1246,47 +1246,47 @@ https://filex.me:8443/live/3114654477/5787654467/1907738.m3u8
 https://filex.me:8443/live/3114654477/5787654467/1907739.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EPL 5 FHD" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png" group-title="SPORTS LIVE",EPL 5 FHD
 https://filex.me:8443/live/3114654477/5787654467/1907740.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 9AM AFC Bournemouth vs Sunderland" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 9AM AFC Bournemouth vs Sunderland
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01: 3PM Tottenham Hotspur vs Coventry City" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 01: 3PM Tottenham Hotspur vs Coventry City
 https://filex.me:8443/live/3114654477/5787654467/1822185.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 9AM Brighton & Hove Albion vs Crystal Palace" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 9AM Brighton & Hove Albion vs Crystal Palace
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02: 3PM Getafe vs Rayo Vallecano" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 02: 3PM Getafe vs Rayo Vallecano
 https://filex.me:8443/live/3114654477/5787654467/1822186.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 9AM Leeds United vs Manchester United" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 9AM Leeds United vs Manchester United
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03: 12:30PM Monza vs Cagliari" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 03: 12:30PM Monza vs Cagliari
 https://filex.me:8443/live/3114654477/5787654467/1822187.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 11:30AM Nottingham Forest vs Arsenal" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 11:30AM Nottingham Forest vs Arsenal
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04: 2:45PM Parma vs Torino" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 04: 2:45PM Parma vs Torino
 https://filex.me:8443/live/3114654477/5787654467/1822188.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 9AM Fiorentina vs Como" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 9AM Fiorentina vs Como
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05: 6PM Newell's Old Boys vs Central Córdoba SdE" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 05: 6PM Newell's Old Boys vs Central Córdoba SdE
 https://filex.me:8443/live/3114654477/5787654467/1822189.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 12PM Milan vs Atalanta" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 12PM Milan vs Atalanta
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06: 6PM Sarmiento vs Barracas Central" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 06: 6PM Sarmiento vs Barracas Central
 https://filex.me:8443/live/3114654477/5787654467/1822190.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 2:45PM  Juventus vs Lazio" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 2:45PM  Juventus vs Lazio
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07: 8:15PM Deportivo Riestra vs Unión Santa Fe" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 07: 8:15PM Deportivo Riestra vs Unión Santa Fe
 https://filex.me:8443/live/3114654477/5787654467/1822191.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 08: 10:15AM Celta de Vigo vs Deportivo Alavés" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08: 10:15AM Celta de Vigo vs Deportivo Alavés
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 08:
 https://filex.me:8443/live/3114654477/5787654467/1822192.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 09: 12:30PM Málaga vs Real Sociedad" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09: 12:30PM Málaga vs Real Sociedad
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 09:
 https://filex.me:8443/live/3114654477/5787654467/1822193.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 10: 3PM Real Madrid vs Sevilla" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10: 3PM Real Madrid vs Sevilla
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 10:
 https://filex.me:8443/live/3114654477/5787654467/1822194.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 11: 9:30AM Bayer Leverkusen vs Freiburg" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11: 9:30AM Bayer Leverkusen vs Freiburg
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 11:
 https://filex.me:8443/live/3114654477/5787654467/1822195.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 12: 11:30AM Borussia M'gladbach vs Hoffenheim" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12: 11:30AM Borussia M'gladbach vs Hoffenheim
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 12:
 https://filex.me:8443/live/3114654477/5787654467/1822196.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 13: 1:45PM Racing Club vs Independiente" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13: 1:45PM Racing Club vs Independiente
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 13:
 https://filex.me:8443/live/3114654477/5787654467/1822197.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 14: 5PM Estudiantes vs San Lorenzo" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14: 5PM Estudiantes vs San Lorenzo
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 14:
 https://filex.me:8443/live/3114654477/5787654467/1822198.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 15: 5PM Estudiantes Río Cuarto vs Aldosivi" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15: 5PM Estudiantes Río Cuarto vs Aldosivi
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 15:
 https://filex.me:8443/live/3114654477/5787654467/1822199.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 16: 7:15PM Belgrano vs River Plate" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16: 7:15PM Belgrano vs River Plate
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 16:
 https://filex.me:8443/live/3114654477/5787654467/1822200.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 17: 9PM Monterrey vs Pachuca" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17: 9PM Monterrey vs Pachuca
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 17:
 https://filex.me:8443/live/3114654477/5787654467/1822201.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 18: 12PM Sporting Cristal vs Comerciantes Unidos" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18: 12PM Sporting Cristal vs Comerciantes Unidos
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 18:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 18:
 https://filex.me:8443/live/3114654477/5787654467/1822202.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 19: 2:15PM FC Cajamarca vs Deportivo Moquegua" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 19: 2:15PM FC Cajamarca vs Deportivo Moquegua
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 19:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 19:
 https://filex.me:8443/live/3114654477/5787654467/1822203.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 20: 4:30PM Alianza Atlético vs Universitario" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 20: 4:30PM Alianza Atlético vs Universitario
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 20:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 20:
 https://filex.me:8443/live/3114654477/5787654467/1822204.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Soccer 21: 7:30PM Cienciano vs UTC Cajamarca" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 21: 7:30PM Cienciano vs UTC Cajamarca
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 21:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 21:
 https://filex.me:8443/live/3114654477/5787654467/1822205.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Soccer 22:" tvg-logo="https://i.ibb.co/DbtpCng/Soccer.png" group-title="SPORTS LIVE",Soccer 22:
 https://filex.me:8443/live/3114654477/5787654467/1822206.m3u8
