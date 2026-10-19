@@ -111,7 +111,7 @@
         "name": "SOMOY TV",
         "logo": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
         "group": "BANGLA",
-        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8"
     },
     {
         "name": "DURONTO TV",
@@ -352,12 +352,6 @@
         "logo": "https://www.jagobd.com/wp-content/uploads/2018/04/Anandatvupdate.jpg?x95285",
         "group": "Bangladeshi",
         "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/index.m3u8"
-    },
-    {
-        "name": "Somoy Tv",
-        "logo": "https://i.postimg.cc/QCKgdb09/20240822-230145.png",
-        "group": "Bangladeshi",
-        "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8"
     },
     {
         "name": "Independent",
