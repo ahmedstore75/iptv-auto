@@ -1,7 +1,7 @@
 #EXTM3U
-# 📊 Total Saved Channels: 2638
+# 📊 Total Saved Channels: 2626
 # 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)
-# ⏰ Updated time: 2026-10-20 12:55:25
+# ⏰ Updated time: 2026-10-20 18:27:06
 #EXTINF:-1 tvg-id="" tvg-name="France 24 HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/07/francenews24.jpg" group-title="BANGLA NEWS",France 24 HD
 https://filex.me:8443/live/3114654477/5787654467/955608.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLA NEWS",EKkator TV HD
@@ -1420,74 +1420,50 @@ https://filex.me:8443/live/3114654477/5787654467/839169.m3u8
 https://filex.me:8443/live/3114654477/5787654467/839170.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AR | THMANYAH 3 FHD" tvg-logo="" group-title="SPORTS LIVE",AR | THMANYAH 3 FHD
 https://filex.me:8443/live/3114654477/5787654467/839171.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 1 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 1 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 1 SD
 https://filex.me:8443/live/3114654477/5787654467/908592.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 2 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 2 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 2 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 2 SD
 https://filex.me:8443/live/3114654477/5787654467/908593.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 3 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 3 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 3 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 3 SD
 https://filex.me:8443/live/3114654477/5787654467/908594.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 4 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 4 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 4 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 4 SD
 https://filex.me:8443/live/3114654477/5787654467/908595.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 5 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 5 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 5 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 5 SD
 https://filex.me:8443/live/3114654477/5787654467/908596.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 6 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 6 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 6 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 6 SD
 https://filex.me:8443/live/3114654477/5787654467/908597.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 7 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 7 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 7 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 7 SD
 https://filex.me:8443/live/3114654477/5787654467/908598.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 8 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 8 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 8 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 8 SD
 https://filex.me:8443/live/3114654477/5787654467/908599.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 9 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport 9 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 9 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport 9 SD
 https://filex.me:8443/live/3114654477/5787654467/908600.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport English 1 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport English 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport English 1 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport English 1 SD
 https://filex.me:8443/live/3114654477/5787654467/908601.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport English 2 SD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport English 2 SD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport English 2 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport English 2 SD
 https://filex.me:8443/live/3114654477/5787654467/908602.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport French SD1" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport French SD1
 https://filex.me:8443/live/3114654477/5787654467/908603.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport French SD2" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport French SD2
 https://filex.me:8443/live/3114654477/5787654467/908604.m3u8
-#EXTINF:-1 tvg-id="beinsports2.tr" tvg-name="FR: BEIN Sports 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0546311aed22a274b1e87d23c33dd475.png" group-title="SPORTS LIVE",FR: BEIN Sports 2 HD
+#EXTINF:-1 tvg-id="beinsports2.tr" tvg-name="BeIN Global HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Global HD
 https://filex.me:8443/live/3114654477/5787654467/301959.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Global HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Global HD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport News HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport News HD
 https://filex.me:8443/live/3114654477/5787654467/908572.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport French 1 HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport French 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport NBA HD
 https://filex.me:8443/live/3114654477/5787654467/908585.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport French 2 HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport French 2 HD
 https://filex.me:8443/live/3114654477/5787654467/908586.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport NBA HD
-https://filex.me:8443/live/3114654477/5787654467/908587.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport News HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport News HD
-https://filex.me:8443/live/3114654477/5787654467/908573.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport Xtra 1 HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport Xtra 1 HD
 https://filex.me:8443/live/3114654477/5787654467/908588.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport Xtra 2 HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport Xtra 2 HD
 https://filex.me:8443/live/3114654477/5787654467/908589.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport Xtra 3 HD" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS LIVE",BeIN Sport Xtra 3 HD
 https://filex.me:8443/live/3114654477/5787654467/908590.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN XTRA 3 4K" tvg-logo="" group-title="SPORTS LIVE",BEIN XTRA 3 4K
-https://filex.me:8443/live/3114654477/5787654467/956916.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 ENGLISH 4K" tvg-logo="https://logo.m3uassets.com/beinsports2english.png" group-title="SPORTS LIVE",BEIN SPORTS 2 ENGLISH 4K
-https://filex.me:8443/live/3114654477/5787654467/956923.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 FRENCH 4K" tvg-logo="https://logo.m3uassets.com/beinsports2french.png" group-title="SPORTS LIVE",BEIN SPORTS 2 FRENCH 4K
-https://filex.me:8443/live/3114654477/5787654467/956921.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 FRENCH 4K" tvg-logo="https://logo.m3uassets.com/beinsports1french.png" group-title="SPORTS LIVE",BEIN SPORTS 1 FRENCH 4K
-https://filex.me:8443/live/3114654477/5787654467/956920.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS NBA 4K" tvg-logo="https://logo.m3uassets.com/beinsportsnba.png" group-title="SPORTS LIVE",BEIN SPORTS NBA 4K
-https://filex.me:8443/live/3114654477/5787654467/956919.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 AFC 4K" tvg-logo="https://logo.m3uassets.com/beinsportsafc.png" group-title="SPORTS LIVE",BEIN SPORTS 1 AFC 4K
-https://filex.me:8443/live/3114654477/5787654467/956918.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS AFC 4K" tvg-logo="https://logo.m3uassets.com/beinsportsafc.png" group-title="SPORTS LIVE",BEIN SPORTS AFC 4K
-https://filex.me:8443/live/3114654477/5787654467/956917.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 ENGLISH 4K" tvg-logo="https://logo.m3uassets.com/beinsports1english.png" group-title="SPORTS LIVE",BEIN SPORTS 1 ENGLISH 4K
-https://filex.me:8443/live/3114654477/5787654467/956922.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN XTRA 2 4K" tvg-logo="" group-title="SPORTS LIVE",BEIN XTRA 2 4K
-https://filex.me:8443/live/3114654477/5787654467/956915.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN XTRA 1 4K" tvg-logo="" group-title="SPORTS LIVE",BEIN XTRA 1 4K
-https://filex.me:8443/live/3114654477/5787654467/956914.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 9 4K" tvg-logo="https://logo.m3uassets.com/beinsports9.png" group-title="SPORTS LIVE",BEIN SPORTS 9 4K
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports Ultra 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sports Ultra 4K
+https://filex.me:8443/live/3114654477/5787654467/956905.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport French 4k 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="SPORTS LIVE",BeIN Sport French 4k 1
 https://filex.me:8443/live/3114654477/5787654467/956913.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 8 4K" tvg-logo="https://logo.m3uassets.com/beinsports8.png" group-title="SPORTS LIVE",BEIN SPORTS 8 4K
-https://filex.me:8443/live/3114654477/5787654467/956912.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 7 4K" tvg-logo="https://logo.m3uassets.com/beinsports7.png" group-title="SPORTS LIVE",BEIN SPORTS 7 4K
 https://filex.me:8443/live/3114654477/5787654467/956911.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 6 4K" tvg-logo="https://logo.m3uassets.com/beinsports6.png" group-title="SPORTS LIVE",BEIN SPORTS 6 4K
