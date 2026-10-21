@@ -105,7 +105,7 @@
         "name": "BTV Shangshad",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png",
         "group": "News",
-        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8"
+        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8"
     },
     {
         "name": "SOMOY TV",
@@ -480,7 +480,7 @@
         "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8"
     },
     {
-        "name": "SRK",
+        "name": "SRK TV",
         "logo": "https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnails_58ebcef1efcc65837557de15952d2643_goplay_srk_tv_landscape.jpg",
         "group": "Bangladeshi",
         "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8"
@@ -681,7 +681,7 @@
         "name": "Zee Cinema HD",
         "logo": "https://i.postimg.cc/VN1c9Ztw/20240823_022636.png",
         "group": "Indian Hindi",
-        "url": "https://stream.ottplus.live/live/zee_cinema_hd_abr/index.m3u8"
+        "url": "https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8"
     },
     {
         "name": "Zee Bollywood",
