@@ -9,7 +9,7 @@
         "name": "Zee Bangla Cinema",
         "logo": "https://otapp.store/uploads/tv_image/sm/zee-bangla-cinema.png",
         "group": "Bangla",
-        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8"
+        "url": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_cinema_abr/index.m3u8"
     },
     {
         "name": "Jamuna TV",
@@ -189,13 +189,13 @@
         "name": "Desh TV",
         "logo": "https://otapp.store/uploads/tv_image/sm/desh-tv.png",
         "group": "Bangla",
-        "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8"
+        "url": "https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8"
     },
     {
         "name": "Bangla TV",
         "logo": "https://otapp.store/uploads/tv_image/sm/bangla-tv.png",
         "group": "Bangla",
-        "url": "https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8"
+        "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8"
     },
     {
         "name": "Probashi",
@@ -357,7 +357,7 @@
         "name": "Independent",
         "logo": "https://i.postimg.cc/gr9VXZTM/20240822-230259.png",
         "group": "Bangladeshi",
-        "url": "https://sm-monirul.top/@monirul_Islam_SM/play/independent_tv.m3u8"
+        "url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8"
     },
     {
         "name": "Jamuna",
@@ -442,12 +442,6 @@
         "logo": "https://i.postimg.cc/SKKgpWF8/20240822-231026.png",
         "group": "Bangladeshi",
         "url": "https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8"
-    },
-    {
-        "name": "Bangla Tv",
-        "logo": "https://i.postimg.cc/kXrYt6K3/20240822-230901.png",
-        "group": "Bangladeshi",
-        "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8"
     },
     {
         "name": "Bijoy Tv",
@@ -819,7 +813,7 @@
         "name": "Sangeet Bangla",
         "logo": "https://i.postimg.cc/pdddb1bs/20250529_120025.png",
         "group": "Music",
-        "url": "https://cdn.pishow.tv/ott/live/1143/master.m3u8"
+        "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8"
     },
     {
         "name": "B4U Music",
@@ -1462,6 +1456,12 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png",
         "group": "Bangla",
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8"
+    },
+    {
+        "name": "ZEE BANGLA CINEMA",
+        "logo": "https://otapp.store/uploads/tv_image/sm/zee-bangla-cinema.png",
+        "group": "Bangla",
+        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8"
     },
     {
         "name": "ZEE BANGLA HD",
