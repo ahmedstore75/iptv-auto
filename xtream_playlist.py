@@ -4,9 +4,9 @@ import time
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
-BASE_URL = "http://opplex.org:8080"
-USERNAME = "73646760"
-PASSWORD = "39790110"
+BASE_URL = "http://cdn-2.dm8k.com:80"
+USERNAME = "duarl2efgg"
+PASSWORD = "fgnkms2re2"
 
 # Xtream Codes M3U Download URL
 M3U_SOURCE_URL = f"{BASE_URL}/get.php?username={USERNAME}&password={PASSWORD}&type=m3u_plus&output=m3u8"
