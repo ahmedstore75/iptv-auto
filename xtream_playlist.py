@@ -4,15 +4,8 @@ import time
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
-BASE_URL = "http://fixtv123.xyz:2095"
-USERNAME = "mr2668cep"
-PASSWORD = "mr0929dd00"
-
-# Xtream Codes M3U Download URL
-M3U_SOURCE_URL = f"{BASE_URL}/get.php?username={USERNAME}&password={PASSWORD}&type=m3u_plus&output=m3u8"
-
-# ক্লাউডফ্লেয়ার ওয়ার্কারের ডোমেইন URL
-WORKER_DOMAIN = "https://saiptvlive.ahmed-bd-org.workers.dev"
+# এখানে আপনার যেকোনো ফ্রি বা পাবলিক M3U প্লেলিস্টের সরাসরি লিংক বসাতে পারেন
+M3U_SOURCE_URL = "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -48,7 +41,7 @@ EPISODE_VOD_PATTERN = re.compile(
 def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
     for attempt in range(1, retries + 1):
         try:
-            print(f"🔄 Attempt {attempt}/{retries}: Downloading playlist from Xtream server...")
+            print(f"🔄 Attempt {attempt}/{retries}: Downloading playlist from URL...")
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as response:
                 return response.read().decode('utf-8', errors='ignore')
@@ -70,7 +63,6 @@ def normalize_channel_name(extinf_line):
     else:
         name = extinf_line
     name = name.lower()
-    # HD, SD, 4K, Server, Quality ট্যাগ মুছে মূল নামটি রাখা
     name = re.sub(r'(?i)\b(bd|in|pk|hd|fhd|sd|4k|hevc|1080p|720p|50fps|raw|vip|backup|server\d*|alt|stream)\b', '', name)
     name = re.sub(r'[^a-z0-9]', '', name)
     return name
@@ -122,7 +114,7 @@ def filter_requested_channels(content):
                 current_extinf = ""
                 continue
 
-            # ৩. ডুপ্লিকেট চেক (একটি চ্যানেল প্লেলিস্টে একবারই আসবে)
+            # ৩. ডুপ্লিকেট চেক
             channel_key = normalize_channel_name(current_extinf)
             if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
                 current_extinf = ""
@@ -154,7 +146,6 @@ def filter_requested_channels(content):
                 updated_extinf = set_group_title(current_extinf, target_group)
                 groups[target_group].extend([updated_extinf, line_str])
                 
-                # একবার সেভ হয়ে গেলে চ্যানেল কী (Key) লক করা হবে
                 seen_urls.add(line_str)
                 if channel_key:
                     seen_channel_names.add(channel_key)
@@ -190,25 +181,9 @@ def fetch_and_generate():
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
         filtered_content, total_saved = filter_requested_channels(content)
 
-        # স্ট্রিম লিঙ্ক রূপান্তর
-        stream_pattern = re.compile(
-            rf"{re.escape(BASE_URL)}/(?:live/)?{re.escape(USERNAME)}/{re.escape(PASSWORD)}/([0-9a-zA-Z_-]+)(\.m3u8|\.ts)?"
-        )
-        
-        def replace_url(match):
-            stream_id = match.group(1)
-            return f"{WORKER_DOMAIN}/{stream_id}/index.m3u8"
-
-        updated_m3u = stream_pattern.sub(replace_url, filtered_content)
-
-        # লোগো লিঙ্ক রূপান্তর
-        logo_pattern = re.compile(rf'tvg-logo="{re.escape(BASE_URL)}([^"]+)"')
-        updated_m3u = logo_pattern.sub(rf'tvg-logo="{WORKER_DOMAIN}\1"', updated_m3u)
-
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        # 📌 হেডার ফিল্ড (একদম উপরে মোট ইউনিক চ্যানেল কাউন্ট করবে)
         playlist_header = (
             f"#EXTM3U\n"
             f"# 📊 Total Saved Channels: {total_saved}\n"
@@ -216,7 +191,7 @@ def fetch_and_generate():
             f"# ⏰ Updated time: {bd_time}\n"
         )
         
-        final_m3u = playlist_header + updated_m3u
+        final_m3u = playlist_header + filtered_content
 
         with open("playlist_x.m3u", "w", encoding="utf-8") as f:
             f.write(final_m3u)
