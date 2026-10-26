@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
 # এখানে আপনার যেকোনো ফ্রি বা পাবলিক M3U প্লেলিস্টের সরাসরি লিংক বসাতে পারেন
-M3U_SOURCE_URL = "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u"
+M3U_SOURCE_URL = "https://iptv-123.fit/"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
