@@ -27,19 +27,16 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
 
 def clean_extinf_line(extinf_line):
     """
-    EXTINF লাইনের কমার পরের অংশ থেকে ঘড়ি বা অন্যান্য অতিরিক্ত চিহ্ন ও কমা মুছে ফেলে 
-    সঠিক ফরম্যাটে চ্যানেল নাম সাজায়।
+    প্লেলিস্টের নিজস্ব group-title এবং অন্যান্য অ্যাট্রিবিউট অপরিবর্তিত রেখে, 
+    কমার পরের অংশ থেকে ঘড়ি (⏱️), ডট (·) বা অতিরিক্ত কমা ও স্পেস মুছে ফেলবে।
     """
     if ',' in extinf_line:
-        # প্রথম কমার আগের অংশ (attributes) এবং পরের অংশ আলাদা করা
         parts = extinf_line.split(',', 1)
-        attributes = parts[0]
+        attributes = parts[0]  # এখানে group-title, tvg-id, tvg-logo ইত্যাদি সব ঠিক থাকবে
         name_part = parts[1].strip()
         
-        # নামের শুরু থেকে ঘড়ি (⏱️), ডট (·), অতিরিক্ত কমা বা স্পেসগুলো সরিয়ে ফেলা
+        # নামের শুরুর ঘড়ি, ডট বা অতিরিক্ত কমা/স্পেস দূর করা
         cleaned_name = re.sub(r'^[⏱️·,\s]+', '', name_part)
-        
-        # মূল কমা ঠিক রেখে নাম যুক্ত করা
         return f"{attributes},{cleaned_name}"
     return extinf_line
 
@@ -53,16 +50,15 @@ def process_playlist(content):
         if not line_str or line_str.startswith("#EXTM3U"):
             continue
             
-        # যদি লাইনটি EXTINF দিয়ে শুরু হয়, তবে নাম ও চিহ্ন পরিষ্কার করা হবে
         if line_str.startswith("#EXTINF:"):
             cleaned_line = clean_extinf_line(line_str)
             processed_lines.append(cleaned_line)
             total_channels += 1
         else:
-            # বাকী সব লাইন (যেমন: #KODIPROP এবং স্ট্রিম লিংক) হুবহু যেমন আছে তেমনই থাকবে
+            # #KODIPROP এবং স্ট্রিম লিংকসহ অন্যান্য সব লাইন হুবহু যুক্ত হবে
             processed_lines.append(line_str)
 
-    print(f"✅ Total Processed Lines/Channels: {total_channels}")
+    print(f"✅ Total Processed Channels: {total_channels}")
     return "\n".join(processed_lines), total_channels
 
 def fetch_and_generate():
@@ -76,7 +72,7 @@ def fetch_and_generate():
         playlist_header = (
             f"#EXTM3U\n"
             f"# 📊 Total Channels: {total_saved}\n"
-            f"# 📦 Complete Live Playlist (Cleaned Names & Intact Links/KodiProps)\n"
+            f"# 📦 Complete Playlist with Original Groups & Cleaned Names\n"
             f"# ⏰ Updated time: {bd_time}\n"
         )
         
