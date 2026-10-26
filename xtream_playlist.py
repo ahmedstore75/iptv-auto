@@ -27,21 +27,25 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
 
 def clean_extinf_line(extinf_line):
     """
-    প্লেলিস্টের ফরম্যাট ঠিক রেখে নামের শুরু থেকে ডট/ঘড়ি চিহ্ন (·) এবং অতিরিক্ত স্পেস অপসারণ করে।
+    EXTINF লাইনের কমার পরের অংশ থেকে ঘড়ি বা অন্যান্য অতিরিক্ত চিহ্ন ও কমা মুছে ফেলে 
+    সঠিক ফরম্যাটে চ্যানেল নাম সাজায়।
     """
     if ',' in extinf_line:
+        # প্রথম কমার আগের অংশ (attributes) এবং পরের অংশ আলাদা করা
         parts = extinf_line.split(',', 1)
         attributes = parts[0]
-        name = parts[1].strip()
-        # নামের ঠিক আগের ডট (·), বুলেট বা অতিরিক্ত স্পেসগুলো সরিয়ে ফেলা
-        name = re.sub(r'^[·•\s]+', '', name)
-        return f"{attributes},{name}"
+        name_part = parts[1].strip()
+        
+        # নামের শুরু থেকে ঘড়ি (⏱️), ডট (·), অতিরিক্ত কমা বা স্পেসগুলো সরিয়ে ফেলা
+        cleaned_name = re.sub(r'^[⏱️·,\s]+', '', name_part)
+        
+        # মূল কমা ঠিক রেখে নাম যুক্ত করা
+        return f"{attributes},{cleaned_name}"
     return extinf_line
 
 def process_playlist(content):
     lines = content.splitlines()
     processed_lines = []
-    current_extinf = ""
     total_channels = 0
     
     for line in lines:
@@ -49,18 +53,16 @@ def process_playlist(content):
         if not line_str or line_str.startswith("#EXTM3U"):
             continue
             
+        # যদি লাইনটি EXTINF দিয়ে শুরু হয়, তবে নাম ও চিহ্ন পরিষ্কার করা হবে
         if line_str.startswith("#EXTINF:"):
-            current_extinf = line_str
-        elif not line_str.startswith("#") and current_extinf:
-            
-            # কোনো ক্যাটাগরি ফিল্টার ছাড়াই প্লেলিস্টের সব চ্যানেল যুক্ত করা হচ্ছে
-            cleaned_extinf = clean_extinf_line(current_extinf)
-            processed_lines.extend([cleaned_extinf, line_str])
+            cleaned_line = clean_extinf_line(line_str)
+            processed_lines.append(cleaned_line)
             total_channels += 1
-            
-            current_extinf = ""
+        else:
+            # বাকী সব লাইন (যেমন: #KODIPROP এবং স্ট্রিম লিংক) হুবহু যেমন আছে তেমনই থাকবে
+            processed_lines.append(line_str)
 
-    print(f"✅ Total Saved Channels: {total_channels}")
+    print(f"✅ Total Processed Lines/Channels: {total_channels}")
     return "\n".join(processed_lines), total_channels
 
 def fetch_and_generate():
@@ -73,8 +75,8 @@ def fetch_and_generate():
         
         playlist_header = (
             f"#EXTM3U\n"
-            f"# 📊 Total Saved Channels: {total_saved}\n"
-            f"# 📦 Complete Live Satellite TV Playlist (All Channels)\n"
+            f"# 📊 Total Channels: {total_saved}\n"
+            f"# 📦 Complete Live Playlist (Cleaned Names & Intact Links/KodiProps)\n"
             f"# ⏰ Updated time: {bd_time}\n"
         )
         
