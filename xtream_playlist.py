@@ -1,4 +1,5 @@
 import re
+import json
 import urllib.request
 import time
 from datetime import datetime, timezone, timedelta
@@ -25,25 +26,12 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
             else:
                 raise e
 
-def clean_extinf_line(extinf_line):
-    """
-    প্লেলিস্টের নিজস্ব group-title এবং অন্যান্য অ্যাট্রিবিউট অপরিবর্তিত রেখে, 
-    কমার পরের অংশ থেকে ঘড়ি (⏱️), ডট (·) বা অতিরিক্ত কমা ও স্পেস মুছে ফেলবে।
-    """
-    if ',' in extinf_line:
-        parts = extinf_line.split(',', 1)
-        attributes = parts[0]  # এখানে group-title, tvg-id, tvg-logo ইত্যাদি সব ঠিক থাকবে
-        name_part = parts[1].strip()
-        
-        # নামের শুরুর ঘড়ি, ডট বা অতিরিক্ত কমা/স্পেস দূর করা
-        cleaned_name = re.sub(r'^[⏱️·,\s]+', '', name_part)
-        return f"{attributes},{cleaned_name}"
-    return extinf_line
-
-def process_playlist(content):
+def parse_m3u_to_json(content):
     lines = content.splitlines()
-    processed_lines = []
-    total_channels = 0
+    channels = []
+    
+    current_extinf = ""
+    current_kodiprops = {}
     
     for line in lines:
         line_str = line.strip()
@@ -51,41 +39,80 @@ def process_playlist(content):
             continue
             
         if line_str.startswith("#EXTINF:"):
-            cleaned_line = clean_extinf_line(line_str)
-            processed_lines.append(cleaned_line)
-            total_channels += 1
-        else:
-            # #KODIPROP এবং স্ট্রিম লিংকসহ অন্যান্য সব লাইন হুবহু যুক্ত হবে
-            processed_lines.append(line_str)
+            current_extinf = line_str
+            current_kodiprops = {} # নতুন চ্যানেলের জন্য রিসেট করা
+        elif line_str.startswith("#KODIPROP"):
+            # KODIPROP তথ্য পার্স করা
+            parts = line_str.replace("#KODIPROP:", "").strip().split("=", 1)
+            if len(parts) == 2:
+                current_kodiprops[parts[0].strip()] = parts[1].strip()
+        elif not line_str.startswith("#") and current_extinf:
+            # এটি স্ট্রিম লিংক
+            stream_url = line_str
+            
+            tvg_id = ""
+            tvg_logo = ""
+            group_title = ""
+            name = ""
+            
+            # tvg-id এক্সট্রাক্ট করা
+            id_match = re.search(r'tvg-id="([^"]*)"', current_extinf)
+            if id_match:
+                tvg_id = id_match.group(1)
+                
+            # tvg-logo এক্সট্রাক্ট করা
+            logo_match = re.search(r'tvg-logo="([^"]*)"', current_extinf)
+            if logo_match:
+                tvg_logo = logo_match.group(1)
+                
+            # group-title এক্সট্রাক্ট করা
+            group_match = re.search(r'group-title="([^"]*)"', current_extinf)
+            if group_match:
+                group_title = group_match.group(1)
+                
+            # চ্যানেলের নাম পরিষ্কার করা (ঘড়ি বা কমা মুছে ফেলা)
+            if ',' in current_extinf:
+                name_part = current_extinf.split(',', 1)[1].strip()
+                name = re.sub(r'^[⏱️·,\s]+', '', name_part)
+            
+            channel_data = {
+                "tvg_id": tvg_id,
+                "tvg_logo": tvg_logo,
+                "group_title": group_title,
+                "name": name,
+                "kodiprop": current_kodiprops,
+                "url": stream_url
+            }
+            
+            channels.append(channel_data)
+            current_extinf = ""
+            current_kodiprops = {}
+            
+    return channels
 
-    print(f"✅ Total Processed Channels: {total_channels}")
-    return "\n".join(processed_lines), total_channels
-
-def fetch_and_generate():
+def fetch_and_generate_json():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
-        filtered_content, total_saved = process_playlist(content)
+        channels = parse_m3u_to_json(content)
 
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
         
-        playlist_header = (
-            f"#EXTM3U\n"
-            f"# 📊 Total Channels: {total_saved}\n"
-            f"# 📦 Complete Playlist with Original Groups & Cleaned Names\n"
-            f"# ⏰ Updated time: {bd_time}\n"
-        )
-        
-        final_m3u = playlist_header + filtered_content
+        output_data = {
+            "updated_time": bd_time,
+            "total_channels": len(channels),
+            "channels": channels
+        }
 
-        with open("playlist_x.m3u", "w", encoding="utf-8") as f:
-            f.write(final_m3u)
+        # জেসন ফাইলটি playlist_x.json নামে সেভ করা হচ্ছে
+        with open("playlist_x.json", "w", encoding="utf-8") as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-        print(f"✅ playlist_x.m3u generated successfully at {bd_time} (Total Channels: {total_saved})")
+        print(f"✅ playlist_x.json generated successfully at {bd_time} (Total Channels: {len(channels)})")
 
     except Exception as e:
-        print(f"❌ Error fetching playlist: {e}")
+        print(f"❌ Error generating JSON playlist: {e}")
         exit(1)
 
 if __name__ == "__main__":
-    fetch_and_generate()
+    fetch_and_generate_json()
