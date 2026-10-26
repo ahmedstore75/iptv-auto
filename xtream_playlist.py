@@ -4,39 +4,11 @@ import time
 from datetime import datetime, timezone, timedelta
 
 # --- CONFIG ---
-# এখানে আপনার যেকোনো ফ্রি বা পাবলিক M3U প্লেলিস্টের সরাসরি লিংক বসাতে পারেন
 M3U_SOURCE_URL = "https://iptv-123.fit/"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
-
-# 📌 শুধুমাত্র পপুলার চ্যানেল ফিল্টারিং প্যাটার্নসমূহ
-BANGLA_NEWS_PAT = re.compile(r'(?i)(SOMOY|JAMUNA|INDEPENDENT|EKATTOR|DBC\s*NEWS|CHANNEL\s*24|NEWS24|ATN\s*NEWS)')
-BANGLA_KIDS_PAT = re.compile(r'(?i)(DURANTO)')
-BANGLA_ENT_PAT = re.compile(r'(?i)(BTV|CHANNEL\s*I|NTV|RTV|ATN\s*BANGLA|DEEPTO|GAZI\s*TV|GTV|MAASRANGA|BANGLAVISION|BOISHAKHI|MY\s*TV|ASIAN\s*TV|MOHONA|BIJOY|DESH\s*TV|SA\s*TV|NEXUS|\bBD\b|\bBANGLA\b|\bBANGLADESH\b)')
-INDIAN_BANGLA_PAT = re.compile(r'(?i)(STAR\s*JALSHA|ZEE\s*BANGLA|COLORS\s*BANGLA|ABP\s*ANANDA|ZEE\s*24\s*GHANTA)')
-
-SPORTS_PAT = re.compile(r'(?i)(T\s*SPORTS|SPORT|SPORTS|CRICKET|FOOTBALL|SOCCER|T20|IPL|BEIN|ESPN|SUPERSPORT|WILLOW|TEN\s*SPORTS|STAR\s*SPORTS|SONY\s*SPORTS|SONY\s*TEN|SPORTS\s*18|SKY\s*SPORTS|FOX\s*SPORTS|CANAL\+\s*SPORT|ASTRO|EUROSPORT|DAZN|WWE|PTV\s*SPORTS|GEO\s*SUPER)')
-
-INDIAN_MOVIES_PAT = re.compile(r'(?i)(ZEE\s*CINEMA|SONY\s*MAX\s*2|SONY\s*MAX|STAR\s*GOLD\s*2|STAR\s*GOLD\s*SELECT|STAR\s*GOLD|GOLDMINES|COLORS\s*CINEPLEX|ZEE\s*ANMOL\s*CINEMA|ZEE\s*ACTION|SONY\s*WAH|STAR\s*UTSAV\s*MOVIES)')
-
-INDIAN_MUSIC_PAT = re.compile(r'(?i)(9XM|9X\s*JALWA|9XJALWA|B4U\s*MUSIC|B4U|MASTIII|ZOOM|SONY\s*MIX|MTV\s*BEATS|MTV|MH1|MUSIC\s*INDIA)')
-
-INDIAN_HINDI_PAT = re.compile(r'(?i)(STAR\s*PLUS|ZEE\s*TV|SONY\s*SAB|SET\s*INDIA|SONY\s*ENTERTAINMENT|COLORS\s*TV|SUN\s*TV|AAJ\s*TAK|NDTV|REPUBLIC|NEWS18)')
-PAKISTANI_PAT = re.compile(r'(?i)(GEO\s*NEWS|GEO\s*TV|ARY\s*DIGITAL|ARY\_NEWS|HUM\s*TV|PTV\s*HOME|PTV\s*NEWS|SAMAA|EXPRESS\s*NEWS|DUNYA\s*NEWS)')
-
-# 🚫 STRICT VOD / SINGLE FILE / MOVIE FILTER
-EPISODE_VOD_PATTERN = re.compile(
-    r'(?i)('
-    r'\bs\d{1,2}\s*e\d{1,2}\b|'         # S01 E01
-    r'\bs\d{1,2}e\d{1,2}\b|'           # S01E01
-    r'\bs\d{2}\b|\be\d{2}\b|'            # S01, E01
-    r'\bep\d+\b|\bepisode\b|\bseason\b|' # EP01
-    r'(\(\d{4}\))|'                    # (2024)
-    r'XXX|18\+|ADULT|PORN|TEST|MIX|WEB-SERIES|WEB\s*SERIES'
-    r')'
-)
 
 def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
     for attempt in range(1, retries + 1):
@@ -53,47 +25,24 @@ def fetch_playlist_content(url, retries=3, delay=5, timeout=60):
             else:
                 raise e
 
-def normalize_channel_name(extinf_line):
+def clean_extinf_line(extinf_line):
     """
-    চ্যানেলের নাম নর্মালাইজ করে যাতে HD, FHD, SD, 4K বা ব্যাকআপ সার্ভারের কারণে 
-    একই চ্যানেল ২ বার সেভ না হতে পারে।
+    প্লেলিস্টের ফরম্যাট ঠিক রেখে নামের শুরু থেকে ডট/ঘড়ি চিহ্ন (·) এবং অতিরিক্ত স্পেস অপসারণ করে।
     """
     if ',' in extinf_line:
-        name = extinf_line.split(',')[-1]
-    else:
-        name = extinf_line
-    name = name.lower()
-    name = re.sub(r'(?i)\b(bd|in|pk|hd|fhd|sd|4k|hevc|1080p|720p|50fps|raw|vip|backup|server\d*|alt|stream)\b', '', name)
-    name = re.sub(r'[^a-z0-9]', '', name)
-    return name
+        parts = extinf_line.split(',', 1)
+        attributes = parts[0]
+        name = parts[1].strip()
+        # নামের ঠিক আগের ডট (·), বুলেট বা অতিরিক্ত স্পেসগুলো সরিয়ে ফেলা
+        name = re.sub(r'^[·•\s]+', '', name)
+        return f"{attributes},{name}"
+    return extinf_line
 
-def set_group_title(extinf_line, group_name):
-    if 'group-title="' in extinf_line:
-        return re.sub(r'group-title="[^"]*"', f'group-title="{group_name}"', extinf_line)
-    else:
-        if ',' in extinf_line:
-            header, channel_name = extinf_line.split(',', 1)
-            return f'{header} group-title="{group_name}",{channel_name}'
-        return f'{extinf_line} group-title="{group_name}"'
-
-def filter_requested_channels(content):
+def process_playlist(content):
     lines = content.splitlines()
-    
-    groups = {
-        "BANGLA NEWS": [],
-        "BANGLA ENTERTAINMENT": [],
-        "BANGLA KIDS": [],
-        "INDIAN BANGLA": [],
-        "SPORTS LIVE": [],
-        "INDIAN MOVIES": [],
-        "INDIAN MUSIC": [],
-        "INDIAN HINDI": [],
-        "PAKISTANI TV": []
-    }
-    
-    seen_urls = set()
-    seen_channel_names = set() # কঠোর ডুপ্লিকেট ট্র্যাকিং
+    processed_lines = []
     current_extinf = ""
+    total_channels = 0
     
     for line in lines:
         line_str = line.strip()
@@ -104,82 +53,20 @@ def filter_requested_channels(content):
             current_extinf = line_str
         elif not line_str.startswith("#") and current_extinf:
             
-            # ১. ভিওডি/সিরিজ ও ভিডিও ফাইল ব্লক
-            if "/series/" in line_str or "/movie/" in line_str or line_str.endswith(('.mp4', '.mkv', '.avi')):
-                current_extinf = ""
-                continue
-
-            # ২. এপিসোড/১৮+ ব্লক
-            if EPISODE_VOD_PATTERN.search(current_extinf) or EPISODE_VOD_PATTERN.search(line_str):
-                current_extinf = ""
-                continue
-
-            # ৩. ডুপ্লিকেট চেক
-            channel_key = normalize_channel_name(current_extinf)
-            if line_str in seen_urls or (channel_key and channel_key in seen_channel_names):
-                current_extinf = ""
-                continue
-                
-            # ৪. পপুলার ক্যাটাগরি ম্যাচিং
-            target_group = None
+            # কোনো ক্যাটাগরি ফিল্টার ছাড়াই প্লেলিস্টের সব চ্যানেল যুক্ত করা হচ্ছে
+            cleaned_extinf = clean_extinf_line(current_extinf)
+            processed_lines.extend([cleaned_extinf, line_str])
+            total_channels += 1
             
-            if BANGLA_NEWS_PAT.search(current_extinf):
-                target_group = "BANGLA NEWS"
-            elif BANGLA_KIDS_PAT.search(current_extinf):
-                target_group = "BANGLA KIDS"
-            elif INDIAN_BANGLA_PAT.search(current_extinf):
-                target_group = "INDIAN BANGLA"
-            elif BANGLA_ENT_PAT.search(current_extinf):
-                target_group = "BANGLA ENTERTAINMENT"
-            elif SPORTS_PAT.search(current_extinf):
-                target_group = "SPORTS LIVE"
-            elif INDIAN_MOVIES_PAT.search(current_extinf):
-                target_group = "INDIAN MOVIES"
-            elif INDIAN_MUSIC_PAT.search(current_extinf):
-                target_group = "INDIAN MUSIC"
-            elif INDIAN_HINDI_PAT.search(current_extinf):
-                target_group = "INDIAN HINDI"
-            elif PAKISTANI_PAT.search(current_extinf):
-                target_group = "PAKISTANI TV"
-                
-            if target_group:
-                updated_extinf = set_group_title(current_extinf, target_group)
-                groups[target_group].extend([updated_extinf, line_str])
-                
-                seen_urls.add(line_str)
-                if channel_key:
-                    seen_channel_names.add(channel_key)
-                
             current_extinf = ""
 
-    ordered_lines = []
-    category_order = [
-        "BANGLA NEWS",
-        "BANGLA ENTERTAINMENT",
-        "BANGLA KIDS",
-        "INDIAN BANGLA",
-        "SPORTS LIVE",
-        "INDIAN MOVIES",
-        "INDIAN MUSIC",
-        "INDIAN HINDI",
-        "PAKISTANI TV"
-    ]
-    
-    total_added = 0
-    print("📊 Strict Unique Filtering Summary:")
-    for cat in category_order:
-        count = len(groups[cat]) // 2
-        total_added += count
-        print(f"   - 📁 {cat}: {count} unique channels")
-        ordered_lines.extend(groups[cat])
-
-    print(f"✅ Total Unique Saved Live Channels: {total_added}")
-    return "\n".join(ordered_lines), total_added
+    print(f"✅ Total Saved Channels: {total_channels}")
+    return "\n".join(processed_lines), total_channels
 
 def fetch_and_generate():
     try:
         content = fetch_playlist_content(M3U_SOURCE_URL, retries=3, delay=5, timeout=60)
-        filtered_content, total_saved = filter_requested_channels(content)
+        filtered_content, total_saved = process_playlist(content)
 
         bd_tz = timezone(timedelta(hours=6))
         bd_time = datetime.now(bd_tz).strftime('%Y-%m-%d %H:%M:%S')
@@ -187,7 +74,7 @@ def fetch_and_generate():
         playlist_header = (
             f"#EXTM3U\n"
             f"# 📊 Total Saved Channels: {total_saved}\n"
-            f"# 📦 Auto-Categorized Live Satellite TV Playlist (Unique Channels Only)\n"
+            f"# 📦 Complete Live Satellite TV Playlist (All Channels)\n"
             f"# ⏰ Updated time: {bd_time}\n"
         )
         
