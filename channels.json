@@ -543,7 +543,7 @@
         "name": "Nick Bangla",
         "logo": "https://i.postimg.cc/GtzBrs18/20240823_021125.png",
         "group": "Kids",
-        "url": "http://live.balajibroadband.com:3500/live/1341.m3u8"
+        "url": "http://103.135.253.32:8080/NICK/index.m3u8"
     },
     {
         "name": "Sony YaY",
@@ -579,7 +579,7 @@
         "name": "Colors Bangla HD",
         "logo": "https://i.postimg.cc/3w6F5VZ5/20240822-231514.png",
         "group": "Indian Bangla",
-        "url": "http://103.151.61.12/COLORS_BANHLA/tracks-v1a1/mono.m3u8"
+        "url": "http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8"
     },
     {
         "name": "Enter 10 Bangla",
@@ -597,7 +597,7 @@
         "name": "Sun Bangla",
         "logo": "https://i.postimg.cc/y88mJsQC/20240823_020415.png",
         "group": "Indian Bangla",
-        "url": "http://27.124.71.27/Sun_Bangla/index.m3u8"
+        "url": "http://103.135.253.32:8080/SUN-BANGLA/index.m3u8"
     },
     {
         "name": "R Plus Gold",
@@ -609,7 +609,7 @@
         "name": "Jalsha Movies HD",
         "logo": "https://i.postimg.cc/rFcCkS5m/20240822_231714.png",
         "group": "Indian Bangla",
-        "url": "http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZZWpaTlBoZ2J0NFlnNGg3K28xcENhTg"
+        "url": "http://103.151.60.162:2122/play/a00x/index.m3u8"
     },
     {
         "name": "Zee Bangla Cinema",
