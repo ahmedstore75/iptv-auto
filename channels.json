@@ -954,6 +954,12 @@
         "url": "https://saseries.akamaized.net/hls/live/2110097/tapmad123321/master.m3u8"
     },
     {
+        "name": "Ten Cricket",
+        "logo": "https://i.postimg.cc/0yzwt46Q/20241126-220214.png",
+        "group": "Sports",
+        "url": "https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8"
+    },
+    {
         "name": "Willow Sports",
         "logo": "https://i.postimg.cc/HntSg3xw/20240823_024624.png",
         "group": "Sports",
@@ -1024,6 +1030,102 @@
         "logo": "https://i.postimg.cc/441hHtgZ/20250120_193746.png",
         "group": "Sports",
         "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8"
+    },
+    {
+        "name": "TSN 1",
+        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",
+        "group": "Bangla",
+        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8"
+    },
+    {
+        "name": "TSN 2",
+        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_c92bf4f46958e65be6cc370e3fc1f0dd_playmist_tsn_2_400x400.jpg",
+        "group": "Bangla",
+        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8"
+    },
+    {
+        "name": "TSN 3",
+        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-19/images_905f151dfde79e14a2b9e7b934683ba6_playmist_tsn3_300.jpg",
+        "group": "Bangla",
+        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8"
+    },
+    {
+        "name": "Bein Sports 1",
+        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",
+        "group": "Bangla",
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
+    },
+    {
+        "name": "Bleav Football",
+        "logo": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
+        "group": "Sports",
+        "url": "https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8"
+    },
+    {
+        "name": "Espn",
+        "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
+        "group": "Sports",
+        "url": "http://181.78.197.59:8000/play/a07z/index.m3u8"
+    },
+    {
+        "name": "KTV Sport Plus",
+        "logo": "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",
+        "group": "Sports",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8"
+    },
+    {
+        "name": "SPORTS FIRST TV",
+        "logo": "https://s3.aynaott.com/storage/748d28752dcf95740561f1ac39e15fc3",
+        "group": "Sports",
+        "url": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8"
+    },
+    {
+        "name": "Xtream Sports",
+        "logo": "https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",
+        "group": "Sports",
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8"
+    },
+    {
+        "name": "Bahrain Sports 1",
+        "logo": "https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",
+        "group": "Sports",
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
+    },
+    {
+        "name": "DD Sports",
+        "logo": "https://s3.aynaott.com/storage/188500190395c4de0e506d518925dcc4",
+        "group": "Sports",
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8"
+    },
+    {
+        "name": "NBC Sports",
+        "logo": "https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",
+        "group": "Sports",
+        "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8"
+    },
+    {
+        "name": "WOF 1",
+        "logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
+        "group": "Sports",
+        "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8"
+    },
+    {
+        "name": "speed sports 1",
+        "logo": "https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",
+        "group": "Sports",
+        "url": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8"
+    },
+    {
+        "name": "MORE THEN SPORTS TV",
+        "logo": "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",
+        "group": "Sports",
+        "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+    },
+    {
+        "name": "Oman Sports TV",
+        "logo": "https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",
+        "group": "Sports",
+        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
     },
     {
         "name": "Animal Planet HD",
@@ -1108,108 +1210,6 @@
         "logo": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
         "group": "News",
         "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
-    },
-    {
-        "name": "TSN 1",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8"
-    },
-    {
-        "name": "TSN 2",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_c92bf4f46958e65be6cc370e3fc1f0dd_playmist_tsn_2_400x400.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8"
-    },
-    {
-        "name": "TSN 3",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-19/images_905f151dfde79e14a2b9e7b934683ba6_playmist_tsn3_300.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8"
-    },
-    {
-        "name": "Willow TV",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=willow_tv&format=.m3u8"
-    },
-    {
-        "name": "Bein Sports 1",
-        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bein_sports_1&format=.m3u8"
-    },
-    {
-        "name": "Bleav Football",
-        "logo": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
-        "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8"
-    },
-    {
-        "name": "Espn",
-        "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
-        "group": "Sports",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=espn&format=.m3u8"
-    },
-    {
-        "name": "KTV Sport Plus",
-        "logo": "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",
-        "group": "Sports",
-        "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
-    },
-    {
-        "name": "SPORTS FIRST TV",
-        "logo": "https://s3.aynaott.com/storage/748d28752dcf95740561f1ac39e15fc3",
-        "group": "Sports",
-        "url": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8"
-    },
-    {
-        "name": "Xtream Sports",
-        "logo": "https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",
-        "group": "Sports",
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8"
-    },
-    {
-        "name": "Bahrain Sports 1",
-        "logo": "https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",
-        "group": "Sports",
-        "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
-    },
-    {
-        "name": "DD Sports",
-        "logo": "https://s3.aynaott.com/storage/188500190395c4de0e506d518925dcc4",
-        "group": "Sports",
-        "url": "https://cdn-6.pishow.tv/live/13/master.m3u8"
-    },
-    {
-        "name": "NBC Sports",
-        "logo": "https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",
-        "group": "Sports",
-        "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8"
-    },
-    {
-        "name": "WOF 1",
-        "logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
-        "group": "Sports",
-        "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8"
-    },
-    {
-        "name": "speed sports 1",
-        "logo": "https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",
-        "group": "Sports",
-        "url": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8"
-    },
-    {
-        "name": "MORE THEN SPORTS TV",
-        "logo": "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",
-        "group": "Sports",
-        "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
-    },
-    {
-        "name": "Oman Sports TV",
-        "logo": "https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",
-        "group": "Sports",
-        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
     },
     {
         "name": "Sangeet Bangla",
