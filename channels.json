@@ -110,7 +110,7 @@
     {
         "name": "SOMOY TV",
         "logo": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
-        "group": "BANGLA",
+        "group": "Bangla",
         "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8"
     },
     {
@@ -972,6 +972,12 @@
         "url": "https://tvsen7.aynaott.com/Sports1/index.m3u8"
     },
     {
+        "name": "Willow TV 3",
+        "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",
+        "group": "Sports",
+        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
+    },
+    {
         "name": "Star Sports 1",
         "logo": "https://i.postimg.cc/DzDHjCJm/20240823_024249.png",
         "group": "Sports",
@@ -988,12 +994,6 @@
         "logo": "https://i.postimg.cc/ZnzgZCLS/20240823_024321.png",
         "group": "Sports",
         "url": "https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8"
-    },
-    {
-        "name": "Star Sports SL 2",
-        "logo": "https://i.postimg.cc/rmczbb8g/20240825_060019.png",
-        "group": "Sports",
-        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Sony Ten 1",
@@ -1034,25 +1034,25 @@
     {
         "name": "TSN 1",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8"
+        "group": "Sports",
+        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8"
     },
     {
         "name": "TSN 2",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_c92bf4f46958e65be6cc370e3fc1f0dd_playmist_tsn_2_400x400.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8"
+        "group": "Sports",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla"
     },
     {
         "name": "TSN 3",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-19/images_905f151dfde79e14a2b9e7b934683ba6_playmist_tsn3_300.jpg",
-        "group": "Bangla",
-        "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8"
+        "group": "Sports",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8"
     },
     {
         "name": "Bein Sports 1",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",
-        "group": "Bangla",
+        "group": "Sports",
         "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
     },
     {
@@ -1065,7 +1065,7 @@
         "name": "Espn",
         "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
         "group": "Sports",
-        "url": "http://181.78.197.59:8000/play/a07z/index.m3u8"
+        "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
     },
     {
         "name": "KTV Sport Plus",
