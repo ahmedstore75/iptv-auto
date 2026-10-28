@@ -117,7 +117,7 @@
         "name": "DURONTO TV",
         "logo": "https://s3.aynaott.com/storage/1d3d06e02fc9ba45a990b65aebd04ebc",
         "group": "Bangla",
-        "url": "https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8"
+        "url": "http://103.114.11.37:8081/Duronto/index.m3u8?token=sboxcast"
     },
     {
         "name": "BIJOY TV",
@@ -969,13 +969,13 @@
         "name": "Willow Sports 2",
         "logo": "https://i.postimg.cc/HntSg3xw/20240823_024624.png",
         "group": "Sports",
-        "url": "https://tvsen7.aynaott.com/Sports1/index.m3u8"
+        "url": "http://103.114.11.37:8081/Willow-TV/index.m3u8?token=sboxcast"
     },
     {
         "name": "Willow TV 3",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",
         "group": "Sports",
-        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
+        "url": "http://103.114.11.37:8081/Star-select-2/index.m3u8?token=sboxcast"
     },
     {
         "name": "Star Sports 1",
@@ -990,10 +990,22 @@
         "url": "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
     },
     {
+        "name": "Star Sports 3",
+        "logo": "https://i.postimg.cc/zBgM9nK7/20240823_024306.png",
+        "group": "Sports",
+        "url": "http://103.114.11.37:8081/Star-sports-3/index.m3u8?token=sboxcast"
+    },
+    {
         "name": "Star Sports SL 1",
         "logo": "https://i.postimg.cc/ZnzgZCLS/20240823_024321.png",
         "group": "Sports",
         "url": "https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8"
+    },
+    {
+        "name": "Star Sports SL 2",
+        "logo": "https://i.postimg.cc/rmczbb8g/20240825_060019.png",
+        "group": "Sports",
+        "url": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8"
     },
     {
         "name": "Sony Ten 1",
@@ -1054,18 +1066,6 @@
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",
         "group": "Sports",
         "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
-    },
-    {
-        "name": "Bleav Football",
-        "logo": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
-        "group": "Sports",
-        "url": "https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8"
-    },
-    {
-        "name": "Espn",
-        "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
-        "group": "Sports",
-        "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
     },
     {
         "name": "KTV Sport Plus",
