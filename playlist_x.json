@@ -1,6 +1,6 @@
 {
-    "updated_time": "2026-10-29 13:51:31",
-    "total_channels": 141,
+    "updated_time": "2026-10-29 20:49:44",
+    "total_channels": 142,
     "channels": [
         {
             "tvg_id": "002",
@@ -88,7 +88,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "Somoy Tv",
             "kodiprop": {},
-            "url": "https://tvsen5.aynascope.net/somoytv/mono.m3u8"
+            "url": "https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8"
         },
         {
             "tvg_id": "013",
@@ -120,7 +120,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "Star News",
             "kodiprop": {},
-            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8"
+            "url": "http://103.135.253.32:8080/Star-News/index.m3u8"
         },
         {
             "tvg_id": "017",
@@ -888,6 +888,14 @@
             "name": "T Sports HD",
             "kodiprop": {},
             "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
+        },
+        {
+            "tvg_id": "124",
+            "tvg_logo": "",
+            "group_title": "𝐒𝐩𝐨𝐫𝐭𝐬",
+            "name": "Source 2",
+            "kodiprop": {},
+            "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8"
         },
         {
             "tvg_id": "125",
