@@ -99,7 +99,7 @@
         "name": "Star News",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
         "group": "News",
-        "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8"
+        "url": "http://103.135.253.32:8080/Star-News/index.m3u8"
     },
     {
         "name": "BTV Shangshad",
@@ -855,7 +855,7 @@
         "name": "Music India",
         "logo": "https://i.postimg.cc/XNHzD5Zg/s143563-ld-h15-aa.png",
         "group": "Music",
-        "url": "https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8"
+        "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8"
     },
     {
         "name": "Zoom",
@@ -880,6 +880,12 @@
         "logo": "https://i.postimg.cc/d1pkfnGy/s143757-ld-h15-aa.png",
         "group": "Music",
         "url": "https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8"
+    },
+    {
+        "name": "Sangeet Bhojpuri",
+        "logo": "https://i.postimg.cc/d1pkfnGy/s143757-ld-h15-aa.png",
+        "group": "Music",
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8"
     },
     {
         "name": "T Sports HD",
