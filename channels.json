@@ -1074,6 +1074,12 @@
         "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
     },
     {
+        "name": "Espn",
+        "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
+        "group": "Sports",
+        "url": "https://lastwarning-xtv.bondsplive.online/167579/logosp.webp?&e=.m3u8?Referer:"
+    },
+    {
         "name": "KTV Sport Plus",
         "logo": "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",
         "group": "Sports",
