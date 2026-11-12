@@ -1,14 +1,22 @@
 {
-    "updated_time": "2026-11-12 07:11:57",
-    "total_channels": 142,
+    "updated_time": "2026-11-12 15:00:49",
+    "total_channels": 145,
     "channels": [
+        {
+            "tvg_id": "001",
+            "tvg_logo": "https://i.postimg.cc/k5hkVvSp/rajdhani.png",
+            "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
+            "name": "Rajdhani",
+            "kodiprop": {},
+            "url": "https://streamec.st/embed/ch70.php"
+        },
         {
             "tvg_id": "002",
             "tvg_logo": "https://i.postimg.cc/0215t9fT/btv.png",
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "BTV",
             "kodiprop": {},
-            "url": "https://btv.hridoytv-channel.workers.dev/btv.m3u8"
+            "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8"
         },
         {
             "tvg_id": "003",
@@ -16,15 +24,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "BTV News",
             "kodiprop": {},
-            "url": "https://btv.hridoytv-channel.workers.dev/news.m3u8"
-        },
-        {
-            "tvg_id": "004",
-            "tvg_logo": "https://raw.githubusercontent.com/ahan443/logo/refs/heads/main/atn%20bangla.png",
-            "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
-            "name": "ATN Bangla",
-            "kodiprop": {},
-            "url": "https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8"
+            "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8"
         },
         {
             "tvg_id": "005",
@@ -96,7 +96,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "Independent",
             "kodiprop": {},
-            "url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8"
+            "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8?e=1784102536&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=faa76e200f238010e464d45a3135f138"
         },
         {
             "tvg_id": "014",
@@ -232,7 +232,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "Ekhon",
             "kodiprop": {},
-            "url": "https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8"
+            "url": "https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8"
         },
         {
             "tvg_id": "039",
@@ -272,7 +272,7 @@
             "group_title": "𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡𝐢",
             "name": "Bijoy Tv",
             "kodiprop": {},
-            "url": "https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8"
+            "url": "https://tvsen6.aynaott.com/N8Xbo5vdwVU6sF43RsW0/index.m3u8"
         },
         {
             "tvg_id": "044",
@@ -368,7 +368,7 @@
             "group_title": "𝐊𝐢𝐝𝐬",
             "name": "Duronto TV",
             "kodiprop": {},
-            "url": "https://box.bbaria.net/DurontoTV/tracks-v1a1/mono.m3u8"
+            "url": "https://livetv.shamon-cable.net:8443/Duronto/index.m3u8"
         },
         {
             "tvg_id": "057",
@@ -400,7 +400,15 @@
             "group_title": "𝐊𝐢𝐝𝐬",
             "name": "Nick Bangla",
             "kodiprop": {},
-            "url": "http://198.195.239.50:8095/nick/index.m3u8"
+            "url": "https://tvsen7.aynaott.com/teennick/index.m3u8"
+        },
+        {
+            "tvg_id": "060",
+            "tvg_logo": "",
+            "group_title": "𝐊𝐢𝐝𝐬",
+            "name": "Source 2",
+            "kodiprop": {},
+            "url": "https://tvsen5.aynaott.com/nickjr/index.m3u8?e=1784102581&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=1a9cf0bc5e79f08de29d345545216d31"
         },
         {
             "tvg_id": "061",
@@ -432,7 +440,7 @@
             "group_title": "𝐊𝐢𝐝𝐬",
             "name": "Cartoon Network HD",
             "kodiprop": {},
-            "url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8"
+            "url": "https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1784102579&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=9563d33da06516fd262e9156a110a8d8"
         },
         {
             "tvg_id": "067",
@@ -448,7 +456,7 @@
             "group_title": "𝐊𝐢𝐝𝐬",
             "name": "Discovery Kids",
             "kodiprop": {},
-            "url": "https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8"
+            "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8"
         },
         {
             "tvg_id": "069",
@@ -480,7 +488,7 @@
             "group_title": "𝐈𝐧𝐝𝐢𝐚𝐧 𝐁𝐚𝐧𝐠𝐥𝐚",
             "name": "Colors Bangla HD",
             "kodiprop": {},
-            "url": "http://103.141.70.136:8080//bdtv/restrem/34.m3u8"
+            "url": "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8"
         },
         {
             "tvg_id": "074",
@@ -503,11 +511,8 @@
             "tvg_logo": "https://i.postimg.cc/y88mJsQC/20240823_020415.png",
             "group_title": "𝐈𝐧𝐝𝐢𝐚𝐧 𝐁𝐚𝐧𝐠𝐥𝐚",
             "name": "Sun Bangla",
-            "kodiprop": {
-                "inputstream.adaptive.license_type": "clearkey",
-                "inputstream.adaptive.license_key": "01f7b9f7bf7e425f86d6dfd478390e3f:5fde68100a7856d055038236ffc7c84a"
-            },
-            "url": "https://livestream7.sunnxt.com/bf76ee92dd01473bb2eb57d137294484/SunBanglaB_IN_index.mpd"
+            "kodiprop": {},
+            "url": "http://27.124.71.27/Sun_Bangla/index.m3u8"
         },
         {
             "tvg_id": "077",
@@ -925,6 +930,22 @@
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
         },
         {
+            "tvg_id": "127",
+            "tvg_logo": "",
+            "group_title": "𝐒𝐩𝐨𝐫𝐭𝐬",
+            "name": "Source 2",
+            "kodiprop": {},
+            "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa"
+        },
+        {
+            "tvg_id": "127",
+            "tvg_logo": "",
+            "group_title": "𝐒𝐩𝐨𝐫𝐭𝐬",
+            "name": "Source 3",
+            "kodiprop": {},
+            "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=a9cdf8d7d3bacb7c8aea83611a6c3906"
+        },
+        {
             "tvg_id": "128",
             "tvg_logo": "https://i.postimg.cc/pXx765TQ/20240823_024350.png",
             "group_title": "𝐒𝐩𝐨𝐫𝐭𝐬",
@@ -938,7 +959,7 @@
             "group_title": "𝐒𝐩𝐨𝐫𝐭𝐬",
             "name": "Star Sports 1",
             "kodiprop": {},
-            "url": "https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8"
+            "url": "https://starsportshindiii.pages.dev/index.m3u8"
         },
         {
             "tvg_id": "130",
