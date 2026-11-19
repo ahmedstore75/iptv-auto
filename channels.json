@@ -891,13 +891,13 @@
         "name": "T Sports HD",
         "logo": "https://i.postimg.cc/Qx3GZn6T/20240823_024117.png",
         "group": "Sports",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8"
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8/index.m3u8"
     },
     {
         "name": "PTV Sports",
         "logo": "https://i.postimg.cc/rFKBNjwP/Ptvsportslogo2023.webp",
         "group": "Sports",
-        "url": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8"
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8"
     },
     {
         "name": "Tapmad 1",
@@ -957,7 +957,7 @@
         "name": "Tapmad 10",
         "logo": "https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",
         "group": "Sports",
-        "url": "https://tvsen7.aynaott.com/Sports1/index.m3u8"
+        "url": "https://tvsen5.aynaott.com/asdfadsf/index.m3u8"
     },
     {
         "name": "Ten Cricket",
@@ -981,7 +981,7 @@
         "name": "Willow TV 3",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",
         "group": "Sports",
-        "url": "http://103.114.11.37:8081/Star-select-2/index.m3u8?token=sboxcast"
+        "url": "https://tvsen7.aynaott.com/Sports1/index.m3u8"
     },
     {
         "name": "Star Sports 1",
@@ -1053,7 +1053,7 @@
         "name": "TSN 1",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",
         "group": "Sports",
-        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8"
+        "url": "https://tvsen7.aynaott.com/tsn1/index.m3u8"
     },
     {
         "name": "TSN 2",
@@ -1065,7 +1065,7 @@
         "name": "TSN 3",
         "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-19/images_905f151dfde79e14a2b9e7b934683ba6_playmist_tsn3_300.jpg",
         "group": "Sports",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8"
+        "url": "https://tvsen7.aynaott.com/tsn3/index.m3u8"
     },
     {
         "name": "Bein Sports 1",
@@ -1074,10 +1074,16 @@
         "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
     },
     {
+        "name": "Bleav Football",
+        "logo": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
+        "group": "Sports",
+        "url": "https://tvsen7.aynaott.com/tsn2/index.m3u8"
+    },
+    {
         "name": "Espn",
         "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
         "group": "Sports",
-        "url": "https://lastwarning-xtv.bondsplive.online/167579/logosp.webp?&e=.m3u8?Referer:"
+        "url": "https://tvsen7.aynaott.com/espn/index.m3u8"
     },
     {
         "name": "KTV Sport Plus",
