@@ -2,8 +2,8 @@
 #=================================
 # 🖥️ Developed by: Ahammad Ali
 # 🔗 Telegram: https://t.me/banglatvlivefree
-# 🕒 Last Updated: 2026-11-25 00:22:48 (BD Time)
-# 📺 Channels Count: 650
+# 🕒 Last Updated: 2026-11-25 08:49:07 (BD Time)
+# 📺 Channels Count: 655
 # 🔒 Usage: Personal / Educational
 #=================================
 
@@ -328,29 +328,39 @@ https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.supaimg.com/0dc91d95-6d6b-41a8-a93f-88628861dd2f/6daeb914-116d-4d8d-aa7e-e1dc3a3ab429.png",Tapmad 10
 https://tvsen5.aynaott.com/asdfadsf/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png",Ten Cricket
-https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/19.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png",Willow Sports
 https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png",Willow Sports 2
-http://103.114.11.37:8081/Willow-TV/index.m3u8?token=sboxcast
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/22.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_1bb4b50bd8e39a63808ed6fa38beb0df_playmist_willow_hd_tv_400x400.jpg",Willow TV 3
 https://tvsen7.aynaott.com/Sports1/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png",Star Sports 1
-https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/5.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png",Star Sports 2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png",Star Sports 3
-http://103.114.11.37:8081/Star-sports-3/index.m3u8?token=sboxcast
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/9.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/ZnzgZCLS/20240823_024321.png",Star Sports SL 1
-https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/7.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/rmczbb8g/20240825_060019.png",Star Sports SL 2
-https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/8.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png",Sony Ten 1
-https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/12.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png",Sony Ten 2
-https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/13.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png",Sony Ten 5
-https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/15.m3u8
+#EXTINF:-1 tvg-id="26" tvg-name="FOX SPORTS CRICKET" tvg-logo="https://i.postimg.cc/XvktmmZY/fox-cricket.png" group-title="Sports",FOX SPORTS CRICKET
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/26.m3u8
+#EXTINF:-1 tvg-id="25" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://i.postimg.cc/SRvBV9nN/SKY-SPORTS-CRICKET.png" group-title="Sports",SKY SPORTS CRICKET
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/25.m3u8
+#EXTINF:-1 tvg-id="27" tvg-name="TNT SPORTS 1 HD" tvg-logo="https://i.postimg.cc/zvdkSTXs/TNT-Sports-1.png" group-title="Sports",TNT SPORTS 1 HD
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/27.m3u8
+#EXTINF:-1 tvg-id="28" tvg-name="TNT SPORTS 2 HD" tvg-logo="https://i.postimg.cc/tghtvK48/TNT-Sports-2.png" group-title="Sports",TNT SPORTS 2 HD
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/28.m3u8
+#EXTINF:-1 tvg-id="29" tvg-name="TNT SPORTS 3 HD" tvg-logo="https://i.postimg.cc/Wp9my6s3/TNT-Sports-3.png" group-title="Sports",TNT SPORTS 3 HD
+http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/29.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",Bein Sports
 https://tvsen6.aynaott.com/beinsports/index.m3u8?e=1784102515&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=67d5960a5b93b5cfcf562312b4627330
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/441hHtgZ/20250120_193746.png",Bein Sports 1
